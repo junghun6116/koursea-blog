@@ -72,7 +72,11 @@ const schema = {
       <nav aria-label="Table of contents"><ol>{toc.map((heading) => <li class:list={{ nested: heading.depth === 3 }}><a href={`#${heading.slug}`}>{heading.text}</a></li>)}</ol></nav>
     </details>}
     <div class="prose"><slot /></div>
-    <aside class="article-cta"><strong>Keep this guide with you in Korea.</strong><p>Use Koursea for source-checked places, Korean taxi cards and practical neighborhood routes.</p><a href="https://www.koursea.com/">Open Koursea ↗</a></aside>
+    <aside class="article-cta" aria-label="Explore Koursea tools">
+      <strong>Continue planning on Koursea</strong>
+      <p>Search verified places, open metro tools and save practical stops without logging in.</p>
+      <a href="https://koursea.com">Explore 3,700+ Verified Spots &amp; Metro Tools on Koursea Map ↗</a>
+    </aside>
   </article>
 </Layout>
 

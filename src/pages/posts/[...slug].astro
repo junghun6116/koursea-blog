@@ -18,7 +18,14 @@ const wordCount = (post.body
   .replace(/https?:\/\/\S+/g, ' ')
   .replace(/<[^>]+>|[#>*_`|\[\]()-]/g, ' ')
   .match(/[\p{L}\p{N}][\p{L}\p{N}'’.-]*/gu) ?? []).length;
-const toc = headings.filter((heading) => heading.depth === 2 || heading.depth === 3);
+const hiddenHeadings = new Set([
+  'Social & Community Distribution Snippets',
+  'Threads & X (Twitter) Hook',
+  'Reddit Community Reply Template'
+]);
+const toc = headings.filter(
+  (heading) => (heading.depth === 2 || heading.depth === 3) && !hiddenHeadings.has(heading.text)
+);
 ---
 <PostLayout title={post.data.title} description={post.data.description} canonicalUrl={canonicalUrl} pubDate={post.data.pubDate} updatedDate={post.data.updatedDate} author={author} tags={post.data.tags} hasBodyH1={hasBodyH1} wordCount={wordCount} toc={toc}>
   <Content />
