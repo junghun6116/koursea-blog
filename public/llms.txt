@@ -1,0 +1,47 @@
+# Koursea Blog
+
+> High-intent, fact-checked Korea travel and K-beauty guidance for English-speaking visitors.
+
+Koursea Blog publishes source-aware decision guides for payments, connectivity, medical-tourism planning, shopping and independent neighborhood itineraries. Time-sensitive claims should be verified against the official sources linked in each article.
+
+## Core Guides
+
+- [Korea Cosmetic Procedure Tax Refund Has Ended (2026)](https://blog.koursea.com/posts/korea-cosmetic-procedure-tax-refund-ended-2026-budget-guide/): Explains the end of the tourist refund for cosmetic procedures and provides transparent, tax-inclusive clinic budgeting checks.
+- [Korean eSIM Guide: Why Data-Only Fails](https://blog.koursea.com/posts/korea-esim-with-phone-number-2026-guide/): Compares data-only and voice/SMS travel plans for restaurant queues, delivery apps, taxis and Korea phone verification.
+- [Olive Young Tax Refund & Must-Buy Guide (2026)](https://blog.koursea.com/posts/guide-olive-young-tax-refund-must-buy-2026/): Covers participating-store limits, passport checks, airport refunds, flagship services and evidence-labeled shopping trends.
+- [Korea Payment Guide: WOWPASS vs T-Money](https://blog.koursea.com/posts/korea-payment-wowpass-vs-tmoney-applepay-2026/): A decision guide to transit cards, Apple Pay limitations, cash-only transit reloads and foreign-card backup planning.
+
+## K-Beauty Price & Downtime Guides
+
+- [Potenza RF Microneedling](https://blog.koursea.com/beauty/potenza-microneedling-factory-clinic-gangnam/): Factory-style (high-volume franchise). Target topic: korean laser skin treatment.
+- [Potenza RF Microneedling](https://blog.koursea.com/beauty/potenza-microneedling-private-clinic-gangnam/): Private / solo-doctor clinic. Target topic: seoul laser skin clinic.
+- [Rejuran Healer (skin booster)](https://blog.koursea.com/beauty/rejuran-healer-factory-clinic/): Factory-style (high-volume franchise). Target topic: rejuran skincare korea.
+- [Rejuran Healer (skin booster)](https://blog.koursea.com/beauty/rejuran-healer-private-clinic/): Private / solo-doctor clinic. Target topic: korean skin treatment laser.
+- [Laser Toning / Pico Laser](https://blog.koursea.com/beauty/laser-toning-pico-factory-clinic/): Factory-style (high-volume franchise). Target topic: korean laser skin treatment price.
+- [Laser Toning / Pico Laser](https://blog.koursea.com/beauty/laser-toning-pico-private-clinic/): Private / solo-doctor clinic. Target topic: seoul laser skin clinic gangnam.
+- [Botox (forehead)](https://blog.koursea.com/beauty/botox-forehead-factory-clinic/): Factory-style (high-volume franchise). Target topic: korean dermatology near me.
+- [Botox (full-face)](https://blog.koursea.com/beauty/botox-full-face-private-clinic/): Private / solo-doctor clinic. Target topic: best skin clinic in seoul for foreigners.
+- [Dermal Filler (domestic Korean brand)](https://blog.koursea.com/beauty/dermal-filler-domestic-brand/): Either (price driven mainly by brand, not clinic type). Target topic: korea dermatology clinic.
+- [Dermal Filler (imported brand, e.g. Juvederm/Restylane)](https://blog.koursea.com/beauty/dermal-filler-imported-brand/): Either (price driven mainly by brand, not clinic type). Target topic: plastic surgery seoul korea cost.
+- [N/A — Pre-Booking Utility Check](https://blog.koursea.com/beauty/vat-inclusion-check-before-booking/): Applies to all clinic types. Target topic: korea tax refund.
+- [N/A — Payment Method Caution](https://blog.koursea.com/beauty/cash-discount-request-caution/): Applies to all clinic types. Target topic: korea tax refund for tourist.
+- [Ultherapy Prime (300-shot package)](https://blog.koursea.com/beauty/ultherapy-prime-gangnam-cost/): Merz-licensed clinic (either factory-style or private). Target topic: ultherapy prime korea cost.
+- [Shurink Universe (300-shot package)](https://blog.koursea.com/beauty/shurink-universe-gangnam-cost/): Classys-device clinic (either factory-style or private). Target topic: shurink universe korea price.
+- [Ultherapy / Ultherapy Prime vs. Shurink Universe (HIFU decision guide)](https://blog.koursea.com/beauty/ultherapy-vs-shurink-universe-comparison/): N/A — comparison/decision page, not tied to one clinic type. Target topic: ultherapy vs shurink.
+
+## Korea Itineraries
+
+- [Seongsu & Seoul Forest 1 day Itinerary](https://blog.koursea.com/itinerary/seongsu-seoul-forest-one-day-itinerary/): Route highlights, transit advice and a practical tourist-trap warning.
+- [Hongdae & Yeonnam Half day to evening Itinerary](https://blog.koursea.com/itinerary/hongdae-yeonnam-evening-itinerary/): Route highlights, transit advice and a practical tourist-trap warning.
+- [Gangnam & COEX 1 day Itinerary](https://blog.koursea.com/itinerary/gangnam-coex-kbeauty-one-day-itinerary/): Route highlights, transit advice and a practical tourist-trap warning.
+- [Myeongdong & Euljiro 1 day Itinerary](https://blog.koursea.com/itinerary/myeongdong-euljiro-shopping-food-itinerary/): Route highlights, transit advice and a practical tourist-trap warning.
+- [Jongno, Bukchon & Insadong 1 day Itinerary](https://blog.koursea.com/itinerary/jongno-bukchon-palace-one-day-itinerary/): Route highlights, transit advice and a practical tourist-trap warning.
+- [Busan Haeundae & Gwangalli 1 day Itinerary](https://blog.koursea.com/itinerary/busan-haeundae-gwangalli-coastal-itinerary/): Route highlights, transit advice and a practical tourist-trap warning.
+- [Busan Seomyeon & Jeonpo 1 day Itinerary](https://blog.koursea.com/itinerary/busan-seomyeon-jeonpo-one-day-itinerary/): Route highlights, transit advice and a practical tourist-trap warning.
+- [Jeju Aewol & West Coast 1 day Itinerary](https://blog.koursea.com/itinerary/jeju-aewol-west-coast-one-day-itinerary/): Route highlights, transit advice and a practical tourist-trap warning.
+- [Jeju Seongsan & East Coast 1 day Itinerary](https://blog.koursea.com/itinerary/jeju-seongsan-east-coast-one-day-itinerary/): Route highlights, transit advice and a practical tourist-trap warning.
+
+## Site Files
+
+- [Sitemap index](https://blog.koursea.com/sitemap-index.xml)
+- [Full LLM reference](https://blog.koursea.com/llms-full.txt)

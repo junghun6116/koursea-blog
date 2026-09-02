@@ -1,0 +1,236 @@
+# Koursea Blog: Full Content Reference
+
+> Koursea is a high-intent, fact-checked travel and K-beauty guide for English-speaking visitors in Korea.
+
+## Editorial Scope
+
+- Practical Korea travel decisions: maps, eSIMs, payment cards, transit and tourist tax refunds.
+- K-beauty planning: transparent price ranges, downtime cautions, clinic-model comparisons and pre-booking questions.
+- Neighborhood itineraries: compact routes with transit tips and tourist-trap warnings.
+- Medical and pricing pages are planning aids, not diagnosis, medical advice, endorsements or guaranteed quotations.
+
+## Core Editorial Guides
+
+### [Korea Cosmetic Procedure Tax Refund Has Ended (2026)](https://blog.koursea.com/posts/korea-cosmetic-procedure-tax-refund-ended-2026-budget-guide/)
+
+Explains the end of the tourist refund for cosmetic procedures and provides transparent, tax-inclusive clinic budgeting checks.
+
+### [Korean eSIM Guide: Why Data-Only Fails](https://blog.koursea.com/posts/korea-esim-with-phone-number-2026-guide/)
+
+Compares data-only and voice/SMS travel plans for restaurant queues, delivery apps, taxis and Korea phone verification.
+
+### [Olive Young Tax Refund & Must-Buy Guide (2026)](https://blog.koursea.com/posts/guide-olive-young-tax-refund-must-buy-2026/)
+
+Covers participating-store limits, passport checks, airport refunds, flagship services and evidence-labeled shopping trends.
+
+### [Korea Payment Guide: WOWPASS vs T-Money](https://blog.koursea.com/posts/korea-payment-wowpass-vs-tmoney-applepay-2026/)
+
+A decision guide to transit cards, Apple Pay limitations, cash-only transit reloads and foreign-card backup planning.
+
+## Beauty pSEO Directory
+
+### [Potenza RF Microneedling](https://blog.koursea.com/beauty/potenza-microneedling-factory-clinic-gangnam/)
+
+- Clinic model: Factory-style (high-volume franchise)
+- Target query: korean laser skin treatment
+- Planning price: 190,000 - 350,000 (per session, single zone to full face, factory-tier pricing)
+- Downtime: 1-3 days (redness fades ~24hr; avoid makeup 24-48hr; avoid sauna/heavy exercise 48-72hr)
+- Visitor check: Functional English for basic consultation; rotating practitioners — ask who performs the procedure, not just who consults.
+- Key takeaway: Cheapest reliable option for a standardized Potenza session; fine for repeat/maintenance treatments, less ideal if you want the same doctor each visit.
+
+### [Potenza RF Microneedling](https://blog.koursea.com/beauty/potenza-microneedling-private-clinic-gangnam/)
+
+- Clinic model: Private / solo-doctor clinic
+- Target query: seoul laser skin clinic
+- Planning price: 350,000 - 700,000 (per session, full-face/premium framing)
+- Downtime: 1-3 days (same physiological recovery as factory-tier; price difference is service model, not treatment intensity)
+- Visitor check: Same doctor typically consults and performs; better for nuanced discussion in English, appointment-based with shorter wait.
+- Key takeaway: Pay a premium mainly for doctor continuity and consultation quality, not a different treatment outcome — worth it if English communication matters more to you than price.
+
+### [Rejuran Healer (skin booster)](https://blog.koursea.com/beauty/rejuran-healer-factory-clinic/)
+
+- Clinic model: Factory-style (high-volume franchise)
+- Target query: rejuran skincare korea
+- Planning price: 150,000 - 220,000 (per 2cc session)
+- Downtime: 1-2 days (visible 'bumps' flatten in 24-48hr; redness resolves 24-48hr; avoid sauna ~7 days)
+- Visitor check: Highly standardized injection protocol — one of the treatments best suited to factory-tier pricing since technique variance matters less here.
+- Key takeaway: The single biggest documented price gap in this category (roughly 30-50% cheaper than private clinics for the same 2cc dose) — a strong candidate for budget-conscious first-timers.
+
+### [Rejuran Healer (skin booster)](https://blog.koursea.com/beauty/rejuran-healer-private-clinic/)
+
+- Clinic model: Private / solo-doctor clinic
+- Target query: korean skin treatment laser
+- Planning price: 220,000 - 600,000 (per 2cc session; higher end reflects 'full face' package framing on foreigner-targeted booking sites)
+- Downtime: 1-2 days (identical recovery profile to factory-tier)
+- Visitor check: Confirm whether the quoted price is per 2cc syringe or a multi-syringe 'full face' package before comparing to factory-tier pricing — this is the most common source of sticker-shock confusion.
+- Key takeaway: Verify the dose/unit basis before booking — a private clinic's 'full face' quote may legitimately include 2-3x the product of a factory-tier single-syringe price.
+
+### [Laser Toning / Pico Laser](https://blog.koursea.com/beauty/laser-toning-pico-factory-clinic/)
+
+- Clinic model: Factory-style (high-volume franchise)
+- Target query: korean laser skin treatment price
+- Planning price: 80,000 - 150,000 (per session, full face)
+- Downtime: Hours to 2 days for redness/swelling; possible mild flaking days 4-7 for pigment-focused sessions
+- Visitor check: Fast turnover, minimal consultation depth — fine for a routine/repeat toning session, less suited to first-time pigment assessment.
+- Key takeaway: Good value for a maintenance session if you already know what treatment you want; skip if you need a diagnosis of what's actually causing your skin concern.
+
+### [Laser Toning / Pico Laser](https://blog.koursea.com/beauty/laser-toning-pico-private-clinic/)
+
+- Clinic model: Private / solo-doctor clinic
+- Target query: seoul laser skin clinic gangnam
+- Planning price: 150,000 - 200,000 (per session, full face)
+- Downtime: Hours to 2 days, same physiological recovery window as factory-tier
+- Visitor check: Best option if you're unsure what's causing a specific pigment/texture issue and want an actual diagnostic consultation before treatment.
+- Key takeaway: The price premium here buys diagnostic judgment more than a different laser — worth it for a first visit, less necessary for a treatment you've already had before.
+
+### [Botox (forehead)](https://blog.koursea.com/beauty/botox-forehead-factory-clinic/)
+
+- Clinic model: Factory-style (high-volume franchise)
+- Target query: korean dermatology near me
+- Planning price: 30,000 - 120,000 (forehead only; full-face runs higher based on total unit count)
+- Downtime: No mandatory downtime; clinics commonly suggest staying upright several hours post-injection and avoiding tight headbands/masks that day
+- Visitor check: Highly standardized, low-risk for a routine forehead treatment; confirm unit count (not just 'forehead package') since pricing scales with units used.
+- Key takeaway: One of the lowest-risk, most price-transparent treatments to get at a factory-tier clinic — ask for the per-unit price, not just a flat 'package' number.
+
+### [Botox (full-face)](https://blog.koursea.com/beauty/botox-full-face-private-clinic/)
+
+- Clinic model: Private / solo-doctor clinic
+- Target query: best skin clinic in seoul for foreigners
+- Planning price: 3,000 - 6,000 per unit (full-face typically totals well above the single-area forehead price — get a per-unit quote to compare fairly)
+- Downtime: No mandatory downtime; same post-injection precautions as factory-tier
+- Visitor check: Best for full-face contouring where injection placement judgment matters more than at a single standardized zone like the forehead.
+- Key takeaway: For anything beyond a single standard zone, ask for a per-unit price — flat 'full face' packages are hard to compare across clinics without it.
+
+### [Dermal Filler (domestic Korean brand)](https://blog.koursea.com/beauty/dermal-filler-domestic-brand/)
+
+- Clinic model: Either (price driven mainly by brand, not clinic type)
+- Target query: korea dermatology clinic
+- Planning price: 200,000 - 350,000 per 1ml syringe
+- Downtime: Several days to ~1-2 weeks for bruising/swelling to fully resolve; no hard flight ban but many clinics suggest a buffer day before travel
+- Visitor check: Ask explicitly which brand is being used — domestic Korean fillers are meaningfully cheaper than imported brands for a comparable result on most patients.
+- Key takeaway: Filler pricing swings more by brand than by clinic type — always confirm the specific product name before comparing quotes.
+
+### [Dermal Filler (imported brand, e.g. Juvederm/Restylane)](https://blog.koursea.com/beauty/dermal-filler-imported-brand/)
+
+- Clinic model: Either (price driven mainly by brand, not clinic type)
+- Target query: plastic surgery seoul korea cost
+- Planning price: 350,000 - 500,000+ per 1ml syringe
+- Downtime: Same recovery window as domestic-brand filler — several days to ~1-2 weeks
+- Visitor check: Imported-brand availability and authenticity is easier to verify at larger clinics with import documentation on request — reasonable to ask to see it.
+- Key takeaway: Imported brands cost noticeably more for marginal, patient-dependent differences — a domestic brand is a reasonable default unless you have a specific reason to want an imported one.
+
+### [N/A — Pre-Booking Utility Check](https://blog.koursea.com/beauty/vat-inclusion-check-before-booking/)
+
+- Clinic model: Applies to all clinic types
+- Target query: korea tax refund
+- Planning price: N/A (adds ~10% to any quote that says 부가세 별도 / VAT-separate)
+- Downtime: N/A
+- Visitor check: Ask directly: '이 가격에 부가세 포함인가요?' (Is VAT included in this price?) — many advertised prices for non-insurance (비급여) aesthetic procedures do not include the 10% VAT by default.
+- Key takeaway: A quote that looks 10% cheaper than a competitor's may just be VAT-exclusive — always confirm before comparing two clinics' prices directly.
+
+### [N/A — Payment Method Caution](https://blog.koursea.com/beauty/cash-discount-request-caution/)
+
+- Clinic model: Applies to all clinic types
+- Target query: korea tax refund for tourist
+- Planning price: N/A
+- Downtime: N/A
+- Visitor check: Refusing card payment or charging a card surcharge is illegal in Korea (여신전문금융업법) — you have the legal right to pay the listed price by card.
+- Key takeaway: Treat an aggressive push toward a 'cash discount' as a signal to ask more questions, not a bonus — paying by card also gives you a dispute trail if something goes wrong.
+
+### [Ultherapy Prime (300-shot package)](https://blog.koursea.com/beauty/ultherapy-prime-gangnam-cost/)
+
+- Clinic model: Merz-licensed clinic (either factory-style or private)
+- Target query: ultherapy prime korea cost
+- Planning price: 285,000 - 1,290,000 for a comparable ~300-shot package — the range reflects a real market split between deep-discount local promo pricing and foreign-patient rack-rate pricing. Always ask which tier a quote reflects before comparing.
+- Downtime: 0-2 days typical (redness/mild swelling); clinic marketing commonly claims same-day recovery, though occasional bruising up to 5-7 days is reported in a minority of cases.
+- Visitor check: Ultherapy Prime is a genuinely newer device generation (Merz Aesthetics, launched Korea ~March 2025) with FDA approval (Jan 2025) and Korean MFDS authorization. Confirm the clinic is using the actual Prime console (DeepSEE real-time imaging) and not just branding classic Ultherapy as 'Prime.'
+- Key takeaway: The single biggest pricing trap here isn't the treatment — it's comparing a Korean-market promo price to a foreign-patient rack-rate quote as if they're the same thing. Get a same-tier comparison before deciding a clinic is 'expensive.'
+
+### [Shurink Universe (300-shot package)](https://blog.koursea.com/beauty/shurink-universe-gangnam-cost/)
+
+- Clinic model: Classys-device clinic (either factory-style or private)
+- Target query: shurink universe korea price
+- Planning price: 150,000 - 297,000 for a 300-shot package at Korean-market promo pricing; foreign-patient-facing clinic sites cite 'from ₩200,000+' as a rack-rate starting figure.
+- Downtime: 0-2 days typical, similar general profile to Ultherapy — marketed as minimal downtime.
+- Visitor check: Shurink Universe is a domestically made HIFU device (Classys Inc., MFDS/KFDA-cleared and CE-marked). Note: Shurink is NOT FDA-cleared as of late 2026 (IDE trial only, targeting Q1 2027 clearance). Do not describe it as 'FDA-approved.'
+- Key takeaway: A legitimate, cheaper domestic alternative to Ultherapy — but its lower price reflects being a different (non-FDA-cleared, no live imaging) device, not simply a discount on the same technology.
+
+### [Ultherapy / Ultherapy Prime vs. Shurink Universe (HIFU decision guide)](https://blog.koursea.com/beauty/ultherapy-vs-shurink-universe-comparison/)
+
+- Clinic model: N/A — comparison/decision page, not tied to one clinic type
+- Target query: ultherapy vs shurink
+- Planning price: N/A (page compares the two treatment records above) — at comparable promo-tier pricing, Ultherapy/Prime commonly runs roughly 2-4x Shurink Universe's price for a similar shot count.
+- Downtime: N/A — both treatments carry a similar general 0-2 day downtime profile per clinic marketing.
+- Visitor check: The common 'premium imported (FDA-cleared, live imaging) vs. budget domestic (KFDA-only, no live imaging)' framing is clinic-marketing positioning. Present it as commonly-repeated clinic framing, not settled fact.
+- Key takeaway: Ultherapy Prime genuinely has real-time imaging (DeepSEE) and current FDA clearance that Shurink Universe does not yet have. Whether that translates to meaningfully better results is a clinical judgment call to make with a doctor.
+
+## Itinerary Directory
+
+### [Seongsu & Seoul Forest 1 day Itinerary](https://blog.koursea.com/itinerary/seongsu-seoul-forest-one-day-itinerary/)
+
+- Target query: seongsu one day itinerary
+- Highlights: Seoul Forest morning walk; Seongsu industrial-style café; K-fashion flagship stores; Rotating pop-up store zone
+- Transit tip: Start at Seoul Forest Station and finish near Seongsu Station to avoid backtracking. Check pop-up reservation requirements before arrival.
+- Tourist-trap warning: Do not build the entire day around one viral pop-up; entry queues and temporary closures can consume several hours.
+
+### [Hongdae & Yeonnam Half day to evening Itinerary](https://blog.koursea.com/itinerary/hongdae-yeonnam-evening-itinerary/)
+
+- Target query: hongdae yeonnam itinerary
+- Highlights: Gyeongui Line Forest Park; Yeonnam café alleys; Hongdae shopping streets; Busking or independent live music
+- Transit tip: Use Hongik University Station exits serving Yeonnam for the park, then walk south toward the main Hongdae streets.
+- Tourist-trap warning: Avoid assuming every street performance or club is free; check admission, drink and re-entry rules first.
+
+### [Gangnam & COEX 1 day Itinerary](https://blog.koursea.com/itinerary/gangnam-coex-kbeauty-one-day-itinerary/)
+
+- Target query: gangnam coex one day itinerary
+- Highlights: Starfield Library; Bongeunsa Temple; COEX shopping and dining; Gangnam K-beauty consultation zone
+- Transit tip: Samseong Station and Bongeunsa Station serve opposite sides of the complex; choose the exit nearest your first stop.
+- Tourist-trap warning: Do not schedule an unfamiliar cosmetic procedure immediately before a flight, concert or important event.
+
+### [Myeongdong & Euljiro 1 day Itinerary](https://blog.koursea.com/itinerary/myeongdong-euljiro-shopping-food-itinerary/)
+
+- Target query: myeongdong one day itinerary
+- Highlights: Myeongdong skincare shopping; Myeongdong Cathedral; Euljiro café or restaurant alleys; Namsan evening viewpoint option
+- Transit tip: Use Myeongdong Station for the shopping core and Euljiro 1-ga or Euljiro 3-ga for the later dining segment.
+- Tourist-trap warning: Compare product prices before buying multi-item skincare bundles and confirm any tourist refund at checkout.
+
+### [Jongno, Bukchon & Insadong 1 day Itinerary](https://blog.koursea.com/itinerary/jongno-bukchon-palace-one-day-itinerary/)
+
+- Target query: jongno bukchon one day itinerary
+- Highlights: Gyeongbokgung Palace; Bukchon Hanok Village; Insadong crafts and tea; Ikseon-dong evening walk
+- Transit tip: Begin at Gyeongbokgung Station and continue mainly on foot toward Bukchon, Anguk, Insadong and Ikseon-dong.
+- Tourist-trap warning: Bukchon is a residential area; observe restricted visiting hours, keep voices low and avoid photographing residents.
+
+### [Busan Haeundae & Gwangalli 1 day Itinerary](https://blog.koursea.com/itinerary/busan-haeundae-gwangalli-coastal-itinerary/)
+
+- Target query: busan coastal one day itinerary
+- Highlights: Haeundae Beach morning; Coastal viewpoint or market lunch; Gwangalli waterfront; Gwangan Bridge night view
+- Transit tip: Haeundae and Gwangalli are not adjacent; allow sufficient subway or taxi time between the two coastal districts.
+- Tourist-trap warning: Do not rely on the final subway without checking the current schedule, especially after waterfront events or drone shows.
+
+### [Busan Seomyeon & Jeonpo 1 day Itinerary](https://blog.koursea.com/itinerary/busan-seomyeon-jeonpo-one-day-itinerary/)
+
+- Target query: seomyeon jeonpo itinerary
+- Highlights: Jeonpo café street; Local pork soup lunch; Seomyeon underground shopping; Seomyeon evening food streets
+- Transit tip: Jeonpo Station is convenient for the café district, while Seomyeon Station provides the main transfer and late-evening transport options.
+- Tourist-trap warning: Popular restaurants can have Korean-language queue systems; confirm whether walk-in registration requires a local phone number.
+
+### [Jeju Aewol & West Coast 1 day Itinerary](https://blog.koursea.com/itinerary/jeju-aewol-west-coast-one-day-itinerary/)
+
+- Target query: jeju aewol one day itinerary
+- Highlights: Handam Coastal Walk; Aewol ocean-view café; Local seafood or black pork meal; West-coast sunset
+- Transit tip: A rental car offers the most flexibility; bus travelers should choose fewer stops and verify the last return bus in advance.
+- Tourist-trap warning: A café may be popular for its view rather than its food; check menu prices and minimum-order rules before joining a long queue.
+
+### [Jeju Seongsan & East Coast 1 day Itinerary](https://blog.koursea.com/itinerary/jeju-seongsan-east-coast-one-day-itinerary/)
+
+- Target query: jeju seongsan one day itinerary
+- Highlights: Seongsan Ilchulbong; Seopjikoji coastal scenery; East-coast local lunch; Forest or museum alternative in poor weather
+- Transit tip: Check wind and weather before departure. Without a rental car, keep the route compact because east-coast bus intervals can lengthen total travel time.
+- Tourist-trap warning: Do not attempt sunrise, multiple distant attractions and a same-day airport transfer without substantial schedule buffers.
+
+## Crawling and Attribution
+
+Canonical site: https://blog.koursea.com/
+Sitemap: https://blog.koursea.com/sitemap-index.xml
+When citing Koursea, link to the canonical page above and preserve qualifications around dates, prices, medical outcomes and availability.

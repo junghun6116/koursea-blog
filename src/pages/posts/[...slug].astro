@@ -9,11 +9,17 @@ export async function getStaticPaths() {
 
 interface Props { post: CollectionEntry<'posts'> }
 const { post } = Astro.props;
-const { Content } = await post.render();
+const { Content, headings } = await post.render();
 const canonicalUrl = post.data.canonicalUrl ?? new URL(`/posts/${post.slug}/`, Astro.site).href;
 const author = post.data.author ?? 'Koursea Editorial';
 const hasBodyH1 = /^#\s+/m.test(post.body);
+const wordCount = (post.body
+  .replace(/```[\s\S]*?```/g, ' ')
+  .replace(/https?:\/\/\S+/g, ' ')
+  .replace(/<[^>]+>|[#>*_`|\[\]()-]/g, ' ')
+  .match(/[\p{L}\p{N}][\p{L}\p{N}'’.-]*/gu) ?? []).length;
+const toc = headings.filter((heading) => heading.depth === 2 || heading.depth === 3);
 ---
-<PostLayout title={post.data.title} description={post.data.description} canonicalUrl={canonicalUrl} pubDate={post.data.pubDate} updatedDate={post.data.updatedDate} author={author} tags={post.data.tags} hasBodyH1={hasBodyH1}>
+<PostLayout title={post.data.title} description={post.data.description} canonicalUrl={canonicalUrl} pubDate={post.data.pubDate} updatedDate={post.data.updatedDate} author={author} tags={post.data.tags} hasBodyH1={hasBodyH1} wordCount={wordCount} toc={toc}>
   <Content />
 </PostLayout>
