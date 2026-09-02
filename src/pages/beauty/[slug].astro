@@ -25,11 +25,46 @@ const isGangnam = page.slug.includes('gangnam');
 const cleanName = page.treatment_name.replace(/^N\/A\s*[—-]\s*/, '');
 const heading = isUtility ? `${cleanName} for Seoul Clinic Visits` : `${page.treatment_name}: ${page.clinic_type} Price & Downtime Guide`;
 const description = `${page.key_takeaway} Compare practical price basis, clinic model and recovery considerations before booking in Seoul.`;
+const faqItems = [
+  {
+    question: `What should international visitors verify before booking ${cleanName}?`,
+    answer: page.foreigner_friendly_check
+  },
+  {
+    question: `What is the planning price basis for ${cleanName}?`,
+    answer: page.average_price_range_krw === 'N/A' ? 'Request an itemized, tax-inclusive written quote and compare the same product amount, treatment area and provider model.' : page.average_price_range_krw
+  },
+  {
+    question: `How much downtime should travelers plan for ${cleanName}?`,
+    answer: page.downtime_days === 'N/A' ? 'Downtime depends on the selected treatment. Confirm recovery restrictions with a licensed clinician before fixing flights or events.' : page.downtime_days
+  }
+];
 const schema = {
-  '@context': 'https://schema.org', '@type': 'Article', headline: heading, description,
-  mainEntityOfPage: canonicalUrl, keywords: page.target_keyword,
-  author: { '@type': 'Organization', name: 'Koursea Editorial Team' },
-  publisher: { '@type': 'Organization', name: 'Koursea', url: 'https://www.koursea.com/' }
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'MedicalWebPage', '@id': `${canonicalUrl}#webpage`, name: heading, description,
+      url: canonicalUrl, mainEntityOfPage: canonicalUrl, keywords: page.target_keyword, inLanguage: 'en',
+      about: { '@type': isUtility ? 'Thing' : 'MedicalProcedure', name: cleanName },
+      author: { '@type': 'Organization', name: 'Koursea Editorial Team' },
+      publisher: { '@type': 'Organization', name: 'Koursea', url: 'https://www.koursea.com/' }
+    },
+    {
+      '@type': 'FAQPage', '@id': `${canonicalUrl}#faq`,
+      mainEntity: faqItems.map((item) => ({
+        '@type': 'Question', name: item.question,
+        acceptedAnswer: { '@type': 'Answer', text: item.answer }
+      }))
+    },
+    {
+      '@type': 'BreadcrumbList', '@id': `${canonicalUrl}#breadcrumb`,
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: new URL('/', Astro.site).href },
+        { '@type': 'ListItem', position: 2, name: 'Beauty Guides', item: new URL('/beauty/', Astro.site).href },
+        { '@type': 'ListItem', position: 3, name: cleanName, item: canonicalUrl }
+      ]
+    }
+  ]
 };
 ---
 <Layout title={`${heading} | Koursea Blog`} description={description} canonicalUrl={canonicalUrl} type="article" schema={schema}>
@@ -77,6 +112,10 @@ const schema = {
       <li>Compare the same treatment area, product amount and unit count.</li><li>Confirm who performs the procedure and handles follow-up questions.</li>
       <li>Ask for the complete amount and included items in writing before paying.</li><li>Leave enough recovery time before flights, events, saunas or strenuous exercise.</li>
     </ul></section>
+    <section aria-labelledby="frequently-asked-questions">
+      <h2 id="frequently-asked-questions">Frequently asked questions</h2>
+      <div class="faq-list">{faqItems.map((item) => <details><summary>{item.question}</summary><p>{item.answer}</p></details>)}</div>
+    </section>
     {isGangnam && <p class="context-link context-link--route">See what else is worth doing nearby in our <a href="/itinerary/gangnam-coex-kbeauty-one-day-itinerary/">Gangnam 1-Day Itinerary</a>.</p>}
     <aside class="editorial-note"><strong>Editorial note:</strong> Prices and clinic practices can change. This page is a comparison aid, not a diagnosis, endorsement or substitute for medical advice.</aside>
   </article>
@@ -90,5 +129,6 @@ const schema = {
   .context-link{padding:1rem;border-radius:14px;background:var(--surface);border:1px solid var(--line)}.context-link a{color:var(--teal);font-weight:800}.context-link--route{margin-top:2rem}
   .fact-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem}.fact-grid div{padding:1rem;border:1px solid var(--line);border-radius:14px;background:var(--surface)}.fact-grid .wide{grid-column:1/-1}.fact-grid dt{color:var(--muted);font-size:.75rem;font-weight:800;text-transform:uppercase}.fact-grid dd{margin:.35rem 0 0;font-weight:700}
   .editorial-note{margin-top:3rem;background:var(--ink);color:#fff}.tag-list li{max-width:100%;overflow-wrap:anywhere}
+  .faq-list{display:grid;gap:.75rem}.faq-list details{padding:1rem;border:1px solid var(--line);border-radius:14px;background:var(--surface)}.faq-list summary{cursor:pointer;font-weight:800}.faq-list p{margin:.75rem 0 0;color:var(--muted)}
   @media(max-width:600px){.fact-grid{grid-template-columns:1fr}.fact-grid .wide{grid-column:auto}.beauty-guide section{margin-top:2.4rem}}
 </style>
