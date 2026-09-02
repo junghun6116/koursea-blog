@@ -1,8 +1,9 @@
 ---
 title: "Getting Skin Treatments in Seoul as a Foreigner (2026 Guide): Factory Clinics vs. Boutique Doctors & The Truth About VAT"
-description: "Planning a medical beauty trip to Seoul in 2026? Here is what nobody tells you about factory clinics vs. boutique dermatologists, realistic downtime, and the major 2026 VAT tax refund policy change."
+description: "Plan Seoul skin treatments with realistic 2026 prices, downtime, clinic-model comparisons, language checks, and VAT-inclusive budgeting advice."
 pubDate: 2026-09-02
 tags: ["Seoul Travel", "K-Beauty", "Seoul Dermatology", "Skin Treatments Korea", "Foreigner Guide"]
+canonicalUrl: "https://blog.koursea.com/posts/skin-treatments-seoul-foreigners-guide/"
 author: "Koursea Team"
 ---
 

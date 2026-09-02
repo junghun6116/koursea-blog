@@ -71,6 +71,10 @@ Resale and "guaranteed ticket" sellers outside the official platforms above come
 - **Will my international credit card work?** Usually, but not guaranteed — Visa/Mastercard credit generally goes through; foreign debit cards fail more often. Keep a backup Korean payment method ready.
 - **Is "Interpark Global" still the platform I should use?** The site now operates as **NOL World** — same inventory, new name and interface, since the December 2025 rebrand.
 
+## Plan a Seoul Fan Route
+
+Turn ticket preparation into a practical city day with our respectful fan guides for [BTS in Yongsan](/posts/bts-fan-guide-hybe-yongsan/), [TWICE around JYP Center](/posts/twice-fan-guide-jyp-cheongdam/), [Stray Kids around JYP Center and Olympic Park](/posts/stray-kids-fan-guide-jyp-cheongdam/), and [NewJeans-inspired Hongdae and Hannam](/posts/newjeans-fan-guide-seoul-spots/).
+
 ---
 
 ## Social & Community Distribution Snippets
