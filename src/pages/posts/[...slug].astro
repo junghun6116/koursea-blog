@@ -10,14 +10,16 @@ export async function getStaticPaths() {
 interface Props { post: CollectionEntry<'posts'> }
 const { post } = Astro.props;
 const { Content } = await post.render();
+const canonicalUrl = post.data.canonicalUrl ?? new URL(`/posts/${post.slug}/`, Astro.site).href;
+const author = post.data.author ?? 'Koursea Editorial';
 ---
-<Layout title={`${post.data.title} | Koursea Blog`} description={post.data.description} canonicalUrl={post.data.canonicalUrl} type="article">
+<Layout title={`${post.data.title} | Koursea Blog`} description={post.data.description} canonicalUrl={canonicalUrl} type="article">
   <article class="page">
     <header>
       <ul class="tag-list">{post.data.tags.map((tag) => <li>{tag}</li>)}</ul>
       <h1>{post.data.title}</h1>
       <p class="lead">{post.data.description}</p>
-      <div class="article-meta"><time datetime={post.data.pubDate.toISOString()}>Published {post.data.pubDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</time><span>·</span><span>Koursea Editorial</span></div>
+      <div class="article-meta"><time datetime={post.data.pubDate.toISOString()}>Published {post.data.pubDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</time><span>·</span><span>{author}</span></div>
     </header>
     <div class="prose"><Content /></div>
     <aside class="article-cta"><strong>Keep this guide with you in Korea.</strong><p>Use Koursea for source-checked places, Korean taxi cards and practical neighborhood routes.</p><a href="https://www.koursea.com/">Open Koursea ↗</a></aside>
