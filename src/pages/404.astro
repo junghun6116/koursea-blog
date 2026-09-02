@@ -1,0 +1,29 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout
+  title="Page Not Found | Koursea Blog"
+  description="The requested Koursea Blog page could not be found. Return to the journal or explore practical Korea travel tools."
+  indexable={false}
+>
+  <section class="not-found" aria-labelledby="not-found-title">
+    <p class="eyebrow">404 ERROR</p>
+    <h1 id="not-found-title">Page Not Found</h1>
+    <p>The guide may have moved, or the address may be incomplete. Continue with the latest Korea travel guidance or open Koursea's field tools.</p>
+    <div class="not-found__actions">
+      <a class="not-found__primary" href="/">Back to Blog</a>
+      <a href="https://www.koursea.com">Explore Koursea</a>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .not-found{width:min(720px,calc(100% - 32px));min-height:62vh;margin:0 auto;padding:clamp(64px,12vw,128px) 0;text-align:center}
+  .not-found h1{margin:.25rem 0 1rem;font:700 clamp(2.8rem,9vw,5.5rem)/.95 Georgia,serif;letter-spacing:-.05em}
+  .not-found>p:not(.eyebrow){max-width:590px;margin:0 auto;color:var(--muted);font-size:1.05rem}
+  .not-found__actions{display:flex;justify-content:center;gap:12px;margin-top:30px}
+  .not-found__actions a{display:inline-flex;min-height:46px;align-items:center;justify-content:center;padding:11px 17px;border:1px solid var(--line);border-radius:999px;background:var(--surface);font-weight:800;text-decoration:none}
+  .not-found__actions .not-found__primary{border-color:var(--ink);background:var(--ink);color:#fff}
+  @media(max-width:480px){.not-found{min-height:56vh;padding:56px 0}.not-found__actions{align-items:stretch;flex-direction:column}.not-found__actions a{width:100%}}
+</style>
