@@ -6,6 +6,12 @@ const dist = join(root, 'dist');
 const site = 'https://blog.koursea.com';
 const errors = [];
 const warnings = [];
+const vercelConfig = JSON.parse(readFileSync(join(root, 'vercel.json'), 'utf8'));
+const redirectPaths = new Set(
+  (vercelConfig.routes ?? [])
+    .filter((route) => route.status >= 300 && route.status < 400 && typeof route.src === 'string' && !route.src.includes('\\'))
+    .map((route) => route.src)
+);
 
 function walk(directory) {
   return readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
@@ -72,7 +78,7 @@ for (const file of htmlFiles) {
     let target;
     try { target = new URL(href, url); } catch { errors.push(`${label}: invalid href ${href}`); continue; }
     if (target.origin !== site) continue;
-    if (!existsSync(localTarget(target))) errors.push(`${label}: broken internal link ${target.pathname}`);
+    if (!existsSync(localTarget(target)) && !redirectPaths.has(target.pathname)) errors.push(`${label}: broken internal link ${target.pathname}`);
   }
 }
 

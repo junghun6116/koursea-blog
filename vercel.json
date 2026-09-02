@@ -1,6 +1,20 @@
 {
   "routes": [
     {
+      "src": "/posts/guide-how-to-pay-in-korea-convenience-stores-global-atm-2026/",
+      "headers": {
+        "Location": "https://www.koursea.com/guide-how-to-pay-in-korea-convenience-stores-global-atm-2026.html"
+      },
+      "status": 301
+    },
+    {
+      "src": "/posts/guide-seoul-climate-card-tourist-pass/",
+      "headers": {
+        "Location": "https://www.koursea.com/guide-seoul-climate-card-tourist-pass.html"
+      },
+      "status": 301
+    },
+    {
       "src": "/wowpass-card-currency-exchange-t-money-cashless-guide\\.html",
       "headers": {
         "Location": "/posts/korea-payment-wowpass-vs-tmoney-applepay-2026/"
