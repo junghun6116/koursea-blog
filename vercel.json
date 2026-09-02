@@ -1,0 +1,14 @@
+{
+  "routes": [
+    {
+      "src": "/wowpass-card-currency-exchange-t-money-cashless-guide\\.html",
+      "headers": {
+        "Location": "/posts/korea-payment-wowpass-vs-tmoney-applepay-2026/"
+      },
+      "status": 301
+    },
+    {
+      "handle": "filesystem"
+    }
+  ]
+}

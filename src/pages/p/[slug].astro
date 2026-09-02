@@ -1,0 +1,51 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import pages from '../../data/pseo-pages.json';
+
+type PseoPage = {
+  slug: string;
+  title: string;
+  description: string;
+  heading: string;
+  body: string[];
+  published: boolean;
+};
+
+export function getStaticPaths() {
+  return (pages as PseoPage[]).map((page) => ({
+    params: { slug: page.slug },
+    props: { page }
+  }));
+}
+
+interface Props { page: PseoPage }
+const { page } = Astro.props;
+const canonicalUrl = new URL(`/p/${page.slug}/`, Astro.site).href;
+const schema = page.published ? {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: page.title,
+  description: page.description,
+  mainEntityOfPage: canonicalUrl,
+  publisher: { '@type': 'Organization', name: 'Koursea', url: 'https://www.koursea.com/' }
+} : undefined;
+---
+<Layout
+  title={`${page.title} | Koursea Blog`}
+  description={page.description}
+  canonicalUrl={canonicalUrl}
+  type="article"
+  schema={schema}
+  indexable={page.published}
+>
+  <article class="page">
+    <header>
+      <p class="eyebrow">KOURSEA FIELD GUIDE</p>
+      <h1>{page.heading}</h1>
+      <p class="lead">{page.description}</p>
+    </header>
+    <div class="prose">
+      {page.body.map((paragraph) => <p>{paragraph}</p>)}
+    </div>
+  </article>
+</Layout>

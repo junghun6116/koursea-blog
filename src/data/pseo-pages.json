@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "pseo-template-preview",
+    "title": "Koursea Programmatic Guide Template Preview",
+    "description": "A non-indexed preview used to validate Koursea's programmatic SEO static page pipeline.",
+    "heading": "Programmatic guide template",
+    "body": [
+      "Replace this preview record with reviewed keyword data before publishing a production page.",
+      "Each record receives a static URL, self-referencing canonical tag, one H1, metadata, and the shared Koursea editorial layout."
+    ],
+    "published": false
+  }
+]

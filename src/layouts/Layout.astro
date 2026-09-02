@@ -5,6 +5,7 @@ interface Props {
   canonicalUrl?: string;
   type?: 'website' | 'article';
   schema?: Record<string, unknown>;
+  indexable?: boolean;
 }
 
 const {
@@ -12,9 +13,11 @@ const {
   description,
   canonicalUrl = new URL(Astro.url.pathname, Astro.site).href,
   type = 'website',
-  schema
+  schema,
+  indexable = true
 } = Astro.props;
-const socialImage = new URL('/og-default.svg', Astro.site).href;
+const socialImagePng = new URL('/og-default.png', Astro.site).href;
+const socialImageWebp = new URL('/og-default.webp', Astro.site).href;
 ---
 <!doctype html>
 <html lang="en">
@@ -22,7 +25,7 @@ const socialImage = new URL('/og-default.svg', Astro.site).href;
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
-    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta name="robots" content={indexable ? 'index,follow,max-image-preview:large' : 'noindex,follow'} />
     <link rel="canonical" href={canonicalUrl} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <meta property="og:type" content={type} />
@@ -30,11 +33,19 @@ const socialImage = new URL('/og-default.svg', Astro.site).href;
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalUrl} />
-    <meta property="og:image" content={socialImage} />
+    <meta property="og:image" content={socialImagePng} />
+    <meta property="og:image:secure_url" content={socialImagePng} />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Koursea practical Korea travel journal" />
+    <meta property="og:image" content={socialImageWebp} />
+    <meta property="og:image:type" content="image/webp" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={socialImage} />
+    <meta name="twitter:image" content={socialImagePng} />
+    <meta name="twitter:image:alt" content="Koursea practical Korea travel journal" />
     {schema && <script is:inline type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g, '\\u003c')} />}
     <title>{title}</title>
     <!-- Google AdSense script slot: insert the approved publisher script here. -->

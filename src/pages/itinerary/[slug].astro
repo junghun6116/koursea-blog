@@ -1,0 +1,64 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import itineraryPages from '../../data/itinerary-pseo-pages.json';
+
+type ItineraryPage = {
+  slug: string;
+  region_name: string;
+  target_keyword: string;
+  duration: string;
+  key_highlights: string[];
+  transit_tip: string;
+  tourist_trap_warning: string;
+};
+
+export function getStaticPaths() {
+  return (itineraryPages as ItineraryPage[]).map((page) => ({ params: { slug: page.slug }, props: { page } }));
+}
+
+interface Props { page: ItineraryPage }
+const { page } = Astro.props;
+const canonicalUrl = new URL(`/itinerary/${page.slug}/`, Astro.site).href;
+const title = `${page.region_name} ${page.duration} Itinerary`;
+const description = `A practical ${page.duration} route for ${page.region_name}, with key stops, transit advice and tourist-trap warnings for independent Korea travelers.`;
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Article', '@id': `${canonicalUrl}#article`, headline: title, description,
+      mainEntityOfPage: canonicalUrl, keywords: page.target_keyword,
+      author: { '@type': 'Organization', name: 'Koursea Editorial Team' },
+      publisher: { '@type': 'Organization', name: 'Koursea', url: 'https://www.koursea.com/' }
+    },
+    {
+      '@type': 'BreadcrumbList', '@id': `${canonicalUrl}#breadcrumb`,
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: new URL('/', Astro.site).href },
+        { '@type': 'ListItem', position: 2, name: 'Itineraries', item: new URL('/itinerary/', Astro.site).href },
+        { '@type': 'ListItem', position: 3, name: page.region_name, item: canonicalUrl }
+      ]
+    }
+  ]
+};
+---
+<Layout title={`${title} | Koursea Blog`} description={description} canonicalUrl={canonicalUrl} type="article" schema={schema}>
+  <article class="page itinerary-guide">
+    <header>
+      <p class="eyebrow">KOURSEA NEIGHBORHOOD ROUTE</p><h1>{title}</h1><p class="lead">{description}</p>
+      <div class="route-meta"><span>⏱ {page.duration}</span><span>📍 {page.region_name}</span></div>
+    </header>
+    <section aria-labelledby="route-highlights"><h2 id="route-highlights">Route highlights</h2><ol class="route-list">
+      {page.key_highlights.map((highlight, index) => <li><span>{index + 1}</span><strong>{highlight}</strong></li>)}
+    </ol></section>
+    <section class="tip-card" aria-labelledby="transit-tip"><p class="eyebrow">TRANSIT TIP</p><h2 id="transit-tip">Move through the route efficiently</h2><p>{page.transit_tip}</p></section>
+    <section class="warning-card" aria-labelledby="trap-warning"><p class="eyebrow">BEFORE YOU GO</p><h2 id="trap-warning">Avoid this common mistake</h2><p>{page.tourist_trap_warning}</p></section>
+    <p class="transit-link">For subway exit numbers, fare-card advice, and taxi payment tips, see our <a href="/posts/google-maps-korea-guide/">Seoul Navigation &amp; Transit Guide</a>.</p>
+    <aside class="route-note">Hours, reservations, transport intervals and temporary events can change. Recheck official venue and transit information on the day of travel.</aside>
+  </article>
+</Layout>
+<style>
+  .itinerary-guide section{margin-top:3rem}.itinerary-guide h2{font:700 clamp(1.5rem,4vw,2rem)/1.15 Inter,sans-serif;letter-spacing:-.025em}.route-meta{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.5rem}.route-meta span{padding:.55rem .8rem;border-radius:999px;background:var(--teal-soft);color:var(--teal);font-size:.82rem;font-weight:800}
+  .route-list{display:grid;gap:.8rem;padding:0;list-style:none}.route-list li{display:flex;align-items:center;gap:1rem;padding:1rem;border:1px solid var(--line);border-radius:14px;background:var(--surface)}.route-list span{display:grid;flex:0 0 2rem;height:2rem;place-items:center;border-radius:50%;background:var(--ink);color:#fff;font-weight:800}
+  .tip-card,.warning-card,.route-note{padding:clamp(1.2rem,4vw,2rem);border-radius:20px}.tip-card{background:var(--teal-soft);border:1px solid #beddd4}.warning-card{background:#fff8e8;border:1px solid #e0c48e}.tip-card h2,.warning-card h2{margin-top:0}.route-note{margin-top:3rem;background:var(--ink);color:#fff}
+  .transit-link{margin-top:2rem;padding:1rem;border:1px solid var(--line);border-radius:14px;background:var(--surface)}.transit-link a{color:var(--teal);font-weight:800}
+</style>

@@ -1,0 +1,94 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import beautyPages from '../../data/beauty-pseo-pages.json';
+
+type BeautyPage = {
+  slug: string;
+  treatment_name: string;
+  clinic_type: string;
+  target_keyword: string;
+  average_price_range_krw: string;
+  downtime_days: string;
+  foreigner_friendly_check: string;
+  key_takeaway: string;
+};
+
+export function getStaticPaths() {
+  return (beautyPages as BeautyPage[]).map((page) => ({ params: { slug: page.slug }, props: { page } }));
+}
+
+interface Props { page: BeautyPage }
+const { page } = Astro.props;
+const canonicalUrl = new URL(`/beauty/${page.slug}/`, Astro.site).href;
+const isUtility = page.treatment_name.startsWith('N/A');
+const isGangnam = page.slug.includes('gangnam');
+const cleanName = page.treatment_name.replace(/^N\/A\s*[—-]\s*/, '');
+const heading = isUtility ? `${cleanName} for Seoul Clinic Visits` : `${page.treatment_name}: ${page.clinic_type} Price & Downtime Guide`;
+const description = `${page.key_takeaway} Compare practical price basis, clinic model and recovery considerations before booking in Seoul.`;
+const schema = {
+  '@context': 'https://schema.org', '@type': 'Article', headline: heading, description,
+  mainEntityOfPage: canonicalUrl, keywords: page.target_keyword,
+  author: { '@type': 'Organization', name: 'Koursea Editorial Team' },
+  publisher: { '@type': 'Organization', name: 'Koursea', url: 'https://www.koursea.com/' }
+};
+---
+<Layout title={`${heading} | Koursea Blog`} description={description} canonicalUrl={canonicalUrl} type="article" schema={schema}>
+  <article class="page beauty-guide">
+    <header>
+      <p class="eyebrow">K-BEAUTY PRICE & DOWNTIME GUIDE</p>
+      <h1>{heading}</h1>
+      <p class="lead">{page.key_takeaway}</p>
+      <ul class="tag-list" aria-label="Guide classification"><li>{page.target_keyword}</li><li>{page.clinic_type}</li></ul>
+    </header>
+
+    <section class="summary-card" aria-labelledby="quick-answer">
+      <p class="eyebrow">QUICK ANSWER</p><h2 id="quick-answer">What international visitors should know</h2>
+      <p>{page.foreigner_friendly_check}</p>
+    </section>
+
+    {!isUtility && <>
+      <section aria-labelledby="price-range">
+        <h2 id="price-range">Transparent planning price</h2>
+        <aside class="estimate-disclaimer">
+          <strong>⚠️ Planning Estimates Disclaimer</strong>
+          <p>The price ranges below are aggregated estimates compiled from clinic promotions, public patient reviews, and medical comparison platforms such as GangnamUnni and ModooDoc. There is no official government price index for non-insured cosmetic procedures in Korea. Actual quotes vary significantly based on doctor experience, tip types, product dosage, and seasonal promotions. Treat these numbers as general sanity-check benchmarks, not binding or guaranteed price quotes. Always obtain an itemized, tax-inclusive quotation directly from your clinic before treatment.</p>
+        </aside>
+        <dl class="fact-grid">
+          <div><dt>Treatment</dt><dd>{page.treatment_name}</dd></div>
+          <div><dt>Clinic model</dt><dd>{page.clinic_type}</dd></div>
+          <div class="wide"><dt>Average price range</dt><dd>{page.average_price_range_krw}</dd></div>
+        </dl>
+        <p class="context-link">Wondering why this costs more than a friend paid in 2024? Read our full breakdown of <a href="/posts/korea-cosmetic-procedure-tax-refund-ended-2026-budget-guide/">Korea's 2026 Cosmetic Procedure Tax Refund Change</a>.</p>
+        <p>Use this as a planning range rather than a quote. Before treatment, request the full checkout amount in writing and confirm the dose, unit count, treated area, device tip, anesthesia, consumables and follow-up items included.</p>
+      </section>
+      <section class="downtime-card" aria-labelledby="downtime">
+        <p class="eyebrow">DOWNTIME & CAUTION</p><h2 id="downtime">Recovery window</h2><p>{page.downtime_days}</p>
+        <p><strong>Medical safety:</strong> Recovery differs by person and procedure. Discuss your medical history, medicines, allergies and travel schedule with a licensed clinician. Seek prompt medical advice for severe or worsening pain, breathing difficulty, vision changes, spreading redness or other unexpected symptoms. Call 119 for an emergency in Korea.</p>
+      </section>
+    </>}
+
+    {isUtility && <section class="utility-card" aria-labelledby="booking-check">
+      <p class="eyebrow">PRE-BOOKING CHECK</p><h2 id="booking-check">Confirm this before payment</h2>
+      {page.average_price_range_krw !== 'N/A' && <p><strong>Price impact:</strong> {page.average_price_range_krw}</p>}
+      <p>{page.foreigner_friendly_check}</p><p>Keep the written quote, treatment details and receipt together so you can compare providers on the same basis.</p>
+    </section>}
+
+    <section aria-labelledby="decision-checklist"><h2 id="decision-checklist">Decision checklist</h2><ul>
+      <li>Compare the same treatment area, product amount and unit count.</li><li>Confirm who performs the procedure and handles follow-up questions.</li>
+      <li>Ask for the complete amount and included items in writing before paying.</li><li>Leave enough recovery time before flights, events, saunas or strenuous exercise.</li>
+    </ul></section>
+    {isGangnam && <p class="context-link context-link--route">See what else is worth doing nearby in our <a href="/itinerary/gangnam-coex-kbeauty-one-day-itinerary/">Gangnam 1-Day Itinerary</a>.</p>}
+    <aside class="editorial-note"><strong>Editorial note:</strong> Prices and clinic practices can change. This page is a comparison aid, not a diagnosis, endorsement or substitute for medical advice.</aside>
+  </article>
+</Layout>
+
+<style>
+  .beauty-guide section{margin-top:3rem}.beauty-guide h2{font:700 clamp(1.55rem,4vw,2.1rem)/1.15 Inter,sans-serif;letter-spacing:-.025em}
+  .summary-card,.downtime-card,.utility-card,.editorial-note{padding:clamp(1.2rem,4vw,2rem);border-radius:20px}.summary-card{border:1px solid var(--line);background:var(--surface)}
+  .downtime-card{border:1px solid #beddd4;background:var(--teal-soft)}.utility-card{border:1px solid #e0c48e;background:#fff8e8}.summary-card h2,.downtime-card h2,.utility-card h2{margin-top:0}
+  .estimate-disclaimer{margin:1rem 0 1.25rem;padding:1rem;border-left:4px solid var(--gold);background:#fff8e8}.estimate-disclaimer p{margin:.4rem 0 0}
+  .context-link{padding:1rem;border-radius:14px;background:var(--surface);border:1px solid var(--line)}.context-link a{color:var(--teal);font-weight:800}.context-link--route{margin-top:2rem}
+  .fact-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem}.fact-grid div{padding:1rem;border:1px solid var(--line);border-radius:14px;background:var(--surface)}.fact-grid .wide{grid-column:1/-1}.fact-grid dt{color:var(--muted);font-size:.75rem;font-weight:800;text-transform:uppercase}.fact-grid dd{margin:.35rem 0 0;font-weight:700}
+  .editorial-note{margin-top:3rem;background:var(--ink);color:#fff}.tag-list li{max-width:100%;overflow-wrap:anywhere}
+  @media(max-width:600px){.fact-grid{grid-template-columns:1fr}.fact-grid .wide{grid-column:auto}.beauty-guide section{margin-top:2.4rem}}
+</style>
