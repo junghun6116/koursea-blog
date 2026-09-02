@@ -1,10 +1,31 @@
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const root = process.cwd();
 const site = 'https://blog.koursea.com';
 const beauty = JSON.parse(readFileSync(join(root, 'src/data/beauty-pseo-pages.json'), 'utf8'));
 const itineraries = JSON.parse(readFileSync(join(root, 'src/data/itinerary-pseo-pages.json'), 'utf8'));
+const postsDirectory = join(root, 'src/content/posts');
+
+function frontmatterValue(source, key) {
+  const match = source.match(new RegExp(`^${key}:\\s*["']?(.+?)["']?\\s*$`, 'm'));
+  return match?.[1]?.trim() ?? '';
+}
+
+const editorialPosts = readdirSync(postsDirectory)
+  .filter((file) => file.endsWith('.md'))
+  .map((file) => {
+    const source = readFileSync(join(postsDirectory, file), 'utf8');
+    const slug = file.replace(/\.md$/, '');
+    return {
+      title: frontmatterValue(source, 'title'),
+      description: frontmatterValue(source, 'description'),
+      url: `/posts/${slug}/`,
+      pubDate: frontmatterValue(source, 'pubDate')
+    };
+  })
+  .filter((post) => post.title && post.description)
+  .sort((a, b) => b.pubDate.localeCompare(a.pubDate) || a.title.localeCompare(b.title));
 
 const coreGuides = [
   {
@@ -43,6 +64,10 @@ const llms = [
   '',
   ...coreGuides.map((guide) => link(guide.title, guide.url, guide.summary)),
   '',
+  '## Editorial Posts',
+  '',
+  ...editorialPosts.map((post) => link(post.title, post.url, post.description)),
+  '',
   '## K-Beauty Price & Downtime Guides',
   '',
   ...beauty.map((page) => link(page.treatment_name, `/beauty/${page.slug}/`, `${page.clinic_type}. Target topic: ${page.target_keyword}.`)),
@@ -73,6 +98,9 @@ const llmsFull = [
   '## Core Editorial Guides',
   '',
   ...coreGuides.flatMap((guide) => [`### [${guide.title}](${absolute(guide.url)})`, '', guide.summary, '']),
+  '## All Editorial Posts',
+  '',
+  ...editorialPosts.flatMap((post) => [`### [${post.title}](${absolute(post.url)})`, '', post.description, '']),
   '## Beauty pSEO Directory',
   '',
   ...beauty.flatMap((page) => [
@@ -107,4 +135,4 @@ const llmsFull = [
 
 writeFileSync(join(root, 'public/llms.txt'), llms, 'utf8');
 writeFileSync(join(root, 'public/llms-full.txt'), llmsFull, 'utf8');
-console.log(`Generated llms.txt (${beauty.length} beauty, ${itineraries.length} itinerary) and llms-full.txt.`);
+console.log(`Generated llms.txt (${editorialPosts.length} posts, ${beauty.length} beauty, ${itineraries.length} itinerary) and llms-full.txt.`);

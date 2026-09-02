@@ -39,6 +39,13 @@
   ],
   "routes": [
     {
+      "src": "/posts/guide-korea-esim-sim-card-setup-2026/",
+      "headers": {
+        "Location": "/posts/korea-esim-with-phone-number-2026-guide/"
+      },
+      "status": 301
+    },
+    {
       "src": "/posts/guide-how-to-pay-in-korea-convenience-stores-global-atm-2026/",
       "headers": {
         "Location": "https://www.koursea.com/guide-how-to-pay-in-korea-convenience-stores-global-atm-2026.html"
