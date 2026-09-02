@@ -4,13 +4,15 @@ interface Props {
   description: string;
   canonicalUrl?: string;
   type?: 'website' | 'article';
+  schema?: Record<string, unknown>;
 }
 
 const {
   title,
   description,
   canonicalUrl = new URL(Astro.url.pathname, Astro.site).href,
-  type = 'website'
+  type = 'website',
+  schema
 } = Astro.props;
 const socialImage = new URL('/og-default.svg', Astro.site).href;
 ---
@@ -33,6 +35,7 @@ const socialImage = new URL('/og-default.svg', Astro.site).href;
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={socialImage} />
+    {schema && <script is:inline type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g, '\\u003c')} />}
     <title>{title}</title>
     <!-- Google AdSense script slot: insert the approved publisher script here. -->
   </head>

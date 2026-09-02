@@ -12,8 +12,18 @@ const { post } = Astro.props;
 const { Content } = await post.render();
 const canonicalUrl = post.data.canonicalUrl ?? new URL(`/posts/${post.slug}/`, Astro.site).href;
 const author = post.data.author ?? 'Koursea Editorial';
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: post.data.title,
+  description: post.data.description,
+  datePublished: post.data.pubDate.toISOString(),
+  author: { '@type': 'Organization', name: author },
+  publisher: { '@type': 'Organization', name: 'Koursea', url: 'https://www.koursea.com/' },
+  mainEntityOfPage: canonicalUrl
+};
 ---
-<Layout title={`${post.data.title} | Koursea Blog`} description={post.data.description} canonicalUrl={canonicalUrl} type="article">
+<Layout title={`${post.data.title} | Koursea Blog`} description={post.data.description} canonicalUrl={canonicalUrl} type="article" schema={schema}>
   <article class="page">
     <header>
       <ul class="tag-list">{post.data.tags.map((tag) => <li>{tag}</li>)}</ul>

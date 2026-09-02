@@ -3,8 +3,15 @@ import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
 
 const posts = (await getCollection('posts')).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Koursea Blog',
+  url: 'https://blog.koursea.com/',
+  description: 'Source-aware, field-tested guides to navigating, paying, eating and traveling across South Korea.'
+};
 ---
-<Layout title="Koursea Blog | Practical Korea Travel Guides" description="Source-aware, field-tested guides to navigating, paying, eating and traveling across South Korea.">
+<Layout title="Koursea Blog | Practical Korea Travel Guides" description="Source-aware, field-tested guides to navigating, paying, eating and traveling across South Korea." schema={schema}>
   <section class="hero shell">
     <p class="eyebrow">KOREA, WITHOUT THE GUESSWORK</p>
     <h1>Arrive informed.<br />Travel like you belong.</h1>
