@@ -38,9 +38,21 @@ const relatedItineraries = (mapped?.itinerary ?? []).flatMap((slug) => {
   return page ? [{ href: `/itinerary/${page.slug}/`, title: `${page.region_name} ${page.duration}`, eyebrow: '1-DAY ROUTE' }] : [];
 });
 const socialEmbeds: Record<string, { xUrl: string; label: string }> = {
+  'bts-fan-guide-hybe-yongsan': {
+    xUrl: 'https://x.com/bts_bighit/status/2021932587661635731',
+    label: 'Official BTS world tour update from @bts_bighit'
+  },
   'twice-fan-guide-jyp-cheongdam': {
     xUrl: 'https://x.com/JYPETWICE/status/1858377141957935385',
     label: 'Official TWICE update from @JYPETWICE'
+  },
+  'stray-kids-fan-guide-jyp-cheongdam': {
+    xUrl: 'https://x.com/Stray_Kids/status/1804152326279827516',
+    label: 'Official Stray Kids activity update from @Stray_Kids'
+  },
+  'newjeans-fan-guide-seoul-spots': {
+    xUrl: 'https://x.com/NewJeans_ADOR/status/1793899770244943967',
+    label: 'Official NewJeans activity update from @NewJeans_ADOR'
   }
 };
 const socialEmbed = socialEmbeds[post.slug];
