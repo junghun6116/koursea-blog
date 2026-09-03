@@ -37,7 +37,14 @@ const relatedItineraries = (mapped?.itinerary ?? []).flatMap((slug) => {
   const page = itineraryPages.find((item) => item.slug === slug);
   return page ? [{ href: `/itinerary/${page.slug}/`, title: `${page.region_name} ${page.duration}`, eyebrow: '1-DAY ROUTE' }] : [];
 });
+const socialEmbeds: Record<string, { xUrl: string; label: string }> = {
+  'twice-fan-guide-jyp-cheongdam': {
+    xUrl: 'https://x.com/JYPETWICE/status/1858377141957935385',
+    label: 'Official TWICE update from @JYPETWICE'
+  }
+};
+const socialEmbed = socialEmbeds[post.slug];
 ---
-<PostLayout title={post.data.title} description={post.data.description} canonicalUrl={canonicalUrl} pubDate={post.data.pubDate} updatedDate={post.data.updatedDate} author={author} tags={post.data.tags} hasBodyH1={hasBodyH1} wordCount={wordCount} toc={toc} relatedGuides={[...relatedBeauty, ...relatedItineraries]}>
+<PostLayout title={post.data.title} description={post.data.description} canonicalUrl={canonicalUrl} pubDate={post.data.pubDate} updatedDate={post.data.updatedDate} author={author} tags={post.data.tags} hasBodyH1={hasBodyH1} wordCount={wordCount} toc={toc} relatedGuides={[...relatedBeauty, ...relatedItineraries]} socialEmbed={socialEmbed}>
   <Content />
 </PostLayout>

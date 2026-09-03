@@ -1,0 +1,43 @@
+---
+interface Props {
+  xUrl?: string;
+  instagramUrl?: string;
+  label?: string;
+}
+
+const { xUrl, instagramUrl, label = 'From the official account' } = Astro.props;
+const validXUrl = xUrl && /^https:\/\/(?:x|twitter)\.com\/[A-Za-z0-9_]+\/status\/\d+(?:\?.*)?$/.test(xUrl) ? xUrl : undefined;
+const validInstagramUrl = instagramUrl && /^https:\/\/(?:www\.)?instagram\.com\/(?:p|reel)\/[A-Za-z0-9_-]+\/?(?:\?.*)?$/.test(instagramUrl) ? instagramUrl : undefined;
+---
+
+{(validXUrl || validInstagramUrl) && (
+  <aside class="social-embed" aria-label={label}>
+    <p>{label}</p>
+    {validXUrl && (
+      <div class="social-embed__frame social-embed__frame--x">
+        <blockquote class="twitter-tweet" data-dnt="true" data-theme="light" data-align="center">
+          <a href={validXUrl}>View this official post on X</a>
+        </blockquote>
+      </div>
+    )}
+    {validInstagramUrl && (
+      <div class="social-embed__frame social-embed__frame--instagram">
+        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink={validInstagramUrl} data-instgrm-version="14">
+          <a href={validInstagramUrl}>View this official post on Instagram</a>
+        </blockquote>
+      </div>
+    )}
+  </aside>
+)}
+
+{validXUrl && <script is:inline async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>}
+{validInstagramUrl && <script is:inline async src="https://www.instagram.com/embed.js"></script>}
+
+<style>
+  .social-embed{width:min(100%,550px);min-height:430px;margin:1.5rem auto 2rem;padding:1rem;border:1px solid var(--line);border-radius:18px;background:var(--surface);overflow:hidden}
+  .social-embed>p{margin:0 0 .75rem;color:var(--teal);font-size:.72rem;font-weight:850;letter-spacing:.08em;text-align:center;text-transform:uppercase}
+  .social-embed__frame{display:grid;width:100%;min-height:370px;place-items:start center;overflow:hidden}
+  .social-embed__frame :global(blockquote){width:100%!important;max-width:550px!important;margin:0 auto!important}
+  .social-embed__frame--instagram{min-height:480px}
+  @media(max-width:600px){.social-embed{min-height:400px;padding:.7rem}.social-embed__frame{min-height:350px}.social-embed__frame--instagram{min-height:450px}}
+</style>
