@@ -1,0 +1,26 @@
+---
+interface Props {
+  downtime: string;
+  targetConcern: string;
+  taxRefund: boolean;
+  flightSafeDays: number;
+}
+
+const { downtime, targetConcern, taxRefund, flightSafeDays } = Astro.props;
+if (!Number.isFinite(flightSafeDays) || flightSafeDays < 0) {
+  throw new Error('TreatmentSpecCard flightSafeDays must be a non-negative number.');
+}
+---
+
+<dl class="treatment-spec" aria-label="Treatment planning summary">
+  <div><dt>Typical downtime</dt><dd>{downtime}</dd></div>
+  <div><dt>Target concern</dt><dd>{targetConcern}</dd></div>
+  <div><dt>Procedure tax refund</dt><dd>{taxRefund ? 'Potentially available — verify current eligibility' : 'Not available'}</dd></div>
+  <div><dt>Dataset flight buffer</dt><dd>{flightSafeDays} day{flightSafeDays === 1 ? '' : 's'} — confirm individually</dd></div>
+</dl>
+<p class="spec-caution">Planning summary only. A licensed clinician must confirm individual recovery and flight timing.</p>
+
+<style>
+  .treatment-spec{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.75rem;margin:1.25rem 0 0}.treatment-spec div{min-width:0;padding:1rem;border:1px solid var(--line);border-radius:14px;background:var(--surface)}.treatment-spec dt{color:var(--muted);font-size:.72rem;font-weight:850;letter-spacing:.04em;text-transform:uppercase}.treatment-spec dd{margin:.35rem 0 0;font-weight:750;overflow-wrap:anywhere}.spec-caution{margin:.65rem 0 1.25rem;color:var(--muted);font-size:.78rem}
+  @media(max-width:600px){.treatment-spec{grid-template-columns:1fr}}
+</style>

@@ -1,0 +1,18 @@
+---
+interface Props {
+  compact?: boolean;
+}
+
+const { compact = false } = Astro.props;
+---
+
+<aside class:list={['medical-disclaimer', { compact }]} role="note" aria-label="Medical disclaimer">
+  <strong>Medical Disclaimer:</strong>
+  <span>Content is for informational purposes only and does not constitute medical advice. Consult a licensed healthcare professional before any procedure.</span>
+</aside>
+
+<style>
+  .medical-disclaimer{display:flex;gap:.75rem;margin:1.5rem 0;padding:1rem 1.1rem;border:1px solid #e0c48e;border-left:4px solid var(--gold);border-radius:12px;background:#fff8e8;color:var(--ink);font-size:.9rem;line-height:1.55}
+  .medical-disclaimer strong{flex:0 0 auto}.medical-disclaimer.compact{padding:.8rem .9rem;font-size:.82rem}
+  @media(max-width:600px){.medical-disclaimer{flex-direction:column;gap:.25rem}}
+</style>
