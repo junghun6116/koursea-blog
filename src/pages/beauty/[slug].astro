@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import MedicalDisclaimer from '../../components/MedicalDisclaimer.astro';
 import TreatmentSpecCard from '../../components/TreatmentSpecCard.astro';
 import beautyPages from '../../data/beauty-pseo-pages.json';
+import verifiedDates from '../../data/pseo-verified-dates.json';
 
 type BeautyPage = {
   slug: string;
@@ -31,9 +32,9 @@ export function getStaticPaths() {
   return (beautyPages as BeautyPage[]).map((page) => ({ params: { slug: page.slug }, props: { page } }));
 }
 
-interface Props { page: BeautyPage }
 const { page } = Astro.props;
 const canonicalUrl = new URL(`/beauty/${page.slug}/`, Astro.site).href;
+const verifiedDate = verifiedDates.pages?.[page.slug as keyof typeof verifiedDates.pages] ?? verifiedDates.beauty;
 const treatmentName = page.treatment_name ?? page.procedureName ?? 'Treatment planning guide';
 const clinicType = page.clinic_type ?? `${page.region}, ${page.city} regional planning guide`;
 const targetKeyword = page.target_keyword ?? `${treatmentName} ${page.region} ${page.city}`;
@@ -67,8 +68,11 @@ const schema = {
   '@context': 'https://schema.org',
   '@graph': [
     {
-      '@type': 'MedicalWebPage', '@id': `${canonicalUrl}#webpage`, name: heading, description,
+      '@type': 'MedicalWebPage', '@id': `${canonicalUrl}#webpage`, name: heading, headline: heading, description,
       url: canonicalUrl, mainEntityOfPage: canonicalUrl, keywords: targetKeyword, inLanguage: 'en',
+      lastReviewed: verifiedDate,
+      aspect: 'Treatments and Procedures',
+      publishingPrinciples: `${canonicalUrl}#medical-disclaimer`,
       about: { '@type': isUtility ? 'Thing' : 'MedicalProcedure', name: cleanName },
       author: { '@type': 'Organization', name: 'Koursea Editorial Team' },
       publisher: { '@type': 'Organization', name: 'Koursea', url: 'https://www.koursea.com/' }

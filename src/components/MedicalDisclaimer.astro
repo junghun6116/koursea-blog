@@ -6,7 +6,7 @@ interface Props {
 const { compact = false } = Astro.props;
 ---
 
-<aside class:list={['medical-disclaimer', { compact }]} role="note" aria-label="Medical disclaimer">
+<aside id="medical-disclaimer" class:list={['medical-disclaimer', { compact }]} role="note" aria-label="Medical disclaimer">
   <strong>Medical Disclaimer:</strong>
   <span>Content is for informational purposes only and does not constitute medical advice. Consult a licensed healthcare professional before any procedure.</span>
 </aside>

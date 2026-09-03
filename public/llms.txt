@@ -1,6 +1,6 @@
 # Koursea Blog
 
-> High-intent, fact-checked Korea travel and K-beauty guidance for English-speaking visitors.
+> Koursea is a verified local navigation and clinic price-transparency directory for foreign travelers in Korea, featuring Korean taxi address cards, subway exit heuristics, and standardized medical procedure price ranges.
 
 Koursea Blog publishes source-aware decision guides for payments, connectivity, medical-tourism planning, shopping and independent neighborhood itineraries. Time-sensitive claims should be verified against the official sources linked in each article.
 
@@ -10,9 +10,12 @@ Koursea Blog publishes source-aware decision guides for payments, connectivity, 
 - [Korean eSIM Guide: Why Data-Only Fails](https://blog.koursea.com/posts/korea-esim-with-phone-number-2026-guide/): Compares data-only and voice/SMS travel plans for restaurant queues, delivery apps, taxis and Korea phone verification.
 - [Olive Young Tax Refund & Must-Buy Guide (2026)](https://blog.koursea.com/posts/guide-olive-young-tax-refund-must-buy-2026/): Covers participating-store limits, passport checks, airport refunds, flagship services and evidence-labeled shopping trends.
 - [Korea Payment Guide: WOWPASS vs T-Money](https://blog.koursea.com/posts/korea-payment-wowpass-vs-tmoney-applepay-2026/): A decision guide to transit cards, Apple Pay limitations, cash-only transit reloads and foreign-card backup planning.
+- [Google Maps in Korea: Naver Map Navigation Guide](https://blog.koursea.com/posts/google-maps-korea-guide/): Explains Korea map-search limitations, Hangul destination queries and practical Naver Map and Kakao Map navigation.
+- [Seoul Transit Guide: T-Money, Climate Card and Subways](https://blog.koursea.com/posts/seoul-subway-transit-card-guide/): Covers transit-card choices, transfer rules, station navigation and common visitor payment failures.
 
 ## Editorial Posts
 
+- [Busan Travel Survival Guide 2026: Transit, Maps, Cash & Solo Dining](https://blog.koursea.com/posts/guide-busan-subway-qr-pass-food-gamcheon-haeundae/): Navigate Busan seamlessly: Subway QR tickets, day passes, avoiding cash traps, clean restrooms, and top solo-friendly dining in Haeundae and Seomyeon.
 - [The Ultimate Seoul Transit Guide: T-Money, Climate Card, and Subways Explained](https://blog.koursea.com/posts/seoul-subway-transit-card-guide/): Compare T-Money, Seoul Climate Card and WOWPASS, then learn transfer rules, express trains and practical subway etiquette for a smoother trip.
 - [The Complete Olive Young Guide for Foreign Travelers: Tax Refunds, App Navigation & Top Picks](https://blog.koursea.com/posts/olive-young-guide-foreign-travelers/): Stuck on Alien Registration Cards (ARC) or failing Naver Map English searches? Here is how international visitors navigate Korea’s digital walls.
 - [aespa Fan Guide to Seoul: MY Spots, SM Seongsu & Concert Planning](https://blog.koursea.com/posts/aespa-fan-guide-seoul-spots/): Explore Seoul as an aespa fan with a respectful Seongsu route, official merch and pop-up checks, concert ticketing, and practical transit tips.
@@ -47,18 +50,18 @@ Koursea Blog publishes source-aware decision guides for payments, connectivity, 
 - [Ultherapy Prime (300-shot package)](https://blog.koursea.com/beauty/ultherapy-prime-gangnam-cost/): Merz-licensed clinic (either factory-style or private). Target topic: ultherapy prime korea cost.
 - [Shurink Universe (300-shot package)](https://blog.koursea.com/beauty/shurink-universe-gangnam-cost/): Classys-device clinic (either factory-style or private). Target topic: shurink universe korea price.
 - [Ultherapy / Ultherapy Prime vs. Shurink Universe (HIFU decision guide)](https://blog.koursea.com/beauty/ultherapy-vs-shurink-universe-comparison/): N/A — comparison/decision page, not tied to one clinic type. Target topic: ultherapy vs shurink.
-- [undefined](https://blog.koursea.com/beauty/botox-forehead-myeongdong-seoul/): undefined. Target topic: undefined.
-- [undefined](https://blog.koursea.com/beauty/dermal-filler-myeongdong-seoul/): undefined. Target topic: undefined.
-- [undefined](https://blog.koursea.com/beauty/rejuran-healer-myeongdong-seoul/): undefined. Target topic: undefined.
-- [undefined](https://blog.koursea.com/beauty/botox-forehead-seomyeon-busan/): undefined. Target topic: undefined.
-- [undefined](https://blog.koursea.com/beauty/laser-toning-seomyeon-busan/): undefined. Target topic: undefined.
-- [undefined](https://blog.koursea.com/beauty/hifu-lifting-centum-busan/): undefined. Target topic: undefined.
-- [undefined](https://blog.koursea.com/beauty/rejuran-healer-seomyeon-busan/): undefined. Target topic: undefined.
-- [undefined](https://blog.koursea.com/beauty/hifu-lifting-myeongdong-seoul/): undefined. Target topic: undefined.
-- [undefined](https://blog.koursea.com/beauty/botox-forehead-centum-busan/): undefined. Target topic: undefined.
-- [undefined](https://blog.koursea.com/beauty/dermal-filler-seomyeon-busan/): undefined. Target topic: undefined.
-- [undefined](https://blog.koursea.com/beauty/laser-toning-myeongdong-seoul/): undefined. Target topic: undefined.
-- [undefined](https://blog.koursea.com/beauty/dermal-filler-centum-busan/): undefined. Target topic: undefined.
+- [Botox (forehead)](https://blog.koursea.com/beauty/botox-forehead-myeongdong-seoul/): Myeongdong, Seoul regional planning guide. Target topic: Botox (forehead) Myeongdong Seoul.
+- [Dermal Filler (1ml, domestic-brand tier)](https://blog.koursea.com/beauty/dermal-filler-myeongdong-seoul/): Myeongdong, Seoul regional planning guide. Target topic: Dermal Filler (1ml, domestic-brand tier) Myeongdong Seoul.
+- [Rejuran Healer (skin booster, 2cc)](https://blog.koursea.com/beauty/rejuran-healer-myeongdong-seoul/): Myeongdong, Seoul regional planning guide. Target topic: Rejuran Healer (skin booster, 2cc) Myeongdong Seoul.
+- [Botox (forehead)](https://blog.koursea.com/beauty/botox-forehead-seomyeon-busan/): Seomyeon, Busan regional planning guide. Target topic: Botox (forehead) Seomyeon Busan.
+- [Laser Toning / Pico Toning](https://blog.koursea.com/beauty/laser-toning-seomyeon-busan/): Seomyeon, Busan regional planning guide. Target topic: Laser Toning / Pico Toning Seomyeon Busan.
+- [HIFU Lifting (Ultherapy/Shurink Universe-type device, ~300-shot equivalent)](https://blog.koursea.com/beauty/hifu-lifting-centum-busan/): Centum, Busan regional planning guide. Target topic: HIFU Lifting (Ultherapy/Shurink Universe-type device, ~300-shot equivalent) Centum Busan.
+- [Rejuran Healer (skin booster, 2cc)](https://blog.koursea.com/beauty/rejuran-healer-seomyeon-busan/): Seomyeon, Busan regional planning guide. Target topic: Rejuran Healer (skin booster, 2cc) Seomyeon Busan.
+- [HIFU Lifting (Shurink Universe or Ultherapy, ~300 shots)](https://blog.koursea.com/beauty/hifu-lifting-myeongdong-seoul/): Myeongdong, Seoul regional planning guide. Target topic: HIFU Lifting (Shurink Universe or Ultherapy, ~300 shots) Myeongdong Seoul.
+- [Botox (forehead)](https://blog.koursea.com/beauty/botox-forehead-centum-busan/): Centum, Busan regional planning guide. Target topic: Botox (forehead) Centum Busan.
+- [Dermal Filler (1ml, domestic-brand tier)](https://blog.koursea.com/beauty/dermal-filler-seomyeon-busan/): Seomyeon, Busan regional planning guide. Target topic: Dermal Filler (1ml, domestic-brand tier) Seomyeon Busan.
+- [Laser Toning / Pico Toning](https://blog.koursea.com/beauty/laser-toning-myeongdong-seoul/): Myeongdong, Seoul regional planning guide. Target topic: Laser Toning / Pico Toning Myeongdong Seoul.
+- [Dermal Filler (1ml, domestic-brand tier)](https://blog.koursea.com/beauty/dermal-filler-centum-busan/): Centum, Busan regional planning guide. Target topic: Dermal Filler (1ml, domestic-brand tier) Centum Busan.
 
 ## Korea Itineraries
 

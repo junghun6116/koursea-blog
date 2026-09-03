@@ -1,6 +1,6 @@
 # Koursea Blog: Full Content Reference
 
-> Koursea is a high-intent, fact-checked travel and K-beauty guide for English-speaking visitors in Korea.
+> Koursea is a verified local navigation and clinic price-transparency directory for foreign travelers in Korea, featuring Korean taxi address cards, subway exit heuristics, and standardized medical procedure price ranges.
 
 ## Editorial Scope
 
@@ -27,7 +27,19 @@ Covers participating-store limits, passport checks, airport refunds, flagship se
 
 A decision guide to transit cards, Apple Pay limitations, cash-only transit reloads and foreign-card backup planning.
 
+### [Google Maps in Korea: Naver Map Navigation Guide](https://blog.koursea.com/posts/google-maps-korea-guide/)
+
+Explains Korea map-search limitations, Hangul destination queries and practical Naver Map and Kakao Map navigation.
+
+### [Seoul Transit Guide: T-Money, Climate Card and Subways](https://blog.koursea.com/posts/seoul-subway-transit-card-guide/)
+
+Covers transit-card choices, transfer rules, station navigation and common visitor payment failures.
+
 ## All Editorial Posts
+
+### [Busan Travel Survival Guide 2026: Transit, Maps, Cash & Solo Dining](https://blog.koursea.com/posts/guide-busan-subway-qr-pass-food-gamcheon-haeundae/)
+
+Navigate Busan seamlessly: Subway QR tickets, day passes, avoiding cash traps, clean restrooms, and top solo-friendly dining in Haeundae and Seomyeon.
 
 ### [The Ultimate Seoul Transit Guide: T-Money, Climate Card, and Subways Explained](https://blog.koursea.com/posts/seoul-subway-transit-card-guide/)
 
@@ -230,113 +242,113 @@ A practical TWICE fan guide to JYP Center in Seongnae-dong, respectful exterior 
 - Visitor check: The common 'premium imported (FDA-cleared, live imaging) vs. budget domestic (KFDA-only, no live imaging)' framing is clinic-marketing positioning. Present it as commonly-repeated clinic framing, not settled fact.
 - Key takeaway: Ultherapy Prime genuinely has real-time imaging (DeepSEE) and current FDA clearance that Shurink Universe does not yet have. Whether that translates to meaningfully better results is a clinical judgment call to make with a doctor.
 
-### [undefined](https://blog.koursea.com/beauty/botox-forehead-myeongdong-seoul/)
+### [Botox (forehead)](https://blog.koursea.com/beauty/botox-forehead-myeongdong-seoul/)
 
-- Clinic model: undefined
-- Target query: undefined
-- Planning price: undefined
-- Downtime: undefined
-- Visitor check: undefined
-- Key takeaway: undefined
+- Clinic model: Myeongdong, Seoul regional planning guide
+- Target query: Botox (forehead) Myeongdong Seoul
+- Planning price: 19,000 - 90,000 KRW (per treatment area; entry/event pricing common at high-volume Myeongdong clinics, higher end reflects full unit-count pricing rather than a flat package)
+- Downtime: No mandatory downtime (avoid lying down/rubbing area for several hours post-injection)
+- Visitor check: English coordination is commonly available; confirm before booking.
+- Key takeaway: Myeongdong's clinic density means entry-level event pricing is competitive with Gangnam for this specific procedure — but always ask for the per-unit price, not just the advertised 'starting from' number.
 
-### [undefined](https://blog.koursea.com/beauty/dermal-filler-myeongdong-seoul/)
+### [Dermal Filler (1ml, domestic-brand tier)](https://blog.koursea.com/beauty/dermal-filler-myeongdong-seoul/)
 
-- Clinic model: undefined
-- Target query: undefined
-- Planning price: undefined
-- Downtime: undefined
-- Visitor check: undefined
-- Key takeaway: undefined
+- Clinic model: Myeongdong, Seoul regional planning guide
+- Target query: Dermal Filler (1ml, domestic-brand tier) Myeongdong Seoul
+- Planning price: 150,000 - 350,000 KRW per 1ml syringe (domestic-brand tier; imported brands run meaningfully higher — always confirm the specific product name before comparing quotes)
+- Downtime: Several days to ~1-2 weeks for bruising/swelling to fully resolve
+- Visitor check: English coordination is commonly available; confirm before booking.
+- Key takeaway: Filler pricing in Myeongdong swings more by brand than by neighborhood — the 'domestic vs. imported' question matters more than 'Myeongdong vs. Gangnam' for getting a fair price.
 
-### [undefined](https://blog.koursea.com/beauty/rejuran-healer-myeongdong-seoul/)
+### [Rejuran Healer (skin booster, 2cc)](https://blog.koursea.com/beauty/rejuran-healer-myeongdong-seoul/)
 
-- Clinic model: undefined
-- Target query: undefined
-- Planning price: undefined
-- Downtime: undefined
-- Visitor check: undefined
-- Key takeaway: undefined
+- Clinic model: Myeongdong, Seoul regional planning guide
+- Target query: Rejuran Healer (skin booster, 2cc) Myeongdong Seoul
+- Planning price: 180,000 - 470,000 KRW per 2cc session (lower end matches high-volume event pricing; higher end reflects private-consultation / 'full face package' framing — confirm the dose basis before comparing quotes)
+- Downtime: 1-2 days (visible injection 'bumps' flatten within 24-48hr; avoid sauna ~7 days)
+- Visitor check: English coordination is commonly available; confirm before booking.
+- Key takeaway: Same sticker-shock trap as Gangnam: a 2cc single-syringe price and a multi-syringe 'full face' package price look nothing alike — ask which one you're being quoted before you compare two clinics.
 
-### [undefined](https://blog.koursea.com/beauty/botox-forehead-seomyeon-busan/)
+### [Botox (forehead)](https://blog.koursea.com/beauty/botox-forehead-seomyeon-busan/)
 
-- Clinic model: undefined
-- Target query: undefined
-- Planning price: undefined
-- Downtime: undefined
-- Visitor check: undefined
-- Key takeaway: undefined
+- Clinic model: Seomyeon, Busan regional planning guide
+- Target query: Botox (forehead) Seomyeon Busan
+- Planning price: 15,000 - 70,000 KRW (per treatment area; regional pricing runs modestly below Seoul for this standardized procedure, though Seomyeon's clinic density keeps it closer to Seoul rates than smaller Busan districts)
+- Downtime: No mandatory downtime (avoid lying down/rubbing area for several hours post-injection)
+- Visitor check: English coordination is not consistently documented; confirm before booking.
+- Key takeaway: Seomyeon has a genuine dermatology-clinic cluster, but English-language support is less consistently documented than in Seoul's foreign-tourist-heavy districts — confirm coordinator language support before booking, don't assume it.
 
-### [undefined](https://blog.koursea.com/beauty/laser-toning-seomyeon-busan/)
+### [Laser Toning / Pico Toning](https://blog.koursea.com/beauty/laser-toning-seomyeon-busan/)
 
-- Clinic model: undefined
-- Target query: undefined
-- Planning price: undefined
-- Downtime: undefined
-- Visitor check: undefined
-- Key takeaway: undefined
+- Clinic model: Seomyeon, Busan regional planning guide
+- Target query: Laser Toning / Pico Toning Seomyeon Busan
+- Planning price: 50,000 - 150,000 KRW per session (full face) — national aggregate sources put plain laser toning as low as 30,000-100,000 and pico toning up to 300,000; this range centers on Seomyeon's typical full-face session pricing
+- Downtime: Hours to 2 days for redness; mild flaking possible days 4-7 for pigment-focused sessions
+- Visitor check: English coordination is not consistently documented; confirm before booking.
+- Key takeaway: This is a maintenance-tier procedure with real regional savings vs. Seoul — good candidate for a repeat/second session if you already know what you want, less ideal for a first-time diagnosis if language support is a concern.
 
-### [undefined](https://blog.koursea.com/beauty/hifu-lifting-centum-busan/)
+### [HIFU Lifting (Ultherapy/Shurink Universe-type device, ~300-shot equivalent)](https://blog.koursea.com/beauty/hifu-lifting-centum-busan/)
 
-- Clinic model: undefined
-- Target query: undefined
-- Planning price: undefined
-- Downtime: undefined
-- Visitor check: undefined
-- Key takeaway: undefined
+- Clinic model: Centum, Busan regional planning guide
+- Target query: HIFU Lifting (Ultherapy/Shurink Universe-type device, ~300-shot equivalent) Centum Busan
+- Planning price: 230,000 - 1,650,000 KRW for a ~300-shot equivalent session — an unusually wide range because Busan promo listings mix two very different things: a bare per-session promo rate (~230,000-250,000) and a bundled 'package' rate that adds ultrasound diagnostics, numbing, LDM and sheet-mask add-ons (up to 1,650,000). This is not a data error — always ask exactly what's included before comparing two quotes.
+- Downtime: 0-2 days typical (mild redness/soreness; clinic-marketing consensus, not independently clinically verified)
+- Visitor check: English coordination is not consistently documented; confirm before booking.
+- Key takeaway: The single biggest pricing trap in Centum for this procedure isn't the device brand — it's package-inclusive quotes vs. bare per-shot quotes being compared as if they're the same thing. Ask for a written, itemized breakdown before deciding a clinic is 'expensive.'
 
-### [undefined](https://blog.koursea.com/beauty/rejuran-healer-seomyeon-busan/)
+### [Rejuran Healer (skin booster, 2cc)](https://blog.koursea.com/beauty/rejuran-healer-seomyeon-busan/)
 
-- Clinic model: undefined
-- Target query: undefined
-- Planning price: undefined
-- Downtime: undefined
-- Visitor check: undefined
-- Key takeaway: undefined
+- Clinic model: Seomyeon, Busan regional planning guide
+- Target query: Rejuran Healer (skin booster, 2cc) Seomyeon Busan
+- Planning price: 180,000 - 380,000 KRW per 2cc session (lower end reflects high-volume promotional pricing; higher quotes may include private consultation, numbing, aftercare or combination treatments — compare the same 2cc dose and inclusions)
+- Downtime: 1-2 days (visible injection bumps generally flatten within 24-48 hours; avoid sauna, swimming and strenuous exercise for about 7 days or as directed by the treating clinician)
+- Visitor check: English coordination is not consistently documented; confirm before booking.
+- Key takeaway: Seomyeon can offer lower entry pricing than foreigner-focused Seoul districts, but English coordination is inconsistent and a 1cc advertisement must not be compared with a 2cc quote. Koursea plans to support clearly labeled fixed-price comparisons; until then, request a written, tax-inclusive 2cc total directly from the clinic.
 
-### [undefined](https://blog.koursea.com/beauty/hifu-lifting-myeongdong-seoul/)
+### [HIFU Lifting (Shurink Universe or Ultherapy, ~300 shots)](https://blog.koursea.com/beauty/hifu-lifting-myeongdong-seoul/)
 
-- Clinic model: undefined
-- Target query: undefined
-- Planning price: undefined
-- Downtime: undefined
-- Visitor check: undefined
-- Key takeaway: undefined
+- Clinic model: Myeongdong, Seoul regional planning guide
+- Target query: HIFU Lifting (Shurink Universe or Ultherapy, ~300 shots) Myeongdong Seoul
+- Planning price: 70,000 - 250,000 KRW for Shurink Universe ~300 shots; 800,000 - 1,350,000 KRW for Ultherapy/Ultherapy Prime ~300 shots. These are different devices and price tiers, so they should never be treated as interchangeable quotes.
+- Downtime: 0-2 days typical (temporary redness, tenderness or mild swelling); occasional bruising or prolonged soreness may last several more days
+- Visitor check: English coordination is commonly available; confirm before booking.
+- Key takeaway: The apparent price gap is primarily a device distinction, not evidence that one Myeongdong clinic is automatically overcharging. Confirm the exact device, authentic tip or cartridge, shot count, treatment area and VAT-inclusive total. Koursea plans to support fixed-price listings that separate these device tiers explicitly.
 
-### [undefined](https://blog.koursea.com/beauty/botox-forehead-centum-busan/)
+### [Botox (forehead)](https://blog.koursea.com/beauty/botox-forehead-centum-busan/)
 
-- Clinic model: undefined
-- Target query: undefined
-- Planning price: undefined
-- Downtime: undefined
-- Visitor check: undefined
-- Key takeaway: undefined
+- Clinic model: Centum, Busan regional planning guide
+- Target query: Botox (forehead) Centum Busan
+- Planning price: 30,000 - 90,000 KRW per forehead treatment area for a domestic-tier toxin; the final total depends on product tier and unit count, so request both values in writing
+- Downtime: No mandatory downtime (avoid rubbing or applying pressure to the area and follow the clinician's instructions about lying down, exercise and alcohol after treatment)
+- Visitor check: English coordination is not consistently documented; confirm before booking.
+- Key takeaway: Centum forehead Botox can be competitively priced, but a flat area price is not fully comparable unless the product tier and injected units are disclosed. Koursea plans to support fixed-price comparison fields; for now, confirm the unit count, VAT and consultation fee through the clinic's official channel.
 
-### [undefined](https://blog.koursea.com/beauty/dermal-filler-seomyeon-busan/)
+### [Dermal Filler (1ml, domestic-brand tier)](https://blog.koursea.com/beauty/dermal-filler-seomyeon-busan/)
 
-- Clinic model: undefined
-- Target query: undefined
-- Planning price: undefined
-- Downtime: undefined
-- Visitor check: undefined
-- Key takeaway: undefined
+- Clinic model: Seomyeon, Busan regional planning guide
+- Target query: Dermal Filler (1ml, domestic-brand tier) Seomyeon Busan
+- Planning price: 180,000 - 350,000 KRW per 1ml syringe for the domestic-brand tier (procedure area, injector experience, cannula use and aftercare can change the final quote)
+- Downtime: Several days to ~1-2 weeks for bruising and swelling to fully settle; urgent medical review is required for severe pain, skin blanching, visual symptoms or rapidly worsening discoloration
+- Visitor check: English coordination is not consistently documented; confirm before booking.
+- Key takeaway: Compare Seomyeon filler quotes by exact 1ml syringe, treatment area and included aftercare—not by a vague starting price. Koursea plans to support fixed-price, product-tier-aware comparisons; until available, obtain a written itemized quote and complication contact instructions before treatment.
 
-### [undefined](https://blog.koursea.com/beauty/laser-toning-myeongdong-seoul/)
+### [Laser Toning / Pico Toning](https://blog.koursea.com/beauty/laser-toning-myeongdong-seoul/)
 
-- Clinic model: undefined
-- Target query: undefined
-- Planning price: undefined
-- Downtime: undefined
-- Visitor check: undefined
-- Key takeaway: undefined
+- Clinic model: Myeongdong, Seoul regional planning guide
+- Target query: Laser Toning / Pico Toning Myeongdong Seoul
+- Planning price: 40,000 - 200,000 KRW per full-face session (lower end reflects event-tier conventional toning; pico-device sessions, physician assessment and combined care generally sit toward the upper end)
+- Downtime: Hours to 2 days for redness or sensitivity; pigment-focused settings may cause mild flaking for several days, and strict sunscreen use is important after treatment
+- Visitor check: English coordination is commonly available; confirm before booking.
+- Key takeaway: Myeongdong's lowest advertised toning price may cover a different laser, setting or treatment scope than a higher quote. Confirm the exact modality, full-face coverage and add-on costs. Koursea plans to support fixed-price comparisons that distinguish conventional laser toning from pico toning.
 
-### [undefined](https://blog.koursea.com/beauty/dermal-filler-centum-busan/)
+### [Dermal Filler (1ml, domestic-brand tier)](https://blog.koursea.com/beauty/dermal-filler-centum-busan/)
 
-- Clinic model: undefined
-- Target query: undefined
-- Planning price: undefined
-- Downtime: undefined
-- Visitor check: undefined
-- Key takeaway: undefined
+- Clinic model: Centum, Busan regional planning guide
+- Target query: Dermal Filler (1ml, domestic-brand tier) Centum Busan
+- Planning price: 130,000 - 300,000 KRW per 1ml syringe for the domestic-brand tier (price varies by injection area, practitioner, technique and whether follow-up care is included)
+- Downtime: Several days to ~1-2 weeks for bruising and swelling to resolve; seek urgent medical assessment for severe pain, pale or mottled skin, visual disturbance or rapidly worsening symptoms
+- Visitor check: English coordination is not consistently documented; confirm before booking.
+- Key takeaway: Centum's domestic-tier filler pricing can be lower than tourist-facing Seoul quotes, but language support and aftercare access should carry equal weight in the decision. Koursea plans to support fixed-price listings; meanwhile, confirm the exact 1ml product tier, total charge and emergency follow-up route directly.
 
 ## Itinerary Directory
 
