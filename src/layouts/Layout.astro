@@ -19,6 +19,11 @@ const {
   socialImage = '/og-default.png'
 } = Astro.props;
 const socialImagePng = new URL(socialImage, Astro.site).href;
+const socialImageType = /\.jpe?g(?:$|\?)/i.test(socialImage)
+  ? 'image/jpeg'
+  : /\.webp(?:$|\?)/i.test(socialImage)
+    ? 'image/webp'
+    : 'image/png';
 ---
 <!doctype html>
 <html lang="en">
@@ -37,7 +42,7 @@ const socialImagePng = new URL(socialImage, Astro.site).href;
     <meta property="og:url" content={canonicalUrl} />
     <meta property="og:image" content={socialImagePng} />
     <meta property="og:image:secure_url" content={socialImagePng} />
-    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:type" content={socialImageType} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="Koursea practical Korea travel journal" />

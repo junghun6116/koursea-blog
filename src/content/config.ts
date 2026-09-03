@@ -9,7 +9,8 @@ const posts = defineCollection({
     updatedDate: z.coerce.date().optional(),
     tags: z.array(z.string()).min(1),
     canonicalUrl: z.string().url().optional(),
-    author: z.string().optional()
+    author: z.string().optional(),
+    coverImage: z.string().optional()
   })
 });
 
