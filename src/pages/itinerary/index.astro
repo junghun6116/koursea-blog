@@ -1,0 +1,32 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import itineraryPages from '../../data/itinerary-pseo-pages.json';
+
+const regions = [
+  { title: 'Seoul', test: (slug: string) => !slug.startsWith('busan-') && !slug.startsWith('jeju-') },
+  { title: 'Busan', test: (slug: string) => slug.startsWith('busan-') },
+  { title: 'Jeju', test: (slug: string) => slug.startsWith('jeju-') }
+];
+const groupedPages = regions.map((region) => ({ ...region, pages: itineraryPages.filter((page) => region.test(page.slug)) }));
+const canonicalUrl = new URL('/itinerary/', Astro.site).href;
+const schema = { '@context': 'https://schema.org', '@graph': [
+  { '@type': 'CollectionPage', name: '1-Day Korea Itineraries', description: 'Nine practical routes through Seoul, Busan and Jeju with transit tips and tourist-trap warnings.', url: canonicalUrl },
+  { '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: new URL('/', Astro.site).href },
+    { '@type': 'ListItem', position: 2, name: 'Itineraries', item: canonicalUrl }
+  ] }
+] };
+---
+<Layout title="1-Day Korea Itineraries | Koursea Blog" description="Plan practical one-day routes across Seoul, Busan and Jeju with ordered highlights, transit advice and common tourist-trap warnings." canonicalUrl={canonicalUrl} schema={schema}>
+  <main class="hub shell">
+    <header class="hub-hero"><p class="eyebrow">ROUTES WITHOUT BACKTRACKING</p><h1>1-Day Korea Itineraries</h1><p>Nine compact routes built around sensible station sequences, realistic travel time and a clear warning about the mistake most likely to derail each day.</p></header>
+    <nav class="jump-nav" aria-label="Itinerary regions">{groupedPages.map((group) => <a href={`#${group.title.toLowerCase()}`}>{group.title} <span>{group.pages.length}</span></a>)}</nav>
+    {groupedPages.map((group) => <section id={group.title.toLowerCase()} class="route-group">
+      <div class="section-heading"><p class="eyebrow">{group.pages.length} ROUTES</p><h2>{group.title}</h2></div>
+      <div class="route-grid">{group.pages.map((page) => <article><div class="route-top"><span>{page.duration}</span><span>{page.key_highlights.length} stops</span></div><h3><a href={`/itinerary/${page.slug}/`}>{page.region_name}</a></h3><ol>{page.key_highlights.slice(0, 3).map((highlight) => <li>{highlight}</li>)}</ol><a class="read" href={`/itinerary/${page.slug}/`}>Open the route →</a></article>)}</div>
+    </section>)}
+  </main>
+</Layout>
+<style>
+  .hub{padding:72px 0}.hub-hero{max-width:780px}.hub h1{margin:.3rem 0 1rem;font:700 clamp(2.7rem,7vw,5.4rem)/.96 Georgia,serif;letter-spacing:-.05em}.hub-hero>p:last-child{max-width:68ch;color:var(--muted);font-size:1.08rem}.jump-nav{display:flex;gap:.6rem;margin:2rem 0 4rem;overflow-x:auto;scrollbar-width:none}.jump-nav a{display:flex;min-height:44px;align-items:center;gap:.55rem;padding:.65rem .9rem;border:1px solid var(--line);border-radius:999px;background:var(--surface);font-size:.82rem;font-weight:800;text-decoration:none}.jump-nav span{color:var(--teal)}.route-group{margin-top:4rem;scroll-margin-top:90px}.section-heading{padding-bottom:1rem;border-bottom:1px solid var(--line)}.section-heading h2{margin:0;font:700 clamp(2rem,4vw,3rem)/1 Georgia,serif}.route-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;margin-top:1.25rem}.route-grid article{display:flex;min-height:290px;flex-direction:column;padding:1.4rem;border:1px solid var(--line);border-radius:18px;background:var(--surface)}.route-top{display:flex;justify-content:space-between;color:var(--teal);font-size:.73rem;font-weight:850;text-transform:uppercase}.route-grid h3{margin:1.5rem 0 .8rem;font:700 1.65rem/1.08 Georgia,serif}.route-grid h3 a,.read{text-decoration:none}.route-grid ol{margin:0;padding-left:1.25rem;color:var(--muted);font-size:.9rem}.read{margin-top:auto;padding-top:1.2rem;color:var(--teal);font-size:.82rem;font-weight:850}@media(max-width:650px){.hub{padding:46px 0}.jump-nav{margin-bottom:2.6rem}.route-group{margin-top:3rem}.route-grid{grid-template-columns:1fr}.route-grid article{min-height:260px}}
+</style>

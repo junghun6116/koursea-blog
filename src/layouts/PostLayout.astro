@@ -13,6 +13,7 @@ interface Props {
   socialImage?: string;
   wordCount: number;
   toc: Array<{ depth: number; slug: string; text: string }>;
+  relatedGuides?: Array<{ href: string; title: string; eyebrow: string }>;
 }
 
 const {
@@ -26,7 +27,8 @@ const {
   hasBodyH1 = false,
   socialImage = '/og-default.png',
   wordCount,
-  toc
+  toc,
+  relatedGuides = []
 } = Astro.props;
 const readingMinutes = Math.max(1, Math.ceil(wordCount / 220));
 
@@ -72,10 +74,14 @@ const schema = {
       <nav aria-label="Table of contents"><ol>{toc.map((heading) => <li class:list={{ nested: heading.depth === 3 }}><a href={`#${heading.slug}`}>{heading.text}</a></li>)}</ol></nav>
     </details>}
     <div class="prose"><slot /></div>
+    {relatedGuides.length > 0 && <aside class="related-pseo" aria-labelledby="related-planning-guides">
+      <div><p class="eyebrow">KEEP PLANNING</p><h2 id="related-planning-guides">Related practical guides</h2></div>
+      <div class="related-pseo-grid">{relatedGuides.map((guide) => <a href={guide.href}><span>{guide.eyebrow}</span><strong>{guide.title}</strong><small>Open guide →</small></a>)}</div>
+    </aside>}
     <aside class="article-cta" aria-label="Explore Koursea tools">
       <strong>Continue planning on Koursea</strong>
       <p>Search verified places, open metro tools and save practical stops without logging in.</p>
-      <a href="https://koursea.com">Explore 3,700+ Verified Spots &amp; Metro Tools on Koursea Map ↗</a>
+      <a href="https://koursea.com">Explore 3,806 Verified Spots &amp; Metro Tools on Koursea Map ↗</a>
     </aside>
   </article>
 </Layout>
@@ -83,5 +89,6 @@ const schema = {
 <style>
   .article-toc{margin:1.5rem 0 2rem;padding:1rem 1.1rem;border:1px solid var(--line);border-radius:16px;background:var(--surface)}
   .article-toc summary{cursor:pointer;font-weight:850;list-style-position:inside}.article-toc ol{display:grid;gap:.45rem;margin:.9rem 0 0;padding-left:1.35rem}.article-toc li{padding-left:.15rem}.article-toc li.nested{margin-left:1rem;font-size:.92rem}.article-toc a{color:var(--teal);text-decoration-thickness:1px;text-underline-offset:3px}
-  @media(max-width:600px){.article-toc{padding:.9rem}.article-toc li.nested{margin-left:.45rem}}
+  .related-pseo{margin-top:3.5rem;padding-top:2rem;border-top:1px solid var(--line)}.related-pseo h2{margin:.2rem 0 1.25rem;font:700 clamp(1.7rem,4vw,2.35rem)/1.05 Georgia,serif}.related-pseo-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem}.related-pseo-grid a{display:flex;min-height:150px;flex-direction:column;padding:1.1rem;border:1px solid var(--line);border-radius:15px;background:var(--surface);text-decoration:none}.related-pseo-grid span{color:var(--teal);font-size:.68rem;font-weight:900;letter-spacing:.08em}.related-pseo-grid strong{margin:.55rem 0;font:700 1.08rem/1.2 Georgia,serif}.related-pseo-grid small{margin-top:auto;color:var(--teal);font-weight:800}
+  @media(max-width:600px){.article-toc{padding:.9rem}.article-toc li.nested{margin-left:.45rem}.related-pseo-grid{grid-template-columns:1fr}.related-pseo-grid a{min-height:128px}}
 </style>

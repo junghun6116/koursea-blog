@@ -1,6 +1,8 @@
 ---
 import { getCollection, type CollectionEntry } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
+import beautyPages from '../data/beauty-pseo-pages.json';
+import itineraryPages from '../data/itinerary-pseo-pages.json';
 
 const posts = (await getCollection('posts')).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 const categoryMatchers = {
@@ -42,7 +44,7 @@ const schema = {
     <div>
       <p class="eyebrow">KOURSEA TRAVEL COMPANION</p>
       <h2 id="companion-title">Need live transit tools &amp; verified Seoul spots?</h2>
-      <p>Explore 3,700+ verified locations, Korean address taxi cards, and the Zero-Login Metro Toolkit on Koursea.</p>
+      <p>Explore 3,806 verified locations, Korean address taxi cards, and the Zero-Login Metro Toolkit on Koursea.</p>
     </div>
     <a href="https://koursea.com">Open Koursea Travel Companion ↗</a>
   </aside>
@@ -65,6 +67,14 @@ const schema = {
       ))}
     </div>
     <p class="empty-state" id="empty-state" hidden>No guides match this category yet. Explore all guides or check back soon.</p>
+  </section>
+  <section class="library shell" aria-labelledby="beauty-library-title">
+    <div class="library-copy"><p class="eyebrow">15 PRICE &amp; DOWNTIME GUIDES</p><h2 id="beauty-library-title">K-Beauty Treatment &amp; Price Guides</h2><p>Compare clinic models, realistic planning ranges and recovery windows before booking.</p><a href="/beauty/">Explore all K-Beauty guides →</a></div>
+    <div class="library-links">{beautyPages.slice(0, 4).map((page) => <a href={`/beauty/${page.slug}/`}><span>{page.target_keyword}</span><strong>{page.treatment_name}</strong></a>)}</div>
+  </section>
+  <section class="library library--route shell" aria-labelledby="itinerary-library-title">
+    <div class="library-copy"><p class="eyebrow">9 FIELD-READY ROUTES</p><h2 id="itinerary-library-title">1-Day Korea Itineraries</h2><p>Follow compact routes through Seoul, Busan and Jeju without wasting time backtracking.</p><a href="/itinerary/">Explore all itineraries →</a></div>
+    <div class="library-links">{itineraryPages.slice(0, 4).map((page) => <a href={`/itinerary/${page.slug}/`}><span>{page.duration}</span><strong>{page.region_name}</strong></a>)}</div>
   </section>
 </Layout>
 <script>
@@ -108,4 +118,6 @@ const schema = {
     .companion-banner p:last-child{font-size:.82rem;line-height:1.35}
     .companion-banner>a{min-height:44px;padding:9px 13px}
   }
+  .library{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:2rem;margin-top:24px;padding:32px;border:1px solid var(--line);border-radius:24px;background:var(--surface)}.library--route{margin-top:18px;background:var(--teal-soft)}.library-copy h2{margin:.25rem 0 .8rem;font:700 clamp(1.9rem,4vw,3rem)/1 Georgia,serif;letter-spacing:-.035em}.library-copy>p:not(.eyebrow){color:var(--muted)}.library-copy>a{display:inline-block;margin-top:.5rem;color:var(--teal);font-size:.85rem;font-weight:850}.library-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.7rem}.library-links a{display:flex;min-width:0;min-height:112px;flex-direction:column;justify-content:space-between;padding:1rem;border:1px solid var(--line);border-radius:14px;background:#fff;text-decoration:none}.library-links span{color:var(--teal);font-size:.68rem;font-weight:850;text-transform:uppercase}.library-links strong{font:700 1rem/1.2 Georgia,serif}
+  @media(max-width:700px){.library{grid-template-columns:1fr;padding:20px}.library-links{grid-template-columns:1fr}.library-links a{min-height:92px}}
 </style>
