@@ -31,7 +31,7 @@ const toc = headings.filter(
 const mapped = relatedMap[post.slug as keyof typeof relatedMap];
 const relatedBeauty = (mapped?.beauty ?? []).flatMap((slug) => {
   const page = beautyPages.find((item) => item.slug === slug);
-  return page ? [{ href: `/beauty/${page.slug}/`, title: page.treatment_name, eyebrow: 'PRICE & DOWNTIME' }] : [];
+  return page ? [{ href: `/beauty/${page.slug}/`, title: page.treatment_name ?? page.procedureName ?? 'K-Beauty planning guide', eyebrow: 'PRICE & DOWNTIME' }] : [];
 });
 const relatedItineraries = (mapped?.itinerary ?? []).flatMap((slug) => {
   const page = itineraryPages.find((item) => item.slug === slug);

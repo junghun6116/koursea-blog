@@ -70,8 +70,8 @@ const schema = {
     <p class="empty-state" id="empty-state" hidden>No guides match this category yet. Explore all guides or check back soon.</p>
   </section>
   <section class="library shell" aria-labelledby="beauty-library-title">
-    <div class="library-copy"><p class="eyebrow">15 PRICE &amp; DOWNTIME GUIDES</p><h2 id="beauty-library-title">K-Beauty Treatment &amp; Price Guides</h2><p>Compare clinic models, realistic planning ranges and recovery windows before booking.</p><a href="/beauty/">Explore all K-Beauty guides →</a></div>
-    <div class="library-links">{beautyPages.slice(0, 4).map((page) => <a href={`/beauty/${page.slug}/`}><span>{page.target_keyword}</span><strong>{page.treatment_name}</strong></a>)}</div>
+    <div class="library-copy"><p class="eyebrow">{beautyPages.length} PRICE &amp; DOWNTIME GUIDES</p><h2 id="beauty-library-title">K-Beauty Treatment &amp; Price Guides</h2><p>Compare clinic models, realistic planning ranges and recovery windows before booking.</p><a href="/beauty/">Explore all K-Beauty guides →</a></div>
+    <div class="library-links">{beautyPages.slice(0, 4).map((page) => <a href={`/beauty/${page.slug}/`}><span>{page.target_keyword ?? `${page.region} ${page.city}`}</span><strong>{page.treatment_name ?? page.procedureName}</strong></a>)}</div>
   </section>
   <section class="library library--route shell" aria-labelledby="itinerary-library-title">
     <div class="library-copy"><p class="eyebrow">9 FIELD-READY ROUTES</p><h2 id="itinerary-library-title">1-Day Korea Itineraries</h2><p>Follow compact routes through Seoul, Busan and Jeju without wasting time backtracking.</p><a href="/itinerary/">Explore all itineraries →</a></div>

@@ -4,10 +4,11 @@ import beautyPages from '../../data/beauty-pseo-pages.json';
 
 type BeautyPage = (typeof beautyPages)[number];
 const groups: Array<{ title: string; description: string; test: (page: BeautyPage) => boolean }> = [
-  { title: 'Skin Texture', description: 'Microneedling and laser guides for texture, pores and pigmentation.', test: (page) => /potenza|laser-toning/.test(page.slug) },
-  { title: 'Lifting Devices', description: 'Compare Ultherapy Prime, Shurink Universe and HIFU planning ranges.', test: (page) => /ultherapy|shurink/.test(page.slug) },
-  { title: 'Injections', description: 'Dose-aware planning for Rejuran, Botox and dermal fillers.', test: (page) => /rejuran|botox|filler/.test(page.slug) },
-  { title: 'Booking Tips', description: 'VAT-inclusive quotes, payment safeguards and pre-booking checks.', test: (page) => /vat-inclusion|cash-discount/.test(page.slug) }
+  { title: 'Skin Texture', description: 'Microneedling and laser guides for texture, pores and pigmentation.', test: (page) => !page.region && /potenza|laser-toning/.test(page.slug) },
+  { title: 'Lifting Devices', description: 'Compare Ultherapy Prime, Shurink Universe and HIFU planning ranges.', test: (page) => !page.region && /ultherapy|shurink/.test(page.slug) },
+  { title: 'Injections', description: 'Dose-aware planning for Rejuran, Botox and dermal fillers.', test: (page) => !page.region && /rejuran|botox|filler/.test(page.slug) },
+  { title: 'Booking Tips', description: 'VAT-inclusive quotes, payment safeguards and pre-booking checks.', test: (page) => !page.region && /vat-inclusion|cash-discount/.test(page.slug) },
+  { title: 'Price Guides by City', description: 'Regional planning ranges for Myeongdong, Seomyeon and Centum without clinic endorsements.', test: (page) => Boolean(page.region) }
 ];
 const groupedPages = groups.map((group) => ({ ...group, pages: beautyPages.filter(group.test) }));
 const canonicalUrl = new URL('/beauty/', Astro.site).href;
@@ -25,7 +26,7 @@ const schema = { '@context': 'https://schema.org', '@graph': [
     <nav class="jump-nav" aria-label="Beauty guide categories">{groupedPages.map((group) => <a href={`#${group.title.toLowerCase().replaceAll(' ', '-')}`}>{group.title} <span>{group.pages.length}</span></a>)}</nav>
     {groupedPages.map((group) => <section id={group.title.toLowerCase().replaceAll(' ', '-')} class="guide-group">
       <div class="section-heading"><div><p class="eyebrow">{group.pages.length} GUIDES</p><h2>{group.title}</h2></div><p>{group.description}</p></div>
-      <div class="guide-grid">{group.pages.map((page) => <article><p class="keyword">{page.target_keyword}</p><h3><a href={`/beauty/${page.slug}/`}>{page.treatment_name}</a></h3><p>{page.clinic_type}</p><a class="read" href={`/beauty/${page.slug}/`}>Compare price &amp; downtime →</a></article>)}</div>
+      <div class="guide-grid">{group.pages.map((page) => <article><p class="keyword">{page.target_keyword ?? `${page.region} ${page.city}`}</p><h3><a href={`/beauty/${page.slug}/`}>{page.treatment_name ?? page.procedureName}</a></h3><p>{page.clinic_type ?? `${page.region}, ${page.city} regional planning guide`}</p><a class="read" href={`/beauty/${page.slug}/`}>Compare price &amp; downtime →</a></article>)}</div>
     </section>)}
   </main>
 </Layout>

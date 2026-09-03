@@ -1,16 +1,30 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import MedicalDisclaimer from '../../components/MedicalDisclaimer.astro';
+import TreatmentSpecCard from '../../components/TreatmentSpecCard.astro';
 import beautyPages from '../../data/beauty-pseo-pages.json';
 
 type BeautyPage = {
   slug: string;
-  treatment_name: string;
-  clinic_type: string;
-  target_keyword: string;
-  average_price_range_krw: string;
-  downtime_days: string;
-  foreigner_friendly_check: string;
-  key_takeaway: string;
+  treatment_name?: string;
+  clinic_type?: string;
+  target_keyword?: string;
+  average_price_range_krw?: string;
+  downtime_days?: string;
+  foreigner_friendly_check?: string;
+  key_takeaway?: string;
+  procedureName?: string;
+  region?: string;
+  city?: string;
+  targetConcern?: string;
+  typicalDowntime?: string;
+  taxRefundEligible?: boolean;
+  avgPriceRangeKRW?: string;
+  flightSafetyDays?: number;
+  soloFriendly?: boolean;
+  englishCoordinator?: boolean;
+  keyTakeaway?: string;
+  brokerCaution?: string;
 };
 
 export function getStaticPaths() {
@@ -20,23 +34,33 @@ export function getStaticPaths() {
 interface Props { page: BeautyPage }
 const { page } = Astro.props;
 const canonicalUrl = new URL(`/beauty/${page.slug}/`, Astro.site).href;
-const isUtility = page.treatment_name.startsWith('N/A');
+const treatmentName = page.treatment_name ?? page.procedureName ?? 'Treatment planning guide';
+const clinicType = page.clinic_type ?? `${page.region}, ${page.city} regional planning guide`;
+const targetKeyword = page.target_keyword ?? `${treatmentName} ${page.region} ${page.city}`;
+const averagePrice = page.average_price_range_krw ?? page.avgPriceRangeKRW ?? 'Request an itemized written quote.';
+const downtime = page.downtime_days ?? page.typicalDowntime ?? 'Confirm the recovery window with a licensed clinician.';
+const visitorCheck = page.foreigner_friendly_check ?? (page.englishCoordinator
+  ? 'English coordination is commonly available, but confirm the language and consultation channel directly before booking.'
+  : 'English coordination is not consistently documented. Confirm language support directly before booking.');
+const keyTakeaway = page.key_takeaway ?? page.keyTakeaway ?? 'Compare the same dose, device and inclusions before choosing a provider.';
+const isUtility = treatmentName.startsWith('N/A');
+const isCityGuide = Boolean(page.region && page.city);
 const isGangnam = page.slug.includes('gangnam');
-const cleanName = page.treatment_name.replace(/^N\/A\s*[—-]\s*/, '');
-const heading = isUtility ? `${cleanName} for Seoul Clinic Visits` : `${page.treatment_name}: ${page.clinic_type} Price & Downtime Guide`;
-const description = `${page.key_takeaway} Compare practical price basis, clinic model and recovery considerations before booking in Seoul.`;
+const cleanName = treatmentName.replace(/^N\/A\s*[—-]\s*/, '');
+const heading = isUtility ? `${cleanName} for Seoul Clinic Visits` : isCityGuide ? `${treatmentName} in ${page.region}, ${page.city}: Price & Downtime Guide` : `${treatmentName}: ${clinicType} Price & Downtime Guide`;
+const description = `${keyTakeaway} Compare practical price basis, clinic model and recovery considerations before booking.`;
 const faqItems = [
   {
     question: `What should international visitors verify before booking ${cleanName}?`,
-    answer: page.foreigner_friendly_check
+    answer: visitorCheck
   },
   {
     question: `What is the planning price basis for ${cleanName}?`,
-    answer: page.average_price_range_krw === 'N/A' ? 'Request an itemized, tax-inclusive written quote and compare the same product amount, treatment area and provider model.' : page.average_price_range_krw
+    answer: averagePrice === 'N/A' ? 'Request an itemized, tax-inclusive written quote and compare the same product amount, treatment area and provider model.' : averagePrice
   },
   {
     question: `How much downtime should travelers plan for ${cleanName}?`,
-    answer: page.downtime_days === 'N/A' ? 'Downtime depends on the selected treatment. Confirm recovery restrictions with a licensed clinician before fixing flights or events.' : page.downtime_days
+    answer: downtime === 'N/A' ? 'Downtime depends on the selected treatment. Confirm recovery restrictions with a licensed clinician before fixing flights or events.' : downtime
   }
 ];
 const schema = {
@@ -44,7 +68,7 @@ const schema = {
   '@graph': [
     {
       '@type': 'MedicalWebPage', '@id': `${canonicalUrl}#webpage`, name: heading, description,
-      url: canonicalUrl, mainEntityOfPage: canonicalUrl, keywords: page.target_keyword, inLanguage: 'en',
+      url: canonicalUrl, mainEntityOfPage: canonicalUrl, keywords: targetKeyword, inLanguage: 'en',
       about: { '@type': isUtility ? 'Thing' : 'MedicalProcedure', name: cleanName },
       author: { '@type': 'Organization', name: 'Koursea Editorial Team' },
       publisher: { '@type': 'Organization', name: 'Koursea', url: 'https://www.koursea.com/' }
@@ -72,14 +96,16 @@ const schema = {
     <header>
       <p class="eyebrow">K-BEAUTY PRICE & DOWNTIME GUIDE</p>
       <h1>{heading}</h1>
-      <p class="lead">{page.key_takeaway}</p>
-      <ul class="tag-list" aria-label="Guide classification"><li>{page.target_keyword}</li><li>{page.clinic_type}</li></ul>
+      <p class="lead">{keyTakeaway}</p>
+      <ul class="tag-list" aria-label="Guide classification"><li>{targetKeyword}</li><li>{clinicType}</li></ul>
     </header>
 
     <section class="summary-card" aria-labelledby="quick-answer">
       <p class="eyebrow">QUICK ANSWER</p><h2 id="quick-answer">What international visitors should know</h2>
-      <p>{page.foreigner_friendly_check}</p>
+      <p>{visitorCheck}</p>
     </section>
+
+    {isCityGuide && <TreatmentSpecCard downtime={downtime} targetConcern={page.targetConcern ?? cleanName} taxRefund={page.taxRefundEligible ?? false} flightSafeDays={page.flightSafetyDays ?? 0} />}
 
     {!isUtility && <>
       <section aria-labelledby="price-range">
@@ -89,23 +115,23 @@ const schema = {
           <p>The price ranges below are aggregated estimates compiled from clinic promotions, public patient reviews, and medical comparison platforms such as GangnamUnni and ModooDoc. There is no official government price index for non-insured cosmetic procedures in Korea. Actual quotes vary significantly based on doctor experience, tip types, product dosage, and seasonal promotions. Treat these numbers as general sanity-check benchmarks, not binding or guaranteed price quotes. Always obtain an itemized, tax-inclusive quotation directly from your clinic before treatment.</p>
         </aside>
         <dl class="fact-grid">
-          <div><dt>Treatment</dt><dd>{page.treatment_name}</dd></div>
-          <div><dt>Clinic model</dt><dd>{page.clinic_type}</dd></div>
-          <div class="wide"><dt>Average price range</dt><dd>{page.average_price_range_krw}</dd></div>
+          <div><dt>Treatment</dt><dd>{treatmentName}</dd></div>
+          <div><dt>Clinic model</dt><dd>{clinicType}</dd></div>
+          <div class="wide"><dt>Average price range</dt><dd>{averagePrice}</dd></div>
         </dl>
         <p class="context-link">Wondering why this costs more than a friend paid in 2024? Read our full breakdown of <a href="/posts/korea-cosmetic-procedure-tax-refund-ended-2026-budget-guide/">Korea's 2026 Cosmetic Procedure Tax Refund Change</a>.</p>
         <p>Use this as a planning range rather than a quote. Before treatment, request the full checkout amount in writing and confirm the dose, unit count, treated area, device tip, anesthesia, consumables and follow-up items included.</p>
       </section>
       <section class="downtime-card" aria-labelledby="downtime">
-        <p class="eyebrow">DOWNTIME & CAUTION</p><h2 id="downtime">Recovery window</h2><p>{page.downtime_days}</p>
+        <p class="eyebrow">DOWNTIME & CAUTION</p><h2 id="downtime">Recovery window</h2><p>{downtime}</p>
         <p><strong>Medical safety:</strong> Recovery differs by person and procedure. Discuss your medical history, medicines, allergies and travel schedule with a licensed clinician. Seek prompt medical advice for severe or worsening pain, breathing difficulty, vision changes, spreading redness or other unexpected symptoms. Call 119 for an emergency in Korea.</p>
       </section>
     </>}
 
     {isUtility && <section class="utility-card" aria-labelledby="booking-check">
       <p class="eyebrow">PRE-BOOKING CHECK</p><h2 id="booking-check">Confirm this before payment</h2>
-      {page.average_price_range_krw !== 'N/A' && <p><strong>Price impact:</strong> {page.average_price_range_krw}</p>}
-      <p>{page.foreigner_friendly_check}</p><p>Keep the written quote, treatment details and receipt together so you can compare providers on the same basis.</p>
+      {averagePrice !== 'N/A' && <p><strong>Price impact:</strong> {averagePrice}</p>}
+      <p>{visitorCheck}</p><p>Keep the written quote, treatment details and receipt together so you can compare providers on the same basis.</p>
     </section>}
 
     <section aria-labelledby="decision-checklist"><h2 id="decision-checklist">Decision checklist</h2><ul>
@@ -117,6 +143,8 @@ const schema = {
       <div class="faq-list">{faqItems.map((item) => <details><summary>{item.question}</summary><p>{item.answer}</p></details>)}</div>
     </section>
     {isGangnam && <p class="context-link context-link--route">See what else is worth doing nearby in our <a href="/itinerary/gangnam-coex-kbeauty-one-day-itinerary/">Gangnam 1-Day Itinerary</a>.</p>}
+    {page.brokerCaution && <aside class="broker-note"><strong>Book directly:</strong> {page.brokerCaution}</aside>}
+    <MedicalDisclaimer />
     <aside class="editorial-note"><strong>Editorial note:</strong> Prices and clinic practices can change. This page is a comparison aid, not a diagnosis, endorsement or substitute for medical advice.</aside>
   </article>
 </Layout>
@@ -129,6 +157,7 @@ const schema = {
   .context-link{padding:1rem;border-radius:14px;background:var(--surface);border:1px solid var(--line)}.context-link a{color:var(--teal);font-weight:800}.context-link--route{margin-top:2rem}
   .fact-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem}.fact-grid div{padding:1rem;border:1px solid var(--line);border-radius:14px;background:var(--surface)}.fact-grid .wide{grid-column:1/-1}.fact-grid dt{color:var(--muted);font-size:.75rem;font-weight:800;text-transform:uppercase}.fact-grid dd{margin:.35rem 0 0;font-weight:700}
   .editorial-note{margin-top:3rem;background:var(--ink);color:#fff}.tag-list li{max-width:100%;overflow-wrap:anywhere}
+  .broker-note{margin-top:2rem;padding:1rem;border:1px solid #e0c48e;border-radius:14px;background:#fff8e8}.broker-note strong{display:block;margin-bottom:.25rem}
   .faq-list{display:grid;gap:.75rem}.faq-list details{padding:1rem;border:1px solid var(--line);border-radius:14px;background:var(--surface)}.faq-list summary{cursor:pointer;font-weight:800}.faq-list p{margin:.75rem 0 0;color:var(--muted)}
   @media(max-width:600px){.fact-grid{grid-template-columns:1fr}.fact-grid .wide{grid-column:auto}.beauty-guide section{margin-top:2.4rem}}
 </style>
