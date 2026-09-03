@@ -8,7 +8,7 @@
     "generate:llms": "node scripts/generate-llms-files.mjs",
     "prebuild": "node scripts/generate-llms-files.mjs",
     "build": "astro check && astro build",
-    "postbuild": "node scripts/generate-distribution-snippets.mjs",
+    "postbuild": "node scripts/ensure-sitemap-files.mjs && node scripts/generate-distribution-snippets.mjs",
     "audit:seo": "node scripts/audit-static-seo.mjs",
     "preview": "astro preview"
   },
