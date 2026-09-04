@@ -68,8 +68,11 @@ const socialEmbeds: Record<string, { xUrl: string; label: string }> = {
   }
 };
 const socialEmbed = socialEmbeds[post.slug];
-const socialImage = post.data.coverImage ?? post.data.thumbnail ?? '/og-default.png';
+// Editorial covers stay authoritative. Every other post receives a stable,
+// title-specific 1200x630 image generated during prebuild instead of sharing
+// the generic site fallback.
+const socialImage = post.data.coverImage ?? post.data.thumbnail ?? `/og/posts/${post.slug}.png`;
 ---
-<PostLayout title={post.data.title} description={post.data.description} canonicalUrl={canonicalUrl} pubDate={post.data.pubDate} updatedDate={post.data.updatedDate} author={author} tags={post.data.tags} hasBodyH1={hasBodyH1} socialImage={socialImage} coverImage={post.data.coverImage} wordCount={wordCount} toc={toc} relatedGuides={[...relatedBeauty, ...relatedItineraries]} socialEmbed={socialEmbed} faq={post.data.faq}>
+<PostLayout title={post.data.title} description={post.data.description} canonicalUrl={canonicalUrl} pubDate={post.data.pubDate} updatedDate={post.data.updatedDate} author={author} tags={post.data.tags} hasBodyH1={hasBodyH1} socialImage={socialImage} socialImageAlt={`${post.data.title} — Koursea Journal`} coverImage={post.data.coverImage} wordCount={wordCount} toc={toc} relatedGuides={[...relatedBeauty, ...relatedItineraries]} socialEmbed={socialEmbed} faq={post.data.faq}>
   <Content />
 </PostLayout>

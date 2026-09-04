@@ -12,6 +12,7 @@ interface Props {
   tags: string[];
   hasBodyH1?: boolean;
   socialImage?: string;
+  socialImageAlt?: string;
   coverImage?: string;
   wordCount: number;
   toc: Array<{ depth: number; slug: string; text: string }>;
@@ -30,6 +31,7 @@ const {
   tags,
   hasBodyH1 = false,
   socialImage = '/og-default.png',
+  socialImageAlt = `${title} — Koursea Journal`,
   coverImage,
   wordCount,
   toc,
@@ -83,7 +85,7 @@ const schema = faq.length > 0 ? {
 } : articleSchema;
 ---
 
-<Layout title={`${title} | Koursea Blog`} description={description} canonicalUrl={canonicalUrl} type="article" schema={schema} socialImage={socialImage}>
+<Layout title={`${title} | Koursea Blog`} description={description} canonicalUrl={canonicalUrl} type="article" schema={schema} socialImage={socialImage} socialImageAlt={socialImageAlt}>
   <article class="page">
     <header>
       <ul class="tag-list">{tags.map((tag) => <li>{tag}</li>)}</ul>

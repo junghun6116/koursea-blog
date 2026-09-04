@@ -20,6 +20,9 @@ importers:
       astro:
         specifier: 4.16.19
         version: 4.16.19(@types/node@24.13.3)(rollup@4.63.1)(typescript@5.7.2)
+      sharp:
+        specifier: 0.33.5
+        version: 0.33.5
       typescript:
         specifier: 5.7.2
         version: 5.7.2
@@ -2868,13 +2871,11 @@ snapshots:
     dependencies:
       color-name: 1.1.4
       simple-swizzle: 0.2.4
-    optional: true
 
   color@4.2.3:
     dependencies:
       color-convert: 2.0.1
       color-string: 1.9.1
-    optional: true
 
   comma-separated-tokens@2.0.3: {}
 
@@ -2896,8 +2897,7 @@ snapshots:
 
   dequal@2.0.3: {}
 
-  detect-libc@2.1.2:
-    optional: true
+  detect-libc@2.1.2: {}
 
   deterministic-object-hash@2.0.2:
     dependencies:
@@ -3149,8 +3149,7 @@ snapshots:
 
   import-meta-resolve@4.2.0: {}
 
-  is-arrayish@0.3.4:
-    optional: true
+  is-arrayish@0.3.4: {}
 
   is-docker@3.0.0: {}
 
@@ -3873,7 +3872,6 @@ snapshots:
       '@img/sharp-wasm32': 0.33.5
       '@img/sharp-win32-ia32': 0.33.5
       '@img/sharp-win32-x64': 0.33.5
-    optional: true
 
   shiki@1.29.2:
     dependencies:
@@ -3891,7 +3889,6 @@ snapshots:
   simple-swizzle@0.2.4:
     dependencies:
       is-arrayish: 0.3.4
-    optional: true
 
   sisteransi@1.0.5: {}
 

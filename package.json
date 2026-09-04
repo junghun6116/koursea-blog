@@ -6,9 +6,10 @@
   "scripts": {
     "dev": "astro dev",
     "generate:llms": "node scripts/generate-llms-files.mjs",
-    "prebuild": "node scripts/generate-llms-files.mjs",
+    "generate:og": "node scripts/generate-post-og-images.mjs",
+    "prebuild": "node scripts/generate-llms-files.mjs && node scripts/generate-post-og-images.mjs",
     "build": "astro check && astro build",
-    "postbuild": "node scripts/ensure-sitemap-files.mjs && node scripts/generate-distribution-snippets.mjs && npm run verify:seo",
+    "postbuild": "node scripts/ensure-sitemap-files.mjs && node scripts/generate-distribution-snippets.mjs && node scripts/verify-seo.mjs",
     "audit:seo": "node scripts/audit-static-seo.mjs",
     "verify:seo": "node scripts/verify-seo.mjs",
     "preview": "astro preview"
@@ -18,6 +19,7 @@
     "@astrojs/rss": "^4.0.19",
     "@astrojs/sitemap": "3.2.1",
     "astro": "4.16.19",
+    "sharp": "0.33.5",
     "typescript": "5.7.2"
   }
 }

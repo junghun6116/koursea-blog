@@ -7,6 +7,7 @@ interface Props {
   schema?: Record<string, unknown>;
   indexable?: boolean;
   socialImage?: string;
+  socialImageAlt?: string;
 }
 
 const {
@@ -16,7 +17,8 @@ const {
   type = 'website',
   schema,
   indexable = true,
-  socialImage = '/og-default.png'
+  socialImage = '/og-default.png',
+  socialImageAlt = 'Koursea practical Korea travel journal'
 } = Astro.props;
 const socialImagePng = new URL(socialImage, Astro.site).href;
 const socialImageType = /\.jpe?g(?:$|\?)/i.test(socialImage)
@@ -45,12 +47,12 @@ const socialImageType = /\.jpe?g(?:$|\?)/i.test(socialImage)
     <meta property="og:image:type" content={socialImageType} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Koursea practical Korea travel journal" />
+    <meta property="og:image:alt" content={socialImageAlt} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={socialImagePng} />
-    <meta name="twitter:image:alt" content="Koursea practical Korea travel journal" />
+    <meta name="twitter:image:alt" content={socialImageAlt} />
     {schema && <script is:inline type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g, '\\u003c')} />}
     <title>{title}</title>
     <!-- Google AdSense script slot: insert the approved publisher script here. -->
