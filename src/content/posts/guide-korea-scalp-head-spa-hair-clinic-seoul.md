@@ -16,7 +16,7 @@ If your social feeds have shown you someone lying face-up beneath a gentle water
 Before booking, understand which service fits your condition:
 
 - **Aesthetic Head Spas (두피 스케일링 / 헤드스파):** Relaxation and deep-cleansing services offered at premium hair salons and scalp wellness studios. They feature high-magnification camera analysis, exfoliating scrubs, lymphatic massage, and the signature waterfall ring. These are non-medical, preventive treatments open to anyone without a doctor's referral.
-- **Medical Dermatology Scalp Clinics:** Clinical practices overseen by board-certified dermatologists. They treat diagnosed pathologies—such as severe seborrheic dermatitis, alopecia areata, or acute scalp psoriasis—using prescription-grade topicals, mesotherapy injections, and medical devices. If you experience burning pain, sudden patch hair loss, or open lesions, visit a dermatology clinic rather than a head spa.
+- **Medical Dermatology Scalp Clinics:** Clinical practices overseen by board-certified dermatologists. They treat diagnosed pathologies—such as severe seborrheic dermatitis, alopecia areata, or acute scalp psoriasis—using prescription-grade topicals, mesotherapy injections, and medical devices. If you experience burning pain, sudden patch hair loss, or open lesions, visit a dermatology clinic rather than a head spa. Travelers comparing other physician-led aesthetic services can start with the [K-Beauty treatment and price guide hub](/beauty/) and its standardized downtime notes.
 
 **Session Duration:** A comprehensive program typically runs **60 to 90 minutes** (with ultra-luxury programs extending up to 120 minutes). Services advertised under 45 minutes are typically express wash-and-massage add-ons.
 
