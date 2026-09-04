@@ -8,8 +8,9 @@
     "generate:llms": "node scripts/generate-llms-files.mjs",
     "prebuild": "node scripts/generate-llms-files.mjs",
     "build": "astro check && astro build",
-    "postbuild": "node scripts/ensure-sitemap-files.mjs && node scripts/generate-distribution-snippets.mjs",
+    "postbuild": "node scripts/ensure-sitemap-files.mjs && node scripts/generate-distribution-snippets.mjs && npm run verify:seo",
     "audit:seo": "node scripts/audit-static-seo.mjs",
+    "verify:seo": "node scripts/verify-seo.mjs",
     "preview": "astro preview"
   },
   "dependencies": {
