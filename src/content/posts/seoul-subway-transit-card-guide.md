@@ -40,6 +40,8 @@ Before boarding your first train, you must pick the right payment mechanism. Cre
 - **WOWPASS:**
   - **Best For:** Travelers wanting an all-in-one debit card with an integrated T-Money chip. You can exchange foreign currency directly into KRW via dedicated airport/hotel kiosks, but note that the T-Money transit balance must still be reloaded separately with cash.
 
+For Apple Pay acceptance, foreign-card kiosk declines, and the currency-exchange differences between WOWPASS and Namane, continue with our [Korea Payment Mechanics Guide](/posts/korea-payment-wowpass-vs-tmoney-applepay-2026/).
+
 ---
 
 ## 2. The Golden Rule of Free Transfers
