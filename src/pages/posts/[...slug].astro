@@ -70,6 +70,6 @@ const socialEmbeds: Record<string, { xUrl: string; label: string }> = {
 const socialEmbed = socialEmbeds[post.slug];
 const socialImage = post.data.coverImage ?? post.data.thumbnail ?? '/og-default.png';
 ---
-<PostLayout title={post.data.title} description={post.data.description} canonicalUrl={canonicalUrl} pubDate={post.data.pubDate} updatedDate={post.data.updatedDate} author={author} tags={post.data.tags} hasBodyH1={hasBodyH1} socialImage={socialImage} coverImage={post.data.coverImage} wordCount={wordCount} toc={toc} relatedGuides={[...relatedBeauty, ...relatedItineraries]} socialEmbed={socialEmbed}>
+<PostLayout title={post.data.title} description={post.data.description} canonicalUrl={canonicalUrl} pubDate={post.data.pubDate} updatedDate={post.data.updatedDate} author={author} tags={post.data.tags} hasBodyH1={hasBodyH1} socialImage={socialImage} coverImage={post.data.coverImage} wordCount={wordCount} toc={toc} relatedGuides={[...relatedBeauty, ...relatedItineraries]} socialEmbed={socialEmbed} faq={post.data.faq}>
   <Content />
 </PostLayout>

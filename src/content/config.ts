@@ -11,7 +11,11 @@ const posts = defineCollection({
     canonicalUrl: z.string().url().optional(),
     author: z.string().optional(),
     coverImage: z.string().optional(),
-    thumbnail: z.string().optional()
+    thumbnail: z.string().optional(),
+    faq: z.array(z.object({
+      question: z.string(),
+      answer: z.string()
+    })).optional()
   })
 });
 
