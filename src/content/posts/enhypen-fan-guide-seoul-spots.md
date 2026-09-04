@@ -14,7 +14,7 @@ ENHYPEN debuted on November 30, 2020, under BELIFT LAB, and the official fandom 
 
 ## Key takeaways
 
-- HYBE Yongsan is a private workplace with no guaranteed public interior access.
+- [HYBE Yongsan](https://www.koursea.com/place/hybe-headquarters-yongsan/) is a private workplace with no guaranteed public interior access.
 - Check official ENHYPEN or BELIFT notices for event dates, reservations, identification, and final entry.
 - Prepare ticket identity details, payment backups, and mobile verification before sales open.
 - Download the last-train route and keep your hotel address in Korean.

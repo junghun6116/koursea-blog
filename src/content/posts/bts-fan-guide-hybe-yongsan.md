@@ -16,7 +16,7 @@ author: "Koursea Editorial"
 
 # BTS Fan Guide to Seoul: HYBE Yongsan, ARMY Photo Stops & Concert Prep
 
-BTS debuted in June 2013 under BIGHIT MUSIC. The seven-member group—RM, Jin, SUGA, j-hope, Jimin, V and Jung Kook—calls its official fandom **ARMY**. For visitors, the most practical BTS-related stop in Seoul is HYBE's headquarters in Yongsan, but it should be treated as a working office rather than a public attraction.
+BTS debuted in June 2013 under BIGHIT MUSIC. The seven-member group—RM, Jin, SUGA, j-hope, Jimin, V and Jung Kook—calls its official fandom **ARMY**. For visitors, the most practical BTS-related stop in Seoul is [HYBE's headquarters in Yongsan](https://www.koursea.com/place/hybe-headquarters-yongsan/), but it should be treated as a working office rather than a public attraction.
 
 ## Key Takeaways for ARMY Visiting Seoul
 

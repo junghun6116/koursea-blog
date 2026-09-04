@@ -22,7 +22,7 @@ author: "Koursea Editorial"
 ## Profile & Key Takeaways
 
 - **Debut:** July 22, 2022
-- **Agency at debut:** ADOR, a HYBE-affiliated label
+- **Agency at debut:** ADOR, a HYBE-affiliated label; [HYBE Yongsan](https://www.koursea.com/place/hybe-headquarters-yongsan/) is a working-office exterior stop rather than an artist attraction
 - **Official fandom name:** Bunnies
 - **Group format:** Girl group, 5 members at debut
 - **Visitor footprint:** There's no dedicated public "NewJeans building" — ADOR is a small label without its own visitor-facing HQ, so this guide focuses on the Seoul neighborhoods most associated with the group's aesthetic and fan culture rather than a single pilgrimage address.
@@ -53,7 +53,7 @@ Given the group's unsettled 2025–2026 status, we're not going to claim there's
 
 ## Quick Answers
 
-- **Is there an official NewJeans or ADOR building to visit?** No confirmed public visitor site — ADOR doesn't operate the kind of tourist-facing HQ that larger labels like HYBE or SM do.
+- **Is there an official NewJeans or ADOR building to visit?** No confirmed public visitor site — ADOR doesn't operate the kind of visitor-facing destination associated with places such as [HYBE Yongsan](https://www.koursea.com/place/hybe-headquarters-yongsan/) or [SM Entertainment and KWANGYA@SEOUL](https://www.koursea.com/place/sm-kwangya-seoul-forest/).
 - **What's NewJeans' current agency status?** This has been genuinely disputed in Korean reporting through 2025–2026 — verify current status through official channels rather than relying on any single article, including this one.
 
 ---

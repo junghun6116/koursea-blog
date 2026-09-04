@@ -16,7 +16,7 @@ author: "Koursea Editorial"
 
 # Stray Kids Fan Guide to Seoul: JYP Center, STAY Route & Concert Prep
 
-Stray Kids officially debuted in March 2018 under JYP Entertainment. The group consists of Bang Chan, Lee Know, Changbin, Hyunjin, HAN, Felix, Seungmin and I.N, and the official fandom is **STAY**. For a Seoul trip, the practical agency stop is the current JYP Center in Seongnae-dong, Gangdong-gu. Despite old search results and the requested legacy filename, the headquarters is not in Cheongdam.
+Stray Kids officially debuted in March 2018 under JYP Entertainment. The group consists of Bang Chan, Lee Know, Changbin, Hyunjin, HAN, Felix, Seungmin and I.N, and the official fandom is **STAY**. For a Seoul trip, the practical agency stop is the current [JYP Center in Seongnae-dong](https://www.koursea.com/place/jyp-entertainment-center-gangdong/), Gangdong-gu. Despite old search results and the requested legacy filename, the headquarters is not in Cheongdam.
 
 ## Key Takeaways for STAY
 
@@ -42,7 +42,7 @@ Start at Gangdong-gu Office Station, visit the exterior, then walk or take a sho
 
 ### Concert-venue orientation
 
-Olympic Park contains KSPO DOME and other venues frequently used for K-pop performances. Even if no Stray Kids event is scheduled, seeing the station layout in daylight helps you understand crowd flow. On an actual concert day, follow the event map because temporary merchandise booths, ticket pickup and entry gates vary.
+Olympic Park contains [KSPO DOME](https://www.koursea.com/place/kspo-dome-olympic-park/) and other venues frequently used for K-pop performances. Even if no Stray Kids event is scheduled, seeing the station layout in daylight helps you understand crowd flow. On an actual concert day, follow the event map because temporary merchandise booths, ticket pickup and entry gates vary.
 
 Line 9 can be valuable after a concert, but express and all-stop trains differ. Save your hotel route and the final feasible departure before entering the venue. Mobile service may slow when thousands of fans leave together, so choose a fixed meeting landmark that does not depend on messaging.
 

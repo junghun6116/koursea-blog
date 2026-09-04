@@ -16,7 +16,7 @@ author: "Koursea Editorial"
 
 # TWICE Fan Guide to Seoul: JYP Center, ONCE Stops & Cheongdam Beauty Route
 
-TWICE debuted on October 20, 2015 with *The Story Begins* under JYP Entertainment. The nine members are Nayeon, Jeongyeon, Momo, Sana, Jihyo, Mina, Dahyun, Chaeyoung and Tzuyu, and their official fandom is **ONCE**. A Seoul fan trip can include the JYP Center exterior, but the current headquarters is in **Seongnae-dong, Gangdong-gu—not Cheongdam**. Cheongdam works better as a separate K-beauty and fashion extension to the day.
+TWICE debuted on October 20, 2015 with *The Story Begins* under JYP Entertainment. The nine members are Nayeon, Jeongyeon, Momo, Sana, Jihyo, Mina, Dahyun, Chaeyoung and Tzuyu, and their official fandom is **ONCE**. A Seoul fan trip can include the [JYP Center exterior](https://www.koursea.com/place/jyp-entertainment-center-gangdong/), but the current headquarters is in **Seongnae-dong, Gangdong-gu—not Cheongdam**. Cheongdam works better as a separate K-beauty and fashion extension to the day.
 
 ## Key Takeaways for ONCE
 
@@ -32,7 +32,7 @@ JYP Entertainment officially lists the JYP Center at `서울특별시 강동구 
 
 Plan this as a 10-to-20-minute exterior stop. The glass façade can be photographed from public sidewalks, but keep building doors, driveways and nearby businesses clear. Do not film employees, artists or visitors, and never interpret a parked vehicle or crowd as confirmation of an unofficial schedule.
 
-For a more complete afternoon, pair the stop with **Olympic Park**. The park gives you open space, cafés and major performance venues without encouraging intrusive fan behavior. It is also a useful area to understand before a show at KSPO DOME. Save the return transit route because post-concert queues and Line 9 crowds can be intense.
+For a more complete afternoon, pair the stop with **Olympic Park**. The park gives you open space, cafés and major performance venues without encouraging intrusive fan behavior. It is also a useful area to understand before a show at [KSPO DOME](https://www.koursea.com/place/kspo-dome-olympic-park/). Save the return transit route because post-concert queues and Line 9 crowds can be intense.
 
 ## TWICE-Focused Seoul Route: Color, Beauty and Public Culture
 

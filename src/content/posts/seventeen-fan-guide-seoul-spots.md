@@ -14,7 +14,7 @@ SEVENTEEN debuted on May 26, 2015, under PLEDIS Entertainment, and the official 
 
 ## Key takeaways
 
-- HYBE's Yongsan headquarters is a working office, not a public attraction.
+- [HYBE's Yongsan headquarters](https://www.koursea.com/place/hybe-headquarters-yongsan/) is a working office, not a public attraction.
 - Verify pop-up dates, reservations, purchase limits, and stock through official SEVENTEEN or PLEDIS notices.
 - Match the ticket-account name to your passport and prepare a second payment method.
 - Save Korean addresses and last-train routes before leaving reliable Wi-Fi.

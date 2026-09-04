@@ -10,7 +10,7 @@ author: "Koursea Team"
 
 # aespa Fan Guide to Seoul: MY Spots, SM Seongsu & Concert Planning
 
-aespa debuted on November 17, 2020, under SM Entertainment, and the official fandom name is MY. Seongsu is a useful base because the Seoul Forest area combines SM's working-office district with parks, design stores, cafes, and rotating public pop-ups.
+aespa debuted on November 17, 2020, under SM Entertainment, and the official fandom name is MY. Seongsu is a useful base because the Seoul Forest area combines [SM Entertainment and KWANGYA@SEOUL](https://www.koursea.com/place/sm-kwangya-seoul-forest/) with parks, design stores, cafes, and rotating public pop-ups.
 
 ## Key takeaways
 
