@@ -27,11 +27,37 @@ const normalizedButtonText = buttonText.replace(/\s*[→↗]\s*$/, '');
       {metadata.map(({ label, value }) => <div><dt>{label}</dt><dd>{value}</dd></div>)}
     </dl>}
   </div>
-  <a class="inline-editorial-card__action" href={href} target={external ? '_blank' : undefined} rel={external ? 'noopener noreferrer' : undefined}>
+  <a
+    class="inline-editorial-card__action"
+    href={href}
+    target={external ? '_blank' : undefined}
+    rel={external ? 'noopener noreferrer' : undefined}
+    data-track="editorial-cta"
+    data-cta-badge={badge}
+    data-cta-destination={href}
+    data-cta-title={title}
+  >
     <span>{normalizedButtonText}</span>
     <svg aria-hidden="true" viewBox="0 0 20 20" fill="none"><path d="M4 10h11m-4.5-4.5L15 10l-4.5 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
   </a>
 </aside>
+
+<script>
+  document.querySelectorAll<HTMLElement>('[data-track="editorial-cta"]').forEach((element) => {
+    if (element.dataset.analyticsBound === 'true') return;
+    element.dataset.analyticsBound = 'true';
+    element.addEventListener('click', () => {
+      const gtag = (window as Window & { gtag?: (...args: unknown[]) => void }).gtag;
+      if (typeof gtag !== 'function') return;
+      gtag('event', 'click_editorial_cta', {
+        cta_badge: element.getAttribute('data-cta-badge'),
+        cta_destination: element.getAttribute('data-cta-destination'),
+        cta_title: element.getAttribute('data-cta-title'),
+        source_path: window.location.pathname,
+      });
+    }, { passive: true });
+  });
+</script>
 
 <style>
   .inline-editorial-card{display:flex;align-items:flex-end;justify-content:space-between;gap:1.5rem;margin:2rem 0;padding:1.6rem;border:1px solid rgba(212,212,212,.8);border-radius:1rem;background:#f9f9fb}
