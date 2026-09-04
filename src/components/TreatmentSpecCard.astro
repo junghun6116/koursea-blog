@@ -1,26 +1,45 @@
 ---
-interface Props {
-  downtime: string;
-  targetConcern: string;
-  taxRefund: boolean;
-  flightSafeDays: number;
+interface TreatmentPage {
+  treatment_name?: string;
+  downtime_days?: string;
+  procedureName?: string;
+  targetConcern?: string;
+  typicalDowntime?: string;
+  taxRefundEligible?: boolean;
+  flightSafetyDays?: number;
+  englishCoordinator?: boolean;
 }
 
-const { downtime, targetConcern, taxRefund, flightSafeDays } = Astro.props;
-if (!Number.isFinite(flightSafeDays) || flightSafeDays < 0) {
+interface Props { page: TreatmentPage }
+
+const { page } = Astro.props;
+const downtime = page.typicalDowntime ?? page.downtime_days ?? 'Confirm the expected recovery window with a licensed clinician.';
+const targetConcern = page.targetConcern ?? page.treatment_name ?? page.procedureName ?? 'Treatment-specific concern';
+const taxRefund = page.taxRefundEligible ?? false;
+const flightSafeDays = page.flightSafetyDays;
+if (flightSafeDays !== undefined && (!Number.isFinite(flightSafeDays) || flightSafeDays < 0)) {
   throw new Error('TreatmentSpecCard flightSafeDays must be a non-negative number.');
 }
+const flightRecommendation = flightSafeDays === undefined
+  ? 'Confirm individually with the treating clinician'
+  : `${flightSafeDays} day${flightSafeDays === 1 ? '' : 's'} — confirm individually`;
+const coordinatorAvailability = page.englishCoordinator === true
+  ? 'Commonly available — confirm when booking'
+  : page.englishCoordinator === false
+    ? 'Not consistently available — confirm before booking'
+    : 'Not specified — confirm directly';
 ---
 
 <dl class="treatment-spec" aria-label="Treatment planning summary">
   <div><dt>Typical downtime</dt><dd>{downtime}</dd></div>
   <div><dt>Target concern</dt><dd>{targetConcern}</dd></div>
-  <div><dt>Procedure tax refund</dt><dd>{taxRefund ? 'Potentially available — verify current eligibility' : 'Not available'}</dd></div>
-  <div><dt>Dataset flight buffer</dt><dd>{flightSafeDays} day{flightSafeDays === 1 ? '' : 's'} — confirm individually</dd></div>
+  <div><dt>Procedure tax refund</dt><dd><span class:list={['status-badge', taxRefund ? 'status-review' : 'status-unavailable']}>{taxRefund ? 'Verify current eligibility' : 'Not eligible under the 2026 update'}</span></dd></div>
+  <div><dt>Flight safety recommendation</dt><dd>{flightRecommendation}</dd></div>
+  <div class="wide"><dt>English coordinator</dt><dd>{coordinatorAvailability}</dd></div>
 </dl>
 <p class="spec-caution">Planning summary only. A licensed clinician must confirm individual recovery and flight timing.</p>
 
 <style>
-  .treatment-spec{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.75rem;margin:1.25rem 0 0}.treatment-spec div{min-width:0;padding:1rem;border:1px solid var(--line);border-radius:14px;background:var(--surface)}.treatment-spec dt{color:var(--muted);font-size:.72rem;font-weight:850;letter-spacing:.04em;text-transform:uppercase}.treatment-spec dd{margin:.35rem 0 0;font-weight:750;overflow-wrap:anywhere}.spec-caution{margin:.65rem 0 1.25rem;color:var(--muted);font-size:.78rem}
-  @media(max-width:600px){.treatment-spec{grid-template-columns:1fr}}
+  .treatment-spec{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.75rem;margin:1.25rem 0 0}.treatment-spec div{min-width:0;padding:1rem;border:1px solid var(--line);border-radius:14px;background:var(--surface)}.treatment-spec .wide{grid-column:1/-1}.treatment-spec dt{color:var(--muted);font-size:.72rem;font-weight:850;letter-spacing:.04em;text-transform:uppercase}.treatment-spec dd{margin:.35rem 0 0;font-weight:750;overflow-wrap:anywhere}.status-badge{display:inline-flex;padding:.25rem .55rem;border-radius:999px;font-size:.78rem;line-height:1.35}.status-unavailable{background:#fce8e6;color:#8b241d}.status-review{background:#fff3cf;color:#76530a}.spec-caution{margin:.65rem 0 1.25rem;color:var(--muted);font-size:.78rem}
+  @media(max-width:600px){.treatment-spec{grid-template-columns:1fr}.treatment-spec .wide{grid-column:auto}}
 </style>

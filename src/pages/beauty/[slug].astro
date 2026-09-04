@@ -104,12 +104,12 @@ const schema = {
       <ul class="tag-list" aria-label="Guide classification"><li>{targetKeyword}</li><li>{clinicType}</li></ul>
     </header>
 
+    <TreatmentSpecCard {page} />
+
     <section class="summary-card" aria-labelledby="quick-answer">
       <p class="eyebrow">QUICK ANSWER</p><h2 id="quick-answer">What international visitors should know</h2>
       <p>{visitorCheck}</p>
     </section>
-
-    {isCityGuide && <TreatmentSpecCard downtime={downtime} targetConcern={page.targetConcern ?? cleanName} taxRefund={page.taxRefundEligible ?? false} flightSafeDays={page.flightSafetyDays ?? 0} />}
 
     {!isUtility && <>
       <section aria-labelledby="price-range">
@@ -148,8 +148,8 @@ const schema = {
     </section>
     {isGangnam && <p class="context-link context-link--route">See what else is worth doing nearby in our <a href="/itinerary/gangnam-coex-kbeauty-one-day-itinerary/">Gangnam 1-Day Itinerary</a>.</p>}
     {page.brokerCaution && <aside class="broker-note"><strong>Book directly:</strong> {page.brokerCaution}</aside>}
-    <MedicalDisclaimer />
     <aside class="editorial-note"><strong>Editorial note:</strong> Prices and clinic practices can change. This page is a comparison aid, not a diagnosis, endorsement or substitute for medical advice.</aside>
+    <MedicalDisclaimer />
   </article>
 </Layout>
 
