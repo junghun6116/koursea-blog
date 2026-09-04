@@ -20,7 +20,7 @@ const schema = { '@context': 'https://schema.org', '@graph': [
   ] }
 ] };
 ---
-<Layout title="K-Beauty Treatment & Price Guides | Koursea Blog" description="Compare Seoul K-beauty treatment prices, clinic models, downtime and booking checks across 15 practical guides." canonicalUrl={canonicalUrl} schema={schema}>
+<Layout title="K-Beauty Treatment & Price Guides | Koursea Blog" description={`Compare K-beauty treatment prices, clinic models, downtime and booking checks across ${beautyPages.length} practical guides.`} canonicalUrl={canonicalUrl} schema={schema}>
   <main class="hub shell">
     <header class="hub-hero"><p class="eyebrow">K-BEAUTY PLANNING LIBRARY</p><h1>K-Beauty Treatment &amp; Price Guides</h1><p>Compare the same treatment, dose and clinic model before you book. These guides focus on realistic planning ranges, recovery time and questions international visitors should ask.</p></header>
     <nav class="jump-nav" aria-label="Beauty guide categories">{groupedPages.map((group) => <a href={`#${group.title.toLowerCase().replaceAll(' ', '-')}`}>{group.title} <span>{group.pages.length}</span></a>)}</nav>

@@ -51,6 +51,8 @@ const cleanName = treatmentName.replace(/^N\/A\s*[—-]\s*/, '');
 const treatmentKey = cleanName.toLowerCase();
 const koreanProcedureName = treatmentKey.includes('rejuran') ? '리쥬란 힐러'
   : treatmentKey.includes('potenza') ? '포텐자 고주파 마이크로니들링'
+  : treatmentKey.includes('oligio') && treatmentKey.includes('thermage') ? '올리지오 / 써마지 FLX 고주파 리프팅'
+  : treatmentKey.includes('personal color') ? '퍼스널 컬러 진단'
   : treatmentKey.includes('laser') || treatmentKey.includes('pico') ? '레이저 토닝 / 피코 토닝'
   : treatmentKey.includes('shurink') && treatmentKey.includes('ultherapy') ? '울쎄라 / 슈링크 유니버스 리프팅'
   : treatmentKey.includes('ultherapy') ? '울쎄라 리프팅'
