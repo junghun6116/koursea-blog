@@ -48,6 +48,17 @@ const isUtility = treatmentName.startsWith('N/A');
 const isCityGuide = Boolean(page.region && page.city);
 const isGangnam = page.slug.includes('gangnam');
 const cleanName = treatmentName.replace(/^N\/A\s*[—-]\s*/, '');
+const treatmentKey = cleanName.toLowerCase();
+const koreanProcedureName = treatmentKey.includes('rejuran') ? '리쥬란 힐러'
+  : treatmentKey.includes('potenza') ? '포텐자 고주파 마이크로니들링'
+  : treatmentKey.includes('laser') || treatmentKey.includes('pico') ? '레이저 토닝 / 피코 토닝'
+  : treatmentKey.includes('shurink') && treatmentKey.includes('ultherapy') ? '울쎄라 / 슈링크 유니버스 리프팅'
+  : treatmentKey.includes('ultherapy') ? '울쎄라 리프팅'
+  : treatmentKey.includes('shurink') ? '슈링크 유니버스 리프팅'
+  : treatmentKey.includes('hifu') ? '고강도 집속 초음파 리프팅'
+  : treatmentKey.includes('botox') ? '보톡스 시술'
+  : treatmentKey.includes('filler') ? '히알루론산 필러 시술'
+  : '피부 시술 상담';
 const heading = isUtility ? `${cleanName} for Seoul Clinic Visits` : isCityGuide ? `${treatmentName} in ${page.region}, ${page.city}: Price & Downtime Guide` : `${treatmentName}: ${clinicType} Price & Downtime Guide`;
 const description = `${keyTakeaway} Compare practical price basis, clinic model and recovery considerations before booking.`;
 const faqItems = [
@@ -147,7 +158,16 @@ const schema = {
       <div class="faq-list">{faqItems.map((item) => <details><summary>{item.question}</summary><p>{item.answer}</p></details>)}</div>
     </section>
     {isGangnam && <p class="context-link context-link--route">See what else is worth doing nearby in our <a href="/itinerary/gangnam-coex-kbeauty-one-day-itinerary/">Gangnam 1-Day Itinerary</a>.</p>}
-    {page.brokerCaution && <aside class="broker-note"><strong>Book directly:</strong> {page.brokerCaution}</aside>}
+    {page.brokerCaution && <section class="booking-note" aria-labelledby="booking-yourself">
+      <p class="eyebrow">DIRECT BOOKING SAFETY</p>
+      <h2 id="booking-yourself">Booking this yourself</h2>
+      <p>Koursea doesn't book appointments or link to specific clinics — this page is a price/planning reference, not a booking channel. In Centum and Seomyeon, most clinics take reservations through their own KakaoTalk channel or Instagram DM (search the clinic's Korean name, not the English transliteration), and larger clinics often have a dedicated overseas patient / international desk — ask for it by name when you call or message. Whichever channel you use, get the full price in writing before you go, and treat a broker or agency offering a “discounted” quote as a red flag, not a shortcut.</p>
+      <blockquote lang="ko">{page.brokerCaution}</blockquote>
+      <details class="desk-handoff">
+        <summary>Show Korean Name at Desk</summary>
+        <div><strong lang="ko">{koreanProcedureName}</strong><p lang="ko">이 시술 상담을 받고 싶습니다.</p><small>I would like a consultation for this treatment.</small></div>
+      </details>
+    </section>}
     <aside class="editorial-note"><strong>Editorial note:</strong> Prices and clinic practices can change. This page is a comparison aid, not a diagnosis, endorsement or substitute for medical advice.</aside>
     <MedicalDisclaimer />
   </article>
@@ -161,7 +181,7 @@ const schema = {
   .context-link{padding:1rem;border-radius:14px;background:var(--surface);border:1px solid var(--line)}.context-link a{color:var(--teal);font-weight:800}.context-link--route{margin-top:2rem}
   .fact-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem}.fact-grid div{padding:1rem;border:1px solid var(--line);border-radius:14px;background:var(--surface)}.fact-grid .wide{grid-column:1/-1}.fact-grid dt{color:var(--muted);font-size:.75rem;font-weight:800;text-transform:uppercase}.fact-grid dd{margin:.35rem 0 0;font-weight:700}
   .editorial-note{margin-top:3rem;background:var(--ink);color:#fff}.tag-list li{max-width:100%;overflow-wrap:anywhere}
-  .broker-note{margin-top:2rem;padding:1rem;border:1px solid #e0c48e;border-radius:14px;background:#fff8e8}.broker-note strong{display:block;margin-bottom:.25rem}
+  .booking-note{padding:clamp(1.2rem,4vw,2rem);border:1px solid #e0c48e;border-radius:20px;background:#fff8e8}.booking-note h2{margin-top:0}.booking-note blockquote{margin:1rem 0;padding:1rem;border-left:4px solid var(--gold);background:#fff;font-weight:700}.desk-handoff{margin-top:1rem;border:1px solid var(--line);border-radius:14px;background:#fff;overflow:hidden}.desk-handoff summary{display:flex;min-height:48px;align-items:center;padding:.75rem 1rem;cursor:pointer;color:var(--teal);font-weight:800}.desk-handoff div{padding:0 1rem 1rem}.desk-handoff strong{display:block;font-size:clamp(1.4rem,5vw,2rem)}.desk-handoff p{margin:.35rem 0}.desk-handoff small{color:var(--muted)}
   .faq-list{display:grid;gap:.75rem}.faq-list details{padding:1rem;border:1px solid var(--line);border-radius:14px;background:var(--surface)}.faq-list summary{cursor:pointer;font-weight:800}.faq-list p{margin:.75rem 0 0;color:var(--muted)}
   @media(max-width:600px){.fact-grid{grid-template-columns:1fr}.fact-grid .wide{grid-column:auto}.beauty-guide section{margin-top:2.4rem}}
 </style>

@@ -17,6 +17,8 @@ author: "Koursea Team"
 
 If you've traveled anywhere else with a contactless card or your phone in your pocket, Korea's payment system will surprise you at least once. Not because Korea is behind — it's one of the most cashless-friendly countries in the world for retail purchases — but because the systems you'd normally rely on without thinking, tapping a foreign card or your phone at a subway gate, still don't work the way you'd expect in 2026. This guide walks through exactly where that friction happens, what WOWPASS and T-Money actually do differently, the real state of Apple Pay in Korea, and how to keep foreign exchange fees down if you need emergency cash.
 
+Once you know which card to get, Koursea's Quick Currency tool and Subway Direction Checker give you the fast, no-explanation version for when you're actually at the gate — no login required.
+
 ## Key Takeaways
 
 - **Subway and bus gates still don't accept a direct tap from a foreign card or Apple Pay** as of 2026 — you need a physical T-Money card (standalone or built into WOWPASS) to ride.
