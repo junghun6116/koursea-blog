@@ -80,6 +80,10 @@
       "status": 301
     },
     {
+      "src": "^/$",
+      "dest": "/index.html"
+    },
+    {
       "handle": "filesystem"
     }
   ]
