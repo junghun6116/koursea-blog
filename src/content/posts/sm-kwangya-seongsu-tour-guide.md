@@ -8,6 +8,8 @@ canonicalUrl: "https://blog.koursea.com/posts/sm-kwangya-seongsu-tour-guide/"
 author: "Koursea Editorial"
 ---
 
+Planning a broader fashion-and-cafe day around the same district? Pair this fan route with the [Seongsu trend and fashion walking route](/posts/seongsu-trend-fashion-walking-route/) to continue through permanent stores, pop-ups, Seoul Forest, and the Hangang.
+
 # SM KWANGYA Seoul Forest & Seongsu Fan Tour: A Practical 1-Day Route
 
 SM Entertainment's Seoul Forest location sits beside one of Seoul's most useful fan-travel combinations: a transit-connected official retail stop, a large public park and Seongsu's rotating café and pop-up district. The key is to distinguish public customer space from corporate workspace.

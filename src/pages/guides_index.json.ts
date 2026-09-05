@@ -2,6 +2,12 @@ import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 
 const keywordOverrides: Record<string, string[]> = {
+  'first-24-hours-in-seoul-survival-guide': ['first day in seoul', 'first 24 hours in seoul', 'AREX hotel check in', 'Myeongdong currency exchange', 'N Seoul Tower sunset'],
+  'seongsu-trend-fashion-walking-route': ['seongsu route', 'seongsu walking tour', 'seongsu fashion', 'seoul forest route', 'ttukseom hangang'],
+  'jongno-heritage-family-friendly-walking-route': ['jongno family itinerary', 'gyeongbokgung insadong route', 'family friendly seoul walk', 'samcheong dong', 'gwangjang market'],
+  'seoul-post-office-ems-international-shipping-guide': ['post office seoul international shipping', 'EMS', '우체국', 'seoul central post office', 'ship olive young haul', 'ship kpop merch home'],
+  'digital-nomad-coworking-day-pass-seoul-guide': ['coworking space day pass seoul', 'coworking', '코워킹', '공유오피스', 'shared office', 'FastFive day pass', 'Sparkplus day pass'],
+  'seoul-printing-document-copying-guide': ['printing and copying near me seoul', 'printing', 'copying', 'print cafe', '프린트카페', '24 hour printing seoul'],
   'lost112-korea-police-lost-found-foreigner-guide': [
     'police station seoul english',
     'police box near me',

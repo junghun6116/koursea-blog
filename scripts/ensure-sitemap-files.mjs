@@ -5,6 +5,7 @@ const distDirectory = join(process.cwd(), 'dist');
 const sitemapIndex = join(distDirectory, 'sitemap-index.xml');
 const sitemapChunk = join(distDirectory, 'sitemap-0.xml');
 const sitemapAlias = join(distDirectory, 'sitemap.xml');
+const sitemapBlogAlias = join(distDirectory, 'sitemap-blog.xml');
 const site = 'https://blog.koursea.com';
 
 const xmlEscape = (value) => value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
@@ -91,4 +92,5 @@ if (!indexContents.includes('https://blog.koursea.com/sitemap-0.xml')) {
 }
 
 copyFileSync(sitemapIndex, sitemapAlias);
-console.log('Verified sitemap-index.xml and generated sitemap.xml root alias.');
+copyFileSync(sitemapChunk, sitemapBlogAlias);
+console.log('Verified sitemap-index.xml and generated sitemap.xml plus sitemap-blog.xml root aliases.');
