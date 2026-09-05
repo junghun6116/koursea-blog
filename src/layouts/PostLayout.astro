@@ -51,15 +51,25 @@ const {
 } = Astro.props;
 const readingMinutes = Math.max(1, Math.ceil(wordCount / 220));
 const contextText = `${title} ${tags.join(' ')}`.toLowerCase();
-const exploreContext = /seongsu/.test(contextText)
-  ? { href: 'https://www.koursea.com/area-seongsu-seoul-guide.html', label: 'Explore verified places in Seongsu' }
-  : /myeongdong|post office|\bems\b|international shipping/.test(contextText)
-    ? { href: 'https://www.koursea.com/area-myeongdong-seoul-guide.html', label: 'Explore verified places in Myeongdong' }
-    : /k-?pop|concert|bts|twice|stray kids|newjeans|seventeen|enhypen|aespa|hybe|jyp|sm |yg /.test(contextText)
-      ? { href: 'https://www.koursea.com/index.html#places', label: 'Explore verified K-Culture places on Koursea' }
-      : /healthcare|clinic|procedure|botox|filler|rejuran|ultherapy|shurink|medical/.test(contextText)
-        ? { href: 'https://www.koursea.com/category-healthcare.html', label: 'Explore healthcare and clinic listings' }
-        : { href: 'https://www.koursea.com/index.html#places', label: 'Explore verified places on Koursea' };
+const genericFallback = { href: 'https://www.koursea.com/index.html#places', label: 'Explore verified places on Koursea' };
+const mustKeepGenericFallback = /seoul-post-office-ems-international-shipping-guide|jongno-heritage-family-friendly-walking-route|digital-nomad-coworking-day-pass-seoul-guide|seoul-printing-document-copying-guide/.test(canonicalUrl);
+const exploreContext = mustKeepGenericFallback
+  ? genericFallback
+  : /k-?pop|concert|bts|twice|stray kids|newjeans|seventeen|enhypen|aespa|hybe|jyp|\bsm\b|\byg\b|kspo|fandom/.test(contextText)
+    ? { href: 'https://www.koursea.com/category-kpop-entertainment.html', label: 'Explore verified K-Pop and entertainment places' }
+    : /healthcare|clinic|procedure|botox|filler|rejuran|ultherapy|shurink|medical|dermatology/.test(contextText)
+      ? { href: 'https://www.koursea.com/category-healthcare.html', label: 'Explore healthcare and clinic listings' }
+      : /cafe|coffee|bakery|restaurant|dining|food/.test(contextText)
+        ? { href: 'https://www.koursea.com/category-cafes-dining.html', label: 'Explore verified cafes and dining places' }
+        : /hongdae|yeonnam/.test(contextText)
+          ? { href: 'https://www.koursea.com/area-hongdae-seoul-guide.html', label: 'Explore verified places in Hongdae and Yeonnam' }
+          : /gangnam|sinsa|apgujeong|cheongdam/.test(contextText)
+            ? { href: 'https://www.koursea.com/area-gangnam-seoul-guide.html', label: 'Explore verified places in Gangnam and Sinsa' }
+            : /seongsu/.test(contextText)
+              ? { href: 'https://www.koursea.com/area-seongsu-seoul-guide.html', label: 'Explore verified places in Seongsu' }
+              : /myeongdong/.test(contextText)
+                ? { href: 'https://www.koursea.com/area-myeongdong-seoul-guide.html', label: 'Explore verified places in Myeongdong' }
+                : genericFallback;
 
 const absoluteImage = new URL(socialImage, Astro.site).href;
 const publisherId = new URL('/#organization', Astro.site).href;
