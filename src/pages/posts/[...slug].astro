@@ -67,11 +67,44 @@ const socialEmbeds: Record<string, { xUrl: string; label: string }> = {
   }
 };
 const socialEmbed = socialEmbeds[post.slug];
+const editorialCallouts: Record<string, {
+  badge: string;
+  title: string;
+  description: string;
+  buttonText: string;
+  href: string;
+  metadata: Array<{ label: string; value: string }>;
+}> = {
+  'korea-payment-wowpass-vs-tmoney-applepay-2026': {
+    badge: 'TRANSPARENT PRICING',
+    title: 'Foreigner-Friendly Skin Clinics with Direct Card Payment',
+    description: 'No hidden agency surcharges. Pay official local rates directly with Visa, Mastercard, or AMEX at verified English-speaking clinics.',
+    buttonText: 'Browse Verified Clinics',
+    href: '/beauty/',
+    metadata: [
+      { label: 'English Support', value: 'Verified' },
+      { label: 'Payment', value: 'Direct Card Accepted' },
+      { label: 'Areas', value: 'Gangnam · Hongdae' }
+    ]
+  },
+  'first-24-hours-in-seoul-survival-guide': {
+    badge: 'POST-FLIGHT CARE',
+    title: 'Zero-Downtime Jet Lag & Skin Recovery in Seoul',
+    description: 'Combat in-flight dehydration with instant soothing, LDM hydration, and recovery drips along AREX subway lines.',
+    buttonText: 'Explore Recovery Treatments',
+    href: '/beauty/',
+    metadata: [
+      { label: 'Typical Downtime', value: '0–1 day' },
+      { label: 'Transit', value: 'Near AREX routes' }
+    ]
+  }
+};
+const editorialCallout = editorialCallouts[post.slug];
 // Editorial covers stay authoritative. Every other post receives a stable,
 // title-specific 1200x630 image generated during prebuild instead of sharing
 // the generic site fallback.
 const socialImage = post.data.coverImage ?? post.data.thumbnail ?? `/og/posts/${post.slug}.png`;
 ---
-<PostLayout title={post.data.title} description={post.data.description} canonicalUrl={canonicalUrl} pubDate={post.data.pubDate} updatedDate={post.data.updatedDate} author={author} tags={post.data.tags} socialImage={socialImage} socialImageAlt={`${post.data.title} — Koursea Journal`} coverImage={post.data.coverImage} wordCount={wordCount} toc={toc} relatedGuides={[...relatedBeauty, ...relatedItineraries]} socialEmbed={socialEmbed} faq={post.data.faq}>
+<PostLayout title={post.data.title} description={post.data.description} canonicalUrl={canonicalUrl} pubDate={post.data.pubDate} updatedDate={post.data.updatedDate} author={author} tags={post.data.tags} socialImage={socialImage} socialImageAlt={`${post.data.title} — Koursea Journal`} coverImage={post.data.coverImage} wordCount={wordCount} toc={toc} relatedGuides={[...relatedBeauty, ...relatedItineraries]} socialEmbed={socialEmbed} faq={post.data.faq} editorialCallout={editorialCallout}>
   <Content />
 </PostLayout>

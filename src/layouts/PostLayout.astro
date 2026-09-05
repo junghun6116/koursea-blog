@@ -1,6 +1,16 @@
 ---
 import Layout from './Layout.astro';
 import SocialEmbed from '../components/SocialEmbed.astro';
+import InlineEditorialCallout from '../components/InlineEditorialCallout.astro';
+
+type EditorialCallout = {
+  badge: string;
+  title: string;
+  description: string;
+  buttonText: string;
+  href: string;
+  metadata?: Array<{ label: string; value: string }>;
+};
 
 interface Props {
   title: string;
@@ -18,6 +28,7 @@ interface Props {
   relatedGuides?: Array<{ href: string; title: string; eyebrow: string }>;
   socialEmbed?: { xUrl?: string; instagramUrl?: string; label?: string };
   faq?: Array<{ question: string; answer: string }>;
+  editorialCallout?: EditorialCallout;
 }
 
 const {
@@ -35,7 +46,8 @@ const {
   toc,
   relatedGuides = [],
   socialEmbed,
-  faq = []
+  faq = [],
+  editorialCallout
 } = Astro.props;
 const readingMinutes = Math.max(1, Math.ceil(wordCount / 220));
 const contextText = `${title} ${tags.join(' ')}`.toLowerCase();
@@ -115,6 +127,7 @@ const schema = faq.length > 0 ? {
       <nav aria-label="Table of contents"><ol>{toc.map((heading) => <li class:list={{ nested: heading.depth === 3 }}><a href={`#${heading.slug}`}>{heading.text}</a></li>)}</ol></nav>
     </details>}
     <div class="prose"><slot /></div>
+    {editorialCallout && <InlineEditorialCallout {...editorialCallout} />}
     {relatedGuides.length > 0 && <aside class="related-pseo" aria-labelledby="related-planning-guides">
       <div><p class="eyebrow">KEEP PLANNING</p><h2 id="related-planning-guides">Related practical guides</h2></div>
       <div class="related-pseo-grid">{relatedGuides.map((guide) => <a href={guide.href}><span>{guide.eyebrow}</span><strong>{guide.title}</strong><small>Open guide →</small></a>)}</div>
