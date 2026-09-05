@@ -10,7 +10,6 @@ interface Props {
   updatedDate?: Date;
   author: string;
   tags: string[];
-  hasBodyH1?: boolean;
   socialImage?: string;
   socialImageAlt?: string;
   coverImage?: string;
@@ -29,7 +28,6 @@ const {
   updatedDate = pubDate,
   author,
   tags,
-  hasBodyH1 = false,
   socialImage = '/og-default.png',
   socialImageAlt = `${title} — Koursea Journal`,
   coverImage,
@@ -100,8 +98,9 @@ const schema = faq.length > 0 ? {
 <Layout title={`${title} | Koursea Blog`} description={description} canonicalUrl={canonicalUrl} type="article" schema={schema} socialImage={socialImage} socialImageAlt={socialImageAlt}>
   <article class="page">
     <header>
+      <nav class="post-breadcrumbs" aria-label="Breadcrumb"><a href="/">Journal</a><span aria-hidden="true">/</span><span>Guide</span></nav>
+      <h1 class="post-title">{title}</h1>
       <ul class="tag-list">{tags.map((tag) => <li>{tag}</li>)}</ul>
-      {!hasBodyH1 && <h1>{title}</h1>}
       <p class="lead">{description}</p>
       <div class="article-meta">
         <time datetime={pubDate.toISOString()}>Published {pubDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</time>
@@ -131,6 +130,7 @@ const schema = faq.length > 0 ? {
 </Layout>
 
 <style>
+  .post-breadcrumbs{display:flex;gap:.45rem;align-items:center;margin:0 0 .8rem;color:var(--muted);font-size:.78rem;font-weight:750}.post-breadcrumbs a{color:var(--teal);text-decoration:none}.post-title{margin:.15rem 0 1rem}
   .article-toc{margin:1.5rem 0 2rem;padding:1rem 1.1rem;border:1px solid var(--line);border-radius:16px;background:var(--surface)}
   .article-cover{margin:0 0 2rem;overflow:hidden;border-radius:20px;background:var(--surface);box-shadow:var(--shadow)}.article-cover img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
   .article-toc summary{cursor:pointer;font-weight:850;list-style-position:inside}.article-toc ol{display:grid;gap:.45rem;margin:.9rem 0 0;padding-left:1.35rem}.article-toc li{padding-left:.15rem}.article-toc li.nested{margin-left:1rem;font-size:.92rem}.article-toc a{color:var(--teal);text-decoration-thickness:1px;text-underline-offset:3px}

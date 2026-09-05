@@ -14,7 +14,6 @@ const { post } = Astro.props;
 const { Content, headings } = await post.render();
 const canonicalUrl = post.data.canonicalUrl ?? new URL(`/posts/${post.slug}/`, Astro.site).href;
 const author = post.data.author ?? 'Koursea Editorial';
-const hasBodyH1 = /^#\s+/m.test(post.body);
 const wordCount = (post.body
   .replace(/```[\s\S]*?```/g, ' ')
   .replace(/https?:\/\/\S+/g, ' ')
@@ -73,6 +72,6 @@ const socialEmbed = socialEmbeds[post.slug];
 // the generic site fallback.
 const socialImage = post.data.coverImage ?? post.data.thumbnail ?? `/og/posts/${post.slug}.png`;
 ---
-<PostLayout title={post.data.title} description={post.data.description} canonicalUrl={canonicalUrl} pubDate={post.data.pubDate} updatedDate={post.data.updatedDate} author={author} tags={post.data.tags} hasBodyH1={hasBodyH1} socialImage={socialImage} socialImageAlt={`${post.data.title} — Koursea Journal`} coverImage={post.data.coverImage} wordCount={wordCount} toc={toc} relatedGuides={[...relatedBeauty, ...relatedItineraries]} socialEmbed={socialEmbed} faq={post.data.faq}>
+<PostLayout title={post.data.title} description={post.data.description} canonicalUrl={canonicalUrl} pubDate={post.data.pubDate} updatedDate={post.data.updatedDate} author={author} tags={post.data.tags} socialImage={socialImage} socialImageAlt={`${post.data.title} — Koursea Journal`} coverImage={post.data.coverImage} wordCount={wordCount} toc={toc} relatedGuides={[...relatedBeauty, ...relatedItineraries]} socialEmbed={socialEmbed} faq={post.data.faq}>
   <Content />
 </PostLayout>

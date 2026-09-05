@@ -9,6 +9,11 @@ export default function remarkStripDistributionSnippets() {
   return (tree) => {
     if (!Array.isArray(tree?.children)) return;
 
+    // PostLayout owns the only page-level H1. Older source files keep their
+    // editorial H1 in Markdown, but it must not render below metadata/TOC.
+    const bodyTitleIndex = tree.children.findIndex((node) => node.type === 'heading' && node.depth === 1);
+    if (bodyTitleIndex >= 0) tree.children.splice(bodyTitleIndex, 1);
+
     const distributionIndex = tree.children.findIndex(
       (node) => node.type === 'heading'
         && node.depth === 2
