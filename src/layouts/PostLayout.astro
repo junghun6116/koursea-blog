@@ -50,6 +50,7 @@ const {
   editorialCallout
 } = Astro.props;
 const readingMinutes = Math.max(1, Math.ceil(wordCount / 220));
+const isAuthenticityGuide = canonicalUrl.includes('/posts/how-to-spot-fake-k-pop-merch-seoul-guide/');
 const contextText = `${title} ${tags.join(' ')}`.toLowerCase();
 const genericFallback = { href: 'https://www.koursea.com/index.html#places', label: 'Explore verified places on Koursea' };
 const mustKeepGenericFallback = /seoul-post-office-ems-international-shipping-guide|jongno-heritage-family-friendly-walking-route|digital-nomad-coworking-day-pass-seoul-guide|seoul-printing-document-copying-guide/.test(canonicalUrl);
@@ -116,7 +117,7 @@ const schema = faq.length > 0 ? {
 ---
 
 <Layout title={`${title} | Koursea Blog`} description={description} canonicalUrl={canonicalUrl} type="article" schema={schema} socialImage={socialImage} socialImageAlt={socialImageAlt}>
-  <article class="page">
+  <article class="page" data-authenticity-guide={isAuthenticityGuide ? 'true' : undefined}>
     <header>
       <nav class="post-breadcrumbs" aria-label="Breadcrumb"><a href="/">Journal</a><span aria-hidden="true">/</span><span>Guide</span></nav>
       <h1 class="post-title">{title}</h1>
@@ -148,6 +149,16 @@ const schema = faq.length > 0 ? {
       <a href={exploreContext.href}>{exploreContext.label} — 3,846 verified spots ↗</a>
     </aside>
   </article>
+  <script is:inline>
+    (() => {
+      if (!document.querySelector('[data-authenticity-guide="true"]')) return;
+      const key = `koursea_authenticity_guide_view:${location.pathname}`;
+      try { if (sessionStorage.getItem(key) === '1') return; } catch (_) {}
+      if (typeof window.gtag !== 'function') return;
+      window.gtag('event', 'authenticity_guide_view', { content_path: location.pathname });
+      try { sessionStorage.setItem(key, '1'); } catch (_) {}
+    })();
+  </script>
 </Layout>
 
 <style>
