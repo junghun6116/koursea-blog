@@ -16,6 +16,8 @@ Korea is highly card-friendly, but visitors still encounter a specific kind of f
 
 This guide focuses on payment mechanics only—where mobile wallets and foreign cards fail, how to recover at a kiosk, and whether WOWPASS or Namane better fits your currency-exchange needs.
 
+Traveling with several people or comparing Monzo, Revolut, Chase and Amex? Continue with our [foreign cards, contactless payment and big-group taxi guide](/posts/paying-getting-around-korea-foreigner-cards-big-group-taxis/) for physical-card fallbacks, Uber vehicle categories and TADA capacity checks.
+
 ## Key Takeaways
 
 - Carry a physical Visa or Mastercard even if you normally rely on Apple Pay.

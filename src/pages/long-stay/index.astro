@@ -1,0 +1,59 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const guides = [
+  {
+    title: 'Sending Packages Home: Seoul Post Office & EMS Guide',
+    description: 'Pack purchases, complete the English customs form and choose an EMS counter without turning departure day into a luggage emergency.',
+    href: '/posts/seoul-post-office-ems-international-shipping-guide/',
+    label: 'Shipping & luggage'
+  },
+  {
+    title: 'Digital Nomad & Remote Work: Coworking Day Passes',
+    description: 'Compare day-pass access, phone booths, Wi-Fi, late hours and foreign-card requirements before crossing Seoul for a desk.',
+    href: '/posts/digital-nomad-coworking-day-pass-seoul-guide/',
+    label: 'Work setup'
+  },
+  {
+    title: 'Quick Printing & Document Copying in Seoul',
+    description: 'Find staffed print shops, unmanned Print Cafe branches and secure fallbacks for urgent travel documents.',
+    href: '/posts/seoul-printing-document-copying-guide/',
+    label: 'Documents'
+  }
+];
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: '30 Days in Seoul: Long-Stay Essentials',
+  url: 'https://blog.koursea.com/long-stay/',
+  description: 'A practical collection for month-long Seoul stays: shipping, coworking, printing, laundry and pharmacy navigation.',
+  hasPart: guides.map((guide) => ({ '@type': 'Article', name: guide.title, url: new URL(guide.href, 'https://blog.koursea.com').href }))
+};
+---
+<Layout title="30 Days in Seoul: Long-Stay Essentials | Koursea Blog" description="Plan a month in Seoul with practical guides to EMS shipping, coworking day passes, printing, laundry and pharmacy navigation." schema={schema}>
+  <main class="long-stay shell">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Journal</a><span>/</span><span>30 Days in Seoul</span></nav>
+    <header class="long-stay-hero">
+      <p class="eyebrow">LONG-STAY COLLECTION</p>
+      <h1>30 Days in Seoul</h1>
+      <p>A month-long stay needs a different toolkit from a weekend itinerary. Start with the everyday jobs that become urgent only after arrival: sending purchases home, finding a reliable desk and printing a document safely.</p>
+    </header>
+    <section aria-labelledby="core-guides">
+      <div class="section-head"><p>THE PRACTICAL CORE</p><h2 id="core-guides">Three guides for living between sightseeing days</h2></div>
+      <div class="guide-grid">
+        {guides.map((guide, index) => <a href={guide.href}><span>{String(index + 1).padStart(2, '0')} · {guide.label}</span><h3>{guide.title}</h3><p>{guide.description}</p><strong>Open guide →</strong></a>)}
+      </div>
+    </section>
+    <section class="utility" aria-labelledby="utility-title">
+      <div><p class="eyebrow">VERIFIED PLACE TOOLS</p><h2 id="utility-title">Solve the next errand nearby</h2><p>Search Koursea's place index for source-linked everyday services, then confirm current hours before leaving.</p></div>
+      <div class="utility-links">
+        <a href="https://www.koursea.com/?q=laundry#search"><span>Laundry</span><strong>Find verified coin laundries →</strong></a>
+        <a href="https://www.koursea.com/?q=pharmacy#search"><span>Pharmacy</span><strong>Find verified pharmacy listings →</strong></a>
+      </div>
+    </section>
+  </main>
+</Layout>
+<style>
+  .long-stay{padding:28px 0 80px}.crumbs{display:flex;gap:9px;color:var(--muted);font-size:.78rem}.crumbs a{color:var(--teal)}.long-stay-hero{padding:52px 0 54px;border-bottom:1px solid var(--line)}.eyebrow,.section-head>p{margin:0;color:var(--teal);font-size:.68rem;font-weight:900;letter-spacing:.15em}.long-stay h1{max-width:820px;margin:10px 0 18px;font:700 clamp(3.3rem,9vw,7.2rem)/.9 Georgia,serif;letter-spacing:-.065em}.long-stay-hero>p:last-child{max-width:720px;margin:0;color:var(--muted);font-size:1.1rem}.section-head{padding:48px 0 22px}.section-head h2,.utility h2{max-width:760px;margin:7px 0 0;font:700 clamp(2rem,4.7vw,3.6rem)/1 Georgia,serif;letter-spacing:-.04em}.guide-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.guide-grid>a{display:flex;min-height:330px;flex-direction:column;padding:25px;border:1px solid var(--line);border-radius:22px;background:var(--surface);text-decoration:none;box-shadow:var(--shadow)}.guide-grid span,.utility-links span{color:var(--teal);font-size:.68rem;font-weight:900;text-transform:uppercase}.guide-grid h3{margin:36px 0 14px;font:700 1.65rem/1.08 Georgia,serif}.guide-grid p{margin:0;color:var(--muted)}.guide-grid strong{margin-top:auto;padding-top:22px;color:var(--teal);font-size:.82rem}.utility{display:grid;grid-template-columns:.85fr 1.15fr;gap:34px;margin-top:48px;padding:32px;border:1px solid var(--line);border-radius:24px;background:var(--teal-soft)}.utility>div>p:last-child{color:var(--muted)}.utility-links{display:grid;gap:10px}.utility-links a{display:flex;min-height:92px;flex-direction:column;justify-content:center;padding:18px;border:1px solid var(--line);border-radius:15px;background:#fff;text-decoration:none}.utility-links strong{margin-top:7px}.utility a:focus-visible,.guide-grid a:focus-visible{outline:3px solid var(--teal);outline-offset:3px}@media(max-width:760px){.long-stay{padding-top:18px}.long-stay-hero{padding:34px 0}.guide-grid{grid-template-columns:1fr}.guide-grid>a{min-height:245px}.utility{grid-template-columns:1fr;padding:22px}}
+</style>

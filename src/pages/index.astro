@@ -47,6 +47,10 @@ const editorialCollections = [
   {
     id: 'kpop', eyebrow: 'FAN ROUTES', title: 'K-Pop & Entertainment Routes', description: 'Agency stops, concert logistics and respectful fan itineraries built for international visitors.', viewAll: '/?category=kpop#latest-heading',
     items: ['kpop-concert-ticketing-seoul-2026', 'hybe-yongsan-1-day-tour-guide', 'sm-kwangya-seongsu-tour-guide'].map((slug) => bySlug.get(slug)).filter(Boolean)
+  },
+  {
+    id: 'long-stay', eyebrow: 'LIVE LIKE A LOCAL', title: '30 Days in Seoul', description: 'Everyday infrastructure for longer stays: shipping purchases, finding a desk and printing documents safely.', viewAll: '/long-stay/',
+    items: ['seoul-post-office-ems-international-shipping-guide', 'digital-nomad-coworking-day-pass-seoul-guide', 'seoul-printing-document-copying-guide'].map((slug) => bySlug.get(slug)).filter(Boolean)
   }
 ];
 const collectionHref = (item: any) => item.href ?? `/posts/${item.slug}/`;
