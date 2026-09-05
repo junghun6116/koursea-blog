@@ -19,6 +19,15 @@ const keywordOverrides: Record<string, string[]> = {
   ]
 };
 
+const requiredTrackASlugs = [
+  'first-24-hours-in-seoul-survival-guide',
+  'seongsu-trend-fashion-walking-route',
+  'jongno-heritage-family-friendly-walking-route',
+  'seoul-post-office-ems-international-shipping-guide',
+  'digital-nomad-coworking-day-pass-seoul-guide',
+  'seoul-printing-document-copying-guide'
+];
+
 const mainSiteUtilityGuides = [
   {
     slug: 'coin-laundry-laundromat-seoul-english-washer-detergent',
@@ -81,11 +90,17 @@ export const GET: APIRoute = async () => {
       url: `https://blog.koursea.com/posts/${post.slug}/`
     }));
 
+  const indexedSlugs = new Set<string>(guides.map((guide) => guide.slug));
+  const missingTrackASlugs = requiredTrackASlugs.filter((slug) => !indexedSlugs.has(slug));
+  if (missingTrackASlugs.length > 0) {
+    throw new Error(`guides_index.json is missing required Track A posts: ${missingTrackASlugs.join(', ')}`);
+  }
+
   return new Response(JSON.stringify([...guides, ...mainSiteUtilityGuides]), {
     headers: {
       'Content-Type': 'application/json; charset=utf-8',
       'Access-Control-Allow-Origin': '*',
-      'Cache-Control': 'public, max-age=900, stale-while-revalidate=86400'
+      'Cache-Control': 'public, max-age=0, must-revalidate'
     }
   });
 };

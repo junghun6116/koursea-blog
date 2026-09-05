@@ -32,7 +32,7 @@ Walk or take a short local transit hop toward Seongsu's café and pop-up streets
 
 Choose one confirmed pop-up and one café backup. Keep sidewalks and shop doors clear when photographing façades. A long queue can consume the entire afternoon, so decide in advance how much time you are willing to spend for a limited gift or photo booth.
 
-For a wider neighborhood plan, pair this guide with the [Seongsu and Seoul Forest one-day itinerary](/itinerary/seongsu-seoul-forest-one-day-itinerary/).
+For a wider neighborhood plan, pair this guide with the [Seongsu trend and fashion walking route](/posts/seongsu-trend-fashion-walking-route/).
 
 ## Merchandise and Concert Logistics
 

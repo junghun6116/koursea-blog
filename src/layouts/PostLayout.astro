@@ -41,7 +41,7 @@ const readingMinutes = Math.max(1, Math.ceil(wordCount / 220));
 const contextText = `${title} ${tags.join(' ')}`.toLowerCase();
 const exploreContext = /seongsu/.test(contextText)
   ? { href: 'https://www.koursea.com/area-seongsu-seoul-guide.html', label: 'Explore verified places in Seongsu' }
-  : /myeongdong/.test(contextText)
+  : /myeongdong|post office|\bems\b|international shipping/.test(contextText)
     ? { href: 'https://www.koursea.com/area-myeongdong-seoul-guide.html', label: 'Explore verified places in Myeongdong' }
     : /k-?pop|concert|bts|twice|stray kids|newjeans|seventeen|enhypen|aespa|hybe|jyp|sm |yg /.test(contextText)
       ? { href: 'https://www.koursea.com/index.html#places', label: 'Explore verified K-Culture places on Koursea' }
