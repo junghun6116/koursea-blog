@@ -10,6 +10,8 @@ author: "Koursea Editorial"
 
 Jongno can become an exhausting palace-to-market march if every landmark is treated as mandatory. This version uses short decision points, seated breaks, and a subway fallback. Families can complete the central heritage section and stop; Gwangjang Market is an optional final transfer, not proof of a successful day.
 
+Traveling on a tighter budget or visiting during Seoul Art Week? Pair this route with our [free things to do in Seoul and Busan guide](/posts/free-things-to-do-seoul-busan-jongno-exhibitions/), including this month's ten free Jongno exhibitions.
+
 ## Key takeaways
 
 - Reserve palace or guided-access tickets before building the day around them.

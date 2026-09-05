@@ -36,7 +36,7 @@ const relatedItineraries = (mapped?.itinerary ?? []).flatMap((slug) => {
   const page = itineraryPages.find((item) => item.slug === slug);
   return page ? [{ href: `/itinerary/${page.slug}/`, title: `${page.region_name} ${page.duration}`, eyebrow: '1-DAY ROUTE' }] : [];
 });
-const socialEmbeds: Record<string, { xUrl: string; label: string }> = {
+const socialEmbeds: Record<string, { xUrl?: string; instagramUrl?: string; label: string }> = {
   'bts-fan-guide-hybe-yongsan': {
     xUrl: 'https://x.com/bts_bighit/status/2021932587661635731',
     label: 'Official BTS world tour update from @bts_bighit'
@@ -64,6 +64,10 @@ const socialEmbeds: Record<string, { xUrl: string; label: string }> = {
   'aespa-fan-guide-seoul-spots': {
     xUrl: 'https://x.com/aespa_official/status/1817077790564622699',
     label: 'Official aespa activity update from @aespa_official'
+  },
+  'free-things-to-do-seoul-busan-jongno-exhibitions': {
+    instagramUrl: 'https://www.instagram.com/p/Dcm14v-I_x-/',
+    label: 'September 2026 Jongno exhibition roundup by @seochoneditor'
   }
 };
 const socialEmbed = socialEmbeds[post.slug];
