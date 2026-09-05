@@ -14,6 +14,8 @@ Free travel in Korea does not have to mean spending the day in a convenience sto
 
 This guide starts with a time-sensitive Jongno art circuit, then moves to places that work throughout the year. Always check the official notice on the day you visit. Temporary closures, ticketed special shows, crowd controls and weather restrictions can change a zero-won plan.
 
+Planning beyond Seoul and Busan? Continue with our [officially verified regional free-attractions guide](/posts/free-attractions-korea-by-region-ktx-guide/) for Suwon, Incheon, Daegu, Gwangju, Jeonju, Namwon, Gyeongju, Andong and Jeju.
+
 ## This Month's Pick: Free Art Exhibitions in Jongno
 
 The September 2026 list below is curated from the embedded roundup by Jongno local magazine **@seochoneditor**. The galleries cluster around Samcheong-dong, Bukchon and Seochon, so several can be combined on foot. The Instagram post is the source for the ten-show list; opening days and last admission should still be reconfirmed with each gallery before departure.
