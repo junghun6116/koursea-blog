@@ -39,17 +39,15 @@ const {
 } = Astro.props;
 const readingMinutes = Math.max(1, Math.ceil(wordCount / 220));
 const contextText = `${title} ${tags.join(' ')}`.toLowerCase();
-const exploreContext = /k-?pop|concert|bts|twice|stray kids|newjeans|seventeen|enhypen|aespa|hybe|jyp|sm |yg /.test(contextText)
-  ? { href: 'https://www.koursea.com/?category=kpop#places', label: 'Explore related K-Pop places' }
-  : /seongsu/.test(contextText)
-    ? { href: 'https://www.koursea.com/?area=seongsu#places', label: 'Explore verified places in Seongsu' }
-    : /hongdae|yeonnam/.test(contextText)
-      ? { href: 'https://www.koursea.com/?area=hongdae#places', label: 'Explore verified places in Hongdae' }
-      : /myeongdong|olive young|shopping/.test(contextText)
-        ? { href: 'https://www.koursea.com/?category=shopping#places', label: 'Explore shopping places and districts' }
-        : /beauty|clinic|skin|botox|filler|rejuran|ultherapy|shurink|medical/.test(contextText)
-          ? { href: 'https://www.koursea.com/?q=skin%20clinic#places', label: 'Explore clinic listings and practical locations' }
-          : { href: 'https://www.koursea.com/?category=essentials#places', label: 'Explore travel essentials and verified places' };
+const exploreContext = /seongsu/.test(contextText)
+  ? { href: 'https://www.koursea.com/area-seongsu-seoul-guide.html', label: 'Explore verified places in Seongsu' }
+  : /myeongdong/.test(contextText)
+    ? { href: 'https://www.koursea.com/area-myeongdong-seoul-guide.html', label: 'Explore verified places in Myeongdong' }
+    : /k-?pop|concert|bts|twice|stray kids|newjeans|seventeen|enhypen|aespa|hybe|jyp|sm |yg /.test(contextText)
+      ? { href: 'https://www.koursea.com/index.html#places', label: 'Explore verified K-Culture places on Koursea' }
+      : /healthcare|clinic|procedure|botox|filler|rejuran|ultherapy|shurink|medical/.test(contextText)
+        ? { href: 'https://www.koursea.com/category-healthcare.html', label: 'Explore healthcare and clinic listings' }
+        : { href: 'https://www.koursea.com/index.html#places', label: 'Explore verified places on Koursea' };
 
 const absoluteImage = new URL(socialImage, Astro.site).href;
 const publisherId = new URL('/#organization', Astro.site).href;
