@@ -1,0 +1,46 @@
+name: AI marks check
+
+on:
+  pull_request:
+    paths:
+      - "src/content/posts/**"
+  workflow_dispatch: {}
+
+jobs:
+  check-ai-marks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout koursea-blog
+        uses: actions/checkout@v4
+
+      - name: Checkout watermarks-remover
+        uses: actions/checkout@v4
+        with:
+          repository: guillaumemeyer/watermarks-remover
+          path: watermarks-remover
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Start watermarks-remover service
+        run: |
+          python3 watermarks-remover/service/scripts/server.py --host 127.0.0.1 --port 8765 &
+          for i in $(seq 1 30); do
+            if curl -sf http://127.0.0.1:8765/health >/dev/null; then
+              echo "service is up"
+              exit 0
+            fi
+            sleep 1
+          done
+          echo "service did not become healthy in time" >&2
+          exit 1
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run check:ai-marks
+        run: node scripts/remove-ai-marks.mjs --all
