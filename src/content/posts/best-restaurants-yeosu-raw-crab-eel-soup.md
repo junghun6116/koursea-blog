@@ -3,7 +3,7 @@ title: "12 Best Restaurants in Yeosu (2026): Raw Crab, Eel Soup & Local Feasts"
 description: "Discover 12 verified, locally-loved restaurants in Yeosu — from famous raw marinated crab (gejang) specialists to TV-featured eel soup and traditional Jeolla-do feasts."
 pubDate: 2026-09-07
 updatedDate: 2026-09-07
-category: "travel"
+category: "Sightseeing & Food"
 tags: ["best restaurants in Yeosu", "Yeosu food", "Yeosu gejang", "Yeosu eel soup", "Jeolla-do cuisine", "Koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/best-restaurants-yeosu-raw-crab-eel-soup/"
 author: "Koursea Editorial"

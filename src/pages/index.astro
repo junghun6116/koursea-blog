@@ -5,6 +5,14 @@ import beautyPages from '../data/beauty-pseo-pages.json';
 import itineraryPages from '../data/itinerary-pseo-pages.json';
 
 const posts = (await getCollection('posts')).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const sightseeingFoodSlugs = [
+  '20-verified-things-to-do-gyeongju',
+  'best-cafes-gyeongju-hanok-lake-views',
+  'best-things-to-do-pohang-space-walk-coastal-views',
+  'best-restaurants-yeosu-raw-crab-eel-soup',
+  'best-cafes-yangyang-oceanfront-forest-hideaways'
+];
+const sightseeingFoodSet = new Set(sightseeingFoodSlugs);
 const categoryMatchers = {
   kpop: ['kpop', 'concert-tickets', 'bts', 'twice', 'stray-kids', 'newjeans', 'army', 'once', 'stay', 'bunnies'],
   payments: ['payments', 'payment', 'wowpass', 'tmoney', 't-money', 'money-saving', 'apple-pay', 'tax-refund'],
@@ -14,9 +22,10 @@ const categoryMatchers = {
 };
 const categoriesFor = (post: CollectionEntry<'posts'>) => {
   const terms = new Set([...post.data.tags, post.slug].map((value) => value.toLowerCase()));
-  return Object.entries(categoryMatchers)
+  const inferred = Object.entries(categoryMatchers)
     .filter(([, matches]) => matches.some((match) => [...terms].some((term) => term.includes(match))))
     .map(([category]) => category);
+  return sightseeingFoodSet.has(post.slug) ? ['sightseeing-food', ...inferred] : inferred;
 };
 const categoryTabs = [
   { id: 'all', label: 'All' },
@@ -24,8 +33,16 @@ const categoryTabs = [
   { id: 'payments', label: 'Payments & Money' },
   { id: 'connectivity', label: 'Connectivity & Transit' },
   { id: 'beauty', label: 'K-Beauty & Clinics' },
-  { id: 'neighborhoods', label: 'Neighborhood Guides' }
+  { id: 'neighborhoods', label: 'Neighborhood Guides' },
+  { id: 'sightseeing-food', label: 'Sightseeing & Food' }
 ];
+const latestVisibleSlugs = new Set([
+  ...sightseeingFoodSlugs,
+  ...posts.filter((post) => !sightseeingFoodSet.has(post.slug)).slice(0, 3).map((post) => post.slug)
+]);
+const categoryLabelFor = (post: CollectionEntry<'posts'>) => sightseeingFoodSet.has(post.slug)
+  ? 'Sightseeing & Food'
+  : post.data.tags[0];
 const bySlug = new Map<string, CollectionEntry<'posts'>>(posts.map((post) => [post.slug, post]));
 const editorialCollections = [
   {
@@ -95,12 +112,12 @@ const schema = {
         <button type="button" role="tab" aria-selected={index === 0 ? 'true' : 'false'} aria-controls="guide-grid" data-category={tab.id}>{tab.label}</button>
       ))}
     </div>
-    <p class="filter-status" id="filter-status" aria-live="polite">Showing the latest {Math.min(8, posts.length)} guides</p>
+    <p class="filter-status" id="filter-status" aria-live="polite">Showing the latest {latestVisibleSlugs.size} guides</p>
     <div class="post-grid" id="guide-grid">
       {posts.map((post) => (
-        <article data-categories={categoriesFor(post).join(' ')} data-default-hidden={posts.indexOf(post) >= 8 ? 'true' : 'false'} hidden={posts.indexOf(post) >= 8}>
+        <article data-categories={categoriesFor(post).join(' ')} data-default-hidden={latestVisibleSlugs.has(post.slug) ? 'false' : 'true'} hidden={!latestVisibleSlugs.has(post.slug)}>
           {post.data.coverImage && <a class="card-cover" href={`/posts/${post.slug}/`} aria-label={`Read ${post.data.title}`}><img src={post.data.coverImage} alt={`${post.data.title} guide cover`} width="1672" height="941" loading="lazy" decoding="async" /></a>}
-          <div class="card-top"><span>{post.data.tags[0]}</span><time datetime={post.data.pubDate.toISOString()}>{post.data.pubDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</time></div>
+          <div class="card-top"><span>{categoryLabelFor(post)}</span><time datetime={post.data.pubDate.toISOString()}>{post.data.pubDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</time></div>
           <h3><a href={`/posts/${post.slug}/`}>{post.data.title}</a></h3>
           <p>{post.data.description}</p>
           <a class="read" href={`/posts/${post.slug}/`}>Read the guide <span>→</span></a>

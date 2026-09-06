@@ -84,7 +84,9 @@ export const GET: APIRoute = async () => {
       slug: post.slug,
       title: post.data.title,
       description: post.data.description,
-      category: post.data.tags[0] ?? 'Korea Travel',
+      category: post.data.category === 'Sightseeing & Food'
+        ? post.data.category
+        : post.data.tags[0] ?? 'Korea Travel',
       tags: post.data.tags,
       keywords: keywordOverrides[post.slug] ?? [],
       url: `https://blog.koursea.com/posts/${post.slug}/`

@@ -3,7 +3,7 @@ title: "11 Best Cafes in Gyeongju (2026): Hanok Roasteries & Lake Views"
 description: "Discover the best cafes in Gyeongju, from scenic lakefront terraces in Bomun to restored traditional Hanok roasteries in Hwangridan-gil. Verified menus and locations."
 pubDate: 2026-09-07
 updatedDate: 2026-09-07
-category: "travel"
+category: "Sightseeing & Food"
 tags: ["best cafes in Gyeongju", "Gyeongju cafe", "Gyeongju hanok cafe", "Bomun Lake cafe", "Hwangridan-gil cafe", "Koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/best-cafes-gyeongju-hanok-lake-views/"
 author: "Koursea Editorial"

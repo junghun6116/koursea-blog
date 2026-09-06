@@ -3,7 +3,7 @@ title: "12 Best Cafes in Yangyang (2026): Oceanfront Decks & Forest Hideaways"
 description: "Explore the top 12 cafes in Yangyang. Discover scenic ocean terraces in Naksan and Hajodae, rustic surf roasteries in Ingu, and peaceful pine forest book lounges."
 pubDate: 2026-09-07
 updatedDate: 2026-09-07
-category: "travel"
+category: "Sightseeing & Food"
 tags: ["best cafes in Yangyang", "Yangyang cafe", "Yangyang ocean view cafe", "Yangyang surf cafe", "Gangwon cafe", "Koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/best-cafes-yangyang-oceanfront-forest-hideaways/"
 author: "Koursea Editorial"
