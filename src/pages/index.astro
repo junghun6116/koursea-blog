@@ -11,7 +11,8 @@ const sightseeingFoodSlugs = [
   'best-things-to-do-pohang-space-walk-coastal-views',
   'best-restaurants-yeosu-raw-crab-eel-soup',
   'best-cafes-yangyang-oceanfront-forest-hideaways',
-  'best-restaurants-andong-jjimdak-salted-mackerel'
+  'best-restaurants-andong-jjimdak-salted-mackerel',
+  'best-attractions-pocheon-sky-bridge-hantan-geopark'
 ];
 const sightseeingFoodSet = new Set(sightseeingFoodSlugs);
 const categoryMatchers = {
@@ -39,7 +40,7 @@ const categoryTabs = [
 ];
 const latestVisibleSlugs = new Set([
   ...sightseeingFoodSlugs,
-  ...posts.filter((post) => !sightseeingFoodSet.has(post.slug)).slice(0, 2).map((post) => post.slug)
+  ...posts.filter((post) => !sightseeingFoodSet.has(post.slug)).slice(0, 1).map((post) => post.slug)
 ]);
 const categoryLabelFor = (post: CollectionEntry<'posts'>) => sightseeingFoodSet.has(post.slug)
   ? 'Sightseeing & Food'
