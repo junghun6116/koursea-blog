@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout koursea-blog
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Checkout watermarks-remover
         uses: actions/checkout@v4
@@ -42,5 +44,19 @@ jobs:
         with:
           node-version: "20"
 
+      # Only check files this PR actually touches — a whole-site scan would
+      # fail every future PR forever the moment any single pre-existing post
+      # carries an unresolved (even if deliberately accepted) finding.
+      - name: Determine changed post files
+        id: changed
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            files=$(git diff --name-only --diff-filter=d "${{ github.event.pull_request.base.sha }}...${{ github.sha }}" -- 'src/content/posts/**' | tr '\n' ' ')
+            echo "files=$files" >> "$GITHUB_OUTPUT"
+          else
+            echo "files=--all" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Run check:ai-marks
-        run: node scripts/remove-ai-marks.mjs --all
+        if: steps.changed.outputs.files != ''
+        run: node scripts/remove-ai-marks.mjs ${{ steps.changed.outputs.files }}
