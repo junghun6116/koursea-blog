@@ -35,4 +35,4 @@ Delivery fees scale with luggage size, and outlying delivery zones outside centr
 
 You'll register your name, passport details, and destination hotel at the counter. Most services send a confirmation once your bags reach the hotel's storage area, and you collect them at check-in by showing your passport and claim tag.
 
-For the complete Haeundae day-one itinerary — what to do while your bags are in transit — see Koursea's [Busan Haeundae luggage delivery and storage guide](https://www.koursea.com/guide-korea-luggage-delivery-storage-zimcarry-airport-subway-lockers-2026.html).
+For the complete Haeundae day-one itinerary — what to do while your bags are in transit — see Koursea's [Busan Haeundae luggage delivery and storage guide](https://www.koursea.com/guide-korea-luggage-delivery-storage-zimcarry-lockers-2026.html).
