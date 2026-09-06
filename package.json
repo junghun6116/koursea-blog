@@ -12,6 +12,8 @@
     "postbuild": "node scripts/ensure-sitemap-files.mjs && node scripts/generate-distribution-snippets.mjs && node scripts/verify-seo.mjs",
     "audit:seo": "node scripts/audit-static-seo.mjs",
     "verify:seo": "node scripts/verify-seo.mjs",
+    "check:ai-marks": "node scripts/remove-ai-marks.mjs --all",
+    "clean:ai-marks": "node scripts/remove-ai-marks.mjs --all --write",
     "preview": "astro preview"
   },
   "dependencies": {
