@@ -7,6 +7,7 @@ const posts = defineCollection({
     description: z.string().max(220),
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
+    category: z.string().optional(),
     tags: z.array(z.string()).min(1),
     canonicalUrl: z.string().url().optional(),
     author: z.string().optional(),

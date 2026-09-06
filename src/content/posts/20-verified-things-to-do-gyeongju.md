@@ -3,7 +3,7 @@ title: "20 Verified Things to Do in Gyeongju: Ancient Heritage, Scenic Walks, an
 description: "Plan your trip to Gyeongju with 20 verified attractions, including ancient Silla ruins, scenic walking routes, and modern landmarks backed by real traveler reviews."
 pubDate: 2026-09-06
 updatedDate: 2026-09-06
-category: "travel"
+category: "Sightseeing & Food"
 tags: ["things to do in Gyeongju", "Gyeongju attractions", "Gyeongju itinerary", "Silla heritage", "Gyeongju day trip", "Koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/20-verified-things-to-do-gyeongju/"
 author: "Koursea Editorial"

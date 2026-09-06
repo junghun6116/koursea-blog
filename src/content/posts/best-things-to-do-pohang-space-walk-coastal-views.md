@@ -3,7 +3,7 @@ title: "14 Best Things to Do in Pohang (2026): Space Walk & Coastal Views"
 description: "Plan your trip to Pohang with 14 verified attractions, from the thrilling Hwanho Park Space Walk to historic Guryongpo and scenic Homigot ocean lookouts."
 pubDate: 2026-09-07
 updatedDate: 2026-09-07
-category: "travel"
+category: "Sightseeing & Food"
 tags: ["things to do in Pohang", "Pohang attractions", "Pohang Space Walk", "Homigot Sunrise Square", "Guryongpo", "Koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/best-things-to-do-pohang-space-walk-coastal-views/"
 author: "Koursea Editorial"
