@@ -43,6 +43,11 @@ node scripts/remove-ai-marks.mjs src/content/posts/<slug>.md --write
 statistical rewrite needs judgment about the prose, so run the
 `/remove-ai-marks` skill for that rather than scripting it.
 
+`.github/workflows/ai-marks-check.yml` runs the same dry-run check in CI on
+any PR touching `src/content/posts/`: it clones watermarks-remover, starts
+the service, and runs `pnpm check:ai-marks` (or the equivalent `node`
+invocation) — it does not need the service running anywhere else.
+
 ## Build
 
 `pnpm build` runs `astro check` then the Astro build; `prebuild` regenerates
