@@ -6,6 +6,7 @@ import itineraryPages from '../data/itinerary-pseo-pages.json';
 
 const posts = (await getCollection('posts')).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 const sightseeingFoodSlugs = [
+  'best-restaurants-chuncheon-dakgalbi-makguksu',
   '20-verified-things-to-do-gyeongju',
   'best-cafes-gyeongju-hanok-lake-views',
   'best-things-to-do-pohang-space-walk-coastal-views',
