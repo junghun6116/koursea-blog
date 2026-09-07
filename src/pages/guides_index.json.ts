@@ -84,7 +84,7 @@ export const GET: APIRoute = async () => {
       slug: post.slug,
       title: post.data.title,
       description: post.data.description,
-      category: post.data.category === 'Sightseeing & Food'
+      category: post.data.category && post.data.category !== 'Guide'
         ? post.data.category
         : post.data.tags[0] ?? 'Korea Travel',
       tags: post.data.tags,
