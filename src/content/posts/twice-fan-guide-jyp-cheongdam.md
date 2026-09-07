@@ -1,8 +1,8 @@
 ---
-title: "TWICE Fan Guide to Seoul: JYP Center, ONCE Stops & Cheongdam Beauty Route (2026)"
-description: "A practical TWICE fan guide to JYP Center in Seongnae-dong, respectful exterior photos, Seoul route planning, Cheongdam beauty stops and ticket prep."
+title: "TWICE Fan Guide to Seoul: JYP Center, ONCE Stops & Concert Prep (2026)"
+description: "A practical TWICE fan guide to JYP Center in Seongnae-dong, respectful exterior photos, Olympic Park routing and concert ticket preparation."
 pubDate: 2026-09-02
-updatedDate: 2026-09-02
+updatedDate: 2026-09-07
 category: "K-Pop & Concerts"
 tags:
   - twice
@@ -15,7 +15,7 @@ canonicalUrl: "https://blog.koursea.com/posts/twice-fan-guide-jyp-cheongdam/"
 author: "Koursea Editorial"
 ---
 
-# TWICE Fan Guide to Seoul: JYP Center, ONCE Stops & Cheongdam Beauty Route
+# TWICE Fan Guide to Seoul: JYP Center, ONCE Stops & Concert Prep
 
 TWICE debuted on October 20, 2015 with *The Story Begins* under JYP Entertainment. The nine members are Nayeon, Jeongyeon, Momo, Sana, Jihyo, Mina, Dahyun, Chaeyoung and Tzuyu, and their official fandom is **ONCE**. A Seoul fan trip can include the [JYP Center exterior](https://www.koursea.com/place/jyp-entertainment-center-gangdong/), but the current headquarters is in **Seongnae-dong, Gangdong-gu—not Cheongdam**. Cheongdam works better as a separate K-beauty and fashion extension to the day.
 
@@ -43,7 +43,7 @@ TWICE's visual history makes a beauty-and-design route a natural companion, but 
 
 Start at Gangdong-gu Office Station, visit the JYP exterior respectfully, then continue to Olympic Park. Use the park's public art, gardens and broad walkways for colorful photos. Check venue calendars in advance; a concert-day visit can mean heavy crowds even when you are not attending the show.
 
-### Afternoon: Cheongdam beauty district
+### Optional Cross-City Extension: Cheongdam Beauty (Unrelated to JYP's Current Location)
 
 Travel west to Cheongdam or Apgujeong Rodeo for K-beauty retail, makeup services and salon appointments. This is a separate district from JYP Center and takes meaningful travel time, so book appointments with a buffer. Verify the total price, service duration, cancellation policy and whether English consultation is available directly with the business.
 
