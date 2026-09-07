@@ -3,6 +3,7 @@ title: "Stray Kids Fan Guide to Seoul: JYP Center, STAY Route & Concert Prep (20
 description: "Plan a respectful Stray Kids fan trip to JYP Center in Seongnae-dong with subway directions, photo rules, Olympic Park routing and ticketing advice."
 pubDate: 2026-09-02
 updatedDate: 2026-09-02
+category: "K-Pop & Concerts"
 tags:
   - stray-kids
   - stay

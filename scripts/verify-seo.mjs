@@ -41,6 +41,10 @@ if (htmlFiles.length === 0) fail('No generated HTML files were found in dist/.')
 for (const file of htmlFiles) {
   const html = readFileSync(file, 'utf8');
   const route = routeFor(file);
+  const googleSearchLinks = [...html.matchAll(/<a\b[^>]*\bhref=["']([^"']*google\.com\/search[^"']*)["'][^>]*>/gi)];
+  for (const [, href] of googleSearchLinks) {
+    fail(`${route}: Google search redirect link is not allowed (${href}).`);
+  }
   // Search Console verification tokens must retain Google's exact plain-text payload.
   if (/^\/google[a-z0-9]+$/i.test(route)) continue;
   const canonicalLinks = [...html.matchAll(/<link\b[^>]*>/gi)].filter((match) =>
