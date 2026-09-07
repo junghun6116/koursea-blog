@@ -1,8 +1,9 @@
 ---
-title: "NewJeans Fan Guide Seoul (2026): Bunnies Spots, Hongdae & Hannam"
-description: "Planning a NewJeans-inspired Seoul trip? A 2026 guide to Bunnies fan culture, Hongdae/Hannam neighborhoods, and ticketing prep for foreign fans."
+title: "NewJeans Fan Guide: Bunnies, Confirmed Music History & Seoul Planning"
+description: "A carefully scoped NewJeans fan guide covering confirmed 2022–2024 releases, Bunnies, public Seoul planning and respectful fan travel."
 pubDate: 2026-09-02
 updatedDate: 2026-09-02
+category: "K-Pop & Concerts"
 tags:
   - newjeans
   - bunnies
@@ -17,17 +18,23 @@ canonicalUrl: "https://blog.koursea.com/posts/newjeans-fan-guide-seoul-spots/"
 author: "Koursea Editorial"
 ---
 
-> **A note before you plan around this guide:** NewJeans' agency and lineup situation has been genuinely unsettled in Korean reporting through 2025 and into 2026, with different outlets describing different stages of an ongoing contract dispute. Rather than guess at where things stand by the time you're reading this, this guide sticks to facts confirmed at debut and general Seoul geography associated with the group's fandom culture — verify current agency status and any tour/comeback news independently before finalizing travel plans around a specific event.
+> **최종 업데이트: 2026-09-02 기준. 최신 소속/멤버 현황은 별도로 확인이 필요합니다.**
+
+This guide deliberately covers confirmed activity from 2022 through 2024 only. It does not describe later agency, contract or member-status developments, and it does not present an unconfirmed future concert schedule.
 
 ## Profile & Key Takeaways
 
 - **Debut:** July 22, 2022
-- **Agency at debut:** ADOR, a HYBE-affiliated label; [HYBE Yongsan](https://www.koursea.com/place/hybe-headquarters-yongsan/) is a working-office exterior stop rather than an artist attraction
+- **Agency at debut:** ADOR, a HYBE-affiliated label
 - **Official fandom name:** Bunnies
 - **Group format:** Girl group, 5 members at debut
 - **Visitor footprint:** There's no dedicated public "NewJeans building" — ADOR is a small label without its own visitor-facing HQ, so this guide focuses on the Seoul neighborhoods most associated with the group's aesthetic and fan culture rather than a single pilgrimage address.
 
-NewJeans built their identity around a specific, very Seoul-coded aesthetic — Y2K fashion, low-key streetwear, film-photo visuals — and that shows up in where the fandom naturally gathers, even without an agency headquarters to visit. Here is how to plan around that honestly.
+## Confirmed 2022–2024 Activity
+
+NewJeans debuted in 2022 with an EP led by “Attention” and “Hype Boy”; both songs became defining early releases, and “Attention” earned the group its first music-show win. The following single album paired “Ditto” with “OMG”. In 2023, the *Get Up* EP reached No. 1 on the Billboard 200. Confirmed 2024 activity includes “How Sweet”, the Japanese debut single “Supernatural”, and the sold-out Bunnies Camp fan meeting at Tokyo Dome.
+
+Those releases are the boundary of this page's activity timeline. Travelers should not infer a current lineup, agency position or future tour from this historical summary.
 
 ## Neighborhoods, Not a Single Address
 
@@ -44,9 +51,9 @@ Individual MV filming locations and brand pop-up stores are time-limited and cha
 
 Avoid chasing unofficial "member sighting" locations or private residence tips — that's the kind of privacy-invasive content Koursea doesn't publish, and it's rarely accurate or current in practice. Stick to public retail, cafe, and street-culture spaces, and treat any specific "NewJeans filmed here" claim you find online with some skepticism unless it comes from an official source.
 
-## Tickets and Phone Verification — For Whenever Touring Resumes
+## General Ticketing Preparation
 
-Given the group's unsettled 2025–2026 status, we're not going to claim there's an active tour to book tickets for right now — check official channels for current news before assuming otherwise. But it's worth having the practical groundwork done regardless, since the same mechanics apply the moment any K-pop show goes on sale in Korea:
+This page does not claim that a NewJeans concert is scheduled. If an official future event is announced, start from the organizer's current notice rather than an old fan guide:
 
 - Our [Foreigner's Guide to K-Pop Concert Ticketing in Seoul (2026)](/posts/kpop-concert-ticketing-seoul-2026/) covers how NOL World, Melon Ticket, and Yes24 actually work, including the mandatory Korean-number verification step that catches most foreign fans off guard.
 - Solve that step ahead of time with our [Korean eSIM & SIM Card Setup Guide (2026)](/posts/guide-korea-esim-sim-card-setup-2026/) — it explains which eSIM plans can actually receive a Korean SMS code, since not every data-only plan supports that.
@@ -54,17 +61,17 @@ Given the group's unsettled 2025–2026 status, we're not going to claim there's
 ## Quick Answers
 
 - **Is there an official NewJeans or ADOR building to visit?** No confirmed public visitor site — ADOR doesn't operate the kind of visitor-facing destination associated with places such as [HYBE Yongsan](https://www.koursea.com/place/hybe-headquarters-yongsan/) or [SM Entertainment and KWANGYA@SEOUL](https://www.koursea.com/place/sm-kwangya-seoul-forest/).
-- **What's NewJeans' current agency status?** This has been genuinely disputed in Korean reporting through 2025–2026 — verify current status through official channels rather than relying on any single article, including this one.
+- **Does this guide confirm the group's current agency or member status?** No. It is limited to confirmed 2022–2024 activity and the debut-era agency description.
 
 ---
 
 ## Social & Community Distribution Snippets
 
 ### Threads & X (Twitter) Hook
-No, there's no "NewJeans building" to visit in Seoul — ADOR doesn't run a public HQ. What Bunnies actually build a trip around is Hongdae + Hannam's fashion/street-culture scene. Honest 2026 guide (agency status included) here:
+No, there is no public “NewJeans building” to visit in Seoul. This carefully scoped guide covers confirmed 2022–2024 releases, Bunnies culture, and public neighborhood planning:
 https://blog.koursea.com/posts/newjeans-fan-guide-seoul-spots/
 
 ### Reddit Community Reply Template
-Being upfront: NewJeans' agency/lineup situation has been genuinely unsettled in Korean reporting, so I'm not going to claim a specific current status here — check official channels for the latest before planning around it. What I can say confidently: there's no separate NewJeans/ADOR building open to visitors, so the more useful Seoul trip is centered on Hongdae and Hannam-dong, the neighborhoods most associated with the group's style and fandom culture, rather than one fixed address. If touring resumes, Korean ticketing platforms all require a one-time Korean phone verification — worth sorting a Korean-capable eSIM ahead of time regardless. Full guide here: https://blog.koursea.com/posts/newjeans-fan-guide-seoul-spots/
+This guide intentionally stops at confirmed 2022–2024 activity and does not speculate about later agency, member or concert developments. There is no separate public visitor building, so its practical Seoul section focuses on public neighborhoods rather than private workplaces. Full guide: https://blog.koursea.com/posts/newjeans-fan-guide-seoul-spots/
 
 ---
