@@ -21,7 +21,7 @@ However, international visitors frequently run into payment bottlenecks, confusi
 
 Here is the definitive guide to conquering Seoul’s public transit network seamlessly.
 
-Once you know which card to get, Koursea's Quick Currency tool and Subway Direction Checker give you the fast, no-explanation version for when you're actually at the gate — no login required.
+Once you know which card to get, Koursea's Transit Card Cheat Sheet and Subway Direction Checker give you the fast, no-explanation version for when you're actually at the gate — no login required.
 
 ---
 

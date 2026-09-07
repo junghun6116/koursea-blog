@@ -76,6 +76,7 @@ const exploreContext = mustKeepGenericFallback
 
 const absoluteImage = new URL(socialImage, Astro.site).href;
 const publisherId = new URL('/#organization', Astro.site).href;
+const publisherLogo = 'https://www.koursea.com/assets/koursea-logo.png';
 const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'BlogPosting',
@@ -94,7 +95,7 @@ const articleSchema = {
     '@id': publisherId,
     name: 'Koursea',
     url: 'https://www.koursea.com/',
-    logo: { '@type': 'ImageObject', url: absoluteImage, width: 1200, height: 630 }
+    logo: { '@type': 'ImageObject', url: publisherLogo }
   },
   mainEntityOfPage: { '@type': 'WebPage', '@id': canonicalUrl },
   image: { '@type': 'ImageObject', url: absoluteImage, width: 1200, height: 630 },
