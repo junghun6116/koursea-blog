@@ -3,6 +3,7 @@ title: "ENHYPEN Fan Guide to Seoul: ENGENE Spots, HYBE Yongsan & Pop-Up Tips"
 description: "Plan an ENHYPEN fan trip with respectful HYBE photo stops, official Seoul pop-up checks, merch shopping, ticketing, and transit advice."
 pubDate: 2026-09-03
 updatedDate: 2026-09-03
+category: "K-Pop & Concerts"
 tags: ["K-Pop", "ENHYPEN", "ENGENE", "Seoul", "Concert Tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/enhypen-fan-guide-seoul-spots/"
 author: "Koursea Team"
@@ -10,11 +11,12 @@ author: "Koursea Team"
 
 # ENHYPEN Fan Guide to Seoul: ENGENE Spots, HYBE Yongsan & Pop-Up Tips
 
-ENHYPEN debuted on November 30, 2020, under BELIFT LAB, and the official fandom name is ENGENE. The strongest Seoul itinerary is flexible: combine a brief public photo stop with verified pop-ups, authorized retailers, and solid concert preparation.
+ENHYPEN debuted on November 30, 2020, under BELIFT LAB, a HYBE-affiliated label, and the official fandom name is ENGENE. The strongest Seoul itinerary is flexible: combine a brief public photo stop with verified pop-ups, authorized retailers, and solid concert preparation.
 
 ## Key takeaways
 
 - [HYBE Yongsan](https://www.koursea.com/place/hybe-headquarters-yongsan/) is a private workplace with no guaranteed public interior access.
+- HYBE INSIGHT ended permanent operations on January 15, 2023. There is no permanent ENHYPEN exhibition venue to visit inside the headquarters.
 - Check official ENHYPEN or BELIFT notices for event dates, reservations, identification, and final entry.
 - Prepare ticket identity details, payment backups, and mobile verification before sales open.
 - Download the last-train route and keep your hotel address in Korean.
@@ -23,7 +25,9 @@ ENHYPEN debuted on November 30, 2020, under BELIFT LAB, and the official fandom 
 
 ### Yongsan exterior and transport hub
 
-Reach the HYBE exterior from Sinyongsan or Yongsan Station. Stay on public pavement, do not wait near doors or vehicles, and leave if security requests it. The practical benefit is the district's transport: food, restrooms, lockers, and onward connections are close together.
+Reach the HYBE exterior from Sinyongsan or Yongsan Station. Stay on public pavement, do not wait near doors or vehicles, and leave if security requests it. The building is an office, not a visitor facility. HYBE INSIGHT ended its permanent operation on January 15, 2023, so older itineraries describing an exhibition inside the headquarters are outdated. There is no permanent ENHYPEN exhibition venue open there.
+
+ENHYPEN's *WALK THE LINE* world-tour era is useful context for current fan interest, but every performance date, presale condition and venue rule must be checked in the newest BELIFT LAB, Weverse and organizer notice.
 
 ### Temporary pop-ups and album events
 
