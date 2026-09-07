@@ -3,6 +3,7 @@ title: "BTS Fan Guide to Seoul: HYBE Yongsan, ARMY Photo Stops & Concert Prep (2
 description: "Plan a respectful BTS fan trip to HYBE Yongsan with subway directions, exterior photo rules, nearby stops, ticketing, eSIM and payment advice."
 pubDate: 2026-09-02
 updatedDate: 2026-09-02
+category: "K-Pop & Concerts"
 tags:
   - bts
   - army
@@ -38,7 +39,7 @@ The cleanest visit is usually a short daytime stop. Arrive from Sinyongsan, phot
 
 HYBE is an active corporate office. A headquarters exterior is not permission to enter the lobby, wait near employee access points or photograph staff and visitors at close range. Stay on public walkways, obey security instructions, keep doors clear and avoid large props that obstruct pedestrians. Never follow vehicles or people leaving the building.
 
-HYBE INSIGHT information has changed over time, so do not assume a museum or exhibition is operating inside the headquarters just because an older itinerary says so. Confirm any exhibition through its official site and reservation notice before traveling across Seoul.
+> **HYBE INSIGHT closure notice:** HYBE INSIGHT permanently closed on January 15, 2023. As of September 2026, HYBE has not announced a reopening at the Yongsan headquarters. Do not plan a museum visit; treat the site only as a working-office exterior photo stop.
 
 ### A practical Yongsan fan route
 
@@ -72,7 +73,7 @@ On concert day, screenshot the official venue notice, seat information and retur
 ## Official Reference Points
 
 - [BTS official profile at BIGHIT MUSIC](https://bts.ibighit.com/eng/profile/)
-- [HYBE INSIGHT official site and Yongsan address](https://hybeinsight.com/?locale=en)
+- [BIGHIT MUSIC official website](https://www.bighitsmusic.com/)
 
 ## Social & Community Distribution Snippets
 

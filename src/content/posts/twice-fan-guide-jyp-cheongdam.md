@@ -3,6 +3,7 @@ title: "TWICE Fan Guide to Seoul: JYP Center, ONCE Stops & Cheongdam Beauty Rout
 description: "A practical TWICE fan guide to JYP Center in Seongnae-dong, respectful exterior photos, Seoul route planning, Cheongdam beauty stops and ticket prep."
 pubDate: 2026-09-02
 updatedDate: 2026-09-02
+category: "K-Pop & Concerts"
 tags:
   - twice
   - once
