@@ -5,7 +5,7 @@ pubDate: 2026-09-03
 updatedDate: 2026-09-03
 tags: ["K-Pop", "aespa", "MY", "Seongsu", "Concert Tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/aespa-fan-guide-seoul-spots/"
-author: "Koursea Team"
+author: "Koursea Editorial"
 ---
 
 # aespa Fan Guide to Seoul: MY Spots, SM Seongsu & Concert Planning

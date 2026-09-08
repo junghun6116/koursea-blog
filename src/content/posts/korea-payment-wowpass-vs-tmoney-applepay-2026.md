@@ -5,7 +5,7 @@ pubDate: 2026-09-02
 updatedDate: 2026-09-04
 tags: [Korea Payment, WOWPASS, Namane Card, Apple Pay Korea, Korea Travel Card]
 canonicalUrl: "https://blog.koursea.com/posts/korea-payment-wowpass-vs-tmoney-applepay-2026/"
-author: "Koursea Team"
+author: "Koursea Editorial"
 ---
 
 # Korea Payment Guide 2026: Apple Pay, Foreign Cards, WOWPASS vs Namane

@@ -10,7 +10,7 @@ tags:
   - Korea Travel Apps
   - Incheon Airport SIM
 canonicalUrl: "https://blog.koursea.com/posts/korea-esim-with-phone-number-2026-guide/"
-author: "Koursea Team"
+author: "Koursea Editorial"
 ---
 
 # Korean eSIM Guide (2026): Why Data-Only Fails for CatchTable, Delivery & Queues

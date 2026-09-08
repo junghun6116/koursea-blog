@@ -6,7 +6,7 @@ updatedDate: 2026-09-03
 category: "K-Pop & Concerts"
 tags: ["K-Pop", "ENHYPEN", "ENGENE", "Seoul", "Concert Tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/enhypen-fan-guide-seoul-spots/"
-author: "Koursea Team"
+author: "Koursea Editorial"
 ---
 
 # ENHYPEN Fan Guide to Seoul: ENGENE Spots, HYBE Yongsan & Pop-Up Tips
