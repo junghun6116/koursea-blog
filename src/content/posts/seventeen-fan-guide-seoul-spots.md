@@ -5,7 +5,7 @@ pubDate: 2026-09-03
 updatedDate: 2026-09-03
 tags: ["K-Pop", "SEVENTEEN", "CARAT", "Seoul", "Concert Tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/seventeen-fan-guide-seoul-spots/"
-author: "Koursea Team"
+author: "Koursea Editorial"
 ---
 
 # SEVENTEEN Fan Guide to Seoul: CARAT Spots, HYBE Yongsan & Concert Prep

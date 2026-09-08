@@ -9,7 +9,7 @@ tags:
   - Clinic Prices
   - Korea Travel
 canonicalUrl: "https://blog.koursea.com/posts/korea-cosmetic-procedure-tax-refund-ended-2026-budget-guide/"
-author: "Koursea Editorial Team"
+author: "Koursea Editorial"
 ---
 
 Foreign visitors planning Botox, Rejuran, Potenza, laser toning, fillers or lifting treatments in Seoul need to update their budgets. Korea's special VAT refund program for qualifying cosmetic medical procedures ended on **December 31, 2025**. Procedures supplied on or after **January 1, 2026** no longer qualify for the former medical-procedure refund.

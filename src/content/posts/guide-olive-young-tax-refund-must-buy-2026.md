@@ -5,7 +5,7 @@ pubDate: 2026-09-02
 updatedDate: 2026-09-04
 tags: [Olive Young, Olive Young Awards, K-Beauty Shopping, Korean Skincare, Olive Young Must Buy]
 canonicalUrl: "https://blog.koursea.com/posts/guide-olive-young-tax-refund-must-buy-2026/"
-author: "Koursea Team"
+author: "Koursea Editorial"
 ---
 
 # Olive Young 2026 Best Sellers by Skin Type & Awards Winners
