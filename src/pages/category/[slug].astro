@@ -1,0 +1,48 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import { categoryHubs, categoriesForTags, categoryForSlug } from '../../lib/category-hubs';
+
+export async function getStaticPaths() {
+  return categoryHubs.map((hub) => ({ params: { slug: hub.slug } }));
+}
+
+const slug = Astro.params.slug ?? '';
+const hub = categoryForSlug(slug);
+if (!hub) return Astro.redirect('/category/');
+const posts = (await getCollection('posts'))
+  .filter((post) => categoriesForTags(post.data.tags).some((category) => category.slug === hub.slug))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const canonicalUrl = new URL(`/category/${hub.slug}/`, Astro.site).href;
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: `${hub.label} Guides`,
+  description: hub.description,
+  url: canonicalUrl,
+  mainEntity: {
+    '@type': 'ItemList',
+    numberOfItems: posts.length,
+    itemListElement: posts.map((post, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      url: new URL(`/posts/${post.slug}/`, Astro.site).href,
+      name: post.data.title
+    }))
+  }
+};
+---
+<Layout title={`${hub.label} Guides | Koursea Blog`} description={hub.description} canonicalUrl={canonicalUrl} schema={schema}>
+  <section class="category-page shell">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Journal</a><span aria-hidden="true">/</span><a href="/category/">Categories</a><span aria-hidden="true">/</span><span>{hub.label}</span></nav>
+    <header><p class="eyebrow">{posts.length} PUBLISHED GUIDES</p><h1>{hub.label}</h1><p>{hub.description}</p></header>
+    <nav class="category-switcher" aria-label="Guide categories">{categoryHubs.map((category) => <a class:list={{ active: category.slug === hub.slug }} href={`/category/${category.slug}/`}>{category.label}</a>)}</nav>
+    <div class="post-grid">
+      {posts.map((post) => <article><div><time datetime={post.data.pubDate.toISOString()}>{post.data.pubDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</time><span>{post.data.tags[0]}</span></div><h2><a href={`/posts/${post.slug}/`}>{post.data.title}</a></h2><p>{post.data.description}</p><a class="read" href={`/posts/${post.slug}/`}>Read the guide →</a></article>)}
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .category-page{padding:72px 0}.breadcrumbs{display:flex;flex-wrap:wrap;gap:.45rem;margin-bottom:2rem;color:var(--muted);font-size:.78rem;font-weight:750}.breadcrumbs a{color:var(--teal)}header h1{max-width:15ch;margin:.25rem 0 1rem;font:700 clamp(2.7rem,7vw,5.2rem)/.96 Georgia,serif;letter-spacing:-.05em}header>p:last-child{max-width:700px;color:var(--muted);font-size:1.08rem}.category-switcher{display:flex;gap:8px;margin:36px 0 24px;overflow-x:auto}.category-switcher a{flex:0 0 auto;padding:10px 14px;border:1px solid var(--line);border-radius:999px;background:var(--surface);font-size:.78rem;font-weight:850;text-decoration:none}.category-switcher a.active{border-color:var(--teal);background:var(--teal);color:#fff}.post-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.post-grid article{display:flex;min-height:320px;flex-direction:column;padding:26px;border:1px solid var(--line);border-radius:20px;background:var(--surface);box-shadow:var(--shadow)}article>div{display:flex;justify-content:space-between;gap:12px;color:var(--muted);font-size:.7rem;text-transform:uppercase}article>div span{color:var(--teal);font-weight:850}h2{margin:2rem 0 1rem;font:700 clamp(1.55rem,3vw,2.15rem)/1.08 Georgia,serif}h2 a{text-decoration:none}article p{margin:0;color:var(--muted)}.read{margin-top:auto;padding-top:22px;color:var(--teal);font-size:.8rem;font-weight:850}@media(max-width:700px){.category-page{padding:46px 0}.post-grid{grid-template-columns:1fr}.post-grid article{min-height:280px}}
+</style>
