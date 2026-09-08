@@ -6,6 +6,7 @@ updatedDate: 2026-09-04
 tags: ["potenza microneedling korea", "seoul laser skin clinic", "rf microneedling seoul", "korean laser skin treatment", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/potenza-microneedling-korea-guide/"
 author: "Koursea Editorial"
+reviewer: "HJ MUN"
 ---
 
 # Potenza Microneedling in Korea 2026: Cost Guide

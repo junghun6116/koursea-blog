@@ -20,6 +20,7 @@ interface Props {
   pubDate: Date;
   updatedDate?: Date;
   author: string;
+  reviewer?: string;
   tags: string[];
   socialImage?: string;
   socialImageAlt?: string;
@@ -40,6 +41,7 @@ const {
   pubDate,
   updatedDate = pubDate,
   author,
+  reviewer,
   tags,
   socialImage = '/og-default.png',
   socialImageAlt = `${title} — Koursea Journal`,
@@ -90,6 +92,7 @@ const articleSchema = {
   datePublished: pubDate.toISOString(),
   dateModified: updatedDate.toISOString(),
   author: { '@type': 'Organization', name: author },
+  ...(reviewer ? { reviewedBy: { '@type': 'Person', name: reviewer, jobTitle: 'Koursea Founder' } } : {}),
   publisher: {
     '@type': 'Organization',
     '@id': publisherId,
@@ -129,7 +132,7 @@ const schema = faq.length > 0 ? {
       <div class="article-meta">
         <time datetime={pubDate.toISOString()}>Published {pubDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</time>
         {updatedDate.valueOf() !== pubDate.valueOf() && <><span>·</span><time datetime={updatedDate.toISOString()}>Updated {updatedDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</time></>}
-        <span>·</span><span>{author}</span><span>·</span><span>{readingMinutes} min read</span>
+        <span>·</span><span>{author}</span>{reviewer && <><span>·</span><span>Reviewed by {reviewer}, Koursea Founder</span></>}<span>·</span><span>{readingMinutes} min read</span>
       </div>
     </header>
     {coverImage && <figure class="article-cover">

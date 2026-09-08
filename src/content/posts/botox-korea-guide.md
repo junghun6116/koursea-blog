@@ -6,6 +6,7 @@ updatedDate: 2026-09-04
 tags: ["botox korea", "korean dermatology near me", "botox seoul cost", "gangnam botox", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/botox-korea-guide/"
 author: "Koursea Editorial"
+reviewer: "HJ MUN"
 ---
 
 # Botox in Korea 2026: Cost, Districts & What to Expect

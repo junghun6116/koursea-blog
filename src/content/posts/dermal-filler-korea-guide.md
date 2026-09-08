@@ -6,6 +6,7 @@ updatedDate: 2026-09-04
 tags: ["dermal filler korea", "korea dermatology clinic", "filler seoul cost", "plastic surgery seoul korea cost", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/dermal-filler-korea-guide/"
 author: "Koursea Editorial"
+reviewer: "HJ MUN"
 ---
 
 # Dermal Filler in Korea 2026: Domestic vs Imported Cost
