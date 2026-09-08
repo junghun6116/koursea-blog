@@ -59,7 +59,7 @@ TWICE ticket sales may use different platforms depending on promoter and locatio
 
 Our [K-Pop concert ticketing guide](/posts/kpop-concert-ticketing-seoul-2026/) explains NOL World, Melon Ticket, virtual waiting rooms, Korean verification and foreign-card failure patterns. Complete those steps before the on-sale day.
 
-If a platform requires Korean SMS verification, a data-only travel eSIM will not solve it. Review the [Korean eSIM Guide](/posts/guide-korea-esim-sim-card-setup-2026/) and confirm that your plan includes a usable Korean number and incoming SMS—not just mobile data.
+If a platform requires Korean SMS verification, a data-only travel eSIM will not solve it. Review the [Korean eSIM Guide](/posts/korea-esim-with-phone-number-2026-guide/) and confirm that your plan includes a usable Korean number and incoming SMS—not just mobile data.
 
 Prepare a second payment card, disable browser translation if it breaks a ticketing session and save the official venue address in Korean. On show day, carry the exact ID required by the notice and avoid reseller listings that cannot guarantee name transfer or venue admission.
 

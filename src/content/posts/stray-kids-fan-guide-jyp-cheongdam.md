@@ -57,7 +57,7 @@ High-demand ticketing is a preparation exercise. The current promoter notice det
 
 Start with our [K-Pop concert ticketing guide for NOL World, Melon Ticket and payment reality](/posts/kpop-concert-ticketing-seoul-2026/). It covers virtual queues, Korean verification and why foreign debit cards often fail at the worst moment.
 
-If the platform requests Korean SMS, confirm your travel plan can receive it. Many low-cost eSIM products are data-only. The [Korean eSIM Guide](/posts/guide-korea-esim-sim-card-setup-2026/) explains what to check before purchase and redirects to Koursea's current connectivity guide.
+If the platform requests Korean SMS, confirm your travel plan can receive it. Many low-cost eSIM products are data-only. The [Korean eSIM Guide](/posts/korea-esim-with-phone-number-2026-guide/) explains what to check before purchase and redirects to Koursea's current connectivity guide.
 
 Before ticketing opens:
 

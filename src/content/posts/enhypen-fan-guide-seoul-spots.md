@@ -39,7 +39,7 @@ For lucky draws, compare the branch-specific benefit, minimum purchase, and pick
 
 Start only from the official concert announcement and its named seller. Presale eligibility may involve ENGENE membership plus a separate application. Our [K-Pop Concert Ticketing in Seoul guide](/posts/kpop-concert-ticketing-seoul-2026/) covers NOL World, passport-name matching, overseas payments, and pickup risks.
 
-“Unlimited data” does not guarantee a Korean phone number. Review the [Korea eSIM and SIM setup guide](/posts/guide-korea-esim-sim-card-setup-2026/) and confirm that your plan supplies a usable `010` number and incoming verification SMS.
+“Unlimited data” does not guarantee a Korean phone number. Review the [Korea eSIM and SIM setup guide](/posts/korea-esim-with-phone-number-2026-guide/) and confirm that your plan supplies a usable `010` number and incoming verification SMS.
 
 Save the ticket, membership proof, venue gate, bag rules, and return route offline. At large events, mobile service and station entry can slow. Choose a meeting point away from the busiest exit and note the last subway before the show.
 

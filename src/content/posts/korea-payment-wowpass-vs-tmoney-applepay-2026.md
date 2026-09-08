@@ -113,4 +113,4 @@ Tell your bank you are traveling if it still uses travel notices, and make sure 
 
 The main payment problem in Korea is not a lack of card acceptance; it is inconsistent acceptance across contactless readers, overseas-card routing, and unattended kiosks. A physical backup card solves more problems than another phone app. WOWPASS is strongest as a foreign-cash exchange and payment tool, while Namane is better understood as an app-managed prepaid card with customization features.
 
-For ATM locations, withdrawal fees, and convenience-store payment troubleshooting, read our [How to Pay in Korea & ATM Guide](/posts/guide-how-to-pay-in-korea-convenience-stores-global-atm-2026/).
+For more on foreign-card acceptance, contactless limits, and transit cards, read our [Paying and Getting Around Korea guide](/posts/paying-getting-around-korea-foreigner-cards-big-group-taxis/).

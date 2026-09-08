@@ -37,7 +37,7 @@ Birthday cafes are independently operated and temporary. Search the member's Kor
 
 Presales can require fan-club enrollment plus a separate application before the ticket site opens. Read our [K-Pop Concert Ticketing in Seoul guide](/posts/kpop-concert-ticketing-seoul-2026/) for NOL World, passport-name checks, payment backups, and venue pickup rules.
 
-A data-only plan may not receive Korean verification messages. Check the [Korea eSIM and SIM setup guide](/posts/guide-korea-esim-sim-card-setup-2026/) and verify whether the product provides a real `010` number with incoming SMS.
+A data-only plan may not receive Korean verification messages. Check the [Korea eSIM and SIM setup guide](/posts/korea-esim-with-phone-number-2026-guide/) and verify whether the product provides a real `010` number with incoming SMS.
 
 Download the ticket, venue map, prohibited-items policy, and return route in advance. Mobile networks may slow after a large show. Agree on a fixed meeting point and keep your accommodation address in Korean.
 
