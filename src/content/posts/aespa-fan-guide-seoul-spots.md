@@ -37,7 +37,7 @@ Buy albums from an established retailer or a partner named in an official notice
 
 Use the seller named in the official announcement, not an unsolicited resale link. Our [K-Pop Concert Ticketing in Seoul guide](/posts/kpop-concert-ticketing-seoul-2026/) explains NOL World, account-name matching, overseas payment, and pickup rules.
 
-If Korean SMS appears in the flow, confirm your telecom product first. A data-only eSIM cannot normally receive identity messages. See the [Korea eSIM and SIM setup guide](/posts/guide-korea-esim-sim-card-setup-2026/) for the difference between internet access and a usable `010` number.
+If Korean SMS appears in the flow, confirm your telecom product first. A data-only eSIM cannot normally receive identity messages. See the [Korea eSIM and SIM setup guide](/posts/korea-esim-with-phone-number-2026-guide/) for the difference between internet access and a usable `010` number.
 
 Download the venue layout and last-train route. Large crowds can slow data and station access, so choose a fixed meeting point and save your accommodation address in Korean.
 

@@ -62,7 +62,7 @@ Before ticketing:
 4. Test the accepted payment method and keep a backup card ready.
 5. Save the organizer's venue, pickup and prohibited-items notice offline.
 
-Our [K-Pop concert ticketing guide](/posts/kpop-concert-ticketing-seoul-2026/) covers Korean ticket platforms, identity matching and foreign-card failure points. If the platform needs a Korean verification message, review the [Korea eSIM and phone-number guide](/posts/guide-korea-esim-sim-card-setup-2026/) before buying a data-only plan.
+Our [K-Pop concert ticketing guide](/posts/kpop-concert-ticketing-seoul-2026/) covers Korean ticket platforms, identity matching and foreign-card failure points. If the platform needs a Korean verification message, review the [Korea eSIM and phone-number guide](/posts/korea-esim-with-phone-number-2026-guide/) before buying a data-only plan.
 
 ## Respectful Fan Travel Checklist
 

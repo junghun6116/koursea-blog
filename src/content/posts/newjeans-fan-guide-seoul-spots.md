@@ -56,7 +56,7 @@ Avoid chasing unofficial "member sighting" locations or private residence tips �
 This page does not claim that a NewJeans concert is scheduled. If an official future event is announced, start from the organizer's current notice rather than an old fan guide:
 
 - Our [Foreigner's Guide to K-Pop Concert Ticketing in Seoul (2026)](/posts/kpop-concert-ticketing-seoul-2026/) covers how NOL World, Melon Ticket, and Yes24 actually work, including the mandatory Korean-number verification step that catches most foreign fans off guard.
-- Solve that step ahead of time with our [Korean eSIM & SIM Card Setup Guide (2026)](/posts/guide-korea-esim-sim-card-setup-2026/) — it explains which eSIM plans can actually receive a Korean SMS code, since not every data-only plan supports that.
+- Solve that step ahead of time with our [Korean eSIM & SIM Card Setup Guide (2026)](/posts/korea-esim-with-phone-number-2026-guide/) — it explains which eSIM plans can actually receive a Korean SMS code, since not every data-only plan supports that.
 
 ## Quick Answers
 

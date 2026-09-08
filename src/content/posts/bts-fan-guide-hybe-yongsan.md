@@ -58,7 +58,7 @@ Ticketing rules vary by event. The organizer's announcement—not an old fan tut
 
 Before the sale, read our [K-Pop concert ticketing guide for NOL World, Melon Ticket and Korean verification](/posts/kpop-concert-ticketing-seoul-2026/). It explains waiting rooms, foreign-card declines and why account setup must be finished before the queue opens.
 
-Some Korean services still require an SMS-capable local number. Data-only travel plans cannot receive a Korean verification text, so review our [Korean eSIM Guide](/posts/guide-korea-esim-sim-card-setup-2026/) before buying a plan. That legacy link redirects to the current guide, where the distinction between data access and a usable 010 number is explained.
+Some Korean services still require an SMS-capable local number. Data-only travel plans cannot receive a Korean verification text, so review our [Korean eSIM Guide](/posts/korea-esim-with-phone-number-2026-guide/) before buying a plan. That legacy link redirects to the current guide, where the distinction between data access and a usable 010 number is explained.
 
 On concert day, screenshot the official venue notice, seat information and return route. Large crowds can overload mobile networks, so agree on a physical meeting point and save Korean venue addresses offline. Use official light-stick pairing instructions and venue bag rules rather than assumptions from a previous tour.
 
