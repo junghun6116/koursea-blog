@@ -6,6 +6,7 @@ updatedDate: 2026-09-04
 tags: ["Seoul Skin Clinic", "K-Beauty", "Clinic Prices", "Rejuran", "Ultherapy"]
 canonicalUrl: "https://blog.koursea.com/posts/seoul-skin-clinic-cost-guide/"
 author: "Koursea Editorial"
+reviewer: "HJ MUN"
 faq:
   - question: "Is 10% VAT included in advertised Seoul clinic prices?"
     answer: "Not always. Many promotional menus display VAT-exclusive prices, so ask for the final tax-inclusive total in writing before paying. The former tourist VAT refund for eligible cosmetic procedures ended after December 31, 2025."

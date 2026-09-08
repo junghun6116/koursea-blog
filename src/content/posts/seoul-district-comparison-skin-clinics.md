@@ -6,6 +6,7 @@ updatedDate: 2026-09-04
 tags: ["Gangnam Skin Clinics", "Myeongdong Skin Clinics", "Hongdae Dermatology", "Seoul K-Beauty", "Clinic Prices"]
 canonicalUrl: "https://blog.koursea.com/posts/seoul-district-comparison-skin-clinics/"
 author: "Koursea Editorial"
+reviewer: "HJ MUN"
 ---
 
 # Gangnam vs Myeongdong vs Hongdae Skin Clinics (2026)

@@ -6,6 +6,7 @@ updatedDate: 2026-09-04
 tags: ["rejuran skincare korea", "rejuran healer korea", "skin booster seoul", "korean skin treatment", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/rejuran-healer-korea-guide/"
 author: "Koursea Editorial"
+reviewer: "HJ MUN"
 ---
 
 # Rejuran Healer in Korea 2026: Cost & What It Does

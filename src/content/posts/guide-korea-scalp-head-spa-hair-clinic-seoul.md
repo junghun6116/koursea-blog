@@ -7,6 +7,7 @@ category: "beauty"
 tags: ["korean head spa", "scalp treatment seoul", "15 step head spa", "hair clinic korea", "kbeauty guide"]
 canonicalUrl: "https://blog.koursea.com/posts/guide-korea-scalp-head-spa-hair-clinic-seoul/"
 author: "Koursea Editorial"
+reviewer: "HJ MUN"
 ---
 
 ## Why Everyone's ASMR Feed Is Suddenly a Korean Scalp Treatment

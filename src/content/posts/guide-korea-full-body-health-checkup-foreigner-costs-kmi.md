@@ -7,6 +7,7 @@ category: "travel"
 tags: ["korean health checkup", "medical tourism seoul", "kmi checkup", "full body screening", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/guide-korea-full-body-health-checkup-foreigner-costs-kmi/"
 author: "Koursea Editorial"
+reviewer: "HJ MUN"
 ---
 
 ## The $300 Full-Body Checkup, and Why It's Real (With One Catch)

@@ -11,6 +11,7 @@ const posts = defineCollection({
     tags: z.array(z.string()).min(1),
     canonicalUrl: z.string().url().optional(),
     author: z.string().optional(),
+    reviewer: z.string().optional(),
     coverImage: z.string().optional(),
     thumbnail: z.string().optional(),
     faq: z.array(z.object({

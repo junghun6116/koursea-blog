@@ -6,6 +6,7 @@ updatedDate: 2026-09-04
 tags: ["korean laser skin treatment", "laser toning korea", "pico laser seoul", "seoul laser skin clinic", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/laser-toning-korea-guide/"
 author: "Koursea Editorial"
+reviewer: "HJ MUN"
 ---
 
 # Laser & Pico Toning in Korea 2026: Cost Guide

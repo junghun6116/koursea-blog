@@ -109,6 +109,6 @@ const editorialCallout = editorialCallouts[post.slug];
 // the generic site fallback.
 const socialImage = post.data.coverImage ?? post.data.thumbnail ?? `/og/posts/${post.slug}.png`;
 ---
-<PostLayout title={post.data.title} description={post.data.description} category={post.data.category} canonicalUrl={canonicalUrl} pubDate={post.data.pubDate} updatedDate={post.data.updatedDate} author={author} tags={post.data.tags} socialImage={socialImage} socialImageAlt={`${post.data.title} — Koursea Journal`} coverImage={post.data.coverImage} wordCount={wordCount} toc={toc} relatedGuides={[...relatedBeauty, ...relatedItineraries]} socialEmbed={socialEmbed} faq={post.data.faq} editorialCallout={editorialCallout}>
+<PostLayout title={post.data.title} description={post.data.description} category={post.data.category} canonicalUrl={canonicalUrl} pubDate={post.data.pubDate} updatedDate={post.data.updatedDate} author={author} reviewer={post.data.reviewer} tags={post.data.tags} socialImage={socialImage} socialImageAlt={`${post.data.title} — Koursea Journal`} coverImage={post.data.coverImage} wordCount={wordCount} toc={toc} relatedGuides={[...relatedBeauty, ...relatedItineraries]} socialEmbed={socialEmbed} faq={post.data.faq} editorialCallout={editorialCallout}>
   <Content />
 </PostLayout>
