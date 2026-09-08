@@ -73,6 +73,9 @@ const editorialCollections = [
   }
 ];
 const collectionHref = (item: any) => item.href ?? `/posts/${item.slug}/`;
+// Cross-repository maintenance note: keep this public place count aligned with
+// koursea/sitemap-places.xml after any place-indexing policy or data release.
+const publishedPlaceCount = '3,768';
 const schema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
@@ -91,7 +94,7 @@ const schema = {
     <div>
       <p class="eyebrow">KOURSEA TRAVEL COMPANION</p>
       <h2 id="companion-title">Need live transit tools &amp; verified Seoul spots?</h2>
-      <p>Explore 3,753 source-checked locations, Korean address taxi cards, and the Zero-Login Metro Toolkit on Koursea.</p>
+      <p>Explore {publishedPlaceCount} source-checked locations, Korean address taxi cards, and the Zero-Login Metro Toolkit on Koursea.</p>
     </div>
     <a href="https://koursea.com">Open Koursea Travel Companion ↗</a>
   </aside>
