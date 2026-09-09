@@ -12,6 +12,8 @@ author: "Koursea Editorial"
 ## Sitting in the Audience of a Korean Music Show Is Harder Than It Looks
 Watching a fancam from Inkigayo or Music Bank makes it look like anyone can walk into that studio. In practice, three genuinely different systems control who gets a seat, and most foreign fans waste real trip-planning time chasing the one system that was never realistically built for them. This guide sorts the three pathways by how likely they actually are to work for a foreign visitor, not by which one sounds most "authentic."
 
+Planning for KBS or Mnet instead? Read the companion guide to [Music Bank and M Countdown audience access](/posts/guide-music-bank-mcountdown-foreigner-tickets/).
+
 ## The 3 Real Pathways (and the False Hope)
 
 ### Pathway A: Broadcast Network Websites — The Long Shot
