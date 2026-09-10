@@ -1,9 +1,8 @@
 ---
-title: "TWICE Fan Guide to Seoul: JYP Center, ONCE Stops & Concert Prep (2026)"
-description: "A practical TWICE fan guide to JYP Center in Seongnae-dong, respectful exterior photos, Olympic Park routing and concert ticket preparation."
+title: "TWICE Fan Guide to Seoul: JYP Center, ONCE Stops & Cheongdam Beauty Route (2026)"
+description: "A practical TWICE fan guide to JYP Center in Seongnae-dong, respectful exterior photos, Seoul route planning, Cheongdam beauty stops and ticket prep."
 pubDate: 2026-09-02
-updatedDate: 2026-09-07
-category: "K-Pop & Concerts"
+updatedDate: 2026-09-10
 tags:
   - twice
   - once
@@ -15,9 +14,11 @@ canonicalUrl: "https://blog.koursea.com/posts/twice-fan-guide-jyp-cheongdam/"
 author: "Koursea Editorial"
 ---
 
-# TWICE Fan Guide to Seoul: JYP Center, ONCE Stops & Concert Prep
+# TWICE Fan Guide to Seoul: JYP Center, ONCE Stops & Cheongdam Beauty Route
 
 TWICE debuted on October 20, 2015 with *The Story Begins* under JYP Entertainment. The nine members are Nayeon, Jeongyeon, Momo, Sana, Jihyo, Mina, Dahyun, Chaeyoung and Tzuyu, and their official fandom is **ONCE**. A Seoul fan trip can include the [JYP Center exterior](https://www.koursea.com/place/jyp-entertainment-center-gangdong/), but the current headquarters is in **Seongnae-dong, Gangdong-gu—not Cheongdam**. Cheongdam works better as a separate K-beauty and fashion extension to the day.
+
+For the latest schedule, check [JYP's official TWICE notices](https://twice.jype.com/notice) and schedule page directly. The site lists the 2026 *THIS IS FOR* world-tour finale notice; dates, ticket rules and venue access should be taken from that official announcement rather than older fan posts.
 
 ## Key Takeaways for ONCE
 
@@ -43,7 +44,7 @@ TWICE's visual history makes a beauty-and-design route a natural companion, but 
 
 Start at Gangdong-gu Office Station, visit the JYP exterior respectfully, then continue to Olympic Park. Use the park's public art, gardens and broad walkways for colorful photos. Check venue calendars in advance; a concert-day visit can mean heavy crowds even when you are not attending the show.
 
-### Optional Cross-City Extension: Cheongdam Beauty (Unrelated to JYP's Current Location)
+### Afternoon: Cheongdam beauty district
 
 Travel west to Cheongdam or Apgujeong Rodeo for K-beauty retail, makeup services and salon appointments. This is a separate district from JYP Center and takes meaningful travel time, so book appointments with a buffer. Verify the total price, service duration, cancellation policy and whether English consultation is available directly with the business.
 
@@ -59,7 +60,7 @@ TWICE ticket sales may use different platforms depending on promoter and locatio
 
 Our [K-Pop concert ticketing guide](/posts/kpop-concert-ticketing-seoul-2026/) explains NOL World, Melon Ticket, virtual waiting rooms, Korean verification and foreign-card failure patterns. Complete those steps before the on-sale day.
 
-If a platform requires Korean SMS verification, a data-only travel eSIM will not solve it. Review the [Korean eSIM Guide](/posts/korea-esim-with-phone-number-2026-guide/) and confirm that your plan includes a usable Korean number and incoming SMS—not just mobile data.
+If a platform requires Korean SMS verification, a data-only travel eSIM will not solve it. Review the [Korean eSIM Guide](/posts/guide-korea-esim-sim-card-setup-2026/) and confirm that your plan includes a usable Korean number and incoming SMS—not just mobile data.
 
 Prepare a second payment card, disable browser translation if it breaks a ticketing session and save the official venue address in Korean. On show day, carry the exact ID required by the notice and avoid reseller listings that cannot guarantee name transfer or venue admission.
 
