@@ -77,8 +77,16 @@ for (const file of files) {
   const slug = path.basename(file, '.md');
   const source = await fs.readFile(path.join(postsDir, file), 'utf8');
   const title = titleFromFrontmatter(source, slug);
+  // SVG text uses the standard Arial/Helvetica and Georgia/Times New Roman
+  // fallback families. Keep the rasterizer's PNG settings explicit so the
+  // same input produces byte-identical output within a given font environment.
   await sharp(Buffer.from(artwork(title, slug)))
-    .png({ compressionLevel: 9, palette: true })
+    .png({
+      compressionLevel: 9,
+      adaptiveFiltering: false,
+      effort: 7,
+      palette: true,
+    })
     .toFile(path.join(outputDir, `${slug}.png`));
 }
 
