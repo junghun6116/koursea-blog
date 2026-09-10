@@ -2,7 +2,7 @@
 title: "NewJeans Fan Guide: Bunnies, Confirmed Music History & Seoul Planning"
 description: "A carefully scoped NewJeans fan guide covering confirmed 2022–2024 releases, Bunnies, public Seoul planning and respectful fan travel."
 pubDate: 2026-09-02
-updatedDate: 2026-09-02
+updatedDate: 2026-09-11
 category: "K-Pop & Concerts"
 tags:
   - newjeans
@@ -18,9 +18,11 @@ canonicalUrl: "https://blog.koursea.com/posts/newjeans-fan-guide-seoul-spots/"
 author: "Koursea Editorial"
 ---
 
-> **최종 업데이트: 2026-09-02 기준. 최신 소속/멤버 현황은 별도로 확인이 필요합니다.**
+> **최종 업데이트: 2026-09-11 기준. 최신 소속/멤버 현황은 별도로 확인이 필요합니다.**
 
 This guide deliberately covers confirmed activity from 2022 through 2024 only. It does not describe later agency, contract or member-status developments, and it does not present an unconfirmed future concert schedule.
+
+**Official channel check (September 11, 2026):** The [official NewJeans Weverse community](https://weverse.io/newjeansofficial/highlight?hl=ko) shows 2026 community/media activity, and ADOR's [Bunnies membership notice](https://weverse.io/newjeansofficial/notice/34222) confirms a 365-day validity extension for eligible existing members from March 25, 2026. These notices do not establish a current lineup, agency agreement or future concert schedule, so this page keeps its historical scope.
 
 ## Profile & Key Takeaways
 
