@@ -2,7 +2,7 @@
 title: "TWICE Fan Guide to Seoul: JYP Center, ONCE Stops & Cheongdam Beauty Route (2026)"
 description: "A practical TWICE fan guide to JYP Center in Seongnae-dong, respectful exterior photos, Seoul route planning, Cheongdam beauty stops and ticket prep."
 pubDate: 2026-09-02
-updatedDate: 2026-09-02
+updatedDate: 2026-09-10
 tags:
   - twice
   - once
@@ -17,6 +17,8 @@ author: "Koursea Editorial"
 # TWICE Fan Guide to Seoul: JYP Center, ONCE Stops & Cheongdam Beauty Route
 
 TWICE debuted on October 20, 2015 with *The Story Begins* under JYP Entertainment. The nine members are Nayeon, Jeongyeon, Momo, Sana, Jihyo, Mina, Dahyun, Chaeyoung and Tzuyu, and their official fandom is **ONCE**. A Seoul fan trip can include the [JYP Center exterior](https://www.koursea.com/place/jyp-entertainment-center-gangdong/), but the current headquarters is in **Seongnae-dong, Gangdong-gu—not Cheongdam**. Cheongdam works better as a separate K-beauty and fashion extension to the day.
+
+For the latest schedule, check [JYP's official TWICE notices](https://twice.jype.com/notice) and schedule page directly. The site lists the 2026 *THIS IS FOR* world-tour finale notice; dates, ticket rules and venue access should be taken from that official announcement rather than older fan posts.
 
 ## Key Takeaways for ONCE
 
