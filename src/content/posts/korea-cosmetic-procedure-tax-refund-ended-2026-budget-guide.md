@@ -2,6 +2,7 @@
 title: "Korea Cosmetic Procedure Tax Refund Has Ended (2026): A Realistic Budget Guide"
 description: "Korea ended its cosmetic procedure VAT refund for foreign tourists on January 1, 2026. Compare final clinic prices, payment rules and downtime."
 pubDate: 2026-09-02
+updatedDate: 2026-09-02
 tags:
   - Korea Medical Tourism
   - Seoul Skin Clinics

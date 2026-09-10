@@ -1,6 +1,6 @@
 ---
-title: "How to Spot Fake K-Pop Merch in Seoul: The KOMCA Hologram Check"
-description: "Tell official K-pop albums and merch apart from street bootlegs using the KOMCA hologram, receipt details, and a barcode check any fan can do."
+title: "KOMCA Hologram Deep Dive: A Focused K-Pop Merch Check in Seoul"
+description: "A focused KOMCA hologram, agency-seal and receipt check for spotting suspect K-pop albums at Seoul street stalls—separate from the complete authenticity checklist."
 pubDate: 2026-09-06
 updatedDate: 2026-09-06
 tags: ["kpop merch", "komca hologram", "myeongdong shopping", "koursea"]
@@ -17,7 +17,7 @@ faq:
 
 # How to Spot Fake K-Pop Merch in Seoul: The KOMCA Hologram Check
 
-Myeongdong and Dongdaemun street stalls sell K-pop merch alongside authorized retailers, and the difference isn't always obvious at a glance. A few checks take seconds and save you from paying official prices for a bootleg.
+Myeongdong and Dongdaemun street stalls sell K-pop merch alongside authorized retailers, and the difference isn't always obvious at a glance. This is a focused KOMCA check; for seller vetting, packaging, lightsticks and returns, start with the [complete K-pop merch authenticity checklist](/posts/how-to-spot-fake-k-pop-merch-seoul-guide/).
 
 ## Check the KOMCA hologram
 

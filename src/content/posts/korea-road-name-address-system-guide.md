@@ -47,4 +47,4 @@ Hotels and Airbnb hosts often need the exact building name and unit. Delivery, e
 - [Korea Post](https://www.koreapost.go.kr/eng/index.do)
 - [Korea Post EMS](https://www.epost.go.kr/main/eng/Enpost_Services3.html)
 
-For a related long-stay prerequisite, see Koursea's [ARC appointment guide](/posts/korea-long-term-stay-alien-registration-card-arc-appointment-strategy/).
+For a related long-stay prerequisite, see Koursea's ARC appointment-planning notes.

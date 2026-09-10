@@ -2,6 +2,7 @@
 title: "Google Maps in Korea (2026 Guide): Why It Fails & What to Use Instead"
 description: "Learn why Google Maps works differently in Korea, how to use Naver Map in English, and which navigation app is best for subway, walking, driving, and taxis."
 pubDate: 2026-09-02
+updatedDate: 2026-09-02
 tags:
   - Google Maps Korea
   - Naver Map English
@@ -9,6 +10,7 @@ tags:
   - Seoul Navigation
   - KakaoMap
 canonicalUrl: "https://blog.koursea.com/posts/google-maps-korea-guide/"
+author: "Koursea Editorial"
 ---
 
 Google Maps is excellent for saving restaurants, checking reviews, and understanding the shape of a city. In South Korea, however, it is not always the most reliable tool for turn-by-turn walking or driving directions. A route that looks simple may return no walking option, send you to an inconvenient entrance, or omit the subway exit that matters most.

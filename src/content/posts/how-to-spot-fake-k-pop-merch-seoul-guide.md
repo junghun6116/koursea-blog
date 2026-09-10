@@ -1,6 +1,6 @@
 ---
-title: "How to Spot Fake K-Pop Merch in Seoul: Authenticity Guide"
-description: "Check K-pop albums, photocards and lightsticks before buying in Seoul, avoid high-risk stalls, and find official retailer channels."
+title: "How to Spot Fake K-Pop Merch in Seoul: The Complete Authenticity Checklist"
+description: "Use a complete seller, packaging, product, receipt and return-policy checklist to assess K-pop albums, photocards and lightsticks before buying in Seoul."
 pubDate: 2026-09-05
 updatedDate: 2026-09-05
 tags: ["fake kpop merch", "kpop lightstick authentic", "withmuu seoul", "ktown4u", "kpop store seoul"]
@@ -12,7 +12,7 @@ author: "Koursea Editorial"
 
 Buying an album or lightstick in Seoul should be a fun part of a K-pop trip, but a Seoul address alone does not make merchandise official. The safest approach is to verify the seller, the product and the return policy before paying—not to rely on one sticker or a low price.
 
-This guide focuses on checks a traveler can actually perform in a shop. No single hologram, barcode or Bluetooth test proves every product genuine, and not every legitimate release uses the same authentication system.
+This guide focuses on checks a traveler can actually perform in a shop. No single hologram, barcode or Bluetooth test proves every product genuine, and not every legitimate release uses the same authentication system. For the narrow KOMCA sticker check, see our [KOMCA hologram deep dive](/posts/how-to-spot-fake-kpop-merch-seoul/).
 
 ## Why the Counterfeit Risk Is Real
 
