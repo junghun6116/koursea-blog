@@ -1,8 +1,8 @@
 ---
 title: "NewJeans Fan Guide: Bunnies, Confirmed Music History & Seoul Planning"
-description: "A carefully scoped NewJeans fan guide covering confirmed 2022–2024 releases, Bunnies, public Seoul planning and respectful fan travel."
+description: "A carefully scoped NewJeans fan guide covering confirmed 2022–2024 releases, the 2025–2026 ADOR agency resolution, Bunnies, public Seoul planning and respectful fan travel."
 pubDate: 2026-09-02
-updatedDate: 2026-09-02
+updatedDate: 2026-09-11
 category: "K-Pop & Concerts"
 tags:
   - newjeans
@@ -18,9 +18,9 @@ canonicalUrl: "https://blog.koursea.com/posts/newjeans-fan-guide-seoul-spots/"
 author: "Koursea Editorial"
 ---
 
-> **최종 업데이트: 2026-09-02 기준. 최신 소속/멤버 현황은 별도로 확인이 필요합니다.**
+> **최종 업데이트: 2026-09-11 기준.** The 2024–2025 agency dispute with ADOR (including the temporary "NJZ" rebrand) has been resolved — see the 2026 update below.
 
-This guide deliberately covers confirmed activity from 2022 through 2024 only. It does not describe later agency, contract or member-status developments, and it does not present an unconfirmed future concert schedule.
+This guide covers confirmed activity from 2022 through 2024, plus the confirmed 2025–2026 agency resolution below. It does not present an unconfirmed future concert schedule.
 
 ## Profile & Key Takeaways
 
@@ -34,7 +34,13 @@ This guide deliberately covers confirmed activity from 2022 through 2024 only. I
 
 NewJeans debuted in 2022 with an EP led by “Attention” and “Hype Boy”; both songs became defining early releases, and “Attention” earned the group its first music-show win. The following single album paired “Ditto” with “OMG”. In 2023, the *Get Up* EP reached No. 1 on the Billboard 200. Confirmed 2024 activity includes “How Sweet”, the Japanese debut single “Supernatural”, and the sold-out Bunnies Camp fan meeting at Tokyo Dome.
 
-Those releases are the boundary of this page's activity timeline. Travelers should not infer a current lineup, agency position or future tour from this historical summary.
+Those releases are the boundary of this page's 2022–2024 activity timeline.
+
+## 2025–2026 Agency Dispute and Resolution
+
+After 2024, the group entered a lengthy legal dispute with ADOR over contract terms, briefly performing under the name **NJZ** starting in early 2025 while attempting to leave the label. A Seoul high court ultimately ruled in ADOR's favor, and in late 2025 the members announced a return to the label, ending the dispute. Member **Danielle departed the group** after ADOR terminated her exclusive contract in December 2025. The remaining four members — **Minji, Hanni, Haerin and Hyein** — returned under the name **NewJeans** and confirmed a "2026 Summer of NewJeans" comeback.
+
+Fan-visitable locations have not changed as a result of this dispute: ADOR still has no dedicated public visitor headquarters, so the neighborhood-level Seoul planning below remains the practical guidance for fans.
 
 ## Neighborhoods, Not a Single Address
 
@@ -61,7 +67,12 @@ This page does not claim that a NewJeans concert is scheduled. If an official fu
 ## Quick Answers
 
 - **Is there an official NewJeans or ADOR building to visit?** No confirmed public visitor site — ADOR doesn't operate the kind of visitor-facing destination associated with places such as [HYBE Yongsan](https://www.koursea.com/place/hybe-headquarters-yongsan/) or [SM Entertainment and KWANGYA@SEOUL](https://www.koursea.com/place/sm-kwangya-seoul-forest/).
-- **Does this guide confirm the group's current agency or member status?** No. It is limited to confirmed 2022–2024 activity and the debut-era agency description.
+- **Does this guide confirm the group's current agency or member status?** Yes, as of the 2026-09-11 update: NewJeans is a four-member group (Minji, Hanni, Haerin, Hyein) signed to ADOR, following Danielle's December 2025 departure and the resolution of the 2024–2025 agency dispute.
+
+## Official Reference Points
+
+- [NewJeans set to restart activities in 2026, boosting HYBE outlook — KED Global](https://www.kedglobal.com/k-pop/newsView/ked202511130003)
+- [NewJeans to return to label ADOR "after careful discussion" — Rolling Stone](https://www.rollingstone.com/music/music-news/newjeans-return-label-ador-1235464143/)
 
 ---
 

@@ -2,7 +2,7 @@
 title: "BTS Fan Guide to Seoul: HYBE Yongsan, ARMY Photo Stops & Concert Prep (2026)"
 description: "Plan a respectful BTS fan trip to HYBE Yongsan with subway directions, exterior photo rules, nearby stops, ticketing, eSIM and payment advice."
 pubDate: 2026-09-02
-updatedDate: 2026-09-02
+updatedDate: 2026-09-11
 category: "K-Pop & Concerts"
 tags:
   - bts
@@ -41,6 +41,8 @@ HYBE is an active corporate office. A headquarters exterior is not permission to
 
 > **HYBE INSIGHT closure notice:** HYBE INSIGHT permanently closed on January 15, 2023. As of September 2026, HYBE has not announced a reopening at the Yongsan headquarters. Do not plan a museum visit; treat the site only as a working-office exterior photo stop.
 
+> **2026 comeback context:** BTS confirmed a full-group comeback for March 20, 2026 — their first group activity since the military-service era began — along with a world tour of roughly 65 dates across North America and other regions. A BTS COMEBACK POP-UP with ARIRANG-themed merchandise ran at HYBE Yongsan from March 20 to April 12, 2026, though that pop-up has since ended. Check HYBE, BIGHIT MUSIC and Weverse for any current or upcoming activity at the Yongsan site before visiting.
+
 ### A practical Yongsan fan route
 
 Allow roughly half a day for a relaxed route:
@@ -74,6 +76,7 @@ On concert day, screenshot the official venue notice, seat information and retur
 
 - [BTS official profile at BIGHIT MUSIC](https://bts.ibighit.com/eng/profile/)
 - [BIGHIT MUSIC official website](https://www.bighitsmusic.com/)
+- [BTS confirms full-group comeback, world tour for spring 2026 — The Korea Herald](https://www.koreaherald.com/article/10522798)
 
 ## Social & Community Distribution Snippets
 
