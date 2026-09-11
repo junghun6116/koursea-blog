@@ -1,11 +1,18 @@
 ---
 title: "How to Spot Fake K-Pop Merch in Seoul: Authenticity Guide"
-description: "Check K-pop albums, photocards and lightsticks before buying in Seoul, avoid high-risk stalls, and find official retailer channels."
+description: "Check K-pop albums, photocards and lightsticks before buying in Seoul with the KOMCA hologram, official retailer channels, and a barcode check any fan can do."
 pubDate: 2026-09-05
-updatedDate: 2026-09-05
-tags: ["fake kpop merch", "kpop lightstick authentic", "withmuu seoul", "ktown4u", "kpop store seoul"]
+updatedDate: 2026-09-11
+tags: ["fake kpop merch", "kpop lightstick authentic", "withmuu seoul", "ktown4u", "kpop store seoul", "komca hologram"]
 canonicalUrl: "https://blog.koursea.com/posts/how-to-spot-fake-k-pop-merch-seoul-guide/"
 author: "Koursea Editorial"
+faq:
+  - question: "What is the KOMCA hologram sticker?"
+    answer: "It's a certification sticker from the Korea Music Copyright Association, attached near the barcode on the back of an official album. It's made from a reflective foil that shows a music-note pattern and KOMCA text that shift as you tilt it under light."
+  - question: "How do I know if a hologram sticker is fake?"
+    answer: "Genuine stickers carry a finely printed serial code alongside a classification letter. If the sticker is a flat, single-color foil with no serial number, or the print is smudged and doesn't change pattern when tilted, treat it as a red flag worth double-checking."
+  - question: "Does a receipt tell me anything about authenticity?"
+    answer: "Yes — check the business type printed on it. A legitimate record retailer's receipt shows a business category like 'record and music sales' or general retail. A street stall issuing only a handwritten slip, or a receipt categorized as general goods, is a signal to look closer before you assume the item is official."
 ---
 
 # How to Spot Fake K-Pop Merch in Seoul: Authenticity Guide
@@ -40,7 +47,9 @@ These checks confirm that the location is an established official-merchandise ch
 
 Look for clean, consistent printing. Official album barcodes, catalog numbers and copyright lines should be sharp rather than blurry, misaligned or pasted over. Compare the album version, inclusions and catalog number with the artist or label's official release notice.
 
-Many Korean albums carry a KOMCA-related authentication mark, but packaging formats change and imported or special-edition products may use different markings. Treat a hologram as one supporting signal, not universal proof. If the release uses a product-specific authentication system such as HiddenTag, scan it through the named official app and verify that the result corresponds to the exact product. A random QR code opening a generic webpage proves very little.
+Many Korean albums carry a certification sticker from the Korea Music Copyright Association (KOMCA) near the barcode on the back of the case. It's printed on reflective foil — tilt it and a genuine sticker shows a music-note pattern and KOMCA text alternate as the angle changes, alongside a finely printed serial number and classification letter. A flat, single-tone sticker with no pattern shift, or a smudged/missing serial number, is a warning sign. Major agencies — HYBE, SM, JYP and others — often add their own 3D holographic seal on top of the KOMCA sticker; its absence on a major-artist release is worth a second look. Packaging formats do change over time, and imported or special-edition products may use different markings, so treat any hologram as one supporting signal rather than universal proof. If the release uses a product-specific authentication system such as HiddenTag, scan it through the named official app and verify that the result corresponds to the exact product. A random QR code opening a generic webpage proves very little.
+
+You can also scan the album's registered barcode (EAN/UPC) with a Korean music-chart app such as Hanteo or Circle Chart — most will recognize an official release instantly. If a scan returns nothing or a mismatched title, that's a concrete signal, not just a hunch.
 
 Loose photocards need extra caution. Check the official inclusion list, dimensions, corner shape, crop and reverse-side design. Color alone is unreliable because legitimate print runs can vary. If a seller calls a card an official preorder benefit, ask which retailer event issued it and whether provenance can be shown.
 

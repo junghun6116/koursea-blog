@@ -71,7 +71,7 @@ A standard T-money card used in Seoul also works on Busan's metro and city buses
 
 ## Turn It Into a Full Busan Day
 
-Avoid crossing the entire city immediately before the event. A coastal day around Haeundae and Gwangalli reduces transport risk; use our [Busan Haeundae and Gwangalli itinerary](/itinerary/busan-haeundae-gwangalli-coastal-itinerary/) as the planning base.
+Avoid crossing the entire city immediately before the event. A coastal day around Haeundae and Gwangalli reduces transport risk and works well as a planning base.
 
 If you want Gamcheon Culture Village or Jagalchi Market, visit early and leave a large buffer before moving east. The [Busan subway, food and Gamcheon guide](/posts/guide-busan-subway-qr-pass-food-gamcheon-haeundae/) explains the practical route tradeoffs. Do not schedule a tight timed attraction immediately before reaching the beach.
 

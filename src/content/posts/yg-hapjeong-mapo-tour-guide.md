@@ -26,7 +26,7 @@ Compare sealed-product policies before buying. A low album price can be offset b
 
 ## Stop 3: Hongdae and Yeonnam Break
 
-Hongdae's busiest retail streets can be tiring after a release-day queue. Move toward a quieter café or Yeonnam section, then return for dinner. The [Hongdae and Yeonnam evening itinerary](/itinerary/hongdae-yeonnam-evening-itinerary/) helps connect the neighborhood without unnecessary backtracking.
+Hongdae's busiest retail streets can be tiring after a release-day queue. Move toward a quieter café or Yeonnam section, then return for dinner to connect the neighborhood without unnecessary backtracking.
 
 Soundwave and other retailers may host separate benefits. Do not assume one store's event applies to another, and do not let a reseller pressure you into an immediate cash transfer. Use official retailer channels and a payment method that leaves a record.
 

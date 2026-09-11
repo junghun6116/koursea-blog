@@ -43,8 +43,6 @@ Calling Shurink an “off-brand knockoff” is inaccurate and unhelpful. It is a
 
 These are aggregated planning estimates, not binding quotations or an official price index. A first-visit promotion may be limited by date, district, treatment area, cartridge, or customer eligibility. A foreign-language package may include coordination and aftercare—or may simply use a higher rack rate.
 
-Review the underlying [Shurink Universe Gangnam cost page](/beauty/shurink-universe-gangnam-cost/) before comparing advertisements.
-
 ## The Regulatory Status: What Can Be Said Reliably
 
 The FDA explains that device establishment registration, listing, or a certificate does **not** mean a device is approved, cleared, or authorized. Commercial 510(k) clearance is also different from an Investigational Device Exemption, which permits an investigational device to be used in a clinical study to collect safety and effectiveness data.
@@ -89,7 +87,7 @@ The Ulthera PRIME control unit has a specific FDA 510(k) clearance record. Kours
 
 Shurink generally occupies the lower Korean promotional tier. Ultherapy Prime offers around 300 lines can range far higher. The price gap reflects different platforms, consumables, market positioning, clinical plans, and package structures—not a controlled head-to-head promise that one will always produce a particular percentage of improvement.
 
-Read the [Shurink Universe vs. Ultherapy guide](/beauty/shurink-universe-vs-ultherapy-seoul-guide/), the [Ultherapy versus Shurink decision page](/beauty/ultherapy-vs-shurink-universe-comparison/), and the full [Ultherapy Prime Korea guide](/posts/ultherapy-korea-guide/).
+Read the full [Ultherapy Prime Korea guide](/posts/ultherapy-korea-guide/) for a device-by-device comparison.
 
 ## Downtime and Side Effects
 
@@ -116,7 +114,7 @@ Use the clinic's official channel, not a price broker. Save written confirmation
 
 ## Planning the Rest of the Day
 
-Keep post-treatment plans flexible and follow the clinic's restrictions. If the appointment is in Gangnam, the [Gangnam and COEX one-day itinerary](/itinerary/gangnam-coex-kbeauty-one-day-itinerary/) can provide a neighborhood framework, but skip activities involving heat, strenuous exercise, or prolonged sun when advised.
+Keep post-treatment plans flexible and follow the clinic's restrictions. If the appointment is in Gangnam, treat the COEX area as a low-effort neighborhood framework, but skip activities involving heat, strenuous exercise, or prolonged sun when advised.
 
 Use [Koursea](https://koursea.com/) to save the verified Korean clinic name and address for Naver Map or taxi navigation. Arrival tools do not replace medical or regulatory verification.
 

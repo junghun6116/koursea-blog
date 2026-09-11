@@ -51,8 +51,6 @@ An imported brand is not automatically better for every patient. Product charact
 
 These figures are aggregated market-planning estimates rather than binding clinic quotations or a government price index. Seasonal promotions, injection area, clinician experience, technique, and bundled aftercare can materially change the final bill.
 
-For the underlying comparisons, see Koursea's [domestic filler guide](/beauty/dermal-filler-domestic-brand/), [imported filler guide](/beauty/dermal-filler-imported-brand/), [Myeongdong filler guide](/beauty/dermal-filler-myeongdong-seoul/), [Seomyeon filler guide](/beauty/dermal-filler-seomyeon-busan/), and [Centum filler guide](/beauty/dermal-filler-centum-busan/).
-
 ## The Dose-Basis Trap
 
 A “1 ml syringe” quote and a “full-face package” are not comparable. The package may contain two or three syringes, multiple treatment areas, a different product tier, or additional procedures. Ask the clinic to break the offer into product name, milliliters, areas, and included services.

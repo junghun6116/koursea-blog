@@ -47,13 +47,13 @@ The location is convenient for travelers staying around Haeundae: the beach area
 
 | Procedure | Seomyeon pSEO Record | Centum pSEO Record |
 | --- | --- | --- |
-| Forehead Botox | [₩15,000–70,000 per treatment area](/beauty/botox-forehead-seomyeon-busan/) | [₩30,000–90,000 per forehead area for a domestic-tier toxin](/beauty/botox-forehead-centum-busan/) |
-| Laser / Pico Toning | [₩50,000–150,000 per full-face session](/beauty/laser-toning-seomyeon-busan/) | [₩55,000–160,000 per full-face session](/beauty/laser-toning-centum-busan/) |
-| Rejuran Healer | [₩180,000–380,000 per 2cc session](/beauty/rejuran-healer-seomyeon-busan/) | [₩150,000–420,000 per 2cc session](/beauty/rejuran-healer-centum-busan/) |
-| Domestic-tier Filler | [₩180,000–350,000 per 1ml syringe](/beauty/dermal-filler-seomyeon-busan/) | [₩130,000–300,000 per 1ml syringe](/beauty/dermal-filler-centum-busan/) |
-| HIFU Lifting | No matching Seomyeon pSEO record | [₩230,000–1,650,000 for a roughly 300-shot equivalent session](/beauty/hifu-lifting-centum-busan/) |
+| Forehead Botox | ₩15,000–70,000 per treatment area | ₩30,000–90,000 per forehead area for a domestic-tier toxin |
+| Laser / Pico Toning | ₩50,000–150,000 per full-face session | ₩55,000–160,000 per full-face session |
+| Rejuran Healer | ₩180,000–380,000 per 2cc session | ₩150,000–420,000 per 2cc session |
+| Domestic-tier Filler | ₩180,000–350,000 per 1ml syringe | ₩130,000–300,000 per 1ml syringe |
+| HIFU Lifting | No matching Seomyeon pSEO record | ₩230,000–1,650,000 for a roughly 300-shot equivalent session |
 
-The HIFU range is unusually wide because the underlying Centum record distinguishes bare promotional sessions from packages that can include diagnostics, numbing, LDM, and other add-ons. It should not be read as a district average. Open each linked procedure page for the stored assumptions and comparison cautions.
+The HIFU range is unusually wide because the underlying Centum record distinguishes bare promotional sessions from packages that can include diagnostics, numbing, LDM, and other add-ons. It should not be read as a district average.
 
 ## How to Choose Between Seomyeon and Centum
 
@@ -75,6 +75,6 @@ For the service-model decision after choosing a district, read [How to Choose a 
 ## Research References
 
 - [Busanjin-gu Seomyeon Medical Tourism District](https://www.busanjin.go.kr/meditour)
-- Koursea's nine existing Busan Beauty pSEO records linked in the comparison table above
+- Koursea's internal Busan clinic pricing dataset (nine records), summarized in the comparison table above
 
 > **Medical disclaimer:** This guide is for travel-planning and price-transparency purposes only. It is not medical advice. Consult a licensed physician who can assess your health, skin, medications, and procedure risks.

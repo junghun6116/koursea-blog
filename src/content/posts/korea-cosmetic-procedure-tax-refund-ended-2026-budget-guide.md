@@ -2,6 +2,7 @@
 title: "Korea Cosmetic Procedure Tax Refund Has Ended (2026): A Realistic Budget Guide"
 description: "Korea ended its cosmetic procedure VAT refund for foreign tourists on January 1, 2026. Compare final clinic prices, payment rules and downtime."
 pubDate: 2026-09-02
+updatedDate: 2026-09-02
 tags:
   - Korea Medical Tourism
   - Seoul Skin Clinics
@@ -111,8 +112,6 @@ Neither model is automatically better. The meaningful differences are consultati
 
 These are planning references, not guaranteed quotes. A higher price does not automatically mean a stronger treatment or better result. It may reflect more consultation time, a larger dose, an imported product, doctor continuity, interpretation or bundled aftercare.
 
-For the exact price gap between factory-style and private clinics on your specific treatment, see our [Rejuran Healer: Factory vs Private Clinic Pricing](/beauty/rejuran-healer-private-clinic/) breakdown.
-
 ## Compare units instead of package names
 
 “Full face,” “premium,” “signature” and “foreigner package” are not standardized medical quantities. For fair comparisons, request:
@@ -162,8 +161,6 @@ From January 1, 2026, foreign visitors should treat the displayed final clinic c
 Retail tax refunds for eligible goods remain a separate system, so qualifying skincare shopping at participating stores may still receive tourist tax treatment. That does not make a clinic procedure refundable.
 
 The best protection is not chasing the lowest headline number. Compare identical quantities, request the complete price in writing, plan for downtime and choose the clinic model that fits your communication and continuity needs.
-
-Turning a clinic visit into a full day out? Our [Gangnam 1-Day Itinerary](/itinerary/gangnam-coex-kbeauty-one-day-itinerary/) covers what's nearby between appointments.
 
 ## Official references
 

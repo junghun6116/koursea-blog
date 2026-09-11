@@ -33,21 +33,17 @@ Many travelers can resume ordinary low-intensity activity after cosmetic botulin
 
 The more important safety check is product and provider legitimacy. The U.S. FDA warns that unapproved or mishandled botulinum toxin products can cause serious adverse effects, including swallowing or breathing problems. Use a licensed clinician, ask which product is being administered, and seek urgent care for concerning systemic symptoms rather than boarding a flight.
 
-For price units, treatment zones, and clinic questions, compare the [forehead Botox factory-clinic guide](/beauty/botox-forehead-factory-clinic/) and [full-face private-clinic guide](/beauty/botox-full-face-private-clinic/).
-
 ## Laser and Pico Toning: Flying Is Not the Only Exposure
 
 A gentle toning session may not require a dedicated flight day, but airports and aircraft introduce dry air, long periods without easy face washing, and daylight exposure during transfers. The American Academy of Dermatology emphasizes sun protection after laser treatment because treated skin can be more vulnerable while healing.
 
 Ask what wavelength, energy level, and endpoint the clinic plans to use. A mild maintenance session and an aggressive pigment-focused treatment can have very different redness, flaking, or post-inflammatory pigmentation risks. Pack the exact bland moisturizer and sunscreen approved by the clinician in your carry-on, within airport liquid limits.
 
-See Koursea's [pico-toning guide for foreign travelers](/beauty/pico-toning-laser-foreign-traveler-guide/) for the questions to ask before booking.
-
 ## HIFU: Same-Day Travel Can Still Mean Visible Downtime
 
 Ultherapy Prime and Shurink Universe are non-surgical ultrasound treatments, so clinics often market them as minimal-downtime options. That does not guarantee that your face will look or feel unchanged. Tenderness, redness, or mild swelling can remain noticeable for a day or two, and treatment intensity varies by cartridge depth, shot count, and anatomy.
 
-If you are comfortable traveling with those possible effects and your clinician finds no individual contraindication, a same-day departure may be workable. If photographs, events, or a tight connection matter, place HIFU earlier in the itinerary even when a medical flight restriction is not imposed. Compare the devices in the [Shurink Universe vs. Ultherapy guide](/beauty/shurink-universe-vs-ultherapy-seoul-guide/).
+If you are comfortable traveling with those possible effects and your clinician finds no individual contraindication, a same-day departure may be workable. If photographs, events, or a tight connection matter, place HIFU earlier in the itinerary even when a medical flight restriction is not imposed.
 
 ## Dermal Filler: Stay Close Enough to Get Help
 
@@ -55,13 +51,9 @@ Filler deserves a more cautious schedule. Bruising, redness, swelling, pain, and
 
 Koursea uses **one full day as a minimum logistics buffer**, not as a declaration that flying becomes medically safe after 24 hours. Your injector may recommend longer based on the product, injection site, symptoms, medical history, and flight length. Before leaving the clinic, save its emergency number and written instructions. Seek immediate medical attention for unusual or severe pain, visual changes, pale/gray/blue skin, rapidly worsening discoloration, weakness, or difficulty speaking.
 
-Review the [domestic filler guide](/beauty/dermal-filler-domestic-brand/) and [imported filler guide](/beauty/dermal-filler-imported-brand/) before comparing 1 ml quotes.
-
 ## Rejuran Healer: Build in Time for the Injection Marks
 
 Rejuran commonly leaves small raised injection points, redness, or pinpoint bruising. A one-day buffer is useful for appearance, aftercare, and access to the treating clinic, but it is not a universally recognized aviation standard. If you have a history of strong swelling, allergies, bleeding problems, or delayed healing, tell the clinician before treatment and ask whether your departure should be moved.
-
-The [Rejuran price and downtime guide](/beauty/rejuran-healer-korea-price-downtime-guide-2026/) explains dose-based quote comparison and pain-control questions.
 
 ## Potenza RF Microneedling: Do Not Invent a Zero-Day Rule
 
