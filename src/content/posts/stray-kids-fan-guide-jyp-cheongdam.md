@@ -2,7 +2,7 @@
 title: "Stray Kids Fan Guide to Seoul: JYP Center, STAY Route & Concert Prep (2026)"
 description: "Plan a respectful Stray Kids fan trip to JYP Center in Seongnae-dong with subway directions, photo rules, Olympic Park routing and ticketing advice."
 pubDate: 2026-09-02
-updatedDate: 2026-09-02
+updatedDate: 2026-09-11
 category: "K-Pop & Concerts"
 tags:
   - stray-kids
@@ -43,7 +43,7 @@ Start at Gangdong-gu Office Station, visit the exterior, then walk or take a sho
 
 ### Concert-venue orientation
 
-Olympic Park contains [KSPO DOME](https://www.koursea.com/place/kspo-dome-olympic-park/) and other venues frequently used for K-pop performances. Even if no Stray Kids event is scheduled, seeing the station layout in daylight helps you understand crowd flow. On an actual concert day, follow the event map because temporary merchandise booths, ticket pickup and entry gates vary.
+Olympic Park contains [KSPO DOME](https://www.koursea.com/place/kspo-dome-olympic-park/) and other venues frequently used for K-pop performances. Stray Kids' "RUN IT" world tour held five KSPO DOME shows in Seoul in July–August 2026 before continuing through Japan, Hong Kong and Taipei, with further Asia dates announced into early 2027 — check JYP's official tour page for any additional Korea leg before planning a visit around a concert date. Even without a scheduled show, seeing the station layout in daylight helps you understand crowd flow. On an actual concert day, follow the event map because temporary merchandise booths, ticket pickup and entry gates vary.
 
 Line 9 can be valuable after a concert, but express and all-stop trains differ. Save your hotel route and the final feasible departure before entering the venue. Mobile service may slow when thousands of fans leave together, so choose a fixed meeting landmark that does not depend on messaging.
 
@@ -79,6 +79,7 @@ Before ticketing opens:
 
 - [Stray Kids official profile](https://straykids.jype.com/profile)
 - [JYP Entertainment official contact and current address](https://www.jype.com/ko/JYP/Contact)
+- [Stray Kids unveil new world tour "Run It," set to launch with five Seoul concerts — The Korea Herald](https://www.koreaherald.com/article/10785224)
 
 ## Social & Community Distribution Snippets
 
