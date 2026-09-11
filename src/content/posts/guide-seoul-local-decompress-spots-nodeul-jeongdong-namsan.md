@@ -101,7 +101,7 @@ The stream can close at underpasses or stepping stones during heavy rain and flo
 
 Search the Korean names above in Naver Map or KakaoMap. English romanization is inconsistent, and a search may otherwise select a similarly named business or a distant entrance. Save the Korean destination name, the subway exit, and your return address before leaving Wi-Fi.
 
-For the current location of entrances, temporary closures, and bus arrivals, live Korean map data is more useful than a static itinerary. See the [Koursea navigation guide](/posts/google-maps-korea-guide/) for a practical setup, or build a longer day around the [Jongno, Bukchon, and palace itinerary](/itinerary/jongno-bukchon-palace-one-day-itinerary/).
+For the current location of entrances, temporary closures, and bus arrivals, live Korean map data is more useful than a static itinerary. See the [Koursea navigation guide](/posts/google-maps-korea-guide/) for a practical setup, or build a longer day around the Jongno, Bukchon, and palace itinerary.
 
 ## Before you go
 

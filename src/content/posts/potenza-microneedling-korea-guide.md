@@ -43,8 +43,6 @@ Active inflammatory acne, infection, a history of abnormal scarring, recent proc
 
 These are aggregated market-planning ranges, not binding clinic quotations or an official price index. Koursea currently has verified Potenza-specific data for Gangnam only. A quote from Myeongdong, Hongdae, Seomyeon, Centum, or another district should be compared on its own scope rather than labeled cheap or expensive against Gangnam automatically.
 
-See the underlying [factory-style Potenza comparison](/beauty/potenza-microneedling-factory-clinic-gangnam/) and [private-clinic Potenza comparison](/beauty/potenza-microneedling-private-clinic-gangnam/).
-
 ## Factory-Style vs. Private Clinic
 
 A high-volume clinic may offer lower pricing, standardized intake, faster turnover, and rotating clinicians. A private clinic may provide longer consultation time and greater continuity with one doctor. Those are service-model tendencies, not guarantees of outcome.
@@ -107,7 +105,7 @@ Book through the clinic's official channel rather than a price broker. Get the a
 
 Do appearance-sensitive plans before the appointment, then keep the rest of the day low-friction and indoors. Avoid building a packed schedule that makes it difficult to follow aftercare or return to the clinic.
 
-The [Gangnam and COEX one-day itinerary](/itinerary/gangnam-coex-kbeauty-one-day-itinerary/) can help with neighborhood planning, but modify it around your clinician's sun, exercise, heat, and makeup restrictions. Use [Koursea](https://koursea.com/) to save the clinic's verified Korean address for Naver Map and taxi navigation.
+Treat the COEX area as a low-effort neighborhood framework, but modify it around your clinician's sun, exercise, heat, and makeup restrictions. Use [Koursea](https://koursea.com/) to save the clinic's verified Korean address for Naver Map and taxi navigation.
 
 ## Bottom Line
 

@@ -46,8 +46,6 @@ Do not select treatment from a menu before a qualified clinician identifies whet
 
 These figures are aggregated market-planning ranges, not binding quotations or an official government price index. Some national advertisements fall below these ranges, while premium devices, stronger protocols, combination treatments, or multi-session packages can cost more.
 
-Use the detailed [Gangnam factory-style laser guide](/beauty/laser-toning-pico-factory-clinic/), [Gangnam private-clinic guide](/beauty/laser-toning-pico-private-clinic/), [Myeongdong laser-toning guide](/beauty/laser-toning-myeongdong-seoul/), [Seomyeon guide](/beauty/laser-toning-seomyeon-busan/), and [Centum guide](/beauty/laser-toning-centum-busan/) to compare matching scopes.
-
 ## When a Fast Maintenance Session May Make Sense
 
 A streamlined clinic can be practical when you already have a documented diagnosis, have tolerated the same device and protocol, and a clinician confirms that the proposed session is appropriate. Bring the prior device name, wavelength, settings if available, treatment date, photographs, and any adverse-reaction history.

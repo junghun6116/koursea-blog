@@ -44,8 +44,6 @@ U.S. indications listed for the system include lifting the eyebrow and lax subme
 
 These are aggregated estimates for packages described around roughly 300 lines, not binding clinic quotations or an official government index. Two “300-line” offers may treat different areas or distribute lines across depths differently. A low Korean app promotion and an English-language premium package should not automatically be described as clinically identical.
 
-Review the detailed [Ultherapy Prime Gangnam cost page](/beauty/ultherapy-prime-gangnam-cost/) for the underlying planning record.
-
 ## Why Quotes Vary So Widely
 
 ### Promotion and audience tier
@@ -99,7 +97,7 @@ Place a first-time or high-intensity treatment earlier in the trip when possible
 
 Ultherapy Prime and Shurink Universe are different ultrasound platforms. Ultherapy Prime has U.S. FDA-cleared indications and real-time DeepSEE visualization. Shurink Universe is a Korean device positioned at a lower price tier and does not offer the same Ultherapy imaging workflow.
 
-Those differences are factual, but they do not establish that one device produces a superior outcome for every face. Comparing results requires matched indications, settings, shot or line distribution, clinician skill, and patient characteristics. Review the [Shurink Universe vs. Ultherapy comparison](/beauty/shurink-universe-vs-ultherapy-seoul-guide/) and the [Ultherapy versus Shurink decision page](/beauty/ultherapy-vs-shurink-universe-comparison/).
+Those differences are factual, but they do not establish that one device produces a superior outcome for every face. Comparing results requires matched indications, settings, shot or line distribution, clinician skill, and patient characteristics.
 
 ## VAT and Booking Safeguards
 
@@ -114,7 +112,7 @@ Book through the clinic's official channel instead of a price broker. Obtain the
 
 ## Planning the Rest of Your Gangnam Day
 
-Keep plans flexible after treatment and avoid activities that conflict with the clinic's instructions. The [Gangnam and COEX one-day itinerary](/itinerary/gangnam-coex-kbeauty-one-day-itinerary/) can provide a neighborhood framework, but medical aftercare takes priority.
+Keep plans flexible after treatment and avoid activities that conflict with the clinic's instructions. Treat the COEX area as a low-effort neighborhood framework, but medical aftercare takes priority.
 
 Use [Koursea](https://koursea.com/) to save the verified Korean clinic name and address for Naver Map or a taxi card. Navigation support does not replace verification of the device, provider, or treatment plan.
 

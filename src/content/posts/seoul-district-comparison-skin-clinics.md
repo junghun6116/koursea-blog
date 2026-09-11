@@ -49,16 +49,6 @@ Hongdae and the adjacent Shinchon/Hapjeong search area now show enough public li
 | Ultherapy Prime | **₩600,000–900,000 estimated for ~300 shots** | Estimate derived from Seoul 300-shot offers plus a local 400-shot listing |
 | Shurink Universe | ₩88,000–154,000 for 300 shots | Direct like-for-like promotional listings |
 
-Use the individual Koursea pages for the assumptions behind each number:
-
-- [Forehead Botox in Hongdae](/beauty/botox-forehead-hongdae-seoul/)
-- [Dermal Filler in Hongdae](/beauty/dermal-filler-hongdae-seoul/)
-- [Rejuran Healer in Hongdae](/beauty/rejuran-healer-hongdae-seoul/)
-- [Laser and Pico Toning in Hongdae](/beauty/laser-toning-hongdae-seoul/)
-- [Potenza Microneedling in Hongdae](/beauty/potenza-microneedling-hongdae-seoul/)
-- [Ultherapy Prime in Hongdae](/beauty/ultherapy-prime-hongdae-seoul/)
-- [Shurink Universe in Hongdae](/beauty/shurink-universe-hongdae-seoul/)
-
 Hongdae can be a practical choice when you are already staying in Mapo. The main tradeoff is verification: do not infer English medical consultation from an English reservation page, and do not treat a first-visit promotion as the permanent price.
 
 ## How to Choose the District

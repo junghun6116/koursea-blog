@@ -48,8 +48,6 @@ These are aggregated market-planning estimates, not binding clinic quotations or
 
 Koursea's records show a meaningful gap between some high-volume and private-clinic quotes, but price alone does not prove that the clinical service is identical. Published reviews document variation in PN injection areas and techniques, so do not assume injector judgment “matters less” without an individual assessment.
 
-For more detail, compare the [factory-style Rejuran page](/beauty/rejuran-healer-factory-clinic/), [private-clinic Rejuran page](/beauty/rejuran-healer-private-clinic/), [Myeongdong guide](/beauty/rejuran-healer-myeongdong-seoul/), [Seomyeon guide](/beauty/rejuran-healer-seomyeon-busan/), and [Centum guide](/beauty/rejuran-healer-centum-busan/).
-
 ## The Dose-Basis Trap
 
 The phrase “full face” does not define a dose. It may mean 2cc at one clinic and several syringes or a combination treatment at another. A ₩500,000 package containing more product cannot fairly be compared with a ₩180,000 single-dose promotion.

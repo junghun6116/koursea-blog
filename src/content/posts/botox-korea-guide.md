@@ -45,8 +45,6 @@ These are aggregated market-planning ranges, not binding clinic quotes or a gove
 
 The most common comparison error is matching one clinic's flat “forehead” promotion against another clinic's per-unit quotation. Ask both clinics for an itemized answer before deciding which is cheaper.
 
-Use the detailed [Gangnam factory-clinic forehead Botox comparison](/beauty/botox-forehead-factory-clinic/), [Myeongdong Botox guide](/beauty/botox-forehead-myeongdong-seoul/), [Seomyeon Botox guide](/beauty/botox-forehead-seomyeon-busan/), and [Centum Botox guide](/beauty/botox-forehead-centum-busan/) to compare like with like.
-
 ## The Six Questions to Send Before Paying
 
 Copy these questions into the clinic's official chat or email:
