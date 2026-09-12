@@ -34,3 +34,5 @@ There's no official record store directly walkable from the HYBE building itself
 For the full merchandise range — official lightsticks, photocards, and the widest store selection — Myeongdong and Hongdae's major retailers (Withmuu, Ktown4u) are the more complete stops rather than anything near the HYBE building itself.
 
 For the widest selection of official merchandise in one trip, see Koursea's [official K-pop merchandise shopping guide](https://www.koursea.com/guide-official-kpop-lightstick-merch-shopping-seoul-2026.html).
+
+If you're still building out a full day around this stop — cafes, a museum backup and a public riverside finish — see [HYBE Yongsan 1-Day Fan Tour](/posts/hybe-yongsan-1-day-tour-guide/).

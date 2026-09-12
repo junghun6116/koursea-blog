@@ -15,7 +15,7 @@ HYBE's Yongsan headquarters is a working office, not a walk-in attraction. The r
 ## Quick Route
 
 1. Arrive at Sinyongsan Station on Line 4.
-2. Visit the [HYBE Headquarters place page](https://www.koursea.com/place/hybe-headquarters-yongsan/) and open the verified Korean address in Naver Map.
+2. Visit the [HYBE Headquarters place page](https://www.koursea.com/place/5360/) and open the verified Korean address in Naver Map.
 3. Take exterior photos from public pavement without blocking doors or vehicles.
 4. Continue to Yongsan Station for a meal or café break.
 5. Spend the afternoon at the National Museum of Korea or Yongsan Family Park.
@@ -26,6 +26,8 @@ HYBE's Yongsan headquarters is a working office, not a walk-in attraction. The r
 Use `서울특별시 용산구 한강대로 42` as the navigation query. Sinyongsan Station is usually the simplest subway approach; Yongsan Station is also walkable and useful if you arrive by Line 1, the Gyeongui–Jungang Line or KTX.
 
 Stay on public paths. Do not enter employee areas, wait at vehicle exits, photograph staff at close range or treat a security-controlled lobby as a fan zone. Older posts about exhibitions inside the building may no longer reflect current operations. A temporary official exhibition should be confirmed from HYBE or the organizer before you build a day around it.
+
+For the full breakdown of why there's no walk-in museum or store on site anymore, and the nearest official merch stores instead, see [Can You Visit HYBE Yongsan? What's Actually There in 2026](/posts/hybe-yongsan-visit-rules-nearest-official-shops/).
 
 ## Fan Cafes Without Chasing an Outdated List
 
