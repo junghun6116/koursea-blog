@@ -37,7 +37,7 @@ Jongno-gu, Seoul (16 Bukchon-ro 7-gil). The exterior and garden of the Jin famil
 
 Seocho-gu, Seoul (2085-14 Olympic-daero). The exterior of Dr. Helen Cho's genetics lab in Avengers: Age of Ultron. Open as a public riverside event/dining complex on the Han River.
 
-### 7. [Cheongna Lake Park (청라호수공원)](https://www.koursea.com/place/1472/)
+### 7. Cheongna Lake Park (청라호수공원)
 
 Seo-gu, Incheon (204 Cheongna-daero). The outdoor set built for the large-scale baduk (Go) board where Moon Dong-eun and Ha Do-young play in The Glory. Open year-round as a free public lake park.
 
