@@ -6,6 +6,16 @@ updatedDate: 2026-09-05
 tags: ["contactless Korea", "Revolut Korea", "Monzo Korea", "US credit cards Korea", "Chase Korea", "Amex Korea", "Uber Black Seoul", "TADA Korea", "big group taxi Seoul", "family taxi Korea"]
 canonicalUrl: "https://blog.koursea.com/posts/paying-getting-around-korea-foreigner-cards-big-group-taxis/"
 author: "Koursea Editorial"
+
+faq:
+  - question: "What card setup does the guide recommend?"
+    answer: "Bring two physical cards on different networks or from different issuers, enable overseas purchases, and keep the cards in separate bags."
+  - question: "Should I accept home-currency conversion at a terminal?"
+    answer: "No. The guide recommends choosing Korean won when a terminal offers dynamic currency conversion."
+  - question: "What should a group with bulky luggage compare?"
+    answer: "Compare a larger vehicle with taking two taxis before pickup time, and save the hotel name, address, and entrance in Korean."
+  - question: "Is public transport paid from the same wallet as taxis?"
+    answer: "The guide treats public transport as a separate wallet and recommends carrying a physical Korean transportation card as part of the setup."
 ---
 
 # Paying and Getting Around Korea: Foreign Cards, Contactless & Big-Group Taxis

@@ -6,6 +6,16 @@ updatedDate: 2026-09-05
 tags: ["post office", "EMS", "international shipping", "우체국", "Seoul Central Post Office", "shipping Korea cosmetics", "send luggage home"]
 canonicalUrl: "https://blog.koursea.com/posts/seoul-post-office-ems-international-shipping-guide/"
 author: "Koursea Editorial"
+
+faq:
+  - question: "What should I check before sending an international parcel?"
+    answer: "Use Korea Post's official country conditions and price tools, and confirm that the destination accepts each item before visiting the branch."
+  - question: "What address details should I bring?"
+    answer: "Bring the recipient's full Roman-alphabet address, postal code, phone number, and email, and prepare specific English customs descriptions."
+  - question: "What should a customs declaration include?"
+    answer: "The guide lists item description, quantity, total value and currency, country of origin, net weight, HS tariff code where required, and gift or merchandise classification."
+  - question: "What should I keep after mailing?"
+    answer: "Keep the 13-character tracking number and photograph every declaration page so you can track the shipment and answer follow-up questions."
 ---
 
 Shipping purchases home can cost less than an airline overweight charge, but only when the contents are accepted by Korea Post and your destination customs. Cosmetics, food, batteries, aerosols, and merchandise need more care than clothing. Pack only after checking destination-specific restrictions.

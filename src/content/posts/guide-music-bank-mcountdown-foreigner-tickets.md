@@ -7,6 +7,16 @@ category: "travel"
 tags: ["music bank tickets", "m countdown tickets", "kbs music bank foreigner", "mcountdown audience", "kpop music shows"]
 canonicalUrl: "https://blog.koursea.com/posts/guide-music-bank-mcountdown-foreigner-tickets/"
 author: "Koursea Editorial"
+
+faq:
+  - question: "How can an overseas visitor apply for Music Bank?"
+    answer: "Create a KBS SSO account under the Foreigner Living Abroad category, submit the passport verification requested, and apply for the episode through Audience Application; it is free and lottery-based, not a seat guarantee."
+  - question: "Where is Music Bank held?"
+    answer: "The guide lists KBS New Wing Open Hall at 13 Yeouigongwon-ro, with National Assembly Station on Line 9, Exit 4 as the nearest station."
+  - question: "How does M Countdown access differ?"
+    answer: "M Countdown does not have a confirmed KBS-style foreigner SSO lottery; access is announced through each artist's official channel and is commonly tiered by fanclub, album proof, then passport-only walk-up space."
+  - question: "Is there a guaranteed paid M Countdown package?"
+    answer: "The guide says no confirmed guaranteed-seat paid package was found on Klook or Trazy for M Countdown, unlike the paid option it documents for Music Bank."
 ---
 
 ## Music Bank and M Countdown Use Different Entry Systems

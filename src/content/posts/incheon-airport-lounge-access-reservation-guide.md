@@ -6,6 +6,16 @@ updatedDate: 2026-09-09
 tags: ["Incheon Airport", "Airport Lounges", "Terminal 1", "Terminal 2", "Airport Planning"]
 canonicalUrl: "https://blog.koursea.com/posts/incheon-airport-lounge-access-reservation-guide/"
 author: "Koursea Editorial"
+
+faq:
+  - question: "What should I check before booking an airport lounge?"
+    answer: "Confirm whether your flight uses Terminal 1, Terminal 2, or the Concourse, and verify the lounge operator's eligibility or paid-entry rules."
+  - question: "Are VIP and CIP labels enough to trust a package?"
+    answer: "No. The guide says not to buy an unofficial VIP or CIP package based only on the label; verify the provider, meeting point, included steps, passenger limits, and cancellation terms."
+  - question: "What details should a provider disclose?"
+    answer: "Check the legal provider name, contact channel, terminal and meeting point, included services, passenger and baggage limits, cancellation terms, and any passport or flight-detail requirements."
+  - question: "Are terminal and concourse lounges interchangeable?"
+    answer: "No. The guide treats Terminal 1, Terminal 2, and the Concourse as separate areas, so confirm the correct location before paying."
 ---
 
 # Incheon Airport Lounge Guide: Access, Booking & Terminal Checks

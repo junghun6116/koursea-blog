@@ -6,6 +6,16 @@ updatedDate: 2026-09-04
 tags: ["botox korea", "korean dermatology near me", "botox seoul cost", "gangnam botox", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/botox-korea-guide/"
 author: "Koursea Editorial"
+
+faq:
+  - question: "What should I compare before booking Botox in Korea?"
+    answer: "Compare the exact product and manufacturer, treatment area, unit count, injector, consultation and follow-up, cancellation terms, VAT, and the clinic's after-hours contact route."
+  - question: "What planning range does this guide give for a forehead area?"
+    answer: "The guide lists approximately ₩15,000–₩120,000 for a forehead area depending on district, product tier, units, and promotion; it is a planning range rather than a binding quote."
+  - question: "Does Botox have zero downtime?"
+    answer: "The guide says a routine planning record may use a zero-day buffer, but that is not a medical guarantee. Temporary pain, redness, swelling, bruising, headache, or weakness can occur."
+  - question: "What symptoms need urgent medical attention after botulinum toxin?"
+    answer: "Seek urgent care for trouble swallowing or breathing, generalized weakness, double vision, speech difficulty, or other rapidly worsening symptoms, rather than waiting for a broker."
 reviewer: "HJ MUN"
 ---
 

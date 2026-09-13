@@ -6,6 +6,16 @@ updatedDate: 2026-09-04
 tags: ["Korea Travel", "Lost112", "Seoul Metro", "Taxi", "Emergency Help"]
 canonicalUrl: "https://blog.koursea.com/posts/lost112-korea-police-lost-found-foreigner-guide/"
 author: "Koursea Editorial"
+
+faq:
+  - question: "What should I do immediately after losing something?"
+    answer: "Track the taxi or subway first, recording the route, time, payment details, station, train direction, or carriage information while the memory is fresh."
+  - question: "How do I search Lost112?"
+    answer: "Choose an item category, set a found-date range, select the province or city and try a district, then remove filters and search again if the first result is empty."
+  - question: "What Korean information should I show staff?"
+    answer: "The guide provides phrases for a taxi loss, a subway loss, a lost passport, and checking an item by its Lost112 management number."
+  - question: "What do I need to collect a recovered item?"
+    answer: "Follow the guide's collection and proof instructions and bring the identification or documentation requested by the relevant police, station, or transport office."
 ---
 
 # Lost Something in Korea? How Foreigners Can Use Lost112, Seoul Metro & Taxi Lost & Found

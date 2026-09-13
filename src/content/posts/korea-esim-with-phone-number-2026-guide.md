@@ -11,6 +11,16 @@ tags:
   - Incheon Airport SIM
 canonicalUrl: "https://blog.koursea.com/posts/korea-esim-with-phone-number-2026-guide/"
 author: "Koursea Editorial"
+
+faq:
+  - question: "Why can a data-only eSIM fail for CatchTable or queues?"
+    answer: "A standard tourist data-only eSIM provides internet but no working Korean number, while some services or identity checks require SMS or an 010 number."
+  - question: "What should I look for in an eSIM or SIM plan?"
+    answer: "Look specifically for Data + Voice or an explicit 010 number and SMS-reception claim; do not rely on the word unlimited data alone."
+  - question: "What are the tradeoffs between airport pickup and pre-landing eSIM activation?"
+    answer: "Airport counters can activate a physical SIM with staff assistance, while pre-landing eSIM activation avoids a counter visit but leaves installation troubleshooting to you."
+  - question: "What should I check before flying?"
+    answer: "Confirm your phone is unlocked, decide whether you need domestic app verification, choose a plan with explicit SMS support if needed, and keep offline map backups."
 ---
 
 # Korean eSIM Guide (2026): Why Data-Only Fails for CatchTable, Delivery & Queues
