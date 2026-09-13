@@ -12,7 +12,7 @@ export async function GET() {
       title: post.data.title,
       pubDate: post.data.pubDate,
       description: post.data.description,
-      link: `https://blog.koursea.com/posts/${post.slug}/`
+      link: `https://blog.koursea.com/posts/${post.id}/`
     })),
     customData: '<language>en-us</language>'
   });

@@ -1,5 +1,6 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
+import type { MarkdownHeading } from 'astro';
 import PostLayout from '../../layouts/PostLayout.astro';
 import beautyPages from '../../data/beauty-pseo-pages.json';
 import itineraryPages from '../../data/itinerary-pseo-pages.json';
@@ -7,14 +8,14 @@ import relatedMap from '../../data/post-related-pseo.json';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts');
-  return posts.map((post) => ({ params: { slug: post.slug }, props: { post } }));
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
 }
 
 const { post } = Astro.props;
-const { Content, headings } = await post.render();
-const canonicalUrl = post.data.canonicalUrl ?? new URL(`/posts/${post.slug}/`, Astro.site).href;
+const { Content, headings } = await render(post);
+const canonicalUrl = post.data.canonicalUrl ?? new URL(`/posts/${post.id}/`, Astro.site).href;
 const author = post.data.author ?? 'Koursea Editorial';
-const wordCount = (post.body
+const wordCount = ((post.body ?? '')
   .replace(/```[\s\S]*?```/g, ' ')
   .replace(/https?:\/\/\S+/g, ' ')
   .replace(/<[^>]+>|[#>*_`|\[\]()-]/g, ' ')
@@ -25,9 +26,9 @@ const hiddenHeadings = new Set([
   'Reddit Community Reply Template'
 ]);
 const toc = headings.filter(
-  (heading) => (heading.depth === 2 || heading.depth === 3) && !hiddenHeadings.has(heading.text)
+  (heading: MarkdownHeading) => (heading.depth === 2 || heading.depth === 3) && !hiddenHeadings.has(heading.text)
 );
-const mapped = relatedMap[post.slug as keyof typeof relatedMap];
+const mapped = relatedMap[post.id as keyof typeof relatedMap];
 const relatedBeauty = (mapped?.beauty ?? []).flatMap((slug) => {
   const page = beautyPages.find((item) => item.slug === slug);
   return page ? [{ href: `/beauty/${page.slug}/`, title: page.treatment_name ?? page.procedureName ?? 'K-Beauty planning guide', eyebrow: 'PRICE & DOWNTIME' }] : [];
@@ -70,7 +71,7 @@ const socialEmbeds: Record<string, { xUrl?: string; instagramUrl?: string; label
     label: 'September 2026 Jongno exhibition roundup by @seochoneditor'
   }
 };
-const socialEmbed = socialEmbeds[post.slug];
+const socialEmbed = socialEmbeds[post.id];
 const editorialCallouts: Record<string, {
   badge: string;
   title: string;
@@ -103,11 +104,11 @@ const editorialCallouts: Record<string, {
     ]
   }
 };
-const editorialCallout = editorialCallouts[post.slug];
+const editorialCallout = editorialCallouts[post.id];
 // Editorial covers stay authoritative. Every other post receives a stable,
 // title-specific 1200x630 image generated during prebuild instead of sharing
 // the generic site fallback.
-const socialImage = post.data.coverImage ?? post.data.thumbnail ?? `/og/posts/${post.slug}.png`;
+const socialImage = post.data.coverImage ?? post.data.thumbnail ?? `/og/posts/${post.id}.png`;
 ---
 <PostLayout title={post.data.title} description={post.data.description} category={post.data.category} canonicalUrl={canonicalUrl} pubDate={post.data.pubDate} updatedDate={post.data.updatedDate} author={author} reviewer={post.data.reviewer} tags={post.data.tags} socialImage={socialImage} socialImageAlt={`${post.data.title} — Koursea Journal`} coverImage={post.data.coverImage} wordCount={wordCount} toc={toc} relatedGuides={[...relatedBeauty, ...relatedItineraries]} socialEmbed={socialEmbed} faq={post.data.faq} editorialCallout={editorialCallout}>
   <Content />
