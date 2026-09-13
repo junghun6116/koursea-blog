@@ -7,6 +7,13 @@ category: "Sightseeing & Food"
 tags: ["best restaurants in Yeosu", "Yeosu food", "Yeosu gejang", "Yeosu eel soup", "Jeolla-do cuisine", "Koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/best-restaurants-yeosu-raw-crab-eel-soup/"
 author: "Koursea Editorial"
+faq:
+  - question: "What specialties are featured in this Yeosu restaurant list?"
+    answer: "The guide features raw marinated crab, crab set meals, local set meals, eel and seafood soups, and regional dishes such as gat-kimchi pairings."
+  - question: "Are raw crab specialists grouped together?"
+    answer: "Yes. The first section groups several established raw marinated crab and crab-set-meal restaurants."
+  - question: "Does the list include everyday local food as well as seafood?"
+    answer: "Yes. Local soul-food restaurants and traditional Jeolla-style meals appear alongside coastal seafood and stews."
 ---
 
 Yeosu is regarded as one of South Korea's premier culinary capitals, celebrated for its bold Jeolla-do seasonings, pristine ocean catches, and unique agricultural specialties like Dolsan mustard greens (gat). A trip to Yeosu is incomplete without experiencing its famous Bap-doduk ("rice thieves")—particularly raw marinated crab (gejang) and hearty seafood broths.

@@ -6,6 +6,13 @@ updatedDate: 2026-09-05
 tags: ["Jongno family route", "Gyeongbokgung", "hanbok rental", "Samcheong-dong", "Insadong", "Gwangjang Market"]
 canonicalUrl: "https://blog.koursea.com/posts/jongno-heritage-family-friendly-walking-route/"
 author: "Koursea Editorial"
+faq:
+  - question: "What is the route order in this Jongno family guide?"
+    answer: "The sample day starts at Gyeongbokgung, continues through Samcheong-dong and Insadong, loops through Ssamzigil, and treats Gwangjang Market as an optional finale."
+  - question: "What should families check before renting hanbok?"
+    answer: "Check return time, sizing, weather, and whether hair-service extras fit the plan before committing to a rental."
+  - question: "How does the guide reduce fatigue?"
+    answer: "It uses Samcheong-dong as a seated recovery zone, includes a 3:30 PM decision point, and suggests adjustments for different traveler ages and needs."
 ---
 
 Jongno can become an exhausting palace-to-market march if every landmark is treated as mandatory. This version uses short decision points, seated breaks, and a subway fallback. Families can complete the central heritage section and stop; Gwangjang Market is an optional final transfer, not proof of a successful day.

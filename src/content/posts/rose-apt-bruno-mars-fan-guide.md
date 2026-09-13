@@ -6,6 +6,13 @@ updatedDate: 2026-09-09
 tags: ["K-Pop", "ROSÉ", "BLACKPINK", "APT.", "Concert Tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/rose-apt-bruno-mars-fan-guide/"
 author: "Koursea Editorial"
+faq:
+  - question: "Is APT. a permanent ROSÉ attraction in Seoul?"
+    answer: "No. The guide treats the release and any related pop-up or merchandise activity as date-specific rather than a permanent public attraction."
+  - question: "How should fans verify official ROSÉ products?"
+    answer: "Use ROSÉ's official store and label channels, and confirm the seller named in the official concert or event announcement."
+  - question: "What private places does the guide tell fans not to visit?"
+    answer: "It says to treat agency offices, residences, hotels, and inferred schedules as private rather than as fan-tour destinations."
 ---
 
 # ROSÉ Fan Guide: APT., Official Music & Seoul Planning
@@ -48,4 +55,3 @@ Official public appearances, ticketed events, and authorized pop-ups are appropr
 
 > 이 상품은 공식 판매처에서 나온 정품인가요?  
 > Is this an official product from an authorized seller?
-

@@ -7,6 +7,13 @@ tags: ["potenza microneedling korea", "seoul laser skin clinic", "rf microneedli
 canonicalUrl: "https://blog.koursea.com/posts/potenza-microneedling-korea-guide/"
 author: "Koursea Editorial"
 reviewer: "HJ MUN"
+faq:
+  - question: "What Potenza price evidence does the guide actually publish?"
+    answer: "It publishes Gangnam planning ranges of ₩190,000–₩350,000 at high-volume clinics and ₩350,000–₩700,000 at private clinics, while noting that these are not guaranteed quotes."
+  - question: "Which details must be matched before comparing two Potenza prices?"
+    answer: "Match the tip, depth, mode, passes, treatment zone, anesthesia, add-ons, physician involvement, and the total including VAT."
+  - question: "Is RF microneedling treated as a spa service here?"
+    answer: "No. The guide calls it a medical procedure, includes an FDA safety warning, and directs readers to a licensed clinician for suitability and aftercare."
 ---
 
 # Potenza Microneedling in Korea 2026: Cost Guide

@@ -6,6 +6,13 @@ updatedDate: 2026-09-04
 tags: ["Seoul Travel", "Hidden Seoul", "Nodeul Island", "Namsan", "Local Seoul"]
 canonicalUrl: "https://blog.koursea.com/posts/guide-seoul-local-decompress-spots-nodeul-jeongdong-namsan/"
 author: "Koursea Editorial"
+faq:
+  - question: "Which decompression areas are compared?"
+    answer: "The guide compares Nodeul Island, Jeong-dong's Seoul Maru and SeSil Maru, Namsan Outdoor Botanical Garden, Yangjaecheon, and Maeheon Citizens' Forest."
+  - question: "Is Nodeul Island open all day?"
+    answer: "The guide says its outdoor area is open 24 hours, while indoor facilities have seasonal hours and close on Mondays."
+  - question: "What should visitors check before relying on a sunset route?"
+    answer: "Sunset time changes substantially by season, so the guide recommends verifying the exact day's sunset in a weather app."
 ---
 
 Seoul does not become quiet only when you leave the city. Between the major attractions are river decks, wooded paths, historic streets, and public rooftops where the pace drops without requiring a day trip.

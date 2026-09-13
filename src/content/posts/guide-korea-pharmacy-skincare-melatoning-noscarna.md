@@ -7,6 +7,13 @@ category: "beauty"
 tags: ["korean pharmacy skincare", "melatoning cream", "noscarna gel", "acnon cream", "kbeauty guide"]
 canonicalUrl: "https://blog.koursea.com/posts/guide-korea-pharmacy-skincare-melatoning-noscarna/"
 author: "Koursea Editorial"
+faq:
+  - question: "How is pharmacy shopping different from Olive Young in this guide?"
+    answer: "The guide separates pharmacy medicines from cosmetics and explains that Olive Young is not the same as the pharmacy next door."
+  - question: "Which four products are covered?"
+    answer: "It covers Melatoning Cream, Noscarna Gel, Acnon Cream, and Acrin Gel, with their listed active ingredients and stated classifications."
+  - question: "What Korean phrase can shoppers use?"
+    answer: "The guide gives 이거 있어요? (*i-geo iss-eo-yo?*) as a simple way to ask whether the product is available while showing its name or packaging."
 ---
 
 ## Olive Young Is Cosmetics. The Pharmacy Next Door Sells Medicine.

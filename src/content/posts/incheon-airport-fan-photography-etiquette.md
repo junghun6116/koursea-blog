@@ -6,6 +6,13 @@ updatedDate: 2026-09-09
 tags: ["Incheon Airport", "K-Pop", "Fan Etiquette", "Photography", "Airport Safety"]
 canonicalUrl: "https://blog.koursea.com/posts/incheon-airport-fan-photography-etiquette/"
 author: "Koursea Editorial"
+faq:
+  - question: "Where should fan photography stay at Incheon Airport?"
+    answer: "The guide says to remain in ordinary public areas and never cross staff, immigration, security, or access-control boundaries."
+  - question: "What must photographers keep clear?"
+    answer: "Keep entrances, check-in lanes, escalators, baggage routes, and passenger movement clear, and follow airport, airline, police, and security instructions."
+  - question: "What personal information should never be published?"
+    answer: "Do not publish another traveler's passport, boarding pass, face, or private conversation, even if the image was taken in a public terminal."
 ---
 
 # Incheon Airport Fan Photography Etiquette: Public Areas & Safety
@@ -58,4 +65,3 @@ For broader behavior guidance, see Koursea's [Korean etiquette guide for travele
 Commercial, organized, or equipment-heavy production should not be treated like casual personal photography. Incheon Airport has published separate on-site filming application material for organized shoots. Contact the airport before planning a production rather than assuming a passenger terminal is an unrestricted set.
 
 Rules and temporary controls can change with security conditions and events. Current staff instructions always take priority over this guide.
-

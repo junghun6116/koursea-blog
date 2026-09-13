@@ -7,6 +7,13 @@ category: "Sightseeing & Food"
 tags: ["things to do in Pohang", "Pohang attractions", "Pohang Space Walk", "Homigot Sunrise Square", "Guryongpo", "Koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/best-things-to-do-pohang-space-walk-coastal-views/"
 author: "Koursea Editorial"
+faq:
+  - question: "What is the main modern landmark in this Pohang guide?"
+    answer: "Hwanho Park Space Walk is the headline modern landmark, joined by Yeongildae Beach, Pohang Sea Skywalk, Park1538, and Fire Garden."
+  - question: "Does the guide cover coastal heritage?"
+    answer: "Yes. It includes Guryongpo Japanese House Street, Homigot Sunrise Square, Haseondae, and Ilchulam Rock."
+  - question: "Are northern coast and valley stops included?"
+    answer: "Yes. Igari Anchor Observatory, Sangsaeng Falls, and Haok Valley appear in the northern-coast and mountain-valley section."
 ---
 
 ## Best Things to Do in Pohang: Skywalks, Ocean Heritage & Natural Wonders

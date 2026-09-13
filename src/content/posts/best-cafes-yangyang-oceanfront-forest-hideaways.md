@@ -7,6 +7,13 @@ category: "Sightseeing & Food"
 tags: ["best cafes in Yangyang", "Yangyang cafe", "Yangyang ocean view cafe", "Yangyang surf cafe", "Gangwon cafe", "Koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/best-cafes-yangyang-oceanfront-forest-hideaways/"
 author: "Koursea Editorial"
+faq:
+  - question: "What cafe styles are covered in this Yangyang guide?"
+    answer: "The list spans ocean-view bakeries, beachfront cafes, surfer-oriented roasteries, restored country houses, pine-forest retreats, and concept cafes."
+  - question: "Are the cafes linked to specific place records?"
+    answer: "Yes. Each listed cafe is linked to a Koursea place record with its own name and location context."
+  - question: "Does the guide include more than beach views?"
+    answer: "Yes. It also includes forest settings, a foot-bath concept, book-cafe style spaces, and restored-house interiors."
 ---
 
 Yangyang's cafe culture is deeply intertwined with its dual geography: breaking East Sea swells along the coastal strip and quiet pine groves rooted toward the foothills of Gangwon Province. From laid-back roasteries serving the surfing community to modern pavilions hidden inside pine forests, each spot provides a distinct perspective on the region.
