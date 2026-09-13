@@ -81,15 +81,15 @@ export const GET: APIRoute = async () => {
   const guides = posts
     .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
     .map((post) => ({
-      slug: post.slug,
+      slug: post.id,
       title: post.data.title,
       description: post.data.description,
       category: post.data.category && post.data.category !== 'Guide'
         ? post.data.category
         : post.data.tags[0] ?? 'Korea Travel',
       tags: post.data.tags,
-      keywords: keywordOverrides[post.slug] ?? [],
-      url: `https://blog.koursea.com/posts/${post.slug}/`
+      keywords: keywordOverrides[post.id] ?? [],
+      url: `https://blog.koursea.com/posts/${post.id}/`
     }));
 
   const indexedSlugs = new Set<string>(guides.map((guide) => guide.slug));

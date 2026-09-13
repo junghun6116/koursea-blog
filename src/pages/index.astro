@@ -26,11 +26,11 @@ const categoryMatchers = {
   neighborhoods: ['hongdae', 'hannam', 'seongsu', 'gangnam', 'myeongdong', 'jongno', 'busan', 'jeju', 'yongsan', 'seongnae-dong', 'cheongdam', 'seoul-travel']
 };
 const categoriesFor = (post: CollectionEntry<'posts'>) => {
-  const terms = new Set([...post.data.tags, post.slug].map((value) => value.toLowerCase()));
+  const terms = new Set([...post.data.tags, post.id].map((value) => value.toLowerCase()));
   const inferred = Object.entries(categoryMatchers)
     .filter(([, matches]) => matches.some((match) => [...terms].some((term) => term.includes(match))))
     .map(([category]) => category);
-  return sightseeingFoodSet.has(post.slug) ? ['sightseeing-food', ...inferred] : inferred;
+  return sightseeingFoodSet.has(post.id) ? ['sightseeing-food', ...inferred] : inferred;
 };
 const categoryTabs = [
   { id: 'all', label: 'All' },
@@ -41,11 +41,11 @@ const categoryTabs = [
   { id: 'neighborhoods', label: 'Neighborhood Guides' },
   { id: 'sightseeing-food', label: 'Sightseeing & Food' }
 ];
-const latestVisibleSlugs = new Set(posts.slice(0, 6).map((post) => post.slug));
-const categoryLabelFor = (post: CollectionEntry<'posts'>) => sightseeingFoodSet.has(post.slug)
+const latestVisibleSlugs = new Set(posts.slice(0, 6).map((post) => post.id));
+const categoryLabelFor = (post: CollectionEntry<'posts'>) => sightseeingFoodSet.has(post.id)
   ? 'Sightseeing & Food'
   : post.data.tags[0];
-const bySlug = new Map<string, CollectionEntry<'posts'>>(posts.map((post) => [post.slug, post]));
+const bySlug = new Map<string, CollectionEntry<'posts'>>(posts.map((post) => [post.id, post]));
 const editorialCollections = [
   {
     id: 'survival', eyebrow: 'START HERE', title: 'Korea First-Timer Survival', description: 'Arrival, transit, payments and the digital tools that prevent avoidable first-day friction.', viewAll: '/?category=connectivity#latest-heading',
@@ -72,7 +72,7 @@ const editorialCollections = [
     items: ['seoul-post-office-ems-international-shipping-guide', 'digital-nomad-coworking-day-pass-seoul-guide', 'seoul-printing-document-copying-guide'].map((slug) => bySlug.get(slug)).filter(Boolean)
   }
 ];
-const collectionHref = (item: any) => item.href ?? `/posts/${item.slug}/`;
+const collectionHref = (item: any) => item.href ?? `/posts/${item.id}/`;
 // Cross-repository maintenance note: keep this public place count aligned with
 // koursea/sitemap-places.xml after any place-indexing policy or data release.
 const publishedPlaceCount = '3,768';
@@ -120,12 +120,12 @@ const schema = {
     <p class="filter-status" id="filter-status" aria-live="polite">Showing the latest {latestVisibleSlugs.size} guides</p>
     <div class="post-grid" id="guide-grid">
       {posts.map((post) => (
-        <article data-categories={categoriesFor(post).join(' ')} data-default-hidden={latestVisibleSlugs.has(post.slug) ? 'false' : 'true'} hidden={!latestVisibleSlugs.has(post.slug)}>
-          {post.data.coverImage && <a class="card-cover" href={`/posts/${post.slug}/`} aria-label={`Read ${post.data.title}`}><img src={post.data.coverImage} alt={`${post.data.title} guide cover`} width="1672" height="941" loading="lazy" decoding="async" /></a>}
+        <article data-categories={categoriesFor(post).join(' ')} data-default-hidden={latestVisibleSlugs.has(post.id) ? 'false' : 'true'} hidden={!latestVisibleSlugs.has(post.id)}>
+          {post.data.coverImage && <a class="card-cover" href={`/posts/${post.id}/`} aria-label={`Read ${post.data.title}`}><img src={post.data.coverImage} alt={`${post.data.title} guide cover`} width="1672" height="941" loading="lazy" decoding="async" /></a>}
           <div class="card-top"><span>{categoryLabelFor(post)}</span><time datetime={post.data.pubDate.toISOString()}>{post.data.pubDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</time></div>
-          <h3><a href={`/posts/${post.slug}/`}>{post.data.title}</a></h3>
+          <h3><a href={`/posts/${post.id}/`}>{post.data.title}</a></h3>
           <p>{post.data.description}</p>
-          <a class="read" href={`/posts/${post.slug}/`}>Read the guide <span>→</span></a>
+          <a class="read" href={`/posts/${post.id}/`}>Read the guide <span>→</span></a>
         </article>
       ))}
     </div>
