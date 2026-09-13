@@ -19,6 +19,8 @@ faq:
 
 HYBE's Yongsan headquarters is a working office, not a walk-in attraction. The right fan itinerary treats it as a short exterior landmark, then uses Yongsan's excellent rail connections for public cultural stops, cafés and the Han River.
 
+Planning specifically around BTS? Pair this general route with our [BTS HYBE Yongsan fan guide](/posts/bts-fan-guide-hybe-yongsan/) for the group-specific stop and ticketing context.
+
 ## Quick Route
 
 1. Arrive at Sinyongsan Station on Line 4.
