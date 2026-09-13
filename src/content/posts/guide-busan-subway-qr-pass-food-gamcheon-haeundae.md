@@ -7,6 +7,16 @@ category: "travel"
 tags: ["busan travel", "visit busan pass", "busan subway qr", "solo dining busan", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/guide-busan-subway-qr-pass-food-gamcheon-haeundae/"
 author: "Koursea Editorial"
+
+faq:
+  - question: "Are Busan Metro single-ride tickets deposit cards?"
+    answer: "No. The guide explains that Busan single-ride tickets are paper QR receipts, not the deposit-style cards some visitors expect."
+  - question: "What does the Busan 1-Day Metro Pass cover?"
+    answer: "The guide lists unlimited rides on Busan Metro Lines 1–4 for the calendar day and notes that station machines may require cash in ₩1,000 bills."
+  - question: "What is the route to Gamcheon Culture Village?"
+    answer: "The guide directs visitors to Toseong Station Exit 6 and lists the Saha 1-1, Seogu 2, and Seogu 2-2 village minibuses."
+  - question: "What should solo diners know in Busan?"
+    answer: "The guide identifies Seomyeon dwaeji-gukbap as solo-friendly and notes that some Haeundae K-BBQ and seafood restaurants have a two-portion minimum."
 ---
 
 ## Quick Overview

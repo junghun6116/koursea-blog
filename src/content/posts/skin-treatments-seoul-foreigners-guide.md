@@ -6,6 +6,16 @@ updatedDate: 2026-09-02
 tags: ["Seoul Travel", "K-Beauty", "Seoul Dermatology", "Skin Treatments Korea", "Foreigner Guide"]
 canonicalUrl: "https://blog.koursea.com/posts/skin-treatments-seoul-foreigners-guide/"
 author: "Koursea Editorial"
+
+faq:
+  - question: "What changed for foreign visitors seeking cosmetic procedures in 2026?"
+    answer: "The guide explains that Korea's temporary medical-procedure VAT refund ended on January 1, 2026, so visitors should ask for the complete tax-inclusive amount before treatment."
+  - question: "How does a factory-style clinic differ from a boutique clinic?"
+    answer: "The guide frames factory-style clinics as high-volume models and boutique or board-certified practices as consultation-led options; compare the actual consultation, clinician, and follow-up rather than the label alone."
+  - question: "What should I do before booking a treatment?"
+    answer: "Follow the guide's sequence: identify the treatment and downtime, contact the clinic through its official channel, confirm the quote and VAT, and save the clinic's Korean name and address."
+  - question: "Does an English booking page replace a medical consultation?"
+    answer: "No. The guide treats language support as a logistics question and says treatment suitability and risks still require an appropriately trained clinician's assessment."
 reviewer: "HJ MUN"
 ---
 

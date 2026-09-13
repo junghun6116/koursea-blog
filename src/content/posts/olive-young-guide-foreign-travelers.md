@@ -10,6 +10,16 @@ tags:
   - Travel Tips
 canonicalUrl: "https://blog.koursea.com/posts/olive-young-guide-foreign-travelers/"
 author: "Koursea Editorial"
+
+faq:
+  - question: "What is the minimum spend for an instant Olive Young tax refund?"
+    answer: "The guide says eligible shoppers should spend at least 15,000 KRW in one transaction and present a physical foreign passport at checkout."
+  - question: "Do I need my physical passport at Olive Young?"
+    answer: "Yes. The checkout process described here requires the physical passport; a phone photo or digital scan is not accepted by the point-of-sale terminal."
+  - question: "Are flagship and neighborhood Olive Young stores the same?"
+    answer: "No. Flagships such as Myeongdong Town, Gangnam, and Hongdae have larger layouts and more multilingual support, while neighborhood branches are calmer and may have different stock or promotions."
+  - question: "How can I prepare before shopping?"
+    answer: "Choose product categories such as sunscreen, hydration, blemish care, or gifts before entering, then compare texture, size, and promotion terms in the store."
 coverImage: "/images/blog/olive-young-guide.jpg"
 ---
 

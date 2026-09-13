@@ -10,6 +10,16 @@ tags:
   - Subway Guide
 canonicalUrl: "https://blog.koursea.com/posts/seoul-subway-transit-card-guide/"
 author: "Koursea Editorial"
+
+faq:
+  - question: "What is the basic difference between T-Money and the Climate Card?"
+    answer: "The guide presents standard T-Money as a general transit card and the Climate Card as a tourist pass option for eligible Seoul public-transport use; check the guide's comparison before choosing."
+  - question: "How do free transfers work in Seoul?"
+    answer: "The guide calls free transfers the golden rule of the Seoul system and advises tapping correctly and following the transfer rules rather than exiting the network unnecessarily."
+  - question: "How can I avoid boarding the wrong subway direction?"
+    answer: "Use station numbers and platform signs, check fast-transfer markings, and ask staff through the help bell if you realize you are on the wrong side of the gates."
+  - question: "Can I board with an open drink?"
+    answer: "The guide says uncovered hot coffee, cups with straws, and unsealed food containers are barred from public buses, so finish or seal drinks before boarding."
 coverImage: "/images/blog/seoul-subway-transit-guide.jpg"
 ---
 

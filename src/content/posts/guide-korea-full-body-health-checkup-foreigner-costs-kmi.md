@@ -7,6 +7,16 @@ category: "travel"
 tags: ["korean health checkup", "medical tourism seoul", "kmi checkup", "full body screening", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/guide-korea-full-body-health-checkup-foreigner-costs-kmi/"
 author: "Koursea Editorial"
+
+faq:
+  - question: "What does the base health-checkup package cover?"
+    answer: "The guide describes body-composition analysis, ECG, chest X-ray, vision and hearing checks, blood and urine panels, and an abdominal ultrasound among the standard diagnostics it discusses."
+  - question: "Is a colonoscopy included by default?"
+    answer: "The guide says colonoscopy is usually a separate add-on rather than a base-package default, and it has its own bowel-preparation and scheduling requirements."
+  - question: "What should I plan for before a checkup?"
+    answer: "Fasting is described as essential, so follow the center's instructions and schedule the appointment with enough time for the screening and any add-ons."
+  - question: "How should a foreign visitor book safely?"
+    answer: "Use the screening center's official channel and avoid an unlicensed broker; confirm the package, add-ons, timing, and travel logistics directly with the provider."
 reviewer: "HJ MUN"
 ---
 

@@ -11,6 +11,16 @@ tags:
   - Korea Travel
 canonicalUrl: "https://blog.koursea.com/posts/korea-cosmetic-procedure-tax-refund-ended-2026-budget-guide/"
 author: "Koursea Editorial"
+
+faq:
+  - question: "Can foreign visitors still claim a cosmetic-procedure VAT refund in 2026?"
+    answer: "The guide says the temporary tourist VAT refund for eligible cosmetic medical services ended on January 1, 2026, so do not budget on recovering it at the airport."
+  - question: "What should I ask a clinic before paying?"
+    answer: "Ask for the complete amount payable and obtain a written quotation listing the treatment, quantity, brand, device or tip count, anesthesia, consumables, and aftercare."
+  - question: "Is a clinic treatment refund the same as an Olive Young refund?"
+    answer: "No. The guide explicitly separates cosmetic medical procedures from retail goods such as Olive Young shopping; their tax-refund rules are different."
+  - question: "What Korean phrase can I use to ask about VAT?"
+    answer: "Show the clinic: \"이 가격에 부가세 포함인가요?\" and ask it to state the final amount including any additional payment costs."
 ---
 
 Foreign visitors planning Botox, Rejuran, Potenza, laser toning, fillers or lifting treatments in Seoul need to update their budgets. Korea's special VAT refund program for qualifying cosmetic medical procedures ended on **December 31, 2025**. Procedures supplied on or after **January 1, 2026** no longer qualify for the former medical-procedure refund.

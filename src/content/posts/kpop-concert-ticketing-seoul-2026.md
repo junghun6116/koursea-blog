@@ -14,6 +14,16 @@ tags:
   - korea-2026
 canonicalUrl: "https://blog.koursea.com/posts/kpop-concert-ticketing-seoul-2026/"
 author: "Koursea Editorial"
+
+faq:
+  - question: "Is Interpark Global still a separate ticketing site?"
+    answer: "No. The guide says it was rebranded to NOL World in December 2025, an English front end connected to the domestic NOL Ticket inventory."
+  - question: "Do foreign visitors need a Korean phone number for major ticket platforms?"
+    answer: "The guide says a Korean-capable 010 number for SMS identity verification remains the main barrier and that all three major platforms require this step in practice."
+  - question: "Are foreign-issued cards guaranteed to work?"
+    answer: "No. Foreign credit cards often work but can be slow or fail, while foreign debit cards fail more often; keep a backup Korean payment method ready."
+  - question: "What should I do before the on-sale waiting room opens?"
+    answer: "Finish account verification and save the payment method before the queue opens, choose one site language, and follow the platform's own notice if checkout fails."
 ---
 
 # The Foreigner's Guide to K-Pop Concert Ticketing in Seoul (2026): NOL World, Melon Ticket & Payment Reality

@@ -6,6 +6,16 @@ updatedDate: 2026-09-09
 tags: ["Incheon Airport", "Terminal 1", "Terminal 2", "Airlines", "Airport Planning"]
 canonicalUrl: "https://blog.koursea.com/posts/incheon-airport-terminal-1-vs-terminal-2-airlines/"
 author: "Koursea Editorial"
+
+faq:
+  - question: "Why should I check my terminal before leaving Seoul?"
+    answer: "The guide says codeshares can use a different terminal from the one you expect, so confirm the operating carrier and current airport information before departure."
+  - question: "Which carriers does the guide list for Terminal 2?"
+    answer: "It lists Korean Air, Asiana Airlines, Jin Air, Air Seoul, Air Busan, Delta Air Lines, and other carriers shown in its current terminal overview."
+  - question: "Which carriers does the guide list for Terminal 1?"
+    answer: "It lists Jeju Air, T'way Air, Eastar Jet, Air Premia, PARATA AIR, and other listed foreign carriers in its current overview."
+  - question: "What is the Concourse?"
+    answer: "The guide explains that Concourse gates are reached from Terminal 1 by shuttle train and that the airport says returning is not allowed after boarding it."
 ---
 
 # Incheon Airport Terminal 1 vs Terminal 2: Airline Check Guide

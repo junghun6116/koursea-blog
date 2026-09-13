@@ -6,6 +6,16 @@ updatedDate: 2026-09-04
 tags: ["rejuran skincare korea", "rejuran healer korea", "skin booster seoul", "korean skin treatment", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/rejuran-healer-korea-guide/"
 author: "Koursea Editorial"
+
+faq:
+  - question: "How should I compare Rejuran quotes?"
+    answer: "Compare a genuine product, exact 2cc dose, treatment area, injection method, clinician, numbing, aftercare, and VAT-inclusive total."
+  - question: "What price range does the guide list for 2cc?"
+    answer: "Koursea's current planning records run approximately ₩150,000–₩600,000 per 2cc depending on clinic model, district, and inclusions; these are not binding quotes."
+  - question: "How long can visible injection points last?"
+    answer: "The guide says raised injection points, redness, tenderness, or pinpoint bruising may remain visible for one to three days, depending on the individual and protocol."
+  - question: "Is one day after Rejuran guaranteed safe for flying?"
+    answer: "No. One full day is Koursea's minimum logistics and appearance buffer, not universal medical clearance; ask the clinician for advice based on your treatment and flight."
 reviewer: "HJ MUN"
 ---
 
