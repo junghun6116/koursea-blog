@@ -2,7 +2,7 @@
 title: "RIIZE Fan Guide to Seoul: BRIIZE Stops & KWANGYA@SEOUL"
 description: "A practical RIIZE fan guide to KWANGYA@SEOUL in Seongsu, official merchandise checks, public fan etiquette and foreigner concert ticket preparation."
 pubDate: 2026-09-08
-updatedDate: 2026-09-08
+updatedDate: 2026-09-13
 category: "K-Pop & Concerts"
 tags: ["riize", "briize", "kwangya seoul", "sm entertainment", "kpop concert tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/riize-fan-guide-sm-seongsu/"
@@ -20,6 +20,10 @@ RIIZE is an SM Entertainment group, and its official fandom name is **BRIIZE**. 
 - *RIIZING*, the fan-con tour era and the KSPO DOME finale are useful established milestones, not proof of a current event.
 - Confirm pop-ups and purchase benefits through the newest official notice.
 - Prepare with the [Foreigner's Guide to K-Pop Concert Ticketing in Seoul](/posts/kpop-concert-ticketing-seoul-2026/).
+
+## Confirmed as of September 13, 2026
+
+At Inspire Arena in Incheon, RIIZE held **"Ch. RIIZE : ON AIR,"** a fanmeeting marking its third debut anniversary and built around a TV-broadcast concept, complete with a 360-degree stage and segments the members had a hand in planning. The presale window was gated to active **BRIIZE** fan-club members, tickets went through a **NOL World** account, and general sale didn't open until that fan-club presale had already closed. This is a fanmeeting, not the KWANGYA@SEOUL retail stop covered below, and it does not change anything about that store's hours or access. For a same-day check on membership requirements and ticket status, see the [latest verified fanmeeting details on Ask Koursea](https://www.koursea.com/community-post.html?id=2aa0382e-150b-458b-ace5-da4493e7ea8a).
 
 ## The Official Seongsu Stop
 
