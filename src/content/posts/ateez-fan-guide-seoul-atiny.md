@@ -6,6 +6,13 @@ updatedDate: 2026-09-09
 tags: ["K-Pop", "ATEEZ", "ATINY", "KQ Entertainment", "Concert Tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/ateez-fan-guide-seoul-atiny/"
 author: "Koursea Editorial"
+faq:
+  - question: "What is the primary official source for ATEEZ and ATINY notices?"
+    answer: "The guide identifies KQ Entertainment's official ATEEZ platform as the primary place for notices, schedules, public content, and shop information."
+  - question: "Is KQ Entertainment's office a visitor attraction?"
+    answer: "No public office access should be assumed; a business address does not imply tours, lobby access, or artist encounters."
+  - question: "What should overseas ATINY confirm before a concert?"
+    answer: "Confirm the city, venue, date, sales channel, membership verification, account-name rules, and current bag, recording, light-stick, and merchandise rules."
 ---
 
 # ATEEZ Fan Guide to Seoul: ATINY Concert & Official Planning

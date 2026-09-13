@@ -6,6 +6,13 @@ updatedDate: 2026-09-03
 tags: ["K-Pop", "aespa", "MY", "Seongsu", "Concert Tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/aespa-fan-guide-seoul-spots/"
 author: "Koursea Editorial"
+faq:
+  - question: "Is the SM office area guaranteed public fan access?"
+    answer: "No. The guide describes the SM office area as a workplace and recommends staying in public plazas and streets."
+  - question: "Can an aespa pop-up require advance booking?"
+    answer: "Yes. Seongsu pop-ups may use advance booking, remote queues, or same-day queue registration, so check the current SM notice."
+  - question: "What should overseas MYs prepare for concert ticketing?"
+    answer: "Prepare ticket identity details, payment, phone verification, and return transport, and use the seller named in the official announcement."
 ---
 
 # aespa Fan Guide to Seoul: MY Spots, SM Seongsu & Concert Planning

@@ -13,6 +13,13 @@ tags:
   - seoul
 canonicalUrl: "https://blog.koursea.com/posts/bts-fan-guide-hybe-yongsan/"
 author: "Koursea Editorial"
+faq:
+  - question: "What is HYBE's Yongsan address in the guide?"
+    answer: "The guide lists 42 Hangang-daero, Yongsan-gu, Seoul (서울특별시 용산구 한강대로 42)."
+  - question: "Can visitors walk into HYBE headquarters?"
+    answer: "No. The interior is not a general walk-in fan attraction; the guide recommends respectful exterior photos from public areas only."
+  - question: "Is HYBE INSIGHT currently a permanent museum?"
+    answer: "No. The guide states that HYBE INSIGHT permanently closed on January 15, 2023 and has no announced reopening at the headquarters."
 ---
 
 # BTS Fan Guide to Seoul: HYBE Yongsan, ARMY Photo Stops & Concert Prep

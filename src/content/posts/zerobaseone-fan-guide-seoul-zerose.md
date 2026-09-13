@@ -6,6 +6,13 @@ updatedDate: 2026-09-09
 tags: ["K-Pop", "ZEROBASEONE", "ZEROSE", "WAKEONE", "Concert Tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/zerobaseone-fan-guide-seoul-zerose/"
 author: "Koursea Editorial"
+faq:
+  - question: "Which official sources should ZEROSE check?"
+    answer: "The guide recommends WAKEONE's official artist page and ZEROBASEONE's current official channels."
+  - question: "Is the WAKEONE office a visitor stop?"
+    answer: "No. A corporate address does not create public access, so fans should not wait at entrances or infer private schedules."
+  - question: "What should overseas ZEROSE confirm before booking?"
+    answer: "Confirm the event city, venue, date, seller, accepted regional membership, account-name rules, and current venue and merchandise requirements."
 ---
 
 # ZEROBASEONE Fan Guide to Seoul: ZEROSE Concert & WAKEONE Planning

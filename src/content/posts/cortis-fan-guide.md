@@ -12,6 +12,13 @@ tags:
   - concert-guide
 canonicalUrl: "https://blog.koursea.com/posts/cortis-fan-guide/"
 author: "Koursea Editorial"
+faq:
+  - question: "What is CORTIS's official fandom name?"
+    answer: "The guide identifies COER as the fandom name announced through the official Weverse notice."
+  - question: "Does CORTIS have a dedicated public visitor facility in Seoul?"
+    answer: "No. The guide says CORTIS does not have a dedicated public visitor facility."
+  - question: "Is HYBE INSIGHT open for a CORTIS fan visit?"
+    answer: "No. The former HYBE INSIGHT museum permanently closed on January 15, 2023, and HYBE Yongsan is a working office."
 ---
 
 # CORTIS Fan Guide: COER Membership, Official Music & Concert Prep

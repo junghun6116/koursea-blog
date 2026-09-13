@@ -7,6 +7,13 @@ category: "travel"
 tags: ["kpop music shows", "inkigayo tickets", "the show sbs", "weverse pre-recording", "seoul travel"]
 canonicalUrl: "https://blog.koursea.com/posts/guide-kpop-music-show-foreigner-tickets-inkigayo-theshow/"
 author: "Koursea Editorial"
+faq:
+  - question: "What are the main ways foreigners can attend a Korean music show?"
+    answer: "The guide covers network websites, official fanclub or Weverse pre-recordings, and guaranteed foreigner studio packages as three pathways."
+  - question: "What identity rule applies to a Weverse pre-recording?"
+    answer: "The fanclub or Weverse account name should match the physical passport's printed romanization character for character."
+  - question: "What should fans bring to a pre-recording?"
+    answer: "The guide lists a physical passport, the artist's official lightstick, and comeback-era proof such as a physical album or verified Melon account, subject to the notice."
 ---
 
 ## Sitting in the Audience of a Korean Music Show Is Harder Than It Looks

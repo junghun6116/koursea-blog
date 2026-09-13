@@ -7,6 +7,13 @@ category: "K-Pop & Concerts"
 tags: ["boynextdoor", "onedoor", "koz entertainment", "19.99", "kpop concert tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/boynextdoor-fan-guide/"
 author: "Koursea Editorial"
+faq:
+  - question: "Can fans enter KOZ Entertainment's offices?"
+    answer: "No public visitor facility is verified, so the guide says not to plan on office access."
+  - question: "Is HYBE headquarters a BOYNEXTDOOR attraction?"
+    answer: "No. HYBE headquarters is described as a working office rather than a fan attraction."
+  - question: "Where should ONEDOOR check current events?"
+    answer: "Use current KOZ, BOYNEXTDOOR, Weverse, venue, and official ticket-seller notices."
 ---
 
 # BOYNEXTDOOR Fan Guide: ONEDOOR Activity & Seoul Concert Prep
@@ -44,4 +51,3 @@ Our [K-Pop concert ticketing guide](/posts/kpop-concert-ticketing-seoul-2026/) c
 - **Can fans enter KOZ Entertainment?** No public visitor facility is verified, so do not plan on office access.
 - **Is HYBE headquarters a BOYNEXTDOOR attraction?** No. It is a working office.
 - **Where should ONEDOOR check events?** Use current KOZ, BOYNEXTDOOR, Weverse, venue and official ticket-seller notices.
-

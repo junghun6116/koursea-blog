@@ -7,6 +7,13 @@ category: "K-Pop & Concerts"
 tags: ["riize", "briize", "kwangya seoul", "sm entertainment", "kpop concert tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/riize-fan-guide-sm-seongsu/"
 author: "Koursea Editorial"
+faq:
+  - question: "Where is the official RIIZE stop in Seoul?"
+    answer: "The guide uses the shared KWANGYA@SEOUL at Acro Seoul Forest D Tower B1, 83-21 Wangsimni-ro, Seongdong-gu."
+  - question: "Is SMTOWN Coex Artium still open?"
+    answer: "No. It closed in 2020 and should not be used as a current RIIZE destination."
+  - question: "Are old RIIZING event benefits still available?"
+    answer: "Never assume they are; the guide says to confirm the newest dated notice for current pop-ups and purchase benefits."
 ---
 
 # RIIZE Fan Guide to Seoul: BRIIZE Stops & KWANGYA@SEOUL
@@ -48,4 +55,3 @@ Read our [K-Pop concert ticketing guide](/posts/kpop-concert-ticketing-seoul-202
 - **Is there a separate RIIZE shop in Seoul?** This guide uses the shared official KWANGYA@SEOUL location; it does not create a duplicate venue.
 - **Is SMTOWN Coex Artium still open?** No. Do not use it as a current destination.
 - **Are old RIIZING event benefits still available?** Never assume so; confirm the newest dated notice.
-

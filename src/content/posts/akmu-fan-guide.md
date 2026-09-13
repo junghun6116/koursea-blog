@@ -6,6 +6,13 @@ updatedDate: 2026-09-10
 tags: ["akmu", "yg entertainment", "kpop", "seoul", "foreigner-guide"]
 canonicalUrl: "https://blog.koursea.com/posts/akmu-fan-guide/"
 author: "Koursea Editorial"
+faq:
+  - question: "Where should overseas AKMU fans check current updates?"
+    answer: "Check YG Entertainment and AKMU's official social channels for releases, appearances, and ticket notices."
+  - question: "Can fans plan to visit a YG office?"
+    answer: "No office access should be assumed; the guide limits visits to publicly accessible areas and says not to wait at offices."
+  - question: "How should fans verify a concert before booking travel?"
+    answer: "Use the official announcement and the ticket link named there, then re-check the agency notice, venue rules, and ID requirements."
 ---
 
 AKMU (Lee Chan-hyuk and Lee Su-hyun) are a sibling duo under YG Entertainment. For an overseas fan, the useful plan is simple: follow official announcements first, then build a public Seoul route around verified, open locations.

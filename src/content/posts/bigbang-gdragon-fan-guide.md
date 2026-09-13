@@ -13,6 +13,13 @@ tags:
   - kpop-concert
 canonicalUrl: "https://blog.koursea.com/posts/bigbang-gdragon-fan-guide/"
 author: "Koursea Editorial"
+faq:
+  - question: "Who is in BIGBANG's active 2026 lineup?"
+    answer: "The guide identifies G-Dragon, Taeyang, and Daesung as the active three-member lineup; T.O.P is not part of the 2026 comeback or tour."
+  - question: "What is YG Entertainment's role in the 20th-anniversary project?"
+    answer: "YG is described as the group's concert and production partner, while the members have separate individual agencies."
+  - question: "Is YG headquarters a public BIGBANG museum?"
+    answer: "No. It remains a secure workplace and historic reference point, not a public museum or guaranteed fan-access destination."
 ---
 
 # BIGBANG & G-Dragon Fan Guide: BiiiG, XX : COSMOS & Seoul Prep

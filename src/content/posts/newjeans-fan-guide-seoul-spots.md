@@ -16,6 +16,13 @@ tags:
   - korea-2026
 canonicalUrl: "https://blog.koursea.com/posts/newjeans-fan-guide-seoul-spots/"
 author: "Koursea Editorial"
+faq:
+  - question: "Is there an official NewJeans or ADOR building to visit?"
+    answer: "The guide says there is no confirmed public visitor site and that ADOR does not operate a visitor-facing destination like HYBE Yongsan."
+  - question: "How does the guide frame Hongdae and Hannam-dong?"
+    answer: "They are district-level neighborhoods for fashion, cafes, and street culture, not single confirmed NewJeans filming or pilgrimage addresses."
+  - question: "What ticketing preparation does the guide recommend?"
+    answer: "Use the K-pop ticketing guide for NOL World, Melon Ticket, and Yes24, and check whether a Korean-number eSIM is needed for verification."
 ---
 
 > **최종 업데이트: 2026-09-11 기준.** The 2024–2025 agency dispute with ADOR (including the temporary "NJZ" rebrand) has been resolved — see the 2026 update below.

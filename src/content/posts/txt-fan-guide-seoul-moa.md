@@ -6,6 +6,13 @@ updatedDate: 2026-09-09
 tags: ["K-Pop", "TOMORROW X TOGETHER", "TXT", "MOA", "Concert Tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/txt-fan-guide-seoul-moa/"
 author: "Koursea Editorial"
+faq:
+  - question: "What should MOA use as the source for current TXT events?"
+    answer: "Use the official TXT site and Weverse notices for schedules, venues, ticketing windows, merchandise methods, and identity rules."
+  - question: "How did the documented MOA CON merchandise pickup work?"
+    answer: "The notice offered Weverse Shop pre-purchase with on-site pickup or venue-day purchase, with event-specific pickup and product limits."
+  - question: "What should overseas MOA prepare before ticket sales?"
+    answer: "Compare the purchaser name with the passport, save the venue and last-train route, and use the official ticket seller and current entry rules."
 ---
 
 # TOMORROW X TOGETHER Fan Guide to Seoul: MOA Concert & Official Merch Planning

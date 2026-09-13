@@ -7,6 +7,13 @@ category: "K-Pop & Concerts"
 tags: ["nct 127", "nctzen", "kwangya seoul", "sm entertainment", "kpop concert tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/nct127-fan-guide-sm-seongsu/"
 author: "Koursea Editorial"
+faq:
+  - question: "Where is the current public NCT 127 stop in Seoul?"
+    answer: "The guide lists KWANGYA@SEOUL at B1, D Tower, Acro Seoul Forest, 83-21 Wangsimni-ro, Seongdong-gu."
+  - question: "Is SMTOWN Coex Artium still an NCT 127 destination?"
+    answer: "No. It closed completely in May–June 2020 and is no longer an SM visitor destination."
+  - question: "Can fans enter SM offices?"
+    answer: "Do not assume office access; use the designated public store and announced event spaces only."
 ---
 
 # NCT 127 Fan Guide to Seoul: NCTzen Stops & KWANGYA@SEOUL
@@ -48,4 +55,3 @@ Our [K-Pop concert ticketing guide](/posts/kpop-concert-ticketing-seoul-2026/) e
 - **Can I still visit SMTOWN Coex Artium?** No. It closed in 2020 and should not be used as an NCT 127 destination.
 - **Where is the current official public stop?** KWANGYA@SEOUL at Acro Seoul Forest D Tower B1.
 - **Can I enter SM's offices?** Do not assume office access. Use the designated public store and announced event spaces only.
-
