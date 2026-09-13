@@ -12,6 +12,13 @@ tags:
   - kpop-travel
 canonicalUrl: "https://blog.koursea.com/posts/twice-fan-guide-jyp-cheongdam/"
 author: "Koursea Editorial"
+faq:
+  - question: "Where is the current JYP Center for a TWICE fan visit?"
+    answer: "The guide gives the current address as 205 Gangdong-daero in Seongnae-dong, Gangdong-gu, Seoul, not the former Cheongdam location."
+  - question: "Can visitors enter JYP Center?"
+    answer: "No. It is a workplace, so the guide recommends brief exterior photos from public sidewalks and says not to wait at entrances or film employees, artists, or visitors."
+  - question: "How is Cheongdam used in the suggested route?"
+    answer: "Cheongdam is a separate optional K-beauty and fashion district, not an extension of the JYP headquarters stop or a claim about celebrity salon use."
 ---
 
 # TWICE Fan Guide to Seoul: JYP Center, ONCE Stops & Cheongdam Beauty Route
