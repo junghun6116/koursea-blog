@@ -6,6 +6,13 @@ updatedDate: 2026-09-04
 tags: ["K-Pop", "YG Entertainment", "Hapjeong", "Hongdae", "K-Pop Shopping"]
 canonicalUrl: "https://blog.koursea.com/posts/yg-hapjeong-mapo-tour-guide/"
 author: "Koursea Editorial"
+faq:
+  - question: "Can visitors enter YG Entertainment headquarters in Hapjeong?"
+    answer: "No. The guide treats YG as an active office and recommends only a brief exterior photo stop from public space without waiting at gates or driveways."
+  - question: "What should shoppers verify at Withmuu or another retailer?"
+    answer: "Check the official notice for the artist, eligible album version, event period, quantity limit, and remaining benefits before buying."
+  - question: "What should fans do with albums before a concert?"
+    answer: "The route recommends returning purchases to the hotel or using a legitimate locker before heading to an arena, while keeping receipts and considering baggage weight."
 ---
 
 # YG Hapjeong & Mapo K-Pop Tour: Headquarters, Withmuu and Hongdae Goods

@@ -7,6 +7,13 @@ category: "K-Pop & Concerts"
 tags: ["triples", "wav", "modhaus", "andless world tour", "kpop concert tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/triples-fan-guide-seoul/"
 author: "Koursea Editorial"
+faq:
+  - question: "What is tripleS's official fandom name and agency?"
+    answer: "The guide identifies WAV as tripleS's official fandom and MODHAUS as the group's agency."
+  - question: "Does MODHAUS have a permanent public fan storefront in Seoul?"
+    answer: "No single fan-facing retail space equivalent to KWANGYA@SEOUL is currently confirmed, so pop-ups and fan events should be checked by era and announcement."
+  - question: "When and where is the Seoul opening of the ANDLESS tour?"
+    answer: "The guide lists October 10–11, 2026 at Jangchung Arena as the opening Seoul shows of the 2026 tripleS World Tour ANDLESS."
 ---
 
 # tripleS Fan Guide to Seoul: WAV Ticketing Prep for the ANDLESS World Tour

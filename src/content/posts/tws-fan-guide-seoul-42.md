@@ -6,6 +6,13 @@ updatedDate: 2026-09-10
 tags: ["K-Pop", "TWS", "42", "PLEDIS Entertainment", "Concert Tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/tws-fan-guide-seoul-42/"
 author: "Koursea Editorial"
+faq:
+  - question: "What is the TWS fandom name in this guide?"
+    answer: "The official PLEDIS notice cited by the guide names the fandom 42, also written SAI."
+  - question: "Are PLEDIS or HYBE offices visitor attractions?"
+    answer: "No. The guide treats them as workplaces and says not to assume lobby access, tours, artist encounters, or private schedules."
+  - question: "What should overseas 42 members prepare before ticket day?"
+    answer: "Confirm the current membership type, match the ticket account name to the required ID, save the venue and return route offline, and read the current entry and merchandise rules."
 ---
 
 # TWS Fan Guide to Seoul: 42 Concert & PLEDIS Planning
