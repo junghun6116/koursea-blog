@@ -22,7 +22,12 @@
     "@astrojs/rss": "^4.0.19",
     "@astrojs/sitemap": "3.7.4",
     "astro": "7.3.2",
-    "sharp": "0.33.5",
+    "sharp": "0.35.4",
     "typescript": "5.7.2"
+  },
+  "pnpm": {
+    "overrides": {
+      "sharp": "^0.35.4"
+    }
   }
 }
