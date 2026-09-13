@@ -6,6 +6,13 @@ updatedDate: 2026-09-05
 tags: ["free things to do seoul", "free museums korea", "budget travel korea", "free busan attractions", "무료전시", "무료관광"]
 canonicalUrl: "https://blog.koursea.com/posts/free-things-to-do-seoul-busan-jongno-exhibitions/"
 author: "Koursea Editorial"
+faq:
+  - question: "Which cities are covered by this free-attractions guide?"
+    answer: "It covers free museums, parks, public spaces, and exhibitions in Seoul and Busan, with a dedicated Jongno art section."
+  - question: "Which Seoul stops are included?"
+    answer: "Examples include the National Museum of Korea, Seoul Museum of Art, HiKR Ground, Cheong Wa Dae, Cheonggyecheon, Hangang Parks, Seoul City Wall, and Bukchon Hanok Village."
+  - question: "Does the Busan section include museums and villages?"
+    answer: "Yes. It includes the Museum of Contemporary Art Busan, F1963, the National Maritime Museum, Busan Museum of Art, and Huinnyeoul Culture Village."
 ---
 
 # Free Things to Do in Seoul & Busan: Museums, Parks and Jongno Art

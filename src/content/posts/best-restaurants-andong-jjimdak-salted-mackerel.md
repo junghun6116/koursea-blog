@@ -7,6 +7,13 @@ category: "Sightseeing & Food"
 tags: ["best restaurants in Andong", "Andong food", "Andong jjimdak", "salted mackerel Andong", "Andong local restaurants", "Koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/best-restaurants-andong-jjimdak-salted-mackerel/"
 author: "Koursea Editorial"
+faq:
+  - question: "What foods define this Andong restaurant guide?"
+    answer: "It focuses on Andong jjimdak, salted mackerel, freshwater stews, soups, and other heritage-style local meals."
+  - question: "Are jjimdak specialists included?"
+    answer: "Yes. The first section groups several jjimdak specialists around the traditional market and Hahoe-area itinerary."
+  - question: "Does the guide cover more than one dining district?"
+    answer: "Yes. It includes market comfort food, jjimdak specialists, salted-fish restaurants, freshwater dishes, and a heritage cafe stop."
 ---
 
 Andong is the historic capital of Korean Confucian tradition, preserving aristocratic scholar cuisine alongside vibrant market street food. Best known worldwide for Andong Jjimdak (soy-braised spicy chicken) and Gan-godeungeo (salted grilled mackerel), the city offers deeply comforting dishes shaped by inland preservation techniques and historic markets.

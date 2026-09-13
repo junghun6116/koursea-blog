@@ -7,6 +7,13 @@ category: "travel"
 tags: ["busan fireworks festival", "gwangalli beach", "busan events 2026", "busan november", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/busan-fireworks-festival-guide/"
 author: "Koursea Editorial"
+faq:
+  - question: "Where does this Busan fireworks guide suggest watching from?"
+    answer: "It compares Gwangalli Beach, Dongbaekseom and Haeundae-side viewpoints, Igidae, and paid seats."
+  - question: "What should visitors do before entering the crowd?"
+    answer: "The checklist recommends confirming the November 7 date and final program time on the official site, saving a physical meeting point, and leaving large luggage elsewhere."
+  - question: "How should visitors prepare for the waterfront conditions?"
+    answer: "Bring an insulating layer and wind-resistant outerwear, carry a charged power bank, save key information offline, and keep emergency lanes and exits clear."
 ---
 
 # Busan Fireworks Festival 2026: A Foreigner's Guide

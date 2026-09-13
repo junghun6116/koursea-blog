@@ -6,6 +6,13 @@ updatedDate: 2026-09-04
 tags: ["K-Pop", "SM Entertainment", "KWANGYA", "Seongsu", "Seoul Forest"]
 canonicalUrl: "https://blog.koursea.com/posts/sm-kwangya-seongsu-tour-guide/"
 author: "Koursea Editorial"
+faq:
+  - question: "Where does this SM KWANGYA and Seongsu route begin?"
+    answer: "The route starts at Seoul Forest Station and includes the verified KWANGYA public area before continuing through Seoul Forest and Seongsu."
+  - question: "How does the guide handle pop-up-store uncertainty?"
+    answer: "It recommends one confirmed Seongsu pop-up with a cafe backup instead of building the entire day around unconfirmed pop-up access."
+  - question: "What concert logistics are included?"
+    answer: "The practical route summary includes an early dinner and a subway return before peak late-night gaps, alongside merchandise and concert preparation."
 ---
 
 Planning a broader fashion-and-cafe day around the same district? Pair this fan route with the [Seongsu trend and fashion walking route](/posts/seongsu-trend-fashion-walking-route/) to continue through permanent stores, pop-ups, Seoul Forest, and the Hangang.

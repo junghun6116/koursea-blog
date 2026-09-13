@@ -6,6 +6,13 @@ updatedDate: 2026-09-09
 tags: ["K-Pop", "T.O.P", "Squid Game", "Thanos", "Seoul"]
 canonicalUrl: "https://blog.koursea.com/posts/top-squid-game-thanos-fan-guide/"
 author: "Koursea Editorial"
+faq:
+  - question: "What does Netflix officially confirm about Thanos?"
+    answer: "The guide uses Netflix Tudum to confirm Choi Seung-hyun as Thanos in Squid Game Season 2."
+  - question: "Does a scene screenshot prove a public filming location?"
+    answer: "No. The guide says a screenshot or social post does not verify a public filming location."
+  - question: "How should fans verify a public Seoul event?"
+    answer: "Check the organizer's current page before traveling and do not treat production facilities, accommodation, vehicles, or private schedules as visitor stops."
 ---
 
 # T.O.P and Squid Game Guide: Thanos, Official Sources & Seoul Planning

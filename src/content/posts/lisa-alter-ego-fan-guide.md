@@ -6,6 +6,13 @@ updatedDate: 2026-09-09
 tags: ["K-Pop", "LISA", "BLACKPINK", "Alter Ego", "Concert Tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/lisa-alter-ego-fan-guide/"
 author: "Koursea Editorial"
+faq:
+  - question: "Is Alter Ego a permanent public attraction in Seoul?"
+    answer: "No. The guide treats the album campaign as a release and any merchandise or pop-up as date-specific rather than a permanent attraction."
+  - question: "How should fans verify current LISA merchandise or releases?"
+    answer: "Use LISA's official site, official stores, and the ticket seller named in an official event announcement."
+  - question: "Which places should not be treated as fan stops?"
+    answer: "The guide says not to visit private offices, residences, hotels, or inferred schedules."
 ---
 
 # LISA Fan Guide: Alter Ego, Official Music & Seoul Planning
@@ -48,4 +55,3 @@ Official public schedules, ticketed events, and authorized retail activations ar
 
 > 이 앨범 버전의 구성품과 공식 판매처를 확인할 수 있나요?  
 > Can I confirm this album edition's inclusions and official seller?
-

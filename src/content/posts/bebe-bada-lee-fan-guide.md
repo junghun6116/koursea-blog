@@ -6,6 +6,13 @@ updatedDate: 2026-09-10
 tags: ["bebe", "bada lee", "street woman fighter", "kpop", "seoul"]
 canonicalUrl: "https://blog.koursea.com/posts/bebe-bada-lee-fan-guide/"
 author: "Koursea Editorial"
+faq:
+  - question: "What can visitors actually attend in this BADA LEE guide?"
+    answer: "The guide focuses on public, officially announced activities and separates them from private schedules or unverified sightings."
+  - question: "What is the role of 1MILLION Dance Studio in the guide?"
+    answer: "1MILLION is discussed as a public dance-studio reference point, with visits kept respectful and limited to what the venue officially allows."
+  - question: "Which sources should fans check for current information?"
+    answer: "The post points readers to The L1ve and Mnet Plus for official activity and event information."
 ---
 
 Bada Lee leads BEBE, the seven-member crew of Bada, Lusher, Kyma, Tatter, Minah, Cheche and Sowon. BEBE won Mnet's *Street Woman Fighter 2* in 2023 and was announced as represented by The L1ve in May 2024.

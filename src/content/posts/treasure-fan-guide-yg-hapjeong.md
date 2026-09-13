@@ -6,6 +6,13 @@ updatedDate: 2026-09-10
 tags: ["K-Pop", "TREASURE", "YG Entertainment", "Hapjeong", "Concert Tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/treasure-fan-guide-yg-hapjeong/"
 author: "Koursea Editorial"
+faq:
+  - question: "Where should TREASURE fans verify releases and schedules?"
+    answer: "The guide directs fans to YG Entertainment, Weverse, and YG's official concert pages for current information."
+  - question: "Can visitors enter YG headquarters in Hapjeong?"
+    answer: "No. The headquarters is a working office; the public-facing stop described in the guide is the SameE across the street."
+  - question: "What is TREASURE MAKER membership used for?"
+    answer: "The guide says TREASURE MAKER membership is handled through Weverse, so fans should use the official feed for membership information."
 ---
 
 # TREASURE Fan Guide: Official Sources, YG Hapjeong & the SameE

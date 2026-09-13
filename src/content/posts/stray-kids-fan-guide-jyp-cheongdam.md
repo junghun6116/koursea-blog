@@ -13,6 +13,13 @@ tags:
   - kpop-travel
 canonicalUrl: "https://blog.koursea.com/posts/stray-kids-fan-guide-jyp-cheongdam/"
 author: "Koursea Editorial"
+faq:
+  - question: "Where is the current JYP Center described in this Stray Kids guide?"
+    answer: "The guide uses the current Seongnae-dong address at 205 Gangdong-daero, Gangdong-gu, Seoul, rather than an old Cheongdam result."
+  - question: "Can visitors enter JYP Center?"
+    answer: "No. It is treated as an office; the guide recommends exterior photos from public sidewalks and says not to wait at entrances or track vehicles."
+  - question: "What can fans pair with the office-area visit?"
+    answer: "The guide suggests combining it with Olympic Park and an officially announced KSPO DOME event when relevant."
 ---
 
 # Stray Kids Fan Guide to Seoul: JYP Center, STAY Route & Concert Prep

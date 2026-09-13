@@ -6,6 +6,13 @@ updatedDate: 2026-09-05
 tags: ["Seongsu route", "Seongsu fashion", "pop-up stores", "Seoul Forest", "Ttukseom Hangang Park", "Seoul shopping"]
 canonicalUrl: "https://blog.koursea.com/posts/seongsu-trend-fashion-walking-route/"
 author: "Koursea Editorial"
+faq:
+  - question: "Where does this Seongsu walking route start?"
+    answer: "It starts near Seongsu Station and moves through the warehouse-scale cafe and industrial-street area before continuing toward Seoul Forest."
+  - question: "Should visitors build the route around a pop-up store?"
+    answer: "No. Pop-ups are optional because admission, reservations, and closing dates change quickly; the guide recommends flexible alternatives."
+  - question: "What is the suggested evening finish?"
+    answer: "The route can finish at Ttukseom Hangang Park for chimaek when feet, daylight, weather, and the return-transit plan allow."
 ---
 
 Seongsu works best as a sequence of zones, not a checklist of viral stores. Former workshops, fashion flagships, rotating pop-ups, Seoul Forest, and the river spread across a larger area than social videos suggest. This route keeps you moving in one direction while leaving space for queues and unplanned discoveries.
