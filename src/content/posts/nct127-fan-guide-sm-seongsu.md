@@ -2,7 +2,7 @@
 title: "NCT 127 Fan Guide to Seoul: NCTzen Stops & KWANGYA@SEOUL"
 description: "Plan an NCT 127 fan visit to Seoul with the current KWANGYA@SEOUL location, closed SMTOWN Coex warning, official merchandise checks and concert ticketing prep."
 pubDate: 2026-09-08
-updatedDate: 2026-09-08
+updatedDate: 2026-09-13
 category: "K-Pop & Concerts"
 tags: ["nct 127", "nctzen", "kwangya seoul", "sm entertainment", "kpop concert tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/nct127-fan-guide-sm-seongsu/"
@@ -20,6 +20,10 @@ NCT 127 is an SM Entertainment group whose official fandom name is **NCTzen**. F
 - Treat SM offices as workplaces and use only the public retail space announced for visitors.
 - NCT 127's sixth full album *WALK* belongs to the group's established activity history; check current SM notices for any new event.
 - Use the [Foreigner's Guide to K-Pop Concert Ticketing in Seoul](/posts/kpop-concert-ticketing-seoul-2026/) before a ticket sale.
+
+## Confirmed as of September 13, 2026
+
+NCT 127 opened its fifth world tour, **"NEO CITY : SEOUL – THE REDLINE,"** at **KSPO DOME** across three Seoul dates — September 18, 19, and 20, 2026. Tickets sold through **Melon Ticket** in stages: a fan-club presale first, then a separate global presale, then general sale, with passport/identity verification required before anyone could buy. This is the group's own concert, unrelated to the KWANGYA@SEOUL retail stop below — don't confuse a tour notice with a change to store hours or access. For a same-day check on remaining ticket availability, see the [latest verified concert details on Ask Koursea](https://www.koursea.com/community-post.html?id=0e2ff273-ace3-4be0-8450-e28d40b73276).
 
 ## Visit KWANGYA@SEOUL in Seongsu
 
