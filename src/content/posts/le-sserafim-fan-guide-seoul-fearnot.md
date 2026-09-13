@@ -6,6 +6,13 @@ updatedDate: 2026-09-09
 tags: ["K-Pop", "LE SSERAFIM", "FEARNOT", "Seoul", "Concert Tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/le-sserafim-fan-guide-seoul-fearnot/"
 author: "Koursea Editorial"
+faq:
+  - question: "Are LE SSERAFIM pop-ups permanent Seoul attractions?"
+    answer: "No. The guide treats pop-ups as temporary, date-specific events and tells readers to check current Weverse or official notices rather than assuming an old Yongsan pop-up is still open."
+  - question: "Are membership presales the same as general concert ticket sales?"
+    answer: "No. The guide distinguishes membership presale applications from the separate ticketing systems and regional processes for a given event."
+  - question: "What should FEARNOT visitors verify before an event?"
+    answer: "Check the date, hours, entry floor, reservation or QR requirements, ID rules, quantity limits, and whether the event has already sold out."
 ---
 
 # LE SSERAFIM Fan Guide to Seoul: FEARNOT Events, Pop-Ups & Concert Planning

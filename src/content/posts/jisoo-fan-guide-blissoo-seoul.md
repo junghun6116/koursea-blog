@@ -6,6 +6,13 @@ updatedDate: 2026-09-09
 tags: ["K-Pop", "JISOO", "BLISSOO", "BLACKPINK", "BLINK"]
 canonicalUrl: "https://blog.koursea.com/posts/jisoo-fan-guide-blissoo-seoul/"
 author: "Koursea Editorial"
+faq:
+  - question: "What is BLISSOO in this JISOO guide?"
+    answer: "BLISSOO is the official source the guide uses for JISOO's solo announcements and related planning checks."
+  - question: "How should fans distinguish solo and BLACKPINK announcements?"
+    answer: "Check whether an announcement is for JISOO's solo activity or a BLACKPINK group activity before planning around it."
+  - question: "What event details should visitors verify?"
+    answer: "Verify the city, venue, date, sale or entry details, organizer, account or ID requirements, and any transport or venue rules."
 ---
 
 # JISOO Fan Guide to Seoul: BLISSOO, BLINK & Official Planning

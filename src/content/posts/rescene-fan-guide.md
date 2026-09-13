@@ -6,6 +6,13 @@ updatedDate: 2026-09-10
 tags: ["rescene", "the muze", "kpop", "seoul", "foreigner-guide"]
 canonicalUrl: "https://blog.koursea.com/posts/rescene-fan-guide/"
 author: "Koursea Editorial"
+faq:
+  - question: "Which sources should RESCENE fans check first?"
+    answer: "The guide directs fans to official agency notices and other official channels for current activity and event information."
+  - question: "Does the guide recommend visiting private RESCENE-related locations?"
+    answer: "No. It focuses on verified public venues and respectful fan etiquette rather than private locations."
+  - question: "What should fans prepare before a RESCENE event or visit?"
+    answer: "Check the current notice, confirm the public venue and access details, and follow the practical fan-etiquette guidance in the post."
 ---
 
 RESCENE debuted in 2024 under THE MUZE Entertainment. The group is commonly described as Woni, Liv, Minami, May and Zena; confirm the current lineup and activities on the agency's official channels before relying on any older profile.

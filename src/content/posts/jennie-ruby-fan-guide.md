@@ -6,6 +6,13 @@ updatedDate: 2026-09-09
 tags: ["K-Pop", "JENNIE", "BLACKPINK", "Ruby", "Concert Tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/jennie-ruby-fan-guide/"
 author: "Koursea Editorial"
+faq:
+  - question: "Is Ruby a permanent JENNIE attraction in Seoul?"
+    answer: "No. The guide treats Ruby as an official release and any related store or event as date-specific, not as a permanent attraction."
+  - question: "How should fans verify JENNIE merchandise or events?"
+    answer: "Use the official store, official channels, and the seller named in the relevant announcement rather than relying on private or unofficial listings."
+  - question: "What locations should fans avoid treating as public fan stops?"
+    answer: "The guide says not to use offices, residences, hotels, or other private locations as fan-tour destinations."
 ---
 
 # JENNIE Fan Guide: Ruby, Official Releases & Seoul Planning
@@ -48,4 +55,3 @@ Attend official public schedules, ticketed events, and authorized retail activat
 
 > 이 루비 앨범 버전의 구성품을 확인할 수 있나요?  
 > Can I check the inclusions for this Ruby album edition?
-

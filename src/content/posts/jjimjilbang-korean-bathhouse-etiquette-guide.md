@@ -6,6 +6,13 @@ updatedDate: 2026-09-10
 tags: ["jjimjilbang", "korean sauna", "etiquette", "seoul", "foreigner-guide"]
 canonicalUrl: "https://blog.koursea.com/posts/jjimjilbang-korean-bathhouse-etiquette-guide/"
 author: "Koursea Editorial"
+faq:
+  - question: "What should a first-time visitor expect at jjimjilbang check-in?"
+    answer: "The guide explains the check-in flow, towel handling, and the distinction between nude bathing zones and shared sauna rooms."
+  - question: "Are tattoos addressed in the etiquette guide?"
+    answer: "Yes. Tattoo policies are included as something visitors should check before choosing or entering a bathhouse."
+  - question: "What behavior does the guide emphasize?"
+    answer: "It focuses on respectful behavior in shared sauna spaces, correct use of towels, and following each facility's posted rules."
 ---
 
 A jjimjilbang normally has separate changing and bathing areas by gender, plus a shared clothed sauna zone. Follow the signs and ask staff when a rule is unclear.

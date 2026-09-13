@@ -6,6 +6,13 @@ updatedDate: 2026-09-05
 tags: ["first time Seoul", "AREX", "Myeongdong", "WOWPASS", "Seoul arrival guide", "N Seoul Tower"]
 canonicalUrl: "https://blog.koursea.com/posts/first-24-hours-in-seoul-survival-guide/"
 author: "Koursea Editorial"
+faq:
+  - question: "What does this first-day Seoul plan cover first?"
+    answer: "It starts with immigration and baggage, then covers an AREX trip or luggage transfer, hotel check-in, and setting up money and transit for Myeongdong."
+  - question: "What is the suggested late-afternoon area?"
+    answer: "The plan uses Myeongdong for cash and transit setup, shopping, and street food after the airport and hotel steps."
+  - question: "Is Namsan required in the itinerary?"
+    answer: "No. Namsan is presented as an optional sunset stop that can be skipped when weather or energy makes it impractical."
 ---
 
 Your first Seoul day should remove uncertainty, not maximize attractions. This route deliberately handles transport, hotel access, cash, cards, food, and navigation before asking you to climb a hill at sunset. Treat the times as a sequence rather than a race: immigration, baggage, weather, and sleep matter more than completing every stop.

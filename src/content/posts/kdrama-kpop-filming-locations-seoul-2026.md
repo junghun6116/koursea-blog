@@ -7,6 +7,13 @@ category: "K-Pop & Concerts"
 tags: ["K-drama filming locations Seoul", "K-pop filming locations", "BTS Gyeongbokgung", "Queen of Tears locations", "Vincenzo filming locations", "Koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/kdrama-kpop-filming-locations-seoul-2026/"
 author: "Koursea Editorial"
+faq:
+  - question: "Which filming locations are included in this guide?"
+    answer: "The list includes Gyeongbokgung, Irwol Arboretum, The Hyundai Seoul's Sounds Forest, Bidulginang Falls, Baek In-je House, Some Sevit, Cheongna Lake Park, Nodeul Island, Sewoon Plaza, and Cafe Grandpa Factory."
+  - question: "Are these locations presented as open to visitors?"
+    answer: "Yes. The guide focuses on locations described as currently open public sites or working venues, with the relevant access context for each."
+  - question: "Does the guide distinguish K-drama and K-pop examples?"
+    answer: "Yes. It combines verified drama locations such as Queen of Tears, Kingdom, Reborn Rich, The Glory, Start-Up, and Vincenzo with BTS's Gyeongbokgung stage."
 ---
 
 Every location below is confirmed by a specific news article or official city media report naming both the location and the exact scene — not fan speculation. All are currently open to the public.

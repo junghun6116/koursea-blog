@@ -7,6 +7,13 @@ category: "travel"
 tags: ["free things to do korea", "korea day trip ktx", "free attractions by region korea", "jeonju gyeongju free attractions", "jeju free attractions", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/free-attractions-korea-by-region-ktx-guide/"
 author: "Koursea Editorial"
+faq:
+  - question: "Are every attraction in this guide completely free?"
+    answer: "No. The guide distinguishes free sites from places with free grounds but paid extras, free access with conditions, paid attractions, and entries where the cost is unclear."
+  - question: "Which regions are covered?"
+    answer: "The guide covers Suwon, Incheon, Daegu, Gwangju, Jeonju and Namwon, Gyeongju, Andong, and Jeju."
+  - question: "What is the transport angle of the guide?"
+    answer: "It is organized as a KTX-accessible regional guide, so each section helps visitors compare free or mostly-free stops beyond Seoul and Busan."
 ---
 
 ## Key Takeaways
