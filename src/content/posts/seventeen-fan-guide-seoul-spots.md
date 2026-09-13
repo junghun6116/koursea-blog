@@ -6,6 +6,13 @@ updatedDate: 2026-09-10
 tags: ["K-Pop", "SEVENTEEN", "CARAT", "Seoul", "Concert Tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/seventeen-fan-guide-seoul-spots/"
 author: "Koursea Editorial"
+faq:
+  - question: "Is HYBE Yongsan a public SEVENTEEN attraction?"
+    answer: "No. The guide treats it as a working office and recommends only a brief exterior stop from public sidewalks."
+  - question: "What should CARAT verify for pop-ups and merchandise?"
+    answer: "Check official SEVENTEEN or PLEDIS notices for dates, reservations, purchase limits, stock, benefits, ID rules, and collection windows."
+  - question: "What ticketing preparation is recommended?"
+    answer: "Match the ticket-account name to the passport, prepare a second payment method, and save Korean addresses and last-train routes offline."
 ---
 
 # SEVENTEEN Fan Guide to Seoul: CARAT Spots, HYBE Yongsan & Concert Prep

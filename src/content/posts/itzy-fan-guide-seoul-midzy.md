@@ -6,6 +6,13 @@ updatedDate: 2026-09-09
 tags: ["K-Pop", "ITZY", "MIDZY", "JYP Entertainment", "Concert Tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/itzy-fan-guide-seoul-midzy/"
 author: "Koursea Editorial"
+faq:
+  - question: "Where is JYP Center now according to the ITZY guide?"
+    answer: "The guide says JYP's current official address is in Seongnae-dong, Gangdong-gu, not Cheongdam."
+  - question: "Can fans expect access to JYP's workplace?"
+    answer: "No. The guide says not to build a route around access to an entertainment-company workplace."
+  - question: "What should MIDZY check before buying a ticket?"
+    answer: "Use the seller linked by JYP or the organizer, verify membership and account-name rules, read ID and pickup requirements, and save the venue route."
 ---
 
 # ITZY Fan Guide to Seoul: MIDZY Concert & JYP Planning

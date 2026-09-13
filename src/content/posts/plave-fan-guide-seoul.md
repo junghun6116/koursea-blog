@@ -7,6 +7,13 @@ category: "K-Pop & Concerts"
 tags: ["plave", "plli", "vlast", "virtual idol", "kpop concert tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/plave-fan-guide-seoul/"
 author: "Koursea Editorial"
+faq:
+  - question: "What is PLAVE's official fandom name and agency?"
+    answer: "The guide identifies PLLI as the fandom and VLAST as the agency behind the five-member virtual group."
+  - question: "Does PLAVE have a public agency office or storefront for fans?"
+    answer: "No confirmed public fan venue is listed; VLAST offices are not open to visitors."
+  - question: "Where were PLAVE's most recent Seoul-area tour dates?"
+    answer: "The guide lists Incheon Munhak Stadium on September 12–13, 2026, opening the KEEP IT MANIC World Tour, and says to verify any new date officially."
 ---
 
 # PLAVE Fan Guide to Seoul: PLLI, VLAST & the KEEP IT MANIC World Tour

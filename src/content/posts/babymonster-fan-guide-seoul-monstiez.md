@@ -6,6 +6,13 @@ updatedDate: 2026-09-10
 tags: ["K-Pop", "BABYMONSTER", "MONSTIEZ", "YG Entertainment", "Concert Tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/babymonster-fan-guide-seoul-monstiez/"
 author: "Koursea Editorial"
+faq:
+  - question: "What source should MONSTIEZ use before planning a Seoul route?"
+    answer: "Start with a current BABYMONSTER or YG announcement that names the event, city, venue, date, and official sales route."
+  - question: "Can visitors enter YG offices or rehearsal spaces?"
+    answer: "No public access should be assumed; the guide says not to plan on office, staff-area, rehearsal-space, or private-schedule access."
+  - question: "What should fans prepare before a ticket sale?"
+    answer: "Match the account holder name to the passport, check membership verification, save the venue route, read current rules, and keep a second payment method."
 ---
 
 # BABYMONSTER Fan Guide to Seoul: MONSTIEZ Concert & YG Planning

@@ -13,6 +13,13 @@ tags:
   - kpop-travel
 canonicalUrl: "https://blog.koursea.com/posts/blackpink-fan-guide-yg-hapjeong/"
 author: "Koursea Editorial"
+faq:
+  - question: "Can fans tour or enter YG headquarters in Hapjeong?"
+    answer: "No. The guide says YG headquarters is not open for fan tours or lobby visits."
+  - question: "What is the practical public stop near YG headquarters?"
+    answer: "The SameE Hapjeong is presented as the practical public stop for a cafe, official merchandise, and temporary artist events."
+  - question: "Is K-Star Road part of the Hapjeong headquarters route?"
+    answer: "No. The guide states that K-Star Road in Gangnam is more than 15 kilometers away and is a separate area."
 ---
 
 # BLACKPINK Fan Guide: DEADLINE, YG Hapjeong & the SameE

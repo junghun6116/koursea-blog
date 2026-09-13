@@ -6,6 +6,13 @@ updatedDate: 2026-09-09
 tags: ["K-Pop", "i-dle", "NEVERLAND", "Cube Entertainment", "Concert Tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/i-dle-fan-guide-seoul-neverland/"
 author: "Koursea Editorial"
+faq:
+  - question: "Where should NEVERLAND check current information?"
+    answer: "Check Cube's current official notices before planning a venue or merchandise visit."
+  - question: "Can an old NEVERLAND membership guide be reused?"
+    answer: "No. The guide says membership service arrangements changed, so fans should not rely on an old signup guide."
+  - question: "What should overseas fans confirm before an i-dle concert?"
+    answer: "Confirm the event title, city, venue, date, official seller, current fan-club platform, identification rules, and final transport route."
 ---
 
 # i-dle Fan Guide to Seoul: NEVERLAND Concert & Official Planning

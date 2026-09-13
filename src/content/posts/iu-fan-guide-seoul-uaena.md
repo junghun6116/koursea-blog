@@ -6,6 +6,13 @@ updatedDate: 2026-09-09
 tags: ["K-Pop", "IU", "UAENA", "EDAM Entertainment", "Concert Tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/iu-fan-guide-seoul-uaena/"
 author: "Koursea Editorial"
+faq:
+  - question: "Where should UAENA check current IU information?"
+    answer: "The guide recommends checking IU and EDAM's current official channels before planning an event visit."
+  - question: "Can an old IU concert or membership notice be treated as current?"
+    answer: "No. Old notices are treated as expired unless a new official notice renews them."
+  - question: "What should overseas UAENA prepare for a concert?"
+    answer: "Confirm the event, venue, sale time, accepted membership platform, account-name rules, identification, payment, pickup, and return transport."
 ---
 
 # IU Fan Guide to Seoul: UAENA Concert & Official Planning

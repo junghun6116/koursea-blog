@@ -6,6 +6,13 @@ updatedDate: 2026-09-09
 tags: ["K-Pop", "IVE", "DIVE", "Starship Entertainment", "Concert Tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/ive-fan-guide-seoul-dive/"
 author: "Koursea Editorial"
+faq:
+  - question: "What should DIVE check before visiting Seoul for IVE?"
+    answer: "Use Starship's artist page and IVE's official channels, and confirm every concert, pop-up, or merchandise booth through a current dated notice."
+  - question: "Is the Starship office a visitor stop?"
+    answer: "No. The guide says company offices, studios, vehicles, and private movements are off-limits."
+  - question: "What should overseas DIVE prepare before a ticket sale?"
+    answer: "Prepare ticket identity and payment, check whether membership verification is separate, save the venue route, and recheck current event rules."
 ---
 
 # IVE Fan Guide to Seoul: DIVE Concert & Starship Planning
