@@ -7,6 +7,13 @@ category: "Sightseeing & Food"
 tags: ["things to do in Gyeongju", "Gyeongju attractions", "Gyeongju itinerary", "Silla heritage", "Gyeongju day trip", "Koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/20-verified-things-to-do-gyeongju/"
 author: "Koursea Editorial"
+faq:
+  - question: "Which heritage stops are included in this Gyeongju guide?"
+    answer: "The guide covers Silla-era and heritage stops including Cheomseongdae, Donggung and Wolji, Gyeongju National Museum, Woljeonggyo, Seokguram, Daereungwon, Gyochon, and Wolseong."
+  - question: "Does the list include places beyond ancient ruins?"
+    answer: "Yes. It also includes Bomun Lake, Hwangnidan-gil, Gyeongju World, Gyeongju Tower, Bird Park, and other modern or scenic stops."
+  - question: "Are all 20 entries presented as verified?"
+    answer: "Yes. The post is organized as 20 verified things to do and explains each stop with its own location or visitor context."
 ---
 
 Gyeongju served as the ancient capital of the Silla Kingdom for nearly a millennium, leaving behind a remarkable concentration of historic sites and scenic landmarks. Whether you arrive by KTX for a day trip or stay for a weekend, planning around verified landmarks ensures a smooth itinerary. Below are 20 verified attractions across Gyeongju, organized by focus area to help you navigate efficiently.

@@ -6,6 +6,13 @@ updatedDate: 2026-09-10
 tags: ["Korea Travel", "Address", "eSIM", "Korea Post", "Practical Guide"]
 canonicalUrl: "https://blog.koursea.com/posts/korea-road-name-address-system-guide/"
 author: "Koursea Editorial"
+faq:
+  - question: "What do -daero, -ro, and -gil mean in Korean addresses?"
+    answer: "The guide explains these as common road-name address components and shows how they fit into Korea's road-name system."
+  - question: "Why should travelers keep both Korean and English address versions?"
+    answer: "Keeping the Korean address alongside the official English version helps with hotels, delivery, Korea Post, and showing the correct destination locally."
+  - question: "Where can I find an official English address?"
+    answer: "The guide directs readers to the official Juso road-name address service for the English view."
 ---
 
 # How Korean Addresses Work: A Foreign Traveler's Guide to 도로명주소

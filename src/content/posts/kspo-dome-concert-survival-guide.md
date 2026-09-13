@@ -6,6 +6,13 @@ updatedDate: 2026-09-04
 tags: ["K-Pop", "KSPO Dome", "Concerts", "Olympic Park", "Seoul Transit"]
 canonicalUrl: "https://blog.koursea.com/posts/kspo-dome-concert-survival-guide/"
 author: "Koursea Editorial"
+faq:
+  - question: "What venue does this concert survival guide cover?"
+    answer: "It covers KSPO Dome in Olympic Park, including the relevant exits, queues, lockers, food, meeting points, and late-night return planning."
+  - question: "What is the guide's locker advice?"
+    answer: "It recommends planning a realistic locker strategy rather than assuming a locker will be available when the concert crowd arrives."
+  - question: "What does the timeline cover?"
+    answer: "The timeline runs from T–4 through T–1 and after the show, helping visitors plan arrival, food, queues, meeting points, and the journey home."
 ---
 
 # KSPO Dome Concert Survival Guide: Lockers, Food & Late-Night Subway Plan

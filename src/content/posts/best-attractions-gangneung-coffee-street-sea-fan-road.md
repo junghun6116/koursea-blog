@@ -7,6 +7,13 @@ category: "Sightseeing & Food"
 tags: ["best attractions in Gangneung", "Gangneung day trip", "Gangneung Coffee Street", "Sea Fan Road", "Gangneung KTX", "Koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/best-attractions-gangneung-coffee-street-sea-fan-road/"
 author: "Koursea Editorial"
+faq:
+  - question: "What kind of attractions does this Gangneung guide cover?"
+    answer: "It covers coastal stops, Gangneung Coffee Street, the Jeongdong-Simgok Sea Fan Road, a giant hourglass, royal heritage sites, and scenic places such as Gyeongpo Lake."
+  - question: "Is Gangneung Coffee Street included?"
+    answer: "Yes. Anmok Beach and its Coffee Street are among the featured attractions."
+  - question: "Does the guide include heritage attractions?"
+    answer: "Yes. Seongyojang and Ojukheon are included alongside beaches, art spaces, and coastal walks."
 ---
 
 Gangneung is Korea's coffee capital and a coastal city rich with royal history — home to the birthplace of two figures on Korean banknotes, a UNESCO-adjacent folk heritage estate, and one of the country's most photographed coastal boardwalks. It's an easy KTX trip from Seoul (about 2 hours) that pairs beach culture with genuine history.

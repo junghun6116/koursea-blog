@@ -7,6 +7,13 @@ tags: ["Busan Skin Clinics", "Seomyeon Dermatology", "Centum Skin Clinics", "Bus
 canonicalUrl: "https://blog.koursea.com/posts/busan-district-comparison-skin-clinics/"
 author: "Koursea Editorial"
 reviewer: "HJ MUN"
+faq:
+  - question: "How does Seomyeon compare with Centum City for skin clinics?"
+    answer: "Seomyeon is presented as Busan's larger, value-oriented medical cluster, while Centum City is described as a smaller, more premium area focused on private appointments and lifting or anti-aging care."
+  - question: "Which area is easier to reach from Busan Station?"
+    answer: "The post describes Seomyeon as a direct Line 1 trip of about 10 to 12 minutes, while Centum City takes about 40 to 45 minutes with a transfer."
+  - question: "Are the treatment prices fixed by the government?"
+    answer: "No. The post states that non-covered procedure prices vary by clinic promotions and whether VAT is included, so visitors should confirm current terms before paying."
 ---
 
 # Seomyeon vs Centum Skin Clinics in Busan (2026)

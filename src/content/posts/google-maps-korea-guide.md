@@ -11,6 +11,13 @@ tags:
   - KakaoMap
 canonicalUrl: "https://blog.koursea.com/posts/google-maps-korea-guide/"
 author: "Koursea Editorial"
+faq:
+  - question: "Does Google Maps work normally in Korea?"
+    answer: "The guide explains that Google Maps works differently in Korea, especially for walking and route planning, so visitors should understand its limitations."
+  - question: "What alternatives does the guide recommend?"
+    answer: "It explains how to use Naver Map in English and compares Naver Map and Kakao Map for Korean navigation needs."
+  - question: "What should I do if a place is hard to find on a map?"
+    answer: "Search the Korean name when possible, check station exits and entrances rather than relying only on a map pin, and use the guide's taxi and offline-saving tips."
 ---
 
 Google Maps is excellent for saving restaurants, checking reviews, and understanding the shape of a city. In South Korea, however, it is not always the most reliable tool for turn-by-turn walking or driving directions. A route that looks simple may return no walking option, send you to an inconvenient entrance, or omit the subway exit that matters most.
