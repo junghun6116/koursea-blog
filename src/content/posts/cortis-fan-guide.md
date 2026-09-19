@@ -1,6 +1,6 @@
 ---
-title: "CORTIS Fan Guide (2026): COER Membership, Official Music & Concert Prep"
-description: "A fact-checked CORTIS fan guide covering the official COER fandom name, members, debut music, Weverse notices, concert preparation and safe Seoul planning."
+title: "CORTIS Fandom Name COER: Meaning, Membership & Concert Guide (2026)"
+description: "COER is CORTIS's official fandom name, confirmed via Weverse. This guide explains what COER means, membership and ticket-safety tips, and concert prep for Seoul shows."
 pubDate: 2026-09-07
 updatedDate: 2026-09-07
 category: "K-Pop & Concerts"
@@ -21,7 +21,7 @@ faq:
     answer: "No. The former HYBE INSIGHT museum permanently closed on January 15, 2023, and HYBE Yongsan is a working office."
 ---
 
-# CORTIS Fan Guide: COER Membership, Official Music & Concert Prep
+# CORTIS Fandom Name COER: Meaning, Membership & Concert Guide
 
 CORTIS is a five-member group under BIGHIT MUSIC. The group debuted on August 18, 2025, and its official profile lists MARTIN, JAMES, JUHOON, SEONGHYEON and KEONHO. Its official fandom name is **COER**. This guide keeps travel planning tied to official CORTIS, BIGHIT MUSIC and Weverse notices instead of rumored schedules or unofficial visitor locations.
 
