@@ -62,7 +62,21 @@ const koreanProcedureName = treatmentKey.includes('rejuran') ? '리쥬란 힐러
   : treatmentKey.includes('filler') ? '히알루론산 필러 시술'
   : '피부 시술 상담';
 const heading = isUtility ? `${cleanName} for Seoul Clinic Visits` : isCityGuide ? `${treatmentName} in ${page.region}, ${page.city}: Price & Downtime Guide` : `${treatmentName}: ${clinicType} Price & Downtime Guide`;
-const pageTitle = isUtility ? heading : isCityGuide ? `${treatmentName} in ${page.region}, ${page.city}: Price & Downtime` : `${treatmentName}: ${clinicType} — Price & Downtime`;
+// The <title> (also used for og:title/twitter:title) needs to stay near ~60 chars so it
+// isn't truncated in search results; treatmentName carries parenthetical/comparison detail
+// that's useful in the on-page heading but makes the raw title far too long.
+const strippedTreatmentName = treatmentName.replace(/\s*\([^)]*\)/g, '').trim();
+const isComparisonTreatment = /\bvs\.?\b/i.test(strippedTreatmentName);
+let shortTreatmentName = isComparisonTreatment
+  ? strippedTreatmentName.split(/\s+vs\.?\s+/i).slice(0, 2).map((part) => part.split(/\s*\/\s*/)[0].trim()).join(' vs. ')
+  : strippedTreatmentName.split(/\s*\/\s*/)[0].trim();
+if (!isCityGuide && !isUtility) {
+  if (/factory/i.test(clinicType)) shortTreatmentName += ' (Factory Clinic)';
+  else if (/private|solo-doctor/i.test(clinicType)) shortTreatmentName += ' (Private Clinic)';
+  else if (/domestic/i.test(treatmentName)) shortTreatmentName += ' (Domestic Brand)';
+  else if (/imported/i.test(treatmentName)) shortTreatmentName += ' (Imported Brand)';
+}
+const pageTitle = isUtility ? heading : isCityGuide ? `${shortTreatmentName} in ${page.region}, ${page.city}: Price & Downtime` : `${shortTreatmentName}: Price & Downtime`;
 const rawDescription = `${keyTakeaway} Compare practical price basis, clinic model and recovery considerations before booking.`;
 const description = rawDescription.length > 155 ? `${rawDescription.slice(0, 155).replace(/\s+\S*$/, '')}…` : rawDescription;
 const faqItems = [
