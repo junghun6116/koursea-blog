@@ -25,7 +25,7 @@ faq:
   - question: "What should I do before the on-sale waiting room opens?"
     answer: "Finish account verification and save the payment method before the queue opens, choose one site language, and follow the platform's own notice if checkout fails."
   - question: "Do I get a printable ticket after I pay?"
-    answer: "Often not immediately. Many platforms issue a reservation number that you exchange for a physical ticket at a venue box office or kiosk, with an original passport or Alien Registration Card required; some shows instead use an in-app mobile ticket. Check your confirmation email or the tour's own notice to know which applies to your show."
+    answer: "It depends on the show — some use box-office or kiosk pickup with ID, others issue an in-app mobile ticket, and we could not confirm a single rule that covers every platform or concert. Check your confirmation email and the tour's own notice for your specific show rather than assuming one format."
 ---
 
 # The Foreigner's Guide to K-Pop Concert Ticketing in Seoul (2026): NOL World, Melon Ticket & Payment Reality
@@ -73,13 +73,21 @@ High-demand shows on all three platforms use a **예매대기 (virtual waiting r
 - **Site language toggles (Korean/English) sometimes reset your session** — decide which language you're booking in and stick with it.
 - **If checkout fails partway through, don't refresh and restart blindly** — some platforms hold your seat for a short grace period, others release it immediately. Read the specific platform's own notice, since this varies.
 
-## Getting Your Physical Ticket: Box-Office Pickup vs. Mobile Entry
+## Getting Your Ticket: What to Confirm Before Show Day
 
-Finishing checkout doesn't mean you're holding a ticket. On most Korean concert platforms, what you get right after paying is a reservation number, not a scannable file, and multiple foreigner ticket-buying guides describe the same pattern for turning that into entry: go to the venue's box office or a self-service kiosk, enter the reservation number, and show ID to collect a physical ticket or wristband. Box-office pickup commonly opens a few hours before doors, not at showtime, so arriving right as the show starts can mean queuing behind everyone else doing the same pickup.
+Finishing checkout doesn't automatically mean you're holding a ticket. Korean concert platforms use a mix of formats — box-office or kiosk pickup against a reservation number, and in-app mobile tickets — and which one applies depends on the specific platform, promoter, and show. We could not confirm a single rule that covers every concert, so treat the checklist below as what to verify from your own show's official notice, not a fixed process.
 
-The identification requirement is strict and consistent across the guides we checked: bring the original passport or Alien Registration Card used on the booking account, not a photo or screenshot, and make sure the name matches your account exactly. Staff can and do refuse pickup over a mismatched or expired document. Yes24-sold shows are commonly described as will-call only, with no separate mobile-ticket option, while other platforms increasingly offer an in-app mobile ticket for at least some shows. Don't assume either format applies to your specific concert — the confirmation email or app screen after checkout, or the tour's own ticketing notice, is what actually tells you whether you're picking up at a window or scanning a phone at the gate.
+Before ticket day, confirm each of these from your confirmation email, the platform's account page, or the tour's own notice:
 
-Build pickup time into your concert-day schedule rather than treating it as a five-minute stop, especially if you're also collecting merchandise. For box-office lines and station transport at specific venues, our [K-Pop concert day venue and transport guide](/posts/kpop-concert-day-venue-transport-guide-2026/) covers KSPO Dome, Gocheok Sky Dome, Inspire Arena, and Jamsil Indoor Stadium in more detail.
+- **Delivery format.** Is this show box-office/kiosk pickup, or an in-app mobile ticket? Don't assume based on a different concert or platform you've used before.
+- **Pickup location and hours**, if it's a physical pickup — which counter or kiosk, and what time it opens relative to doors. Some notices specify pickup opens a set number of hours before the show; others don't say, so check rather than assume.
+- **Accepted ID and name matching.** Which original ID is required (passport, Alien Registration Card, or another document the notice names), whether a photo or screenshot is accepted, and whether the name must match your booking account exactly.
+- **Anything else the notice asks for** — a printed or digital reservation confirmation, fan-club membership proof, or additional verification.
+- **Whether a companion or someone else can collect on your behalf**, and what that requires — some notices allow it with extra documentation, others don't allow it at all.
+
+If a platform's general pattern is relevant context, cite that platform's own notice for the specific show rather than treating it as a universal rule — what one promoter requires on one platform doesn't necessarily apply to a different concert on the same platform.
+
+Build ticket collection into your concert-day schedule rather than treating it as a five-minute stop, especially if you're also collecting merchandise. For box-office lines and station transport at specific venues, our [K-Pop concert day venue and transport guide](/posts/kpop-concert-day-venue-transport-guide-2026/) covers KSPO Dome, Gocheok Sky Dome, Inspire Arena, and Jamsil Indoor Stadium in more detail.
 
 ## What to Skip
 
