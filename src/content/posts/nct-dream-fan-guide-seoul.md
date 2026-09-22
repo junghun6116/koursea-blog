@@ -10,8 +10,8 @@ author: "Koursea Editorial"
 faq:
   - question: "Where is the official public NCT DREAM stop in Seoul?"
     answer: "This guide points to the shared KWANGYA@SEOUL retail store in Seongsu, the same official SM Entertainment stop already documented in Koursea's NCT 127 and RIIZE guides, rather than creating a duplicate venue entry."
-  - question: "Where did NCT DREAM most recently perform in Seoul?"
-    answer: "Their official Weverse notice confirmed a six-show 'THE DREAM SHOW 4: FUTURE THE DREAM' FINALE at KSPO DOME on March 20, 21, 22, 27, 28, and 29, 2026, corroborated by Korean entertainment press. Their July 2025 Gocheok Sky Dome shows opened that same tour and are not the most recent Seoul dates."
+  - question: "What Seoul concert history is confirmed for NCT DREAM?"
+    answer: "Their official Weverse notice confirmed a six-show 'THE DREAM SHOW 4: FUTURE THE DREAM' FINALE at KSPO DOME on March 20, 21, 22, 27, 28, and 29, 2026, corroborated by Korean entertainment press. Their July 2025 Gocheok Sky Dome shows opened that same tour. This guide does not confirm whether a newer Seoul date has been announced since — check NCT DREAM's official channels for anything more current."
   - question: "Is 'NCTzen' the same as the membership needed for a DREAM ticket presale?"
     answer: "No. NCTzen is NCT's shared fandom name across all units. The specific membership used for NCT DREAM ticket presales is 'NCTzen DREAM' (GL) — sign up for it separately on Weverse before a sale, rather than assuming the general fandom name alone grants presale access."
 ---
@@ -25,7 +25,7 @@ NCT DREAM is an SM Entertainment group and shares the collective's official fand
 - NCT DREAM's fandom name is NCTzen, shared across NCT and its units. Ticket presales instead check a specific membership, "NCTzen DREAM" (GL) — register for it separately on Weverse.
 - The group's shared official retail stop is KWANGYA@SEOUL in Seongsu — see our [NCT 127 guide](/posts/nct127-fan-guide-sm-seongsu/) and [SM KWANGYA Seongsu tour route](/posts/sm-kwangya-seongsu-tour-guide/) for the actual visit directions; this guide does not repeat them.
 - Do not travel to the former SMTOWN Coex Artium. It closed completely in 2020 and is not a current SM destination.
-- NCT DREAM's most recent confirmed Seoul dates were a six-show "THE DREAM SHOW 4: FUTURE THE DREAM" FINALE at KSPO DOME in March 2026, which followed the same tour's July 2025 opening shows at Gocheok Sky Dome. We could not confirm a new Seoul date beyond that finale through the official channels checked for this guide.
+- Official notice confirmed a six-show "THE DREAM SHOW 4: FUTURE THE DREAM" FINALE at KSPO DOME in March 2026, which followed the same tour's July 2025 opening shows at Gocheok Sky Dome. We could not confirm through the official channels checked for this guide whether a newer Seoul date has since been announced.
 - Prepare with the [Foreigner's Guide to K-Pop Concert Ticketing in Seoul](/posts/kpop-concert-ticketing-seoul-2026/) before any future sale.
 
 ## The Shared Official Stop, Not a New One
@@ -38,7 +38,7 @@ SMTOWN Coex Artium is a separate point worth repeating on its own: it closed com
 
 NCT DREAM's **THE DREAM SHOW 4** tour opened in Seoul with three dates at **Gocheok Sky Dome** — July 10, 11, and 12, 2025 — and roughly 60,000 fans attended across those three nights, per contemporaneous entertainment-press reporting.
 
-That same tour returned to Seoul for its close: NCT DREAM's own [official Weverse notice](https://weverse.io/nctdream/notice/33191) confirmed a six-show **"THE DREAM SHOW 4: FUTURE THE DREAM" FINALE** at **KSPO DOME**, held March 20, 21, 22, 27, 28, and 29, 2026. This is corroborated by Korean entertainment press — [Starnews](https://www.starnewskorea.com/en/music/2026/03/03/2026030310465025761) reported all six shows sold out instantly after presale, and [allkpop](https://www.allkpop.com/article/2026/03/nct-dream-tour-finale-to-be-broadcast-live-in-86-cities-worldwide) reported the finale was also broadcast live in cinemas across 86 cities worldwide. **The KSPO DOME finale, not the July 2025 Gocheok Sky Dome shows, is NCT DREAM's most recent confirmed Seoul concert.**
+That same tour returned to Seoul for its close: NCT DREAM's own [official Weverse notice](https://weverse.io/nctdream/notice/33191) confirmed a six-show **"THE DREAM SHOW 4: FUTURE THE DREAM" FINALE** at **KSPO DOME**, held March 20, 21, 22, 27, 28, and 29, 2026. This is corroborated by Korean entertainment press — [Starnews](https://www.starnewskorea.com/en/music/2026/03/03/2026030310465025761) reported all six shows sold out instantly after presale, and [allkpop](https://www.allkpop.com/article/2026/03/nct-dream-tour-finale-to-be-broadcast-live-in-86-cities-worldwide) reported the finale was also broadcast live in cinemas across 86 cities worldwide. **The KSPO DOME finale came later in this same tour than the July 2025 Gocheok Sky Dome shows; this guide does not confirm whether the group has performed in Seoul again since.**
 
 For a future Seoul show, Koursea's [K-Pop concert day venue and transport guide](/posts/kpop-concert-day-venue-transport-guide-2026/) already covers both venues — KSPO DOME's Olympic Park Station access and Gocheok Sky Dome's Line 1 Guil Station access — in detail. Read that guide once a new date and venue are announced, rather than assuming either venue will repeat.
 
@@ -58,4 +58,4 @@ Our [K-Pop concert ticketing guide](/posts/kpop-concert-ticketing-seoul-2026/) c
 
 - **Is there an NCT DREAM-only store in Seoul?** No. This guide uses the shared official KWANGYA@SEOUL location documented in our NCT 127 and RIIZE guides.
 - **Can I still visit SMTOWN Coex Artium?** No. It closed in 2020 and should not be used as an NCT DREAM destination.
-- **Where did NCT DREAM most recently perform in Seoul?** A six-show "THE DREAM SHOW 4: FUTURE THE DREAM" FINALE at KSPO DOME in March 2026 — not the July 2025 Gocheok Sky Dome shows, which opened the same tour. We could not confirm a new Seoul date beyond that finale as of this writing.
+- **What Seoul concert history is confirmed for NCT DREAM?** A six-show "THE DREAM SHOW 4: FUTURE THE DREAM" FINALE at KSPO DOME in March 2026, which followed the July 2025 Gocheok Sky Dome shows that opened the same tour. We could not confirm whether the group has performed in Seoul again since — check official channels for anything more current.
