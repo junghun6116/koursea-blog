@@ -14,7 +14,11 @@
       "mcp__Supabase__list_projects",
       "mcp__Supabase__list_tables",
       "Bash(git fetch *)",
-      "Bash(pnpm audit)"
+      "Bash(pnpm audit)",
+      "Bash(git push *)",
+      "mcp__github__create_pull_request",
+      "mcp__github__merge_pull_request",
+      "mcp__Supabase__execute_sql"
     ]
   }
 }
