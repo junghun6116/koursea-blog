@@ -4,10 +4,11 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "check:category-hubs": "node scripts/check-category-hubs.mjs",
     "dev": "astro dev",
     "generate:llms": "node scripts/generate-llms-files.mjs",
     "generate:og": "node scripts/generate-post-og-images.mjs",
-    "prebuild": "node scripts/generate-llms-files.mjs && node scripts/generate-post-og-images.mjs",
+    "prebuild": "node scripts/check-category-hubs.mjs && node scripts/generate-llms-files.mjs && node scripts/generate-post-og-images.mjs",
     "build": "astro check && astro build",
     "postbuild": "node scripts/ensure-sitemap-files.mjs && node scripts/generate-distribution-snippets.mjs && node scripts/verify-seo.mjs",
     "audit:seo": "node scripts/audit-static-seo.mjs",

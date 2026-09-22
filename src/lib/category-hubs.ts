@@ -10,7 +10,7 @@ export const categoryHubs: CategoryHub[] = [
     slug: 'kpop',
     label: 'K-Pop & Concerts',
     description: 'Fan routes, official merchandise checks, filming locations, and practical concert planning for international visitors.',
-    matches: /k-?pop|concert|bts|army|twice|once|stray kids|stay|newjeans|bunnies|seventeen|carat|enhypen|engene|aespa|nct|nctzen|riize|briize|boynextdoor|onedoor|bigbang|blackpink|hybe|jyp|\bsm\b|\byg\b|kwangya|weverse|inkigayo|lucky draw|lightstick|merch/i
+    matches: /k-?pop|concert|bts|army|twice|once|stray kids|newjeans|bunnies|seventeen|carat|enhypen|engene|aespa|nct|nctzen|riize|briize|boynextdoor|onedoor|bigbang|blackpink|hybe|jyp|\bsm\b|\byg\b|kwangya|weverse|inkigayo|lucky draw|lightstick|merch/i
   },
   {
     slug: 'healthcare',
@@ -28,7 +28,10 @@ export const categoryHubs: CategoryHub[] = [
 
 export const categoriesForTags = (tags: string[]) => {
   const tagText = tags.join(' ');
-  return categoryHubs.filter((hub) => hub.matches.test(tagText));
+  // STAY is also a fandom tag. Only the complete tag carries that meaning;
+  // accommodation tags such as "hanok stay" must not become K-pop routes.
+  const hasStayFandomTag = tags.some((tag) => tag.trim().toLowerCase() === 'stay');
+  return categoryHubs.filter((hub) => hub.matches.test(tagText) || (hub.slug === 'kpop' && hasStayFandomTag));
 };
 
 export const categoryForSlug = (slug: string) => categoryHubs.find((hub) => hub.slug === slug);
