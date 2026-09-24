@@ -1,8 +1,8 @@
 ---
-title: "BTS Fan Guide to Seoul: HYBE Yongsan, ARMY Photo Stops & Concert Prep (2026)"
+title: "BTS Fan Guide: HYBE Yongsan, ARMY Stops & Concert Prep"
 description: "Plan a respectful BTS fan trip to HYBE Yongsan with subway directions, exterior photo rules, nearby stops, ticketing, eSIM and payment advice."
 pubDate: 2026-09-02
-updatedDate: 2026-09-11
+updatedDate: 2026-09-25
 category: "K-Pop & Concerts"
 tags:
   - bts
@@ -22,7 +22,7 @@ faq:
     answer: "No. The guide states that HYBE INSIGHT permanently closed on January 15, 2023 and has no announced reopening at the headquarters."
 ---
 
-# BTS Fan Guide to Seoul: HYBE Yongsan, ARMY Photo Stops & Concert Prep
+# BTS Fan Guide: HYBE Yongsan, ARMY Stops & Concert Prep
 
 BTS debuted in June 2013 under BIGHIT MUSIC. The seven-member group—RM, Jin, SUGA, j-hope, Jimin, V and Jung Kook—calls its official fandom **ARMY**. For visitors, the most practical BTS-related stop in Seoul is [HYBE's headquarters in Yongsan](https://www.koursea.com/place/hybe-headquarters-yongsan/), but it should be treated as a working office rather than a public attraction.
 

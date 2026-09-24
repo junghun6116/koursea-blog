@@ -1,8 +1,8 @@
 ---
-title: "10 Real K-Drama & K-Pop Filming Locations Near Seoul You Can Actually Visit (2026)"
+title: "10 K-Drama & K-Pop Filming Locations Near Seoul (2026)"
 description: "10 verified K-drama and K-pop filming locations around Seoul, Gyeonggi, and Incheon — from BTS's Gyeongbokgung stage to Vincenzo's Sewoon Plaza — all still open to visit, each sourced to a news or city-government article."
 pubDate: 2026-09-07
-updatedDate: 2026-09-07
+updatedDate: 2026-09-25
 category: "K-Pop & Concerts"
 tags: ["K-drama filming locations Seoul", "K-pop filming locations", "BTS Gyeongbokgung", "Queen of Tears locations", "Vincenzo filming locations", "Koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/kdrama-kpop-filming-locations-seoul-2026/"
