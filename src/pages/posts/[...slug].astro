@@ -12,6 +12,7 @@ export async function getStaticPaths() {
 }
 
 const { post } = Astro.props;
+const allPosts = await getCollection('posts');
 const { Content, headings } = await render(post);
 const canonicalUrl = post.data.canonicalUrl ?? new URL(`/posts/${post.id}/`, Astro.site).href;
 const author = post.data.author ?? 'Koursea Editorial';
@@ -37,6 +38,40 @@ const relatedItineraries = (mapped?.itinerary ?? []).flatMap((slug) => {
   const page = itineraryPages.find((item) => item.slug === slug);
   return page ? [{ href: `/itinerary/${page.slug}/`, title: `${page.region_name} ${page.duration}`, eyebrow: '1-DAY ROUTE' }] : [];
 });
+const kpopPattern = /k-?pop|concert|fandom|fan guide|photocard|music show|kspo|hybe|jyp|\bsm\b|\byg\b/i;
+const isKpopPost = kpopPattern.test(`${post.data.title} ${(post.data.tags ?? []).join(' ')}`);
+const postContext = `${post.data.title} ${post.data.description} ${(post.data.tags ?? []).join(' ')}`.toLowerCase();
+const titleStopWords = new Set(['guide', 'kpop', 'seoul', 'korea', 'foreigner', 'foreigners', 'travel', '2026']);
+const titleTerms = new Set((post.data.title.toLowerCase().match(/[a-z0-9]{4,}/g) ?? []).filter((term) => !titleStopWords.has(term)));
+const relatedIntentPatterns = [
+  /ticket|concert|music show|venue|kspo|performance/,
+  /merch|album|photocard|lucky draw|shopping/,
+  /fan guide|fandom|agency|hybe|jyp|\bsm\b|\byg\b/
+];
+const activeIntentIndex = relatedIntentPatterns.findIndex((pattern) => pattern.test(postContext));
+const intentTitleScore = [
+  (candidateTitle: string) => /ticket|music show|venue|kspo|concert day/.test(candidateTitle) ? 30 : /concert|performance/.test(candidateTitle) ? 10 : 0,
+  (candidateTitle: string) => /merch|album|photocard|lucky draw|shopping/.test(candidateTitle) ? 30 : 0,
+  (candidateTitle: string) => /fan guide|agency|hybe|jyp|\bsm\b|\byg\b/.test(candidateTitle) ? 30 : 0
+];
+const relatedKpop = isKpopPost
+  ? allPosts
+      .filter((candidate) => candidate.id !== post.id && kpopPattern.test(`${candidate.data.title} ${(candidate.data.tags ?? []).join(' ')}`))
+      .map((candidate) => {
+        const candidateTerms = candidate.data.title.toLowerCase().match(/[a-z0-9]{4,}/g) ?? [];
+        const sharedTags = (candidate.data.tags ?? []).filter((tag) => (post.data.tags ?? []).includes(tag)).length;
+        const sharedTitleTerms = candidateTerms.filter((term) => titleTerms.has(term)).length;
+        const intentMatch = activeIntentIndex >= 0 ? intentTitleScore[activeIntentIndex](candidate.data.title.toLowerCase()) : 0;
+        return { candidate, score: intentMatch + sharedTags * 3 + sharedTitleTerms };
+      })
+      .sort((a, b) => b.score - a.score || b.candidate.data.pubDate.valueOf() - a.candidate.data.pubDate.valueOf())
+      .slice(0, 4)
+      .map(({ candidate }) => ({
+        href: `/posts/${candidate.id}/`,
+        title: candidate.data.title,
+        eyebrow: 'K-POP & FAN TRAVEL'
+      }))
+  : [];
 const socialEmbeds: Record<string, { xUrl?: string; instagramUrl?: string; label: string }> = {
   'bts-fan-guide-hybe-yongsan': {
     xUrl: 'https://x.com/bts_bighit/status/2021932587661635731',
@@ -110,6 +145,6 @@ const editorialCallout = editorialCallouts[post.id];
 // the generic site fallback.
 const socialImage = post.data.coverImage ?? post.data.thumbnail ?? `/og/posts/${post.id}.png`;
 ---
-<PostLayout title={post.data.title} description={post.data.description} category={post.data.category} canonicalUrl={canonicalUrl} pubDate={post.data.pubDate} updatedDate={post.data.updatedDate} author={author} reviewer={post.data.reviewer} tags={post.data.tags} socialImage={socialImage} socialImageAlt={`${post.data.title} — Koursea Journal`} coverImage={post.data.coverImage} wordCount={wordCount} toc={toc} relatedGuides={[...relatedBeauty, ...relatedItineraries]} socialEmbed={socialEmbed} faq={post.data.faq} editorialCallout={editorialCallout}>
+<PostLayout title={post.data.title} description={post.data.description} category={post.data.category} canonicalUrl={canonicalUrl} pubDate={post.data.pubDate} updatedDate={post.data.updatedDate} author={author} reviewer={post.data.reviewer} tags={post.data.tags} socialImage={socialImage} socialImageAlt={`${post.data.title} — Koursea Journal`} coverImage={post.data.coverImage} wordCount={wordCount} toc={toc} relatedGuides={isKpopPost ? relatedKpop : [...relatedBeauty, ...relatedItineraries]} socialEmbed={socialEmbed} faq={post.data.faq} editorialCallout={editorialCallout}>
   <Content />
 </PostLayout>
