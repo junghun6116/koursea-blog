@@ -1,8 +1,8 @@
 ---
-title: "Stray Kids Fan Guide to Seoul: JYP Center, STAY Route & Concert Prep (2026)"
+title: "Stray Kids Seoul Guide: JYP Center, STAY Route & Tickets"
 description: "Plan a respectful Stray Kids fan trip to JYP Center in Seongnae-dong with subway directions, photo rules, Olympic Park routing and ticketing advice."
 pubDate: 2026-09-02
-updatedDate: 2026-09-11
+updatedDate: 2026-09-25
 category: "K-Pop & Concerts"
 tags:
   - stray-kids
@@ -22,7 +22,7 @@ faq:
     answer: "The guide suggests combining it with Olympic Park and an officially announced KSPO DOME event when relevant."
 ---
 
-# Stray Kids Fan Guide to Seoul: JYP Center, STAY Route & Concert Prep
+# Stray Kids Seoul Guide: JYP Center, STAY Route & Tickets
 
 Stray Kids officially debuted in March 2018 under JYP Entertainment. The group consists of Bang Chan, Lee Know, Changbin, Hyunjin, HAN, Felix, Seungmin and I.N, and the official fandom is **STAY**. For a Seoul trip, the practical agency stop is the current [JYP Center in Seongnae-dong](https://www.koursea.com/place/jyp-entertainment-center-gangdong/), Gangdong-gu. Despite old search results and the requested legacy filename, the headquarters is not in Cheongdam.
 

@@ -1,8 +1,8 @@
 ---
-title: "LE SSERAFIM Fan Guide to Seoul: FEARNOT Events, Pop-Ups & Concert Planning"
+title: "LE SSERAFIM Seoul Guide: Events, Pop-Ups & Concerts"
 description: "Plan a respectful LE SSERAFIM fan trip with official FEARNOT sources, temporary Seoul pop-up checks, concert ticket preparation, and event etiquette."
 pubDate: 2026-09-09
-updatedDate: 2026-09-09
+updatedDate: 2026-09-25
 tags: ["K-Pop", "LE SSERAFIM", "FEARNOT", "Seoul", "Concert Tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/le-sserafim-fan-guide-seoul-fearnot/"
 author: "Koursea Editorial"
@@ -15,7 +15,7 @@ faq:
     answer: "Check the date, hours, entry floor, reservation or QR requirements, ID rules, quantity limits, and whether the event has already sold out."
 ---
 
-# LE SSERAFIM Fan Guide to Seoul: FEARNOT Events, Pop-Ups & Concert Planning
+# LE SSERAFIM Seoul Guide: Events, Pop-Ups & Concerts
 
 LE SSERAFIM is a five-member SOURCE MUSIC group comprising Sakura, Kim Chaewon, Huh Yunjin, Kazuha, and Hong Eunchae, as listed by the group's [official profile](https://www.le-sserafim.jp/profile). The official fandom name is FEARNOT, confirmed in the [fandom-name announcement](https://weverse.io/lesserafim/notice/3267).
 

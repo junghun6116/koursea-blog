@@ -1,8 +1,8 @@
 ---
-title: "TOMORROW X TOGETHER Fan Guide to Seoul: MOA Concert & Official Merch Planning"
+title: "TXT Fan Guide to Seoul: MOA Concerts & Official Merch"
 description: "Plan a respectful TXT fan trip in Seoul with official MOA sources, KSPO DOME concert preparation, Weverse merchandise checks, and practical transit steps."
 pubDate: 2026-09-09
-updatedDate: 2026-09-09
+updatedDate: 2026-09-25
 tags: ["K-Pop", "TOMORROW X TOGETHER", "TXT", "MOA", "Concert Tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/txt-fan-guide-seoul-moa/"
 author: "Koursea Editorial"
@@ -15,7 +15,7 @@ faq:
     answer: "Compare the purchaser name with the passport, save the venue and last-train route, and use the official ticket seller and current entry rules."
 ---
 
-# TOMORROW X TOGETHER Fan Guide to Seoul: MOA Concert & Official Merch Planning
+# TXT Fan Guide to Seoul: MOA Concerts & Official Merch
 
 TOMORROW X TOGETHER is a five-member BIGHIT MUSIC group made up of Soobin, Yeonjun, Beomgyu, Taehyun, and Hueningkai, according to the group's [official profile](https://txt.ibighit.com/eng/profile/). Its official fan club is MOA, as confirmed by the [official MOA Membership notice](https://weverse.io/txt/notice/880).
 

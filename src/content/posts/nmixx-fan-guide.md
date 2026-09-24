@@ -1,8 +1,8 @@
 ---
-title: "NMIXX Fan Guide to Seoul: JYP Center, NSWER Basics & Comeback Prep (2026)"
+title: "NMIXX Seoul Guide: JYP Center, NSWER & Comeback Prep"
 description: "A practical NMIXX fan guide covering the NSWER fandom name, current JYP Center visit rules, the Heavy Serenade era, and Seoul concert/ticketing prep."
 pubDate: 2026-09-20
-updatedDate: 2026-09-20
+updatedDate: 2026-09-25
 category: "K-Pop & Concerts"
 tags: ["nmixx", "nswer", "jyp entertainment", "heavy serenade", "kpop concert tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/nmixx-fan-guide/"
@@ -16,7 +16,7 @@ faq:
     answer: "As of this guide's last check, the most recent confirmed release is the fifth mini album Heavy Serenade, released May 11, 2026. Check NMIXX's official channels for anything newer."
 ---
 
-# NMIXX Fan Guide to Seoul: JYP Center, NSWER Basics & Comeback Prep
+# NMIXX Seoul Guide: JYP Center, NSWER & Comeback Prep
 
 NMIXX debuted on February 22, 2022 under JYP Entertainment with the single "O.O." The group is currently six members — Lily, Haewon, Sullyoon, Bae, Jiwoo and Kyujin — after Jinni departed the lineup on December 9, 2022. Their official fandom name is **NSWER**. This guide keeps travel planning tied to JYP's official channels rather than rumored schedules or unofficial visitor locations.
 

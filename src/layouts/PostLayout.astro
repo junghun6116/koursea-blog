@@ -60,10 +60,15 @@ const isAuthenticityGuide = canonicalUrl.includes('/posts/how-to-spot-fake-k-pop
 const contextText = `${title} ${tags.join(' ')}`.toLowerCase();
 const genericFallback = { href: 'https://www.koursea.com/index.html#places', label: 'Explore verified places on Koursea' };
 const mustKeepGenericFallback = /seoul-post-office-ems-international-shipping-guide|jongno-heritage-family-friendly-walking-route|digital-nomad-coworking-day-pass-seoul-guide|seoul-printing-document-copying-guide/.test(canonicalUrl);
+const isKpopContext = /k-?pop|concert|bts|twice|stray kids|newjeans|seventeen|enhypen|aespa|hybe|jyp|\bsm\b|\byg\b|kspo|fandom/.test(contextText);
+const articleSlug = new URL(canonicalUrl).pathname.match(/\/posts\/([^/]+)/)?.[1] ?? '';
+const askHref = isKpopContext
+  ? `https://www.koursea.com/community.html?topic=kpop_concerts&compose=1&guide=${encodeURIComponent(articleSlug)}`
+  : null;
 const exploreContext = mustKeepGenericFallback
   ? genericFallback
-  : /k-?pop|concert|bts|twice|stray kids|newjeans|seventeen|enhypen|aespa|hybe|jyp|\bsm\b|\byg\b|kspo|fandom/.test(contextText)
-    ? { href: 'https://www.koursea.com/category-kpop-entertainment.html', label: 'Explore verified K-Pop and entertainment places' }
+  : isKpopContext
+    ? { href: 'https://www.koursea.com/kpop.html', label: 'Open the K-pop fan travel hub' }
     : /healthcare|clinic|procedure|botox|filler|rejuran|ultherapy|shurink|medical|dermatology/.test(contextText)
       ? { href: 'https://www.koursea.com/category-healthcare.html', label: 'Explore healthcare and clinic listings' }
       : /cafe|coffee|bakery|restaurant|dining|food/.test(contextText)
@@ -153,9 +158,12 @@ const schema = faq.length > 0 ? {
       <div class="related-pseo-grid">{relatedGuides.map((guide) => <a href={guide.href}><span>{guide.eyebrow}</span><strong>{guide.title}</strong><small>Open guide →</small></a>)}</div>
     </aside>}
     <aside class="article-cta" aria-label="Explore Koursea tools">
-      <strong>Continue planning on Koursea</strong>
-      <p>Search verified places, open metro tools and save practical stops without logging in.</p>
-      <a href={exploreContext.href}>{exploreContext.label} — source-checked places ↗</a>
+      <strong>{isKpopContext ? 'Turn this guide into a concert-day plan' : 'Continue planning on Koursea'}</strong>
+      <p>{isKpopContext ? 'Open the K-pop hub for venue routes, fan places and practical guides—or carry this article into Ask Koursea if one detail is still unclear.' : 'Search verified places, open metro tools and save practical stops without logging in.'}</p>
+      <div class="article-cta__actions">
+        <a href={exploreContext.href} data-kpop-cta={isKpopContext ? 'hub' : undefined}>{exploreContext.label} ↗</a>
+        {askHref && <a class="article-cta__secondary" href={askHref} data-kpop-cta="ask">Ask about this guide ↗</a>}
+      </div>
     </aside>
   </article>
   <script is:inline>
@@ -168,6 +176,17 @@ const schema = faq.length > 0 ? {
       try { sessionStorage.setItem(key, '1'); } catch (_) {}
     })();
   </script>
+  <script is:inline>
+    document.querySelectorAll('[data-kpop-cta]').forEach((link) => {
+      link.addEventListener('click', () => {
+        if (typeof window.gtag !== 'function') return;
+        window.gtag('event', 'kpop_blog_cta_click', {
+          content_path: location.pathname,
+          destination: link.getAttribute('data-kpop-cta') || 'unknown'
+        });
+      });
+    });
+  </script>
 </Layout>
 
 <style>
@@ -177,5 +196,6 @@ const schema = faq.length > 0 ? {
   .article-cover{margin:0 0 2rem;overflow:hidden;border-radius:20px;background:var(--surface);box-shadow:var(--shadow)}.article-cover img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
   .article-toc summary{cursor:pointer;font-weight:850;list-style-position:inside}.article-toc ol{display:grid;gap:.45rem;margin:.9rem 0 0;padding-left:1.35rem}.article-toc li{padding-left:.15rem}.article-toc li.nested{margin-left:1rem;font-size:.92rem}.article-toc a{color:var(--teal);text-decoration-thickness:1px;text-underline-offset:3px}
   .related-pseo{margin-top:3.5rem;padding-top:2rem;border-top:1px solid var(--line)}.related-pseo h2{margin:.2rem 0 1.25rem;font:700 clamp(1.7rem,4vw,2.35rem)/1.05 Georgia,serif}.related-pseo-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem}.related-pseo-grid a{display:flex;min-height:150px;flex-direction:column;padding:1.1rem;border:1px solid var(--line);border-radius:15px;background:var(--surface);text-decoration:none}.related-pseo-grid span{color:var(--teal);font-size:.68rem;font-weight:900;letter-spacing:.08em}.related-pseo-grid strong{margin:.55rem 0;font:700 1.08rem/1.2 Georgia,serif}.related-pseo-grid small{margin-top:auto;color:var(--teal);font-weight:800}
+  .article-cta__actions{display:flex;flex-wrap:wrap;gap:.65rem}.article-cta__actions a{display:inline-flex;align-items:center;min-height:44px}.article-cta__actions .article-cta__secondary{background:transparent;color:var(--teal);box-shadow:inset 0 0 0 1px var(--teal)}
   @media(max-width:600px){.article-toc{padding:.9rem}.article-toc li.nested{margin-left:.45rem}.related-pseo-grid{grid-template-columns:1fr}.related-pseo-grid a{min-height:128px}}
 </style>

@@ -1,8 +1,8 @@
 ---
-title: "HYBE Yongsan 1-Day Fan Tour: Headquarters, Cafes & Respectful Photo Stops"
+title: "HYBE Yongsan Fan Tour: Cafes & Respectful Photo Stops"
 description: "Plan a respectful HYBE Yongsan fan day with verified headquarters navigation, public photo rules, nearby cafes, museum options and concert prep."
 pubDate: 2026-09-04
-updatedDate: 2026-09-04
+updatedDate: 2026-09-25
 tags: ["K-Pop", "HYBE", "Yongsan", "Seoul Itinerary", "Concert Travel"]
 canonicalUrl: "https://blog.koursea.com/posts/hybe-yongsan-1-day-tour-guide/"
 author: "Koursea Editorial"
@@ -15,7 +15,7 @@ faq:
     answer: "Save the headquarters address in Korean, verify the museum or indoor backup, test concert accounts and payment, and store the hotel and train route offline."
 ---
 
-# HYBE Yongsan 1-Day Fan Tour: Headquarters, Cafes & Respectful Photo Stops
+# HYBE Yongsan Fan Tour: Cafes & Respectful Photo Stops
 
 HYBE's Yongsan headquarters is a working office, not a walk-in attraction. The right fan itinerary treats it as a short exterior landmark, then uses Yongsan's excellent rail connections for public cultural stops, cafés and the Han River.
 

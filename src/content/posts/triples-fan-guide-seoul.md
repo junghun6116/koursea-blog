@@ -1,8 +1,8 @@
 ---
-title: "tripleS Fan Guide to Seoul: WAV Ticketing Prep for the ANDLESS World Tour"
+title: "tripleS Seoul Guide: WAV Ticketing & ANDLESS Tour"
 description: "A practical tripleS fan guide for Seoul: the MODHAUS agency structure, WAV fandom basics, and how to prepare for the ANDLESS World Tour's Jangchung Arena dates."
 pubDate: 2026-09-13
-updatedDate: 2026-09-13
+updatedDate: 2026-09-25
 category: "K-Pop & Concerts"
 tags: ["triples", "wav", "modhaus", "andless world tour", "kpop concert tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/triples-fan-guide-seoul/"
@@ -16,7 +16,7 @@ faq:
     answer: "The guide lists October 10–11, 2026 at Jangchung Arena as the opening Seoul shows of the 2026 tripleS World Tour ANDLESS."
 ---
 
-# tripleS Fan Guide to Seoul: WAV Ticketing Prep for the ANDLESS World Tour
+# tripleS Seoul Guide: WAV Ticketing & ANDLESS Tour
 
 **MODHAUS** is the agency behind tripleS, a 24-member group, and **WAV** is the group's official fandom name. One difference from the SM Entertainment acts Koursea already covers: MODHAUS has no single, fixed public storefront to point fans toward, nothing like KWANGYA@SEOUL. So rather than force that shape, this guide sticks to what can actually be verified — how tripleS's promotion cycle works, plus how to get ready for a real, dated Seoul tour stop.
 

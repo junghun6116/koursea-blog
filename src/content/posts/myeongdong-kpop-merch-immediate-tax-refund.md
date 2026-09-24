@@ -1,8 +1,8 @@
 ---
-title: "Immediate Tax Refund on K-Pop Merch in Myeongdong: What the Rules Actually Say"
+title: "K-Pop Merch Tax Refund in Myeongdong: Current Rules"
 description: "The real transaction limits for instant VAT refunds when shopping for K-pop merch and other retail goods as a foreign tourist in Korea."
 pubDate: 2026-09-06
-updatedDate: 2026-09-06
+updatedDate: 2026-09-25
 tags: ["tax refund korea", "myeongdong shopping", "kpop merch", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/myeongdong-kpop-merch-immediate-tax-refund/"
 author: "Koursea Editorial"
@@ -15,7 +15,7 @@ faq:
     answer: "Yes, some form of passport verification is part of the refund process at the register — check with the specific store on whether they need to see it, scan it, or take other identifying information, since procedures vary by retailer."
 ---
 
-# Immediate Tax Refund on K-Pop Merch in Myeongdong: What the Rules Actually Say
+# K-Pop Merch Tax Refund in Myeongdong: Current Rules
 
 If you're buying albums, photocards, or other merch in Myeongdong, several stores offer an immediate VAT deduction right at the register instead of making you claim it back at the airport. Here's what the actual rule covers — and what it doesn't.
 
