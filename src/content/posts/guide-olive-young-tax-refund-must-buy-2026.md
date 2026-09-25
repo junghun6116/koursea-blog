@@ -1,6 +1,6 @@
 ---
-title: "Olive Young 2026 Best Sellers by Skin Type & Awards Winners"
-description: "Shop Olive Young’s 2026 best sellers by skin type, with award-winning sunscreen, trending PDRN skincare, patches, masks, and practical product-picking tips."
+title: "Olive Young 2026 Must-Buy Guide by Skin Type"
+description: "The 2026 Olive Young must-buy guide for K-beauty shopping trips: award-winning sunscreen, trending PDRN skincare, patches, and masks picked by skin type."
 pubDate: 2026-09-02
 updatedDate: 2026-09-04
 tags: [Olive Young, Olive Young Awards, K-Beauty Shopping, Korean Skincare, Olive Young Must Buy]

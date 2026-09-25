@@ -1,6 +1,6 @@
 ---
-title: "Korea Payment Guide 2026: Apple Pay, Foreign Cards, WOWPASS vs Namane"
-description: "Understand Apple Pay acceptance, foreign Visa and Mastercard declines, and the currency-exchange differences between WOWPASS and Namane in Korea."
+title: "WOWPASS vs Apple Pay in Korea (2026 Guide)"
+description: "WOWPASS and Apple Pay compared for Korea travel: where Apple Pay gets declined, when WOWPASS's prepaid exchange helps, and how it stacks up against Namane."
 pubDate: 2026-09-02
 updatedDate: 2026-09-04
 tags: [Korea Payment, WOWPASS, Namane Card, Apple Pay Korea, Korea Travel Card]
