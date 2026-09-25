@@ -10,7 +10,7 @@ export const categoryHubs: CategoryHub[] = [
     slug: 'kpop',
     label: 'K-Pop & Concerts',
     description: 'Fan routes, official merchandise checks, filming locations, and practical concert planning for international visitors.',
-    matches: /k-?pop|concert|bts|army|twice|once|stray kids|stay|newjeans|bunnies|seventeen|carat|enhypen|engene|aespa|nct|nctzen|riize|briize|boynextdoor|onedoor|bigbang|blackpink|hybe|jyp|\bsm\b|\byg\b|kwangya|weverse|inkigayo|lucky draw|lightstick|merch/i
+    matches: /k-?pop|concert|bts|army|twice|once|stray kids|newjeans|bunnies|seventeen|carat|enhypen|engene|aespa|nct|nctzen|riize|briize|boynextdoor|onedoor|bigbang|blackpink|hybe|jyp|\bsm\b|\byg\b|kwangya|weverse|inkigayo|lucky draw|lightstick|merch/i
   },
   {
     slug: 'healthcare',

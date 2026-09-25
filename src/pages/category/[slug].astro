@@ -14,6 +14,8 @@ const posts = (await getCollection('posts'))
   .filter((post) => categoriesForTags(post.data.tags).some((category) => category.slug === hub.slug))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 const canonicalUrl = new URL(`/category/${hub.slug}/`, Astro.site).href;
+const isKpopHub = hub.slug === 'kpop';
+const kpopCampaign = 'utm_source=koursea_blog&utm_medium=referral&utm_campaign=kpop_fan_travel';
 const schema = {
   '@context': 'https://schema.org',
   '@type': 'CollectionPage',
@@ -36,13 +38,27 @@ const schema = {
   <section class="category-page shell">
     <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Journal</a><span aria-hidden="true">/</span><a href="/category/">Categories</a><span aria-hidden="true">/</span><span>{hub.label}</span></nav>
     <header><p class="eyebrow">{posts.length} PUBLISHED GUIDES</p><h1>{hub.label}</h1><p>{hub.description}</p></header>
+    {isKpopHub && <aside class="kpop-handoff" aria-label="K-pop fan travel planning">
+      <div><span>FROM READING TO A REAL ROUTE</span><strong>Plan the concert day, then add verified fan stops.</strong><p>Move from Koursea Journal into venue transport, official shopping, source-checked places and K-pop questions.</p></div>
+      <div class="kpop-handoff__actions"><a href={`https://www.koursea.com/kpop.html?${kpopCampaign}&utm_content=category_hub`} data-kpop-category-cta="hub">Start the fan-travel plan ↗</a><a href={`https://www.koursea.com/community.html?topic=kpop_concerts&compose=1&${kpopCampaign}&utm_content=category_ask`} data-kpop-category-cta="ask">Ask Koursea ↗</a></div>
+    </aside>}
     <nav class="category-switcher" aria-label="Guide categories">{categoryHubs.map((category) => <a class:list={{ active: category.slug === hub.slug }} href={`/category/${category.slug}/`}>{category.label}</a>)}</nav>
     <div class="post-grid">
       {posts.map((post) => <article><div><time datetime={post.data.pubDate.toISOString()}>{post.data.pubDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</time><span>{post.data.tags[0]}</span></div><h2><a href={`/posts/${post.id}/`}>{post.data.title}</a></h2><p>{post.data.description}</p><a class="read" href={`/posts/${post.id}/`}>Read the guide →</a></article>)}
     </div>
   </section>
+  {isKpopHub && <script is:inline>
+    document.querySelectorAll('[data-kpop-category-cta]').forEach((link) => {
+      link.addEventListener('click', () => {
+        if (typeof window.gtag !== 'function') return;
+        window.gtag('event', 'kpop_blog_category_cta_click', {
+          destination: link.getAttribute('data-kpop-category-cta') || 'unknown'
+        });
+      });
+    });
+  </script>}
 </Layout>
 
 <style>
-  .category-page{padding:72px 0}.breadcrumbs{display:flex;flex-wrap:wrap;gap:.45rem;margin-bottom:2rem;color:var(--muted);font-size:.78rem;font-weight:750}.breadcrumbs a{color:var(--teal)}header h1{max-width:15ch;margin:.25rem 0 1rem;font:700 clamp(2.7rem,7vw,5.2rem)/.96 Georgia,serif;letter-spacing:-.05em}header>p:last-child{max-width:700px;color:var(--muted);font-size:1.08rem}.category-switcher{display:flex;gap:8px;margin:36px 0 24px;overflow-x:auto}.category-switcher a{flex:0 0 auto;padding:10px 14px;border:1px solid var(--line);border-radius:999px;background:var(--surface);font-size:.78rem;font-weight:850;text-decoration:none}.category-switcher a.active{border-color:var(--teal);background:var(--teal);color:#fff}.post-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.post-grid article{display:flex;min-height:320px;flex-direction:column;padding:26px;border:1px solid var(--line);border-radius:20px;background:var(--surface);box-shadow:var(--shadow)}article>div{display:flex;justify-content:space-between;gap:12px;color:var(--muted);font-size:.7rem;text-transform:uppercase}article>div span{color:var(--teal);font-weight:850}h2{margin:2rem 0 1rem;font:700 clamp(1.55rem,3vw,2.15rem)/1.08 Georgia,serif}h2 a{text-decoration:none}article p{margin:0;color:var(--muted)}.read{margin-top:auto;padding-top:22px;color:var(--teal);font-size:.8rem;font-weight:850}@media(max-width:700px){.category-page{padding:46px 0}.post-grid{grid-template-columns:1fr}.post-grid article{min-height:280px}}
+  .category-page{padding:72px 0}.breadcrumbs{display:flex;flex-wrap:wrap;gap:.45rem;margin-bottom:2rem;color:var(--muted);font-size:.78rem;font-weight:750}.breadcrumbs a{color:var(--teal)}header h1{max-width:15ch;margin:.25rem 0 1rem;font:700 clamp(2.7rem,7vw,5.2rem)/.96 Georgia,serif;letter-spacing:-.05em}header>p:last-child{max-width:700px;color:var(--muted);font-size:1.08rem}.kpop-handoff{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;align-items:end;margin:32px 0;padding:24px;border-radius:20px;background:#0f2f32;color:#fff;box-shadow:var(--shadow)}.kpop-handoff span{font-size:.68rem;font-weight:900;letter-spacing:.1em;color:#b7ddd8}.kpop-handoff strong{display:block;max-width:22ch;margin:.5rem 0;font:700 clamp(1.45rem,3vw,2.15rem)/1.08 Georgia,serif}.kpop-handoff p{max-width:650px;margin:0;color:#d7e9e7}.kpop-handoff__actions{display:flex;flex-wrap:wrap;gap:8px}.kpop-handoff__actions a{display:inline-flex;align-items:center;min-height:44px;padding:11px 15px;border-radius:999px;background:#fff;color:#0f2f32;font-size:.78rem;font-weight:900;text-decoration:none}.kpop-handoff__actions a:last-child{border:1px solid #7bbab3;background:transparent;color:#fff}.category-switcher{display:flex;gap:8px;margin:36px 0 24px;overflow-x:auto}.category-switcher a{flex:0 0 auto;padding:10px 14px;border:1px solid var(--line);border-radius:999px;background:var(--surface);font-size:.78rem;font-weight:850;text-decoration:none}.category-switcher a.active{border-color:var(--teal);background:var(--teal);color:#fff}.post-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.post-grid article{display:flex;min-height:320px;flex-direction:column;padding:26px;border:1px solid var(--line);border-radius:20px;background:var(--surface);box-shadow:var(--shadow)}article>div{display:flex;justify-content:space-between;gap:12px;color:var(--muted);font-size:.7rem;text-transform:uppercase}article>div span{color:var(--teal);font-weight:850}h2{margin:2rem 0 1rem;font:700 clamp(1.55rem,3vw,2.15rem)/1.08 Georgia,serif}h2 a{text-decoration:none}article p{margin:0;color:var(--muted)}.read{margin-top:auto;padding-top:22px;color:var(--teal);font-size:.8rem;font-weight:850}@media(max-width:700px){.category-page{padding:46px 0}.kpop-handoff{grid-template-columns:1fr;padding:20px}.kpop-handoff__actions{flex-direction:column}.kpop-handoff__actions a{justify-content:center}.post-grid{grid-template-columns:1fr}.post-grid article{min-height:280px}}
 </style>
