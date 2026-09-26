@@ -21,13 +21,13 @@ Hapjeong and Hongdae make a practical K-Pop day because the working YG headquart
 
 ## Stop 1: YG Entertainment Exterior
 
-Use the [YG Entertainment HQ place page](https://www.koursea.com/place/yg-entertainment-hq-hapjeong/) to launch the Korean address in a local map. Hapjeong Station serves Lines 2 and 6, but the final walk crosses neighborhood streets, so follow live pedestrian guidance rather than a static screenshot.
+Use the [YG Entertainment HQ place page](https://www.koursea.com/place/5362/) to launch the Korean address in a local map. Hapjeong Station serves Lines 2 and 6, but the final walk crosses neighborhood streets, so follow live pedestrian guidance rather than a static screenshot.
 
 YG is an active office. Take photos only from public space, keep gates and driveways clear, and do not wait for staff, vehicles or artists. A nearby café may offer a convenient fan-oriented break, but confirm current hours and any purchase rules directly.
 
 ## Stop 2: Withmuu and Album Shopping
 
-Continue toward Hongdae and open the verified [Withmuu Hongdae place page](https://www.koursea.com/place/withmuu-ak-plaza-hongdae/). Lucky draws, preorder benefits and comeback events are date-specific. Check the retailer's official notice for the artist, eligible album version, event period, quantity limit and whether benefits remain in stock.
+Continue toward Hongdae and open the verified [Withmuu Hongdae place page](https://www.koursea.com/place/5364/). Lucky draws, preorder benefits and comeback events are date-specific. Check the retailer's official notice for the artist, eligible album version, event period, quantity limit and whether benefits remain in stock.
 
 Compare sealed-product policies before buying. A low album price can be offset by shipping, baggage weight or duplicate versions. Keep receipts until you confirm the contents and tax-refund handling. Do not buy “official” goods solely because a street shop uses artist photos; inspect licensing and packaging.
 

@@ -40,7 +40,12 @@ function localTarget(url) {
 }
 
 if (!existsSync(dist)) throw new Error('dist/ does not exist. Run astro build first.');
-const htmlFiles = walk(dist).filter((file) => file.endsWith('.html'));
+const htmlFiles = walk(dist).filter((file) => {
+  if (!file.endsWith('.html')) return false;
+  // Google ownership-verification files are intentionally bare token responses,
+  // not indexable site pages with normal SEO metadata.
+  return !/^google[a-z0-9]+\.html$/i.test(relative(dist, file));
+});
 
 for (const file of htmlFiles) {
   const html = readFileSync(file, 'utf8');
@@ -49,7 +54,7 @@ for (const file of htmlFiles) {
   const tags = [...html.matchAll(/<(?:meta|link)\b[^>]*>/gi)].map((match) => ({ raw: match[0], ...attrs(match[0]) }));
   const canonicals = tags.filter((tag) => tag.rel === 'canonical');
   if (canonicals.length !== 1) errors.push(`${label}: expected 1 canonical, found ${canonicals.length}`);
-  else if (canonicals[0].href !== url) errors.push(`${label}: canonical ${canonicals[0].href} does not match ${url}`);
+  else if (label !== '404.html' && canonicals[0].href !== url) errors.push(`${label}: canonical ${canonicals[0].href} does not match ${url}`);
 
   const titles = [...html.matchAll(/<title>([\s\S]*?)<\/title>/gi)].map((match) => match[1].trim());
   if (titles.length !== 1 || !titles[0]) errors.push(`${label}: missing or duplicate <title>`);

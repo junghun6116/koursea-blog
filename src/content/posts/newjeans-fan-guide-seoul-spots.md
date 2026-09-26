@@ -73,7 +73,7 @@ This page does not claim that a NewJeans concert is scheduled. If an official fu
 
 ## Quick Answers
 
-- **Is there an official NewJeans or ADOR building to visit?** No confirmed public visitor site — ADOR doesn't operate the kind of visitor-facing destination associated with places such as [HYBE Yongsan](https://www.koursea.com/place/hybe-headquarters-yongsan/) or [SM Entertainment and KWANGYA@SEOUL](https://www.koursea.com/place/sm-kwangya-seoul-forest/).
+- **Is there an official NewJeans or ADOR building to visit?** No confirmed public visitor site — ADOR doesn't operate the kind of visitor-facing destination associated with places such as [HYBE Yongsan](https://www.koursea.com/place/5360/) or [SM Entertainment and KWANGYA@SEOUL](https://www.koursea.com/place/5361/).
 - **Does this guide confirm the group's current agency or member status?** Yes, as of the 2026-09-11 update: NewJeans is a four-member group (Minji, Hanni, Haerin, Hyein) signed to ADOR, following Danielle's December 2025 departure and the resolution of the 2024–2025 agency dispute.
 
 ## Official Reference Points

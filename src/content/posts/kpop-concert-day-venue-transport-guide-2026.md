@@ -34,7 +34,7 @@ For all four, save the Korean venue name, ticket notice, hotel address and retur
 
 ## KSPO DOME: Use Olympic Park Station, Then Allow for the Park Walk
 
-Open Koursea's [KSPO DOME place page](https://www.koursea.com/place/kspo-dome-olympic-park/) before leaving. The venue address is **서울특별시 송파구 올림픽로 424**, inside Olympic Park. The operator directs subway passengers to **Olympic Park Station on Lines 5 and 9, Exit 3**. The same [official KSPO venue page](https://www.ksponco.or.kr/olympicpark/menu.es?mid=a20301030800) identifies the nearby P5 parking lot and its standard rates.
+Open Koursea's [KSPO DOME place page](https://www.koursea.com/place/5368/) before leaving. The venue address is **서울특별시 송파구 올림픽로 424**, inside Olympic Park. The operator directs subway passengers to **Olympic Park Station on Lines 5 and 9, Exit 3**. The same [official KSPO venue page](https://www.ksponco.or.kr/olympicpark/menu.es?mid=a20301030800) identifies the nearby P5 parking lot and its standard rates.
 
 P5 has **181 spaces** and is listed as operating from 06:00 to 22:00. The published standard charge is **₩600 per 10 minutes for small vehicles** and **₩1,200 per 10 minutes for large vehicles**, with exit within 10 minutes free. These are venue baseline figures; an event organizer can impose different access controls, and a full lot is not an unusual outcome on a major concert day.
 
@@ -44,7 +44,7 @@ Inside Olympic Park, follow the promoter's gate map and temporary barriers. Seve
 
 ## Gocheok Sky Dome: Assume Concert Parking Is Restricted
 
-Save the [Gocheok Sky Dome place page](https://www.koursea.com/place/gocheok-sky-dome/) and plan around **Guil Station on Line 1, Exit 2**. The dome is at **서울특별시 구로구 경인로 430**.
+Save the [Gocheok Sky Dome place page](https://www.koursea.com/place/5370/) and plan around **Guil Station on Line 1, Exit 2**. The dome is at **서울특별시 구로구 경인로 430**.
 
 The facility has **484 parking spaces** in total: 27 at ground level, 282 on B1 and 175 on B2. The ordinary small-car rate is **₩150 per five minutes**, paid by card, so the minimum 30-minute cost is **₩900**. The more important fact is availability. Seoul Facilities Corporation explains that professional baseball games and cultural events may involve the organizer renting the entire parking facility, restricting general visitors to protect operations and accessibility. Check the [official Gocheok parking FAQ](https://www.sisul.or.kr/open_content/jangchung/bbs/bbsMsgDetail.do%3Bjsessionid%3DfjUD9qyBibTpBWDg4lgmhiIJWR4NQOfTHiceIiOISLkXfCiPTyh71UEBxF2HXOFh.etisw1_servlet_user?bcd=faq&msg_seq=179&pgno=20) for the baseline policy, then read your show's notice for the actual day.
 
@@ -54,7 +54,7 @@ Guil Station and the pedestrian approach can become congested immediately after 
 
 ## Inspire Arena: Reserve the Exit Before You Arrive
 
-[Inspire Arena](https://www.koursea.com/place/inspire-arena-incheon/) is at **인천광역시 중구 공항문화로 127** and has no direct subway connection. That makes it fundamentally different from the three Seoul venues.
+[Inspire Arena](https://www.koursea.com/place/5369/) is at **인천광역시 중구 공항문화로 127** and has no direct subway connection. That makes it fundamentally different from the three Seoul venues.
 
 Free resort shuttles serve Incheon Airport Terminals 1 and 2 at intervals commonly ranging from **30 to 60 minutes**. A Seoul city route serving Hongdae and Myeongdong is listed at **three runs per day**, but those scheduled services should not be assumed to match a concert's end time. Event-specific services can be added or changed. NOL World's [Inspire Arena transport guide](https://world.nol.com/en/articles/a7434119-469d-4339-810e-329592445202) advises checking the applicable ticket notice and describes Kakao T Shuttle and other paid concert shuttles, with Seoul round trips starting at roughly **₩30,000** depending on the event.
 
@@ -66,7 +66,7 @@ The essential Inspire rule is simple: decide how you will leave before traveling
 
 ## Jamsil Indoor Stadium: Check Which Subway Line and Exit You Are Using
 
-The [Jamsil Indoor Stadium place page](https://www.koursea.com/place/jamsil-indoor-stadium/) carries the Korean address **서울특별시 송파구 올림픽로 25**. The official Seoul Sports Facilities Management Center's [access page](https://stadium.seoul.go.kr/about/location) distinguishes the walks by line: from **Line 2 Sports Complex Station, Exits 6 or 7**, it is about **700 metres** to the indoor stadium; from **Line 9 at the same station, Exit 9**, the walk is about **600 metres**.
+The [Jamsil Indoor Stadium place page](https://www.koursea.com/place/5371/) carries the Korean address **서울특별시 송파구 올림픽로 25**. The official Seoul Sports Facilities Management Center's [access page](https://stadium.seoul.go.kr/about/location) distinguishes the walks by line: from **Line 2 Sports Complex Station, Exits 6 or 7**, it is about **700 metres** to the indoor stadium; from **Line 9 at the same station, Exit 9**, the walk is about **600 metres**.
 
 Those distances are more useful than saying the stadium is “next to the subway.” Allow extra time when baseball, exhibitions or another arena event uses the wider sports complex on the same day. Temporary fencing and construction can alter the most convenient walking path.
 

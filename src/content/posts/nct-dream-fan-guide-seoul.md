@@ -18,7 +18,7 @@ faq:
 
 # NCT DREAM Fan Guide to Seoul: NCTzen Stops & Concert History
 
-NCT DREAM is an SM Entertainment group and shares the collective's official fandom name, **NCTzen**, with NCT's other units. For ticket presales specifically, the group uses its own membership tier, **"NCTzen DREAM" (GL)**, registered through Weverse — don't confuse the general fandom name with the specific membership a presale actually checks. For a Seoul visit, the useful official public stop is the same [KWANGYA@SEOUL](https://www.koursea.com/place/sm-kwangya-seoul-forest/) already covered on Koursea's [NCT 127](/posts/nct127-fan-guide-sm-seongsu/) and [RIIZE](/posts/riize-fan-guide-sm-seongsu/) guides — not a separate DREAM-only shop, and not the old SMTOWN Coex Artium.
+NCT DREAM is an SM Entertainment group and shares the collective's official fandom name, **NCTzen**, with NCT's other units. For ticket presales specifically, the group uses its own membership tier, **"NCTzen DREAM" (GL)**, registered through Weverse — don't confuse the general fandom name with the specific membership a presale actually checks. For a Seoul visit, the useful official public stop is the same [KWANGYA@SEOUL](https://www.koursea.com/place/5361/) already covered on Koursea's [NCT 127](/posts/nct127-fan-guide-sm-seongsu/) and [RIIZE](/posts/riize-fan-guide-sm-seongsu/) guides — not a separate DREAM-only shop, and not the old SMTOWN Coex Artium.
 
 ## Key Takeaways
 

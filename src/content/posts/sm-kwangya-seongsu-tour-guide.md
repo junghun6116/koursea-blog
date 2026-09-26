@@ -23,7 +23,7 @@ SM Entertainment's Seoul Forest location sits beside one of Seoul's most useful 
 
 ## Start at Seoul Forest Station
 
-Open the verified [SM Entertainment & KWANGYA@SEOUL place page](https://www.koursea.com/place/sm-kwangya-seoul-forest/) before departure. Seoul Forest Station on the Suin–Bundang Line connects directly into the D-Tower complex at basement level, reducing outdoor navigation in rain or summer heat.
+Open the verified [SM Entertainment & KWANGYA@SEOUL place page](https://www.koursea.com/place/5361/) before departure. Seoul Forest Station on the Suin–Bundang Line connects directly into the D-Tower complex at basement level, reducing outdoor navigation in rain or summer heat.
 
 Confirm current KWANGYA retail hours and event notices before traveling. Public access to a store or exhibition area does not mean the corporate office is open. Follow staff instructions, queue within marked areas and do not photograph employees or restricted access points.
 

@@ -22,7 +22,7 @@ ENHYPEN debuted on November 30, 2020, under BELIFT LAB, a HYBE-affiliated label,
 
 ## Key takeaways
 
-- [HYBE Yongsan](https://www.koursea.com/place/hybe-headquarters-yongsan/) is a private workplace with no guaranteed public interior access.
+- [HYBE Yongsan](https://www.koursea.com/place/5360/) is a private workplace with no guaranteed public interior access.
 - HYBE INSIGHT ended permanent operations on January 15, 2023. There is no permanent ENHYPEN exhibition venue to visit inside the headquarters.
 - Check official ENHYPEN or BELIFT notices for event dates, reservations, identification, and final entry.
 - Prepare ticket identity details, payment backups, and mobile verification before sales open.

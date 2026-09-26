@@ -62,9 +62,9 @@ In 2024, YG transferred the trademarks for “G-Dragon” and “GD” to Galaxy
 
 ## Is YG Headquarters a BIGBANG Attraction?
 
-BIGBANG has a long history with YG, but [YG Entertainment headquarters in Hapjeong](https://www.koursea.com/place/yg-entertainment-hq-hapjeong/) remains a secure workplace. It has no general fan-tour access. Photograph only from public space and do not block entrances or wait for artists.
+BIGBANG has a long history with YG, but [YG Entertainment headquarters in Hapjeong](https://www.koursea.com/place/5362/) remains a secure workplace. It has no general fan-tour access. Photograph only from public space and do not block entrances or wait for artists.
 
-The visitor-facing alternative across the street is [the SameE Hapjeong](https://www.koursea.com/place/the-samee-hapjeong/), where YG has held official artist-anniversary café events and sold official merchandise. Current stock and event benefits are never guaranteed; check the latest official notice before making a dedicated trip.
+The visitor-facing alternative across the street is [the SameE Hapjeong](https://www.koursea.com/place/5372/), where YG has held official artist-anniversary café events and sold official merchandise. Current stock and event benefits are never guaranteed; check the latest official notice before making a dedicated trip.
 
 ## XX : COSMOS Ticket and Travel Checklist
 

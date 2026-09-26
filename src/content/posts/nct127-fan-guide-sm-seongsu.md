@@ -18,7 +18,7 @@ faq:
 
 # NCT 127 Fan Guide to Seoul: NCTzen Stops & KWANGYA@SEOUL
 
-NCT 127 is an SM Entertainment group whose official fandom name is **NCTzen**. For a fan visiting Seoul, the useful official public stop is [KWANGYA@SEOUL](https://www.koursea.com/place/sm-kwangya-seoul-forest/) in Seongsu—not an old Coex itinerary and not a private office entrance.
+NCT 127 is an SM Entertainment group whose official fandom name is **NCTzen**. For a fan visiting Seoul, the useful official public stop is [KWANGYA@SEOUL](https://www.koursea.com/place/5361/) in Seongsu—not an old Coex itinerary and not a private office entrance.
 
 ## Key Takeaways
 

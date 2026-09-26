@@ -23,7 +23,7 @@ TREASURE is a 10-member group under YG Entertainment: Choi Hyunsuk, Jihoon, Yosh
 
 - Verify members, releases and schedules through [YG Entertainment](https://www.ygfamily.com/) and Weverse.
 - TREASURE MAKER membership is handled through [Weverse](https://weverse.io/treasure/feed).
-- YG headquarters in Hapjeong is a working office; the public-facing stop is [the SameE](https://www.koursea.com/place/the-samee-hapjeong/) across the street.
+- YG headquarters in Hapjeong is a working office; the public-facing stop is [the SameE](https://www.koursea.com/place/5372/) across the street.
 - Confirm any Seoul date on YG's official concert page before booking travel.
 
 ## Official fan club and merchandise
@@ -32,7 +32,7 @@ Use the official [Weverse Shop](https://shop.weverse.io/en/shop/USD/artists/25/s
 
 ## Visiting the YG area respectfully
 
-[YG Entertainment's headquarters](https://www.koursea.com/place/yg-entertainment-hq-hapjeong/) is a controlled workplace, not a showroom. Stay on public sidewalks and keep entrances clear. The SameE is a public café and merchandise space for YG artists generally, so inventory and temporary events can change.
+[YG Entertainment's headquarters](https://www.koursea.com/place/5362/) is a controlled workplace, not a showroom. Stay on public sidewalks and keep entrances clear. The SameE is a public café and merchandise space for YG artists generally, so inventory and temporary events can change.
 
 ## Concert preparation
 
