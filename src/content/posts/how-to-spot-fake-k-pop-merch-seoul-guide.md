@@ -35,9 +35,9 @@ Start with the retailer's official channel. Confirm that the branch address on t
 
 Three established Seoul channels with official branch information are:
 
-- [Withmuu Hongdae at AK PLAZA](https://www.koursea.com/place/withmuu-ak-plaza-hongdae/), whose official retailer channel lists albums, official lightsticks and official MD.
-- [Ktown4u COEX](https://www.koursea.com/place/ktown4u-coex-artium/), whose official store guide identifies the COEX offline K-pop complex and lightstick merchandise.
-- [Soundwave Hapjeong](https://www.koursea.com/place/soundwave-hapjeong/), whose official offline-store page confirms the Hapjeong location and whose store categories include albums, MD and lightsticks.
+- [Withmuu Hongdae at AK PLAZA](https://www.koursea.com/place/5364/), whose official retailer channel lists albums, official lightsticks and official MD.
+- [Ktown4u COEX](https://www.koursea.com/place/5365/), whose official store guide identifies the COEX offline K-pop complex and lightstick merchandise.
+- [Soundwave Hapjeong](https://www.koursea.com/place/5366/), whose official offline-store page confirms the Hapjeong location and whose store categories include albums, MD and lightsticks.
 
 These checks confirm that the location is an established official-merchandise channel. They are not a blanket guarantee covering every loose, traded or secondhand item. Keep the receipt and inspect what you buy before leaving.
 
@@ -117,4 +117,4 @@ It does not promise that every item will always be in stock, certify secondhand 
 
 The strongest buying decision combines three signals: an official seller channel, product details matching the official release and a traceable receipt. A hologram or Bluetooth result can support that chain, but should never replace it.
 
-Use Koursea's source-linked pages for [Withmuu Hongdae](https://www.koursea.com/place/withmuu-ak-plaza-hongdae/), [Ktown4u COEX](https://www.koursea.com/place/ktown4u-coex-artium/) and [Soundwave Hapjeong](https://www.koursea.com/place/soundwave-hapjeong/) to save the correct Korean address before setting out.
+Use Koursea's source-linked pages for [Withmuu Hongdae](https://www.koursea.com/place/5364/), [Ktown4u COEX](https://www.koursea.com/place/5365/) and [Soundwave Hapjeong](https://www.koursea.com/place/5366/) to save the correct Korean address before setting out.

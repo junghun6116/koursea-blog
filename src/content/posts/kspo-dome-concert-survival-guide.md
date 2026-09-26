@@ -21,7 +21,7 @@ KSPO Dome is inside the large Olympic Park complex, so “arriving at the statio
 
 ## Save the Correct Venue First
 
-Open the verified [KSPO Dome place page](https://www.koursea.com/place/kspo-dome-olympic-park/) and save the Korean address in Naver Map. Olympic Park Station serves Lines 5 and 9; event instructions commonly point visitors toward the park-side exits, but construction and crowd control can alter the preferred route.
+Open the verified [KSPO Dome place page](https://www.koursea.com/place/5368/) and save the Korean address in Naver Map. Olympic Park Station serves Lines 5 and 9; event instructions commonly point visitors toward the park-side exits, but construction and crowd control can alter the preferred route.
 
 Follow the organizer's gate map, not only the map pin. The dome, other arenas and park facilities can host simultaneous events. Budget a substantial walk inside the complex and extra time for security, ticket pickup and merchandise queues.
 

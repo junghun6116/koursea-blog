@@ -31,7 +31,7 @@ BLACKPINK debuted in 2016 under YG Entertainment, and its official fandom is **B
 - BLACKPINK opened the *DEADLINE* world tour at Goyang Stadium on July 5–6, 2025 and completed the announced tour in Hong Kong on January 26, 2026.
 - The third mini album *DEADLINE* was released on February 27, 2026 with “GO” as its title track.
 - YG headquarters in Hapjeong is not open for fan tours or lobby visits.
-- [the SameE Hapjeong](https://www.koursea.com/place/the-samee-hapjeong/) is the practical public stop for a café, official merchandise and temporary artist events.
+- [the SameE Hapjeong](https://www.koursea.com/place/5372/) is the practical public stop for a café, official merchandise and temporary artist events.
 - K-Star Road in Gangnam is more than 15 kilometers away and is not part of the Hapjeong headquarters route.
 
 ## BLACKPINK's DEADLINE Era
@@ -64,7 +64,7 @@ JISOO followed *AMORTAGE* with the digital single “CLICK”, released on Septe
 
 ## Visiting YG Headquarters and the SameE
 
-The [YG Entertainment headquarters](https://www.koursea.com/place/yg-entertainment-hq-hapjeong/) is at 7 Huiujeong-ro 1-gil in Mapo-gu. It is a working office with controlled access, not a public BLACKPINK attraction. Stay on public sidewalks, keep entrances and driveways clear, and do not wait for artists, employees or vehicles.
+The [YG Entertainment headquarters](https://www.koursea.com/place/5362/) is at 7 Huiujeong-ro 1-gil in Mapo-gu. It is a working office with controlled access, not a public BLACKPINK attraction. Stay on public sidewalks, keep entrances and driveways clear, and do not wait for artists, employees or vehicles.
 
 Across the street, the SameE provides the visitor-facing option. YG notices identify its café on floors 1–2 and its MD shop on basement level 1 at 6-3 Huiujeong-ro 1-gil. Merchandise inventory, anniversary events and purchase benefits change, so confirm the current notice before traveling for a specific item.
 

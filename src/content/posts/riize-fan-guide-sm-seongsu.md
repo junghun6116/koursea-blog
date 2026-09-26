@@ -18,7 +18,7 @@ faq:
 
 # RIIZE Fan Guide to Seoul: BRIIZE Stops & KWANGYA@SEOUL
 
-RIIZE is an SM Entertainment group, and its official fandom name is **BRIIZE**. The group does not need a duplicate place listing: its practical official Seoul stop is the same [KWANGYA@SEOUL](https://www.koursea.com/place/sm-kwangya-seoul-forest/) used by other SM artists.
+RIIZE is an SM Entertainment group, and its official fandom name is **BRIIZE**. The group does not need a duplicate place listing: its practical official Seoul stop is the same [KWANGYA@SEOUL](https://www.koursea.com/place/5361/) used by other SM artists.
 
 ## Key Takeaways
 
