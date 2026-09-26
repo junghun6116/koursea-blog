@@ -2,7 +2,7 @@
 title: "TREASURE Fan Guide (2026): Official Sources, YG Hapjeong & the SameE"
 description: "A source-checked TREASURE fan guide covering the current lineup, official fan club and store, YG's Hapjeong neighborhood, and concert ticket preparation."
 pubDate: 2026-09-10
-updatedDate: 2026-09-10
+updatedDate: 2026-09-27
 tags: ["K-Pop", "TREASURE", "YG Entertainment", "Hapjeong", "Concert Tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/treasure-fan-guide-yg-hapjeong/"
 author: "Koursea Editorial"
@@ -47,3 +47,15 @@ Public schedules, ticketed events and authorized retail spaces are appropriate t
 - [YG TREASURE profile](https://www.ygfamily.com/en/artists/treasure/profile)
 - [YG TREASURE concert page](https://www.ygfamily.com/en/artists/treasure/concert)
 - [YG SELECT](https://en.ygselect.com/category/treasure/592)
+
+## A source-check sequence for 2026 events
+
+Start with TREASURE's official YG page, then open the dated notice for the specific performance or fan event. The announcement should identify the venue, sale timetable, seller and any membership-verification step. For example, YG's official notices distinguish fan-club verification from the later ticket sale; do not assume that buying a membership after a verification window creates presale access.
+
+Recheck the seller's identity rules before payment. Use the same romanized name format throughout the membership, ticket and passport fields when the notice requires identity matching. Save the confirmation, order number and event notice offline for venue pickup.
+
+## Plan Hapjeong as a public route
+
+The agency introduction page publishes YG's office location, but that does not make the workplace open to visitors. Keep the route to public sidewalks and clearly advertised retail or café spaces. Check the SameE's current public information before travelling because stock, collaborations and operating hours can change.
+
+Additional primary references: [YG's company introduction](https://ygfamily.com/en/about/introduction), the [official TREASURE page](https://www.ygfamily.com/en/artists/treasure/main), and the dated event notice linked from YG. Official notices take precedence over this general planning guide.

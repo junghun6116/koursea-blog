@@ -2,7 +2,7 @@
 title: "Busan Station Luggage Delivery to Haeundae: ZimCarry Cutoff and Pricing"
 description: "How same-day luggage delivery from Busan Station to Haeundae hotels works, the cutoff time to know, and why you should confirm pricing at the counter."
 pubDate: 2026-09-06
-updatedDate: 2026-09-06
+updatedDate: 2026-09-27
 tags: ["busan station", "luggage delivery", "haeundae", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/busan-station-zimcarry-luggage-delivery-guide/"
 author: "Koursea Editorial"
@@ -36,3 +36,15 @@ Delivery fees scale with luggage size, and outlying delivery zones outside centr
 You'll register your name, passport details, and destination hotel at the counter. Most services send a confirmation once your bags reach the hotel's storage area, and you collect them at check-in by showing your passport and claim tag.
 
 For the complete Haeundae day-one itinerary — what to do while your bags are in transit — see Koursea's [Busan Haeundae luggage delivery and storage guide](https://www.koursea.com/guide-korea-luggage-delivery-storage-zimcarry-lockers-2026.html).
+
+## Verify the live service before drop-off
+
+ZimCarry's [official store list](https://www.zimcarry.net/reserve/list_local.php) identifies its Busan Station counter inside KTX Busan Station near Exit 5 and shows the services and current operating window. Use that page on the travel date because hours and available services can change. A listed counter does not by itself guarantee same-day delivery to every hotel or neighborhood.
+
+Before handing over a bag, confirm the destination is within the current delivery area, today's acceptance cutoff, expected arrival window, price by size, and the process if the hotel cannot receive it. Ask whether prohibited, fragile or valuable items are excluded. Photograph the bag and claim receipt, and keep medication, passports, electronics and items needed that day with you.
+
+## Hotel handoff checklist
+
+Contact the hotel and confirm it accepts third-party luggage before arrival. Enter the reservation name exactly as the hotel has it and provide a reachable contact method. At the counter, verify the number of bags and destination on the receipt.
+
+The ZimCarry store list is the primary source for the counter location and published services. The counter's same-day instructions and written receipt control the individual delivery.

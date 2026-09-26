@@ -2,7 +2,7 @@
 title: "Where to Stay in Gyeongju: Hwangridan-gil vs Bomun Complex"
 description: "Choosing between Gyeongju's walkable Hwangridan-gil district and the resort-style Bomun Tourism Complex, based on how you're actually getting around."
 pubDate: 2026-09-06
-updatedDate: 2026-09-06
+updatedDate: 2026-09-27
 tags: ["gyeongju hotels", "hwangridan-gil", "bomun", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/gyeongju-stay-comparison-bomun-vs-hwangridan/"
 author: "Koursea Editorial"
@@ -32,3 +32,17 @@ Bomun is built around lakeside resort hotels — think larger international chai
 If you're traveling by KTX and public transit without a rental car, Hwangridan-gil is the more practical base almost every time — less transit friction, more to do within walking distance after dark. If you have a car and want a quieter, resort-style stay with lake views, Bomun is a reasonable trade-off, especially traveling with kids.
 
 For the historic district's own attractions, cafes, and hanbok rental spots, see Koursea's [Hwangridan-gil hanok cafes and hanbok rental guide](https://www.koursea.com/gyeongju-hwangridan-gil-hanok-cafes-hanbok-rental-street-treats.html).
+
+## Compare the two areas with your actual itinerary
+
+Write down the first and last stop of each day before choosing a hotel. Hwangnidan works best when the historic-center sights and independent restaurants are the priority. Bomun works better when the resort itself, lake area or car access is part of the plan. Neither label guarantees that every hotel is close to the place you want, so check the exact address and route rather than the neighborhood name alone.
+
+The Korea Tourism Organization describes [Bomun Tourist Complex](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=111009) as a lake-centered tourism area east of central Gyeongju with accommodation and leisure facilities. Its official shopping guide places Hwangnidan near Daereungwon and other historic-center attractions. Those descriptions support the broad comparison, but current bus frequency and individual hotel services must be checked separately.
+
+## Booking checklist
+
+- Map the hotel to your arrival station and first attraction.
+- Confirm check-in, luggage storage and parking directly.
+- Check the last return route if you plan an evening outside the area.
+- Compare room cancellation terms, not only the nightly rate.
+- Recheck attraction and restaurant hours for the dates of your stay.

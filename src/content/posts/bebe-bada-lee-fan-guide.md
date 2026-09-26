@@ -2,7 +2,7 @@
 title: "BEBE and Bada Lee Fan Guide: Official Activities and Fan Etiquette"
 description: "A source-conscious BEBE and Bada Lee guide covering official updates, public workshops when announced and respectful fan planning."
 pubDate: 2026-09-10
-updatedDate: 2026-09-10
+updatedDate: 2026-09-27
 tags: ["bebe", "bada lee", "street woman fighter", "kpop", "seoul"]
 canonicalUrl: "https://blog.koursea.com/posts/bebe-bada-lee-fan-guide/"
 author: "Koursea Editorial"
@@ -33,3 +33,15 @@ Attend only announced public events, follow venue filming rules and avoid privat
 
 - [The L1ve](https://www.thel1ve.com/)
 - [Mnet](https://www.mnetplus.world/)
+
+## How to verify a workshop or appearance
+
+Start with the artist, agency, broadcaster or host studio's official account. A usable announcement should identify the organizer, date, location and booking method. Confirm whether the class is open to the public, whether filming is allowed, what language is used, and whether the booking name must match an ID. A fan repost can help you discover an event, but it should not be the page where you pay.
+
+If a studio lists only its normal class timetable, do not assume a specific dancer will teach. Guest teachers and public workshops should be named in a dated announcement. Recheck the post shortly before travel because cast, time and venue changes can happen.
+
+## Public-event etiquette
+
+Arrive within the organizer's stated check-in window and follow rules for shoes, cameras and personal belongings. Do not turn a workplace or rehearsal location into an unofficial waiting area. Avoid publishing private movements or asking staff to disclose an unannounced schedule.
+
+The L1ve and Mnet Plus links above are the primary starting points used by this guide. Event-specific organizer notices take precedence over this overview.

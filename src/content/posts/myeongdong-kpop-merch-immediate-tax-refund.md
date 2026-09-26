@@ -2,7 +2,7 @@
 title: "K-Pop Merch Tax Refund in Myeongdong: Current Rules"
 description: "The real transaction limits for instant VAT refunds when shopping for K-pop merch and other retail goods as a foreign tourist in Korea."
 pubDate: 2026-09-06
-updatedDate: 2026-09-25
+updatedDate: 2026-09-27
 tags: ["tax refund korea", "myeongdong shopping", "kpop merch", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/myeongdong-kpop-merch-immediate-tax-refund/"
 author: "Koursea Editorial"
@@ -37,3 +37,15 @@ This is the standard tax-free retail scheme, not something unique to K-pop store
 Passport verification is part of the process, but exactly how a given store handles it — a scan, a manual check, other ID details — varies by retailer. Ask before you're mid-transaction if you want to know what to have ready.
 
 For where to shop for K-pop merch in the first place, including which districts have the highest concentration of tax-free-registered stores, see Koursea's [official K-pop merchandise shopping guide](https://www.koursea.com/guide-official-kpop-lightstick-merch-shopping-seoul-2026.html).
+
+## Confirm that the store participates
+
+Immediate refund is available only through participating tax-refund retailers; it is not automatic at every album or merchandise shop. Look for the tax-refund mark and ask the cashier before payment. Present the passport or approved verification method requested by the store, then check that the deducted tax or refund information appears on the receipt.
+
+The Korea Tourism Organization's current [comprehensive tax-refund guide](https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=489&vcontsId=248765) states that immediate-refund eligibility is verified at purchase and distinguishes it from downtown, airport, mailbox and mobile refund routes. It also lists a minimum purchase amount and transaction/stay limits. Because tax rules and retailer systems can change, the current official guide and the store's live checkout determine eligibility.
+
+## Keep an exit-day backup
+
+Save the receipt and keep eligible goods available in case the transaction requires later customs or refund processing. Do not open or consume goods if the applicable procedure requires them to remain unused. If the immediate deduction does not apply, ask whether the store can issue a regular tax-refund document rather than assuming the purchase is ineligible.
+
+This is general travel information, not tax advice. The Korea Tourism Organization guide above is the primary public source used for this update.

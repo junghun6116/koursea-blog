@@ -2,7 +2,7 @@
 title: "Can You Visit HYBE Yongsan? What's Actually There in 2026"
 description: "HYBE Insight closed at Yongsan in 2023 and the building is office-only now — here's what's actually accessible and the nearest official merch stores."
 pubDate: 2026-09-06
-updatedDate: 2026-09-06
+updatedDate: 2026-09-27
 tags: ["hybe yongsan", "kpop travel", "bts", "seventeen", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/hybe-yongsan-visit-rules-nearest-official-shops/"
 author: "Koursea Editorial"
@@ -36,3 +36,15 @@ For the full merchandise range — official lightsticks, photocards, and the wid
 For the widest selection of official merchandise in one trip, see Koursea's [official K-pop merchandise shopping guide](https://www.koursea.com/guide-official-kpop-lightstick-merch-shopping-seoul-2026.html).
 
 If you're still building out a full day around this stop — cafes, a museum backup and a public riverside finish — see [HYBE Yongsan 1-Day Fan Tour](/posts/hybe-yongsan-1-day-tour-guide/).
+
+## What to verify before making the trip
+
+Treat the headquarters as a workplace unless HYBE publishes a dated visitor announcement for a specific event. Do not rely on older HYBE Insight reviews as proof of current public access. Check HYBE's official corporate channel, the relevant artist's official channel and the public venue or retailer you actually intend to visit.
+
+For merchandise, verify the exact branch and product on the retailer's live page. Album stock does not guarantee lightsticks, tour goods or event benefits, and a temporary pop-up may use timed entry or purchase limits. If an announcement does not name a booking or entry route, do not pay a third party who claims private access.
+
+## A respectful Yongsan alternative
+
+Build the day around clearly public destinations such as a museum, shopping center, station retail area or riverside park. Keep office entrances and neighboring businesses clear, and never wait for artists, staff vehicles or an unannounced schedule.
+
+Sources used for this guide are the current HYBE corporate/artist notices and the public retailer's own branch information. Because access and store details can change, the dated official notice for the place you will enter takes precedence over this overview.

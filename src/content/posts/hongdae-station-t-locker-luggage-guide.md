@@ -2,7 +2,7 @@
 title: "Hongdae Station T-Locker Guide: Sizes, Location, and Backup Plans"
 description: "Where to find luggage lockers at Hongik University Station, what the size tiers actually fit, and what to do if every locker is full."
 pubDate: 2026-09-06
-updatedDate: 2026-09-06
+updatedDate: 2026-09-27
 tags: ["hongdae luggage storage", "t-locker", "seoul subway", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/hongdae-station-t-locker-luggage-guide/"
 author: "Koursea Editorial"
@@ -38,3 +38,15 @@ Payment runs through the kiosk screen, which has an English option, and accepts 
 Weekends and holiday afternoons are when Hongdae's lockers run out first. Before you make the trip specifically to store bags, check the **T-Locker app**, which shows live availability by station so you're not walking over on a gamble. If the whole bank is genuinely full, the fallback is one of the private luggage storage counters operating above ground near the station's main exits — slightly more expensive than a T-Locker, but they don't run out the same way.
 
 For the complete walkthrough — app setup, payment screenshots, and what to do if the kiosk itself is malfunctioning rather than just full — see Koursea's [T-Locker app and Seoul subway storage setup guide](https://www.koursea.com/t-locker-app-seoul-subway-storage-setup-guide.html).
+
+## Use the official station information as the baseline
+
+The Seoul Metropolitan Government's [subway storage guide](https://english.seoul.go.kr/service/movement/public-transportation/subway-storage-facilities/) lists T-Locker as hourly subway storage and explains that availability can be checked through the Korean T-Locker app. It also publishes current size categories, operating hours, fees and support contacts. Those live figures should replace prices copied from an old blog post.
+
+The same official guide lists a staffed T-Luggage location at Hongik University Station on B1 near Exits 3 and 4. That is distinct from assuming that a particular locker bank will always be beside Exit 9. Follow current station signs and the app rather than relying on a fixed landmark that may move during station work.
+
+## Before closing the locker
+
+Check that the door is locked and save the locker number, receipt and retrieval method. Keep passports, medication, valuables and anything needed before the station closes with you. Storage and retrieval may be unavailable outside published operating hours.
+
+If the lockers are full, compare the staffed T-Luggage option or another official station listed by Seoul. Confirm fees and closing time before leaving the bag; private counters have separate terms.

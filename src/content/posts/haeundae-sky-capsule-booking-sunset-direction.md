@@ -1,38 +1,47 @@
 ---
-title: "Haeundae Sky Capsule: Booking Around a Card Error and Picking the Sunset Side"
-description: "What to do when the Blue Line Park Sky Capsule site won't take your foreign card, and which direction actually gives you the sunset view."
+title: "Haeundae Sky Capsule: Official Booking, Route and Sunset Planning"
+description: "Use Blue Line Park's official booking rules, route information and seasonal operating hours to plan a Haeundae Sky Capsule ride."
 pubDate: 2026-09-06
-updatedDate: 2026-09-06
+updatedDate: 2026-09-27
 tags: ["busan", "sky capsule", "haeundae", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/haeundae-sky-capsule-booking-sunset-direction/"
 author: "Koursea Editorial"
 faq:
-  - question: "Why does the Sky Capsule website reject my foreign card?"
-    answer: "The official desktop booking site can run into domestic security-plugin checks that don't play well with foreign-issued Visa or Mastercard payments, causing the transaction to fail even with a valid card."
+  - question: "Where should I book the Sky Capsule?"
+    answer: "Start with Blue Line Park's official reservation page and follow the current payment and cancellation instructions shown there."
   - question: "What's the workaround?"
-    answer: "Try completing the booking from a mobile browser instead of desktop, or book through an authorized third-party platform like Klook, KKday, or Trip.com, which processes foreign cards without hitting the same domestic payment module."
+    answer: "If payment fails, do not assume an unofficial workaround is guaranteed. Check the official page again, contact the operator, or use an outside seller only after confirming its terms and ticket validity."
   - question: "Which direction has the better sunset view?"
-    answer: "Traveling from Cheongsapo toward Mipo faces the capsule generally westward, giving a more direct sunset view over the coastline. The Mipo-to-Cheongsapo direction faces the other way, so you'd be looking backward for the same view."
+    answer: "The official route runs one way in either direction between Mipo and Cheongsapo. Sunset position and weather vary by date, so choose a time using a current sunset forecast rather than treating one direction as a guaranteed view."
 ---
 
-# Haeundae Sky Capsule: Booking Around a Card Error and Picking the Sunset Side
+# Haeundae Sky Capsule: Official Booking, Route and Sunset Planning
 
 The Blue Line Park Sky Capsule is one of Busan's most photographed rides, and it's also one of the more common places for foreign visitors to hit a payment wall while booking.
 
 ## The booking error, and the fix
 
-The official site's desktop booking flow can trigger domestic security-plugin checks that reject foreign-issued cards outright — not because the card is invalid, just because of how the payment module is set up. Two workarounds consistently help:
+Start with the operator's [official reservation page](https://www.bluelinepark.com/eng/booking.do). Blue Line Park states that advance reservations open on a rolling schedule and that limited on-site tickets may be available, but availability is not guaranteed. Read the live payment, QR-ticket and cancellation instructions before buying.
 
-- **Switch to a mobile browser** rather than desktop when booking.
-- **Book through an authorized third-party platform** — Klook, KKday, or Trip.com all sell Sky Capsule tickets and process foreign cards without routing through the same domestic checkout.
+If a payment attempt fails, keep the error message and contact the operator or your card issuer. An outside booking platform has its own cancellation and support terms, so do not describe it as authorized unless the operator identifies it that way.
 
 ## Which direction to pick for sunset
 
 The route runs between Mipo and Cheongsapo, and direction matters if sunset photos are the point of the trip:
 
-- **Cheongsapo to Mipo** generally faces the capsule westward along the coastline, putting the sunset ahead of you rather than behind.
-- **Mipo to Cheongsapo** runs the opposite way, so you'd be looking backward for the same view.
+- **Cheongsapo to Mipo** is one available one-way direction.
+- **Mipo to Cheongsapo** is the reverse one-way direction.
 
-Time your booking for the window closest to actual sunset for the season you're visiting, since capsules further from that window won't get the light you're after regardless of direction.
+Blue Line Park's [official route page](https://www.bluelinepark.com/eng/skyCapsuleCourse.do) describes the Mipo–Cheongsapo trip as roughly 2 km and about 30 minutes. For sunset, check the date-specific sunset time and weather, then leave a buffer: the exact view is not guaranteed by direction alone.
+
+## Before booking
+
+- Read the [seasonal operating-time page](https://www.bluelinepark.com/eng/skyCapsuleTime.do); hours can change with season, weather or safety conditions.
+- Confirm the departure station because the ticket is directional.
+- Check QR delivery and boarding instructions before leaving Wi-Fi.
+- Keep the cancellation deadline and order details.
+- Arrive early enough to find the correct station and queue.
+
+The operator's booking, route and operating-time pages are the primary sources for this update. Live operator notices override this article.
 
 For the full route map, station details, and what else to see nearby, see Koursea's [Busan Haeundae coastal train and Sky Capsule booking guide](https://www.koursea.com/busan-haeundae-blueline-park-beach-train-sky-capsule-booking.html).
