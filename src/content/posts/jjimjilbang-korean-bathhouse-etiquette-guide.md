@@ -2,7 +2,7 @@
 title: "Jjimjilbang Etiquette in Korea: A First Visit Guide for Foreigners"
 description: "Understand Korean bathhouse check-in, nude bathing zones, shared sauna rooms, towels and tattoo policies before your first jjimjilbang visit."
 pubDate: 2026-09-10
-updatedDate: 2026-09-10
+updatedDate: 2026-09-27
 tags: ["jjimjilbang", "korean sauna", "etiquette", "seoul", "foreigner-guide"]
 canonicalUrl: "https://blog.koursea.com/posts/jjimjilbang-korean-bathhouse-etiquette-guide/"
 author: "Koursea Editorial"
@@ -32,3 +32,19 @@ Wash before entering pools, keep voices low and never photograph other guests. F
 ## Official source
 
 - [VisitKorea](https://english.visitkorea.or.kr/)
+
+## A first-visit sequence
+
+Keep the locker key or wristband with you and follow the signs from the shoe locker to the changing room. Shower thoroughly before entering a shared bath. Soap, shampoo and towels are not provided in exactly the same way at every facility, so check what the admission fee includes before changing.
+
+When moving to a mixed-gender common area, wear the facility clothes provided at check-in. Heat rooms vary considerably; leave immediately if you feel dizzy, dehydrated or unwell. Children, pregnant visitors and people with a medical condition should follow facility guidance and their clinician's advice rather than treating a sauna visit as a health treatment.
+
+## What to confirm before paying
+
+- Current opening and final-entry times
+- Whether overnight stays are permitted
+- Tattoo, age and child-entry policies
+- Whether large luggage can be stored
+- Which toiletries and towels are included
+
+VisitKorea's [Supsok Hanbang Land listing](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=193703) is one official example of a Korean sauna and bathhouse listing, including hours, fees and a high-temperature-room safety warning. It is not a universal rulebook: the house rules posted by the facility you visit take priority.

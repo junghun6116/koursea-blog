@@ -2,7 +2,7 @@
 title: "Korea in Monsoon and Typhoon Season: A Delay-Ready Travel Guide"
 description: "Use official weather, airline and rail notices to manage Korea travel during the June–July monsoon and late-summer typhoon season."
 pubDate: 2026-09-10
-updatedDate: 2026-09-10
+updatedDate: 2026-09-27
 tags: ["korea weather", "monsoon", "typhoon", "travel delays", "korea travel"]
 canonicalUrl: "https://blog.koursea.com/posts/korea-typhoon-monsoon-season-travel-guide/"
 author: "Koursea Editorial"
@@ -34,3 +34,15 @@ Choose museums, department stores, cafes or covered markets close to a subway st
 - [Korea Meteorological Administration](https://www.weather.go.kr/w/index.do)
 - [KORAIL](https://www.letskorail.com/)
 - [Incheon Airport flight status](https://www.airport.kr/ap/en/dep/depPasSchList.do)
+
+## Read the alert, not only the forecast icon
+
+A rain symbol does not tell you whether a trail, river park, ferry or flight is affected. Check the warning text, affected area and valid time on the KMA notice. Then check the operator that controls the part of the trip you are taking: the airline for a flight, KORAIL for an intercity train, and the local authority or attraction for a closure.
+
+Do not use an old screenshot as proof that a service is running. Refresh the notice before departure and again before a long transfer. If an operator cancels a service, keep the cancellation notice and booking confirmation together for any refund or insurance claim.
+
+## Pack for a flexible day
+
+Protect passports, medication and charging equipment in a waterproof pouch. Wear shoes with grip and avoid flooded underpasses, river paths, shorelines and mountain trails during warnings. A useful backup plan stays within the same part of the city so it does not create another long, weather-exposed journey.
+
+This guide uses the KMA warning map, the official KORAIL site and Incheon Airport's live flight-status page as primary checks. Carrier-specific refund and rebooking terms remain the controlling source for an individual ticket.

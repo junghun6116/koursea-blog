@@ -2,7 +2,7 @@
 title: "Can Foreign Cards Work at Korean Convenience Stores and ATMs?"
 description: "A practical guide to testing an overseas card at GS25, CU and 7-Eleven, plus the difference between convenience-store and bank ATMs."
 pubDate: 2026-09-10
-updatedDate: 2026-09-10
+updatedDate: 2026-09-27
 tags: ["convenience stores", "atm", "foreign card", "payments", "korea travel"]
 canonicalUrl: "https://blog.koursea.com/posts/korea-convenience-store-payment-atm-foreign-card-guide/"
 author: "Koursea Editorial"
@@ -39,3 +39,15 @@ Look for an English menu and international-network marks such as Visa, Mastercar
 - [Visa ATM locator](https://www.visa.com/atmlocator/)
 
 For transit-card payments, see our separate [WOWPASS and T-money guide](/posts/korea-payment-wowpass-vs-tmoney-applepay-2026/).
+
+## Separate card acceptance from ATM access
+
+A store terminal accepting a card brand does not guarantee that the same card can withdraw cash from the ATM inside that store. The checkout terminal, ATM operator and card issuer make separate authorization decisions. Look for the network logo printed on your physical card and on the ATM, then use the machine's English or international-card menu when available.
+
+Before confirming a withdrawal, read the KRW amount, local ATM fee and any exchange-rate prompt. If the machine offers to convert the amount into your home currency, compare that option with your issuer's rate rather than accepting automatically. Never let a stranger “help” by handling your card or learning your PIN.
+
+## A low-risk fallback plan
+
+Carry two cards stored separately and a modest cash reserve. If one ATM declines the card, do not repeat the same transaction many times; contact the issuer or try a bank-operated international ATM. Keep receipts until transactions settle.
+
+GS25 and CU are linked above as store operators, while the Visa ATM locator is a network search tool. None of those pages guarantees a specific transaction: your issuing bank's travel and cash-withdrawal settings still control the card.
