@@ -4,7 +4,11 @@ Independent Astro static blog for English-language Korea travel guides.
 
 ## Local development
 
+Use Node.js 22.13 or newer. The repository pins the pnpm version through
+`packageManager`, so Corepack can select the same version used in CI.
+
 ```sh
+corepack enable
 pnpm install
 pnpm dev
 ```
@@ -12,6 +16,7 @@ pnpm dev
 ## Production build
 
 ```sh
+pnpm install --frozen-lockfile
 pnpm build
 ```
 
