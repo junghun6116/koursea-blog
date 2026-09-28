@@ -29,17 +29,60 @@ const hiddenHeadings = new Set([
 const toc = headings.filter(
   (heading: MarkdownHeading) => (heading.depth === 2 || heading.depth === 3) && !hiddenHeadings.has(heading.text)
 );
-const mapped = relatedMap[post.id as keyof typeof relatedMap];
-const relatedBeauty = (mapped?.beauty ?? []).flatMap((slug) => {
+type RelatedMapping = { beauty?: string[]; itinerary?: string[]; editorial?: string[] };
+const mapped = relatedMap[post.id as keyof typeof relatedMap] as RelatedMapping | undefined;
+const relatedBeauty = (mapped?.beauty ?? []).flatMap((slug: string) => {
   const page = beautyPages.find((item) => item.slug === slug);
   return page ? [{ href: `/beauty/${page.slug}/`, title: page.treatment_name ?? page.procedureName ?? 'K-Beauty planning guide', eyebrow: 'PRICE & DOWNTIME' }] : [];
 });
-const relatedItineraries = (mapped?.itinerary ?? []).flatMap((slug) => {
+const relatedItineraries = (mapped?.itinerary ?? []).flatMap((slug: string) => {
   const page = itineraryPages.find((item) => item.slug === slug);
   return page ? [{ href: `/itinerary/${page.slug}/`, title: `${page.region_name} ${page.duration}`, eyebrow: '1-DAY ROUTE' }] : [];
 });
+const relatedEditorialCurated = (mapped?.editorial ?? []).flatMap((id: string) => {
+  const candidate = allPosts.find((item) => item.id === id);
+  return candidate ? [{ href: `/posts/${candidate.id}/`, title: candidate.data.title, eyebrow: 'RELATED GUIDE' }] : [];
+});
 const kpopPattern = /k-?pop|concert|fandom|fan guide|photocard|music show|kspo|hybe|jyp|\bsm\b|\byg\b/i;
 const isKpopPost = kpopPattern.test(`${post.data.title} ${(post.data.tags ?? []).join(' ')}`);
+const genericTags = new Set(['koursea', 'korea', 'seoul', 'seoul travel', 'foreigner guide', 'korea 2026']);
+const normalize = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+const termsFor = (entry: typeof post) => {
+  const tags = entry.data.tags.map(normalize).filter((tag: string) => tag && !genericTags.has(tag));
+  const words = normalize(`${entry.data.title} ${entry.data.category ?? ''}`)
+    .split(' ')
+    .filter((word) => word.length >= 4 && !['guide', 'korea', 'seoul', 'foreigner', 'foreigners', 'travel', 'things', 'what', 'with', 'from', 'your', '2026'].includes(word));
+  return { tags: new Set(tags), words: new Set(words) };
+};
+const verticalFor = (entry: typeof post) => {
+  const text = normalize(`${entry.data.title} ${entry.data.category ?? ''} ${entry.data.tags.join(' ')}`);
+  if (/kpop|k pop|concert|fandom|album|merch|music show|bts|blackpink|twice|aespa|enhypen|stray kids|seventeen/.test(text)) return 'kpop';
+  if (/beauty|clinic|skin|dermat|botox|filler|rejuran|laser|hifu|ultherapy|shurink|cosmetic|procedure/.test(text)) return 'beauty';
+  if (/airport|arex|subway|train|bus|taxi|transport|ktx|transit|luggage|locker/.test(text)) return 'transport';
+  if (/payment|card|refund|shopping|olive young|wowpass|cash|atm|currency|tax/.test(text)) return 'money-shopping';
+  if (/restaurant|cafe|food|dining|market|ordering/.test(text)) return 'food';
+  return 'general';
+};
+const currentTerms = termsFor(post);
+const currentVertical = verticalFor(post);
+const alreadyLinked = new Set([...relatedBeauty, ...relatedItineraries, ...relatedEditorialCurated].map((guide) => guide.href));
+const relatedEditorial = !isKpopPost
+  ? allPosts
+      .filter((candidate) => candidate.id !== post.id && !alreadyLinked.has(`/posts/${candidate.id}/`))
+      .map((candidate) => {
+        const candidateTerms = termsFor(candidate);
+        const sharedTags = [...currentTerms.tags].filter((tag) => candidateTerms.tags.has(tag)).length;
+        const sharedWords = [...currentTerms.words].filter((word) => candidateTerms.words.has(word)).length;
+        const sameCategory = Boolean(post.data.category && post.data.category === candidate.data.category);
+        const sameVertical = currentVertical !== 'general' && currentVertical === verticalFor(candidate);
+        const score = sharedTags * 10 + sharedWords * 2 + (sameCategory ? 5 : 0) + (sameVertical ? 4 : 0);
+        return { candidate, score, sameVertical };
+      })
+      .filter(({ score, sameVertical }) => score >= 4 || sameVertical)
+      .sort((a, b) => b.score - a.score || (b.candidate.data.updatedDate ?? b.candidate.data.pubDate).valueOf() - (a.candidate.data.updatedDate ?? a.candidate.data.pubDate).valueOf())
+      .slice(0, Math.max(0, 4 - relatedBeauty.length - relatedItineraries.length - relatedEditorialCurated.length))
+      .map(({ candidate }) => ({ href: `/posts/${candidate.id}/`, title: candidate.data.title, eyebrow: 'RELATED GUIDE' }))
+  : [];
 const postContext = `${post.data.title} ${post.data.description} ${(post.data.tags ?? []).join(' ')}`.toLowerCase();
 const titleStopWords = new Set(['guide', 'kpop', 'seoul', 'korea', 'foreigner', 'foreigners', 'travel', '2026']);
 const titleTerms = new Set((post.data.title.toLowerCase().match(/[a-z0-9]{4,}/g) ?? []).filter((term) => !titleStopWords.has(term)));
@@ -145,6 +188,6 @@ const editorialCallout = editorialCallouts[post.id];
 // the generic site fallback.
 const socialImage = post.data.coverImage ?? post.data.thumbnail ?? `/og/posts/${post.id}.png`;
 ---
-<PostLayout title={post.data.title} description={post.data.description} category={post.data.category} canonicalUrl={canonicalUrl} pubDate={post.data.pubDate} updatedDate={post.data.updatedDate} author={author} reviewer={post.data.reviewer} tags={post.data.tags} socialImage={socialImage} socialImageAlt={`${post.data.title} — Koursea Journal`} coverImage={post.data.coverImage} wordCount={wordCount} toc={toc} relatedGuides={isKpopPost ? relatedKpop : [...relatedBeauty, ...relatedItineraries]} socialEmbed={socialEmbed} faq={post.data.faq} editorialCallout={editorialCallout}>
+<PostLayout title={post.data.title} description={post.data.description} category={post.data.category} canonicalUrl={canonicalUrl} pubDate={post.data.pubDate} updatedDate={post.data.updatedDate} author={author} reviewer={post.data.reviewer} tags={post.data.tags} socialImage={socialImage} socialImageAlt={`${post.data.title} — Koursea Journal`} coverImage={post.data.coverImage} wordCount={wordCount} toc={toc} relatedGuides={isKpopPost ? relatedKpop : [...relatedBeauty, ...relatedItineraries, ...relatedEditorialCurated, ...relatedEditorial].slice(0, 4)} socialEmbed={socialEmbed} faq={post.data.faq} editorialCallout={editorialCallout}>
   <Content />
 </PostLayout>

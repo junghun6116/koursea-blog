@@ -82,6 +82,20 @@
   ],
   "routes": [
     {
+      "src": "/beauty/rejuran-healer-korea-price-downtime-guide-2026/",
+      "headers": {
+        "Location": "/posts/rejuran-healer-korea-guide/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/beauty/pico-toning-laser-foreign-traveler-guide/",
+      "headers": {
+        "Location": "/posts/laser-toning-korea-guide/"
+      },
+      "status": 301
+    },
+    {
       "src": "/posts/guide-korea-esim-sim-card-setup-2026/",
       "headers": {
         "Location": "/posts/korea-esim-with-phone-number-2026-guide/"
