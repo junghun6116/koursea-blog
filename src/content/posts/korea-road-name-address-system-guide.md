@@ -2,7 +2,7 @@
 title: "How Korean Addresses Work: A Foreign Traveler's Guide to 도로명주소 (2026)"
 description: "Learn how Korea's road-name address system works, how to find the official English version, and why the format matters for hotels, delivery and Korea Post."
 pubDate: 2026-09-10
-updatedDate: 2026-09-10
+updatedDate: 2026-09-28
 tags: ["Korea Travel", "Address", "eSIM", "Korea Post", "Practical Guide"]
 canonicalUrl: "https://blog.koursea.com/posts/korea-road-name-address-system-guide/"
 author: "Koursea Editorial"
@@ -33,6 +33,19 @@ Korea's road-name address system (도로명주소) has been the standard replace
 3. Open “English view” and copy the complete result, including building or unit details.
 4. Compare the map pin with the written address before travelling.
 
+## How to read the official result
+
+The Korean road-name address is built around the road name and building number. The Ministry of the Interior and Safety explains that building numbers are assigned from the start of the road at 20-meter intervals, with odd numbers on the left and even numbers on the right. That pattern can help you notice a pin on the wrong side of a long road, but it is not a substitute for checking the building entrance.
+
+English addresses reverse the order used in Korean. A government example such as `서울특별시 강남구 강남대로10길 109` becomes `109 Gangnam-daero 10-gil, Gangnam-gu, Seoul`. Apartment building, floor and unit information goes before the street line in English. Keep the Korean original beside it because a taxi driver, delivery counter or local map search may recognize the Korean string more reliably.
+
+### Hotel and parcel checklist
+
+- Copy the **postal code**, road name and building number from the same Juso result.
+- Add the building name and room or unit only when the recipient or accommodation provides them.
+- For a hotel, compare the official address with the pin in Naver Map or Kakao Map before leaving the airport.
+- For an international parcel, follow Korea Post's current form fields rather than shortening the address yourself.
+
 Older map listings may show the former land-lot address, and romanization can differ between apps. Use the official Juso result for government or postal forms. Some online services may also ask for Korean phone verification; that is a form requirement, not part of the road-name system itself.
 
 ## Why travellers need it
@@ -50,6 +63,7 @@ Hotels and Airbnb hosts often need the exact building name and unit. Delivery, e
 ## Official sources
 
 - [Juso road-name address system](https://www.juso.go.kr/main/engMain)
+- [Official road-name address structure and English formatting](https://business.juso.go.kr/jsu/jsu3DAddress)
 - [Juso English guidebook](https://www.juso.go.kr/CommonPageLink.do?link=/eng/about/GuideBook)
 - [Korea Post](https://www.koreapost.go.kr/eng/index.do)
 - [Korea Post EMS](https://www.epost.go.kr/main/eng/Enpost_Services3.html)

@@ -2,15 +2,15 @@
 title: "T-Money Won't Take Your 50,000 Won Note? Recharge Fallbacks in Seoul"
 description: "What to do when a Seoul subway top-up machine rejects your large bill: convenience store counters, station staff, and breaking cash safely."
 pubDate: 2026-09-06
-updatedDate: 2026-09-06
+updatedDate: 2026-09-28
 tags: ["t-money recharge", "seoul subway", "korea transit card", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/seoul-subway-foreign-card-recharge-fallback/"
 author: "Koursea Editorial"
 faq:
   - question: "Why did the subway machine reject my 50,000 won bill?"
-    answer: "Many older station top-up kiosks only accept 1,000, 5,000, and 10,000 won notes, plus coins. A 50,000 won note is the most commonly rejected denomination, especially on machines that haven't been serviced recently."
+    answer: "Accepted denominations vary by machine. If the screen or bill slot does not list 50,000 won, do not keep retrying it; use a listed denomination or recharge with cash at a staffed convenience store or transit-card counter."
   - question: "Can I recharge a transit card with a foreign credit card?"
-    answer: "Most station kiosks only take Korean-issued cards or cash. Convenience store registers (CU, GS25, 7-Eleven) are more likely to accept a foreign Visa or Mastercard for a T-money top-up, but it isn't guaranteed at every branch."
+    answer: "Do not assume an overseas card will recharge a standard T-money card. Official visitor guidance says purchase and charging generally require cash or a Korea-issued card. International-card support introduced in Seoul in 2026 applies to specified Climate Card short-term passes and single-journey tickets at upgraded machines, not every ordinary T-money reload."
   - question: "What's the fastest way to break a 50,000 won note for transit?"
     answer: "Buy something small at a convenience store and pay with the note — the change you get back in smaller bills and coins will work in any subway kiosk."
 ---
@@ -21,16 +21,27 @@ You're standing at the gate, your T-money card is empty, and the only cash in yo
 
 ## Why the machine is rejecting your bill
 
-Station top-up kiosks are old infrastructure in a lot of stations, and many of them are physically limited to 1,000, 5,000, and 10,000 won notes plus coins. It's not personal to your card or your card issuer — a 50,000 won note just doesn't fit the bill acceptor on a large share of machines, full stop.
+The machine shows the payment methods and denominations it accepts. If 50,000 won is not listed, the rejection is about that machine's payment configuration, not the nationality of your T-money card. Move to a supported denomination instead of repeatedly feeding the same note into the slot.
 
 ## Three fallback options, in order of speed
 
-1. **Buy something small at the nearest convenience store first.** CU, GS25, and 7-Eleven locations sit at or near almost every subway exit. Pay for a drink or snack with your 50,000 won note, and the change comes back in denominations the kiosk will actually take.
-2. **Ask the counter to recharge directly.** Convenience stores can usually top up a T-money card right at the register, skipping the station machine entirely. This also tends to accept foreign cards more reliably than the kiosk does — though not at every branch, so keep a cash backup plan.
-3. **Find the manned station counter.** Larger stations (major interchange stations, airport lines) still staff a ticket office. Staff can recharge cards manually and make change, even outside kiosk hours.
+1. **Ask a T-money convenience-store counter to recharge the card with cash.** Show the card and say the amount before handing over the note. The cashier may ask for a smaller denomination or may be unable to break 50,000 won for a small reload.
+2. **Buy something small and keep the change for a machine reload.** This is a fallback, not a guarantee that every shop will accept a large note when the till has limited change.
+3. **Use a staffed station information center where available.** Ask which nearby machine or counter supports the reload you need. Do not assume every station office exchanges large notes.
+4. **If you only need one ride, compare a single-journey ticket.** Since March 17, 2026, Seoul has allowed internationally issued Visa and Mastercard cards for single-journey tickets at 440 upgraded machines across 273 stations on Lines 1-8. Availability outside that network differs.
+
+## Do not confuse T-money with the Climate Card
+
+Seoul's 2026 international-card rollout also covers buying and recharging short-term Climate Card passes at upgraded machines, with an average service fee announced by the city. That change does **not** mean an overseas card can reload every standard T-money card at every station or convenience store. Check the exact product name on the screen before paying.
 
 ## Keep smaller bills on hand going forward
 
 Once you've broken the note, hold onto a few 1,000 and 5,000 won bills specifically for transit. It sounds trivial, but it's the single easiest way to avoid repeating this exact problem at your next station.
 
 For the full breakdown of which card to carry in the first place — T-money, the Seoul Climate Card, or WOWPASS — and how their reload rules differ, see Koursea's [Seoul Climate Card vs T-money comparison guide](https://www.koursea.com/guide-seoul-climate-card-vs-tmoney-tourist-pass-2026.html), which also covers what to do if you need a refund on an unused balance before you fly home.
+
+## Official sources
+
+- [VISITKOREA transportation-card guide](https://english.visitkorea.or.kr/svc/contents/infoBscView.do?vcontsId=140663)
+- [Seoul announcement: international cards for Climate Cards and single-journey tickets](https://english.seoul.go.kr/climate-cards-and-single-journey-transit-tickets-now-accepting-international-credit-cards-no-cash-needed/)
+- [Seoul public-transportation overview](https://english.seoul.go.kr/service/movement/public-transportation/)
