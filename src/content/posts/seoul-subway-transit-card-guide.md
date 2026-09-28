@@ -29,6 +29,8 @@ Seoul's subway and bus network is extensive, but the payment products do differe
 
 This guide uses Seoul Metropolitan Government information checked on September 28, 2026. Fares, eligible lines, vending-machine payment methods, and pass products can change, so verify the linked live pages before travel.
 
+If the transit card is only one part of your first-trip planning, use Koursea's [five Seoul essentials](https://www.koursea.com/seoul-essentials.html) to decide the airport route, map app, Seoul base, and late-night backup before comparing cards here.
+
 Once you know which card to get, Koursea's Transit Card Cheat Sheet and Subway Direction Checker give you the fast, no-explanation version for when you're actually at the gate — no login required.
 
 ---
