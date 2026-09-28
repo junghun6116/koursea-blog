@@ -2,7 +2,7 @@
 title: "First 24 Hours in Seoul: A Low-Stress Arrival Plan"
 description: "A practical first-day Seoul route from AREX and hotel check-in to Myeongdong money setup, street food, and a weather-safe Namsan sunset."
 pubDate: 2026-09-05
-updatedDate: 2026-09-05
+updatedDate: 2026-09-28
 tags: ["first time Seoul", "AREX", "Myeongdong", "WOWPASS", "Seoul arrival guide", "N Seoul Tower"]
 canonicalUrl: "https://blog.koursea.com/posts/first-24-hours-in-seoul-survival-guide/"
 author: "Koursea Editorial"
@@ -16,6 +16,8 @@ faq:
 ---
 
 Your first Seoul day should remove uncertainty, not maximize attractions. This route deliberately handles transport, hotel access, cash, cards, food, and navigation before asking you to climb a hill at sunset. Treat the times as a sequence rather than a race: immigration, baggage, weather, and sleep matter more than completing every stop.
+
+If you are still choosing the airport route, transit card, map app, neighborhood, or late-night backup, start with Koursea's [five Seoul essentials](https://www.koursea.com/seoul-essentials.html), then return here for the first-day sequence.
 
 ## Key takeaways
 

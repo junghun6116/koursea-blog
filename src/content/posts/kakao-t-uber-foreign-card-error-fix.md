@@ -19,6 +19,8 @@ faq:
 
 Your taxi request fails at the payment step, but the message does not explain whether the problem is the card, the app or the ride option. The safest fix is to check the payment method **before** requesting another car. Kakao T and Uber Taxi do not use identical payment screens, and paying twice is a bigger problem than a single failed authorization.
 
+If you are choosing the airport route, map app, Seoul base, or after-midnight backup before a problem occurs, start with Koursea's [five Seoul essentials](https://www.koursea.com/seoul-essentials.html). Use this article for the narrower payment-failure workflow.
+
 ## Why it happens
 
 Kakao Mobility's current customer-support page says overseas-issued **Visa, Mastercard, JCB and American Express** credit or debit cards can be registered for taxi, bike and pet services. That means a foreign card is not automatically ineligible.

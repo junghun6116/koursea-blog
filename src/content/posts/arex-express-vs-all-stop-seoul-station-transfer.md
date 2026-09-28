@@ -2,7 +2,7 @@
 title: "AREX Express vs All-Stop: Which Train, and How to Transfer to KTX"
 description: "The real difference between AREX Express and All-Stop trains from Incheon Airport, and what the transfer to KTX at Seoul Station actually involves."
 pubDate: 2026-09-06
-updatedDate: 2026-09-27
+updatedDate: 2026-09-28
 tags: ["arex", "incheon airport", "ktx transfer", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/arex-express-vs-all-stop-seoul-station-transfer/"
 author: "Koursea Editorial"
@@ -18,6 +18,8 @@ faq:
 # AREX Express vs All-Stop: Which Train, and How to Transfer to KTX
 
 If you're heading straight from Incheon Airport onto a KTX train, the first decision is which AREX service to take — and the second is not underestimating the transfer time once you land at Seoul Station.
+
+For the broader arrival plan—airport transfer, transit card, map app, Seoul base, and late-night fallback—open Koursea's [five Seoul essentials](https://www.koursea.com/seoul-essentials.html). This article stays focused on the AREX and KTX connection.
 
 ## Express vs All-Stop: the actual tradeoff
 
