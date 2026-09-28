@@ -2,7 +2,7 @@
 title: "The Complete Olive Young Guide for Foreign Travelers: Tax Refunds & Store Navigation"
 description: "Navigate Olive Young as a foreign visitor with practical tax-refund steps, flagship and neighborhood store differences, and Korean shopping tips."
 pubDate: 2026-09-03T10:15:19Z
-updatedDate: 2026-09-03T10:15:19Z
+updatedDate: 2026-09-28
 tags:
   - Seoul Travel
   - K-Beauty
@@ -13,11 +13,11 @@ author: "Koursea Editorial"
 
 faq:
   - question: "What is the minimum spend for an instant Olive Young tax refund?"
-    answer: "The guide says eligible shoppers should spend at least 15,000 KRW in one transaction and present a physical foreign passport at checkout."
+    answer: "Official VISITKOREA guidance sets the minimum at 15,000 KRW per purchase. Immediate refunds are available only at participating stores and require passport verification; the single payment must be under 1,000,000 KRW and total eligible trip spending must not exceed 5,000,000 KRW."
   - question: "Do I need my physical passport at Olive Young?"
-    answer: "Yes. The checkout process described here requires the physical passport; a phone photo or digital scan is not accepted by the point-of-sale terminal."
+    answer: "Bring the original passport. Official visitor guidance requires passport verification for an immediate refund, and a photo on your phone should not be treated as a guaranteed substitute."
   - question: "Are flagship and neighborhood Olive Young stores the same?"
-    answer: "No. Flagships such as Myeongdong Town, Gangnam, and Hongdae have larger layouts and more multilingual support, while neighborhood branches are calmer and may have different stock or promotions."
+    answer: "No. Store size, stock and promotion availability vary. A larger location may offer a broader range, but confirm the exact branch and current hours before travelling for one product."
   - question: "How can I prepare before shopping?"
     answer: "Choose product categories such as sunscreen, hydration, blemish care, or gifts before entering, then compare texture, size, and promotion terms in the store."
 coverImage: "/images/blog/olive-young-guide.jpg"
@@ -25,7 +25,7 @@ coverImage: "/images/blog/olive-young-guide.jpg"
 
 # The Complete Olive Young Guide for Foreign Travelers: Tax Refunds & Store Navigation
 
-If you are planning a trip to South Korea, visiting Olive Young is almost certainly on your daily itinerary. With over 1,300 branches nationwide, Olive Young is the central hub for Korean skincare, haircare, and wellness trends.
+If you are planning a trip to South Korea, an Olive Young visit is an easy way to compare Korean skincare, haircare and wellness products in one place. The difficult part is separating current refund rules from store-specific assumptions.
 
 However, many first-time international visitors miss out on instant discounts, struggle with in-store tax refunds, or feel overwhelmed by the sheer volume of identical-looking serums.
 
@@ -35,11 +35,14 @@ Here is everything you need to know to shop Olive Young like an experienced loca
 
 ## 1. How Instant In-Store Tax Refunds Work
 
-South Korea offers an immediate tax refund system at designated tax-free stores, and major Olive Young locations support this right at the checkout register.
+South Korea offers an immediate tax-refund system at designated tax-refund stores. Ask the specific Olive Young branch whether it supports an immediate refund at its checkout.
 
-- **Eligibility Requirements:** You must spend at least **15,000 KRW** in a single transaction and hold a foreign passport with an entry stamp/tourist visa (staying less than 6 months).
-- **Crucial Step:** Always carry your **physical passport**. Digital scans or photos on your phone are not accepted by the point-of-sale terminal.
-- **The Process:** Before scanning your items, hand your passport to the cashier and say *"Tax refund, please."* The system will automatically subtract the Value Added Tax (VAT) from your final total on the spot, saving you from waiting in airport refund lines later.
+- **Eligibility:** Official VISITKOREA guidance says a non-Korean visitor staying less than six months can qualify. The goods must be new and unused, and you must leave Korea within three months of purchase.
+- **Minimum purchase:** At least **15,000 KRW per receipt**.
+- **Immediate-refund limits:** The participating-store payment must be under **1,000,000 KRW**, and eligible purchases during the trip must total no more than **5,000,000 KRW**.
+- **Passport check:** Bring the original passport and ask whether that branch processes immediate refunds. A store logo alone does not prove that every register or branch offers the same process.
+
+If the tax is deducted immediately, keep the receipt and check the final charged amount before leaving. If the branch issues a refund voucher instead, follow the downtown or airport refund procedure printed on it.
 
 ---
 
@@ -47,13 +50,14 @@ South Korea offers an immediate tax refund system at designated tax-free stores,
 
 Not all Olive Young stores offer the same selection.
 
-- **Flagship Locations (Myeongdong Town, Gangnam, Hongdae):**
-  - Massive multi-story layouts with dedicated sections for men's grooming, inner beauty supplements, and niche indie brands.
-  - English/Japanese/Chinese-speaking staff on the floor.
-  - **Drawback:** Extremely crowded, with popular items frequently sold out by late afternoon.
+- **Large destination stores:**
+  - Better when you want to compare many brands or categories in one trip.
+  - More likely to be busy and does not guarantee a particular item is in stock.
 - **Neighborhood Branches (Subway Stations, Residential Alleys):**
-  - Much calmer shopping experience.
-  - Ideal for finding limited-edition "1+1" bundle packs that are completely cleaned out in tourist hotspots.
+  - Often quicker for a short list and easier to revisit near your accommodation.
+  - Stock, tax-refund handling and promotion bundles can differ by branch.
+
+Search the exact branch in a Korean map app and verify its latest hours before making a special trip. For product availability, treat the website or app as a lead rather than a promise that the shelf still has stock.
 
 ---
 
@@ -67,6 +71,19 @@ For a skin-type shopping matrix, current Awards winner context, PDRN trend cauti
 
 ## 4. Key Shopping Hacks Before You Go
 
-- **Look for "1+1" (Won-Plus-Won) Tags:** Korean retail heavily features buy-one-get-one deals. Look for red and yellow shelf tags indicating double-value box sets.
-- **Check the "Olive Young Awards" Section:** Near the front of larger stores, display stands feature the top-ranking items voted by domestic consumers over the past year. These are reliable indicators of current local popularity rather than sponsored trends.
-- **Save Store Coordinates in Korean:** If you are trying to find smaller flagship branches in Seongsu or Hannam-dong, save the Korean name (올리브영) into your mapping app to avoid location mismatches.
+- **Read the exact "1+1" tag:** Buy-one-get-one offers may apply only to a particular size, shade or bundle. Match the shelf label to the barcode before checkout.
+- **Use rankings as a shortlist, not medical advice:** Awards and best-seller displays can help narrow a crowded shelf, but they do not tell you whether an active ingredient suits your skin.
+- **Save the Korean store name:** Search 올리브영 plus the neighborhood in Naver Map or KakaoMap, then check the branch address rather than following a similarly named map result.
+
+## Check the receipt before leaving
+
+Confirm the quantity, promotion and refund treatment while you are still at the counter. A shelf tag can apply only to a particular size, shade or membership condition. Keep products unopened until you are sure you will not need an exchange and until any required tax-refund export check is complete.
+
+The Olive Young Global online shop is a separate purchasing channel with its own prices, inventory, payment methods and shipping rules. Do not use a global-site price as proof of the price in a Korean branch.
+
+## Official sources
+
+- [VISITKOREA duty-free and tax-refund requirements](https://english.visitkorea.or.kr/svc/contents/infoBscView.do?vcontsId=140736)
+- [VISITKOREA tax-refund limits and procedures](https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=929&vcontsId=248768)
+- [CJ Olive Young corporate site](https://corp.oliveyoung.com/en)
+- [Olive Young Global online store](https://global.oliveyoung.com/)
