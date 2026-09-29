@@ -2,7 +2,7 @@
 title: "TWS Fan Guide to Seoul: 42 Concert & PLEDIS Planning"
 description: "Plan a TWS fan trip in Seoul with official PLEDIS notices, current 42 membership checks, concert preparation, and respectful public-event guidance."
 pubDate: 2026-09-09
-updatedDate: 2026-09-10
+updatedDate: 2026-09-30
 tags: ["K-Pop", "TWS", "42", "PLEDIS Entertainment", "Concert Tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/tws-fan-guide-seoul-42/"
 author: "Koursea Editorial"
@@ -34,7 +34,7 @@ Start with a current notice that identifies the city, venue, date, organizer, an
 
 The [2026 tour booth notice](https://weverse.io/tws/notice/36837) likewise documented a 42:ZONE at KSPO DOME that required a same-day mobile concert ticket, physical identification, and a 42 GLOBAL MEMBERSHIP QR code. Those rules applied to the named June dates only. Recheck every requirement for a future event.
 
-As of September 8, the official channel is also taking pre-orders for a TWS **VR Concert Box** through Weverse Shop (the listed window ends September 20). See the [official notice](https://weverse.io/tws/notice/38997) for the current product and dates; this is a home-release announcement, not a Seoul venue event.
+The official channel previously accepted pre-orders for a TWS **VR Concert Box** through Weverse Shop from September 8 through September 20, 2026. That window has ended. See the [official release notice](https://weverse.io/tws/notice/38997) for the archived product details; it was a home-release announcement, not a Seoul venue event.
 
 ## Is the PLEDIS or HYBE office a visitor stop?
 
