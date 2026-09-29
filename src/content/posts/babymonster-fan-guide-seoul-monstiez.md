@@ -2,7 +2,7 @@
 title: "BABYMONSTER Fan Guide to Seoul: MONSTIEZ Concert & YG Planning"
 description: "Plan a respectful BABYMONSTER fan trip in Seoul using official YG sources, dated concert notices, verified merchandise channels, and practical ticketing steps."
 pubDate: 2026-09-09
-updatedDate: 2026-09-10
+updatedDate: 2026-09-30
 tags: ["K-Pop", "BABYMONSTER", "MONSTIEZ", "YG Entertainment", "Concert Tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/babymonster-fan-guide-seoul-monstiez/"
 author: "Koursea Editorial"
@@ -34,7 +34,7 @@ Start with a current YG announcement. It should identify the event, city, venue,
 
 YG's [2026 Seoul tour report](https://ygfamily.com/en/news/report/7507) confirms that BABYMONSTER performed three shows at Jamsil Indoor Stadium from June 26 to 28, 2026, for the opening of the 2026–27 **CHOOM** world tour. Those Seoul dates have passed. They are useful as verified history, not as a current invitation to visit the venue.
 
-The official Weverse notice also lists the next **CHOOM** stops, including the added Macao shows on September 11–12, 2026. Check the [current notice](https://weverse.io/babymonster/notice/36275) for the named seller and membership conditions; do not reuse Seoul-event rules for another city.
+The official Weverse notice documented the added Macao **CHOOM** shows held on September 11–12, 2026. Those performances have passed. Use the [official Macao notice](https://weverse.io/babymonster/notice/36275) as an archived example of the named seller and membership conditions; do not reuse its rules for Seoul or another city.
 
 ## Is the YG building a visitor attraction?
 

@@ -2,7 +2,7 @@
 title: "Free Things to Do in Seoul & Busan: Museums, Parks and Jongno Art"
 description: "A practical 2026 guide to free museums, parks, walks and viewpoints in Seoul and Busan, plus ten September exhibitions across Jongno."
 pubDate: 2026-09-05
-updatedDate: 2026-09-05
+updatedDate: 2026-09-30
 tags: ["free things to do seoul", "free museums korea", "budget travel korea", "free busan attractions", "무료전시", "무료관광"]
 canonicalUrl: "https://blog.koursea.com/posts/free-things-to-do-seoul-busan-jongno-exhibitions/"
 author: "Koursea Editorial"
@@ -23,11 +23,11 @@ This guide starts with a time-sensitive Jongno art circuit, then moves to places
 
 Planning beyond Seoul and Busan? Continue with our [officially verified regional free-attractions guide](/posts/free-attractions-korea-by-region-ktx-guide/) for Suwon, Incheon, Daegu, Gwangju, Jeonju, Namwon, Gyeongju, Andong and Jeju.
 
-## This Month's Pick: Free Art Exhibitions in Jongno
+## September 2026 Pick: Free Art Exhibitions in Jongno
 
 The September 2026 list below is curated from the embedded roundup by Jongno local magazine **@seochoneditor**. The galleries cluster around Samcheong-dong, Bukchon and Seochon, so several can be combined on foot. The Instagram post is the source for the ten-show list; opening days and last admission should still be reconfirmed with each gallery before departure.
 
-Three exhibitions close especially soon: **Kang Yo-bae (강요배), September 12; Lee Pi (이피), September 19; and _Between Us and Them_ (우리와 그들), September 27.** Do not build a trip around them after those dates.
+**Status checked September 30, 2026:** the Kang Yo-bae, Lee Pi and _Between Us and Them_ exhibitions have ended. The other seven listings below carry October 3–18 closing dates, but confirm the current gallery notice before traveling because installation changes, private events and weekly closures can affect access.
 
 1. **Park Seo-bo — _Changing, Unchanging_ (박서보 《변하는 변하지 않는》)**
    August 24–October 18 · Kukje Gallery (국제갤러리). A practical northern anchor for a Samcheong gallery loop.
@@ -44,16 +44,16 @@ Three exhibitions close especially soon: **Kang Yo-bae (강요배), September 12
 5. **Kim Seeun — _Fitwall and Picto_ (김세은 《핏월과 픽토》)**
    August 24–October 18 · Kukje Gallery. This shares the Kukje stop with the Park Seo-bo exhibition, reducing walking time.
 
-6. **Closing September 12 — Kang Yo-bae, _Soso, Bansaek_ (강요배 《소소, 반색》)**
-   August 12–September 12 · Hakgojae Gallery (학고재). Prioritize this early in the month.
+6. **Ended September 12 — Kang Yo-bae, _Soso, Bansaek_ (강요배 《소소, 반색》)**
+   August 12–September 12 · Hakgojae Gallery (학고재). Retained here as part of the dated September roundup; do not plan a current visit around it.
 
 7. **Kim Ho-deuk — _Subtracting and Subtracting Again_ (김호득 《-빼고 또 빼고-》)**
    August 28–October 17 · Artside Gallery (아트사이드갤러리).
 
-8. **Closing September 19 — Lee Pi, _World War 3½_ (이피 《-3과 2분의 1차 세계대전》)**
+8. **Ended September 19 — Lee Pi, _World War 3½_ (이피 《-3과 2분의 1차 세계대전》)**
    August 28–September 19 · Art Space 3 (아트스페이스3).
 
-9. **Closing September 27 — _Between Us and Them_ (《우리와 그들 Between Us and Them》)**
+9. **Ended September 27 — _Between Us and Them_ (《우리와 그들 Between Us and Them》)**
    August 18–September 27 · Boan Art Space Boan 1, 2 and 3 (보안여관 아트스페이스 보안 1, 2, 3). Check which part of the exhibition occupies each building before arrival.
 
 10. **Woo Min-jung — _Dream Love Hope_ (우민정 《꿈 사랑 희망》)**
