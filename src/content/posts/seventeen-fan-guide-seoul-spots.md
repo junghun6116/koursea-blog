@@ -2,7 +2,7 @@
 title: "SEVENTEEN Fan Guide to Seoul: CARAT Spots, HYBE Yongsan & Concert Prep"
 description: "A practical SEVENTEEN fan trip covering public Seoul photo stops, official merch, concert preparation, transit, and respectful fan etiquette."
 pubDate: 2026-09-03
-updatedDate: 2026-09-10
+updatedDate: 2026-09-30
 tags: ["K-Pop", "SEVENTEEN", "CARAT", "Seoul", "Concert Tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/seventeen-fan-guide-seoul-spots/"
 author: "Koursea Editorial"
@@ -46,7 +46,7 @@ Presales can require fan-club enrollment plus a separate application before the 
 
 A data-only plan may not receive Korean verification messages. Check the [Korea eSIM and SIM setup guide](/posts/korea-esim-with-phone-number-2026-guide/) and verify whether the product provides a real `010` number with incoming SMS.
 
-**Current official update:** PLEDIS announced that HOSHI and WOOZI are scheduled to begin mandatory military service on September 15 and 16, 2026. Check the [official Weverse notice](https://weverse.io/seventeen/notice/28362) before planning around group activities; the notice also asks fans not to visit the enlistment site.
+**Official notice archive:** PLEDIS announced September 15 and 16, 2026 as HOSHI's and WOOZI's scheduled military-service dates. Those dates have passed, so use the [official Weverse notice](https://weverse.io/seventeen/notice/28362) only as dated context and check newer official notices before planning around group activities. The notice also asks fans not to visit the enlistment site.
 
 Download the ticket, venue map, prohibited-items policy, and return route in advance. Mobile networks may slow after a large show. Agree on a fixed meeting point and keep your accommodation address in Korean.
 
