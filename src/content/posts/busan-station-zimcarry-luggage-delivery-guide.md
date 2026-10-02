@@ -2,7 +2,7 @@
 title: "Busan Station Luggage Delivery to Haeundae: ZimCarry Cutoff and Pricing"
 description: "How same-day luggage delivery from Busan Station to Haeundae hotels works, the cutoff time to know, and why you should confirm pricing at the counter."
 pubDate: 2026-09-06
-updatedDate: 2026-09-27
+updatedDate: 2026-10-02
 tags: ["busan station", "luggage delivery", "haeundae", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/busan-station-zimcarry-luggage-delivery-guide/"
 author: "Koursea Editorial"
@@ -34,6 +34,18 @@ Delivery fees scale with luggage size, and outlying delivery zones outside centr
 ## What happens after drop-off
 
 You'll register your name, passport details, and destination hotel at the counter. Most services send a confirmation once your bags reach the hotel's storage area, and you collect them at check-in by showing your passport and claim tag.
+
+## Confirm both ends of the handoff
+
+The counter can accept a bag only under its current service rules, and the hotel must also be willing to receive it. Before paying, confirm the hotel name, branch and reservation name in writing. A similarly named property or a booking made under another traveller's name can delay the handoff even when the delivery itself reaches the correct district.
+
+Ask the hotel whether reception is staffed during the expected delivery window and whether it accepts luggage before check-in. Do not place passports, medication, cash, fragile electronics, keys or anything needed before check-in inside the delivered bag. Keep the counter receipt and photograph the bag from more than one side so the claim can be matched if a tag is damaged.
+
+## Have a station-storage fallback
+
+Same-day delivery is useful only when the current cutoff, destination coverage and hotel handoff all work. If any one of those checks fails, compare staffed storage or a locker instead of forcing the delivery. Check locker dimensions and operating access before paying; a locker that fits the suitcase may still be unavailable when the station is busy.
+
+For a beach-area plan after a successful handoff, Koursea's [Haeundae Sky Capsule booking guide](/posts/haeundae-sky-capsule-booking-sunset-direction/) explains why the confirmed departure station and time should control the rest of the itinerary.
 
 For the complete Haeundae day-one itinerary — what to do while your bags are in transit — see Koursea's [Busan Haeundae luggage delivery and storage guide](https://www.koursea.com/guide-korea-luggage-delivery-storage-zimcarry-lockers-2026.html).
 

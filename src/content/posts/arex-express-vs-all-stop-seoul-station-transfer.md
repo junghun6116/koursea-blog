@@ -2,7 +2,7 @@
 title: "AREX Express vs All-Stop: Which Train, and How to Transfer to KTX"
 description: "The real difference between AREX Express and All-Stop trains from Incheon Airport, and what the transfer to KTX at Seoul Station actually involves."
 pubDate: 2026-09-06
-updatedDate: 2026-09-28
+updatedDate: 2026-10-02
 tags: ["arex", "incheon airport", "ktx transfer", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/arex-express-vs-all-stop-seoul-station-transfer/"
 author: "Koursea Editorial"
@@ -36,6 +36,12 @@ The AREX platform and the KTX concourse at Seoul Station are connected internall
 
 For the exact route through the station, including which elevator bank to use with heavy luggage, see Koursea's [Incheon Airport AREX Express vs All-Stop guide](https://www.koursea.com/guide-incheon-airport-arex-express-vs-all-stop-2026.html).
 
+## Do not board by color or platform alone
+
+Check the service name on the departure display before entering. An Express ticket is for the operator's reserved non-stop service, while the All-Stop train uses the urban-rail fare system. A transit-card tap is not a substitute for an Express reservation, and an Express ticket should not be treated as stored transit value for a later subway ride.
+
+At the airport, verify the terminal, departure time and destination shown on the ticket or gate screen. If a flight delay makes you miss a reserved departure, follow the operator's current change or refund instructions rather than boarding a different service on assumption. Travellers choosing the All-Stop train should keep the transit card available until they have completed the fare-gate journey.
+
 ## Choose by destination, not only speed
 
 The Airport Railroad's official information distinguishes the non-stop Express service between the airport and Seoul Station from the All-Stop service that calls at the line's stations and connects with the metropolitan subway network. If your destination is along the All-Stop route, changing at Seoul Station may add unnecessary travel. If you are transferring to KTX, compare the arrival time and ticket conditions of the two services.
@@ -45,5 +51,9 @@ The operator describes the Express as a reserved service with its own ticket, wh
 ## Build a safe transfer buffer
 
 Allow time to leave the AREX platform, follow KTX signs, use lifts with luggage and find the correct departure board and platform. Separate tickets do not automatically protect a missed connection. Add more time for children, mobility needs, ticket collection or a first visit to Seoul Station.
+
+Build the buffer from the KTX departure backward: include immigration and baggage collection, the wait for the next airport train, the rail journey, the walk through Seoul Station and time to find the correct KTX platform. A published train duration covers only one part of that chain. If the connection is important, compare a later KTX rather than assuming the fastest possible airport exit.
+
+Keep the AREX and KTX confirmations accessible offline and store the KTX train number separately from the platform number, which can be assigned or changed later. Check the live KORAIL departure board after reaching Seoul Station. If Seoul is your final destination instead, continue with Koursea's [first 24 hours in Seoul plan](/posts/first-24-hours-in-seoul-survival-guide/) rather than following the KTX-transfer signs.
 
 Primary source: the [Airport Railroad official site](https://www.arex.or.kr/), which states that the Express runs non-stop to Seoul Station while the All-Stop serves the line's stations. Confirm the current KTX departure separately with KORAIL.
