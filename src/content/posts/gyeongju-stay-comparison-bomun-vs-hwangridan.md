@@ -2,7 +2,7 @@
 title: "Where to Stay in Gyeongju: Hwangridan-gil vs Bomun Complex"
 description: "Choosing between Gyeongju's walkable Hwangridan-gil district and the resort-style Bomun Tourism Complex, based on how you're actually getting around."
 pubDate: 2026-09-06
-updatedDate: 2026-09-27
+updatedDate: 2026-10-02
 tags: ["gyeongju hotels", "hwangridan-gil", "bomun", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/gyeongju-stay-comparison-bomun-vs-hwangridan/"
 author: "Koursea Editorial"
@@ -30,6 +30,18 @@ Bomun is built around lakeside resort hotels — think larger international chai
 ## The deciding factor
 
 If you're traveling by KTX and public transit without a rental car, Hwangridan-gil is the more practical base almost every time — less transit friction, more to do within walking distance after dark. If you have a car and want a quieter, resort-style stay with lake views, Bomun is a reasonable trade-off, especially traveling with kids.
+
+## Compare door-to-door travel, not district names
+
+Gyeongju's KTX station and the historic center are not the same place. Map the complete trip from the station to the exact accommodation, including the stop name, walking segment and late-arrival fallback. A property marketed as “Hwangnidan” can still sit beyond the easiest walking area, while a Bomun hotel may offer a shuttle or taxi arrangement that changes the comparison for your dates.
+
+For each sightseeing day, count how many times you would return to the room. Hwangnidan is usually easier for a midday rest when the plan stays around the historic center. Bomun can be more efficient when the hotel facilities and lake area are destinations themselves. Avoid choosing only by the straight-line distance displayed on a booking platform.
+
+## Match the stay to arrival and departure days
+
+An early KTX departure favors a plan with a verified station route and enough taxi or bus buffer. A late arrival favors a property with confirmed reception hours and a realistic last-mile option. Ask the accommodation about luggage storage before check-in and after checkout rather than assuming it is included.
+
+If the trip is only one day, changing hotels may create more work than it saves. Use Koursea's [Gyeongju KTX one-day timeline](/posts/gyeongju-ktx-1-day-trip-timeline/) to test whether the historic sights fit without an overnight stay. For a longer stay, compare one base against the actual daily routes before considering a split stay.
 
 For the historic district's own attractions, cafes, and hanbok rental spots, see Koursea's [Hwangridan-gil hanok cafes and hanbok rental guide](https://www.koursea.com/gyeongju-hwangridan-gil-hanok-cafes-hanbok-rental-street-treats.html).
 
