@@ -2,7 +2,7 @@
 title: "K-Pop Lucky Draws in Seoul: Check the Event Rules Before Paying"
 description: "How to verify a Seoul lucky-draw event, its store, purchase period, benefit rules and payment options before buying albums."
 pubDate: 2026-09-06
-updatedDate: 2026-09-27
+updatedDate: 2026-10-04
 tags: ["kpop shopping", "lucky draw", "soundwave", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/kpop-album-lucky-draw-offline-seoul-guide/"
 author: "Koursea Editorial"
@@ -39,6 +39,19 @@ Open the store's dated official event notice and record the participating branch
 
 Keep the receipt until you have checked the album quantity and event benefit. If a card is declined, avoid repeated charges and review the issuer's app before trying again. Carry a second payment method, but do not split or repeat purchases unless staff confirms how that affects eligibility.
 
+### One-minute event notice checklist
+
+| Check | Why it matters |
+|---|---|
+| Exact album version | A random version, set and platform album can have different benefits. |
+| Purchase or draw period | Payment outside the stated window may not qualify. |
+| Offline branch or online page | A benefit listed online is not automatically available at every store. |
+| Benefit ratio | One album can mean one random benefit, while a set may use a different rule. |
+| Stock wording | Album stock and event-benefit stock can run out separately. |
+| Collection and ID rule | Some events require the purchaser or winner to present matching identification. |
+
+Soundwave maintains a dedicated [official Lucky Draw category](https://en.sound-wave.co.kr/category/lucky-draw/408/), where product titles show that random, set and bonus-benefit rules can differ even within the same artist release. Read the individual product or event page, not only the category card, before paying.
+
 ## Source standard
 
-This guide intentionally does not promise a universal token, kiosk or foreign-card workaround. Use the current notice published by Soundwave, Music Plant or the named event operator, plus instructions from on-site staff. An unofficial fan post can alert you to an event, but the retailer's dated notice controls the purchase and benefit terms.
+This guide intentionally does not promise a universal token, kiosk or foreign-card workaround. Use the current notice published by Soundwave, Music Plant or the named event operator, plus instructions from on-site staff. An unofficial fan post can alert you to an event, but the retailer's dated notice controls the purchase and benefit terms. Checked against Soundwave's official Lucky Draw category on October 4, 2026.
