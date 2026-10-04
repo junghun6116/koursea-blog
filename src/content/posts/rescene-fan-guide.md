@@ -2,7 +2,7 @@
 title: "RESCENE Fan Guide: Official Channels and Seoul Visit Planning"
 description: "Plan a RESCENE-focused Korea trip using official agency notices, verified public venues and practical fan etiquette."
 pubDate: 2026-09-10
-updatedDate: 2026-09-27
+updatedDate: 2026-10-04
 tags: ["rescene", "the muze", "kpop", "seoul", "foreigner-guide"]
 canonicalUrl: "https://blog.koursea.com/posts/rescene-fan-guide/"
 author: "Koursea Editorial"
@@ -19,7 +19,7 @@ RESCENE debuted in 2024 under THE MUZE Entertainment. The group is commonly desc
 
 ## Where to verify activities
 
-Use [THE MUZE Entertainment's official channels](https://www.the-muze.com/) and RESCENE's verified social accounts for releases, fan events and ticket instructions. A fan meeting or concert is only a travel plan once the official notice names the date, venue and seller.
+Use the [RESCENE official community on Mnet Plus](https://artist.mnetplus.world/main/stg/rescene-official/contents) and [official YouTube channel](https://www.youtube.com/@RESCENE_official) for releases, fan events and ticket instructions. The former agency-domain link used by this guide no longer resolves, so it has been removed rather than presented as a current source. A fan meeting or concert is only a travel plan once the official notice names the date, venue and seller.
 
 ## Merchandise and fan access
 
@@ -31,7 +31,8 @@ There is no reason to visit private offices or chase unannounced schedules. Publ
 
 ## Official sources
 
-- [THE MUZE Entertainment](https://www.the-muze.com/)
+- [RESCENE official community on Mnet Plus](https://artist.mnetplus.world/main/stg/rescene-official/contents)
+- [RESCENE official YouTube](https://www.youtube.com/@RESCENE_official)
 - [Koursea K-pop concert ticketing guide](/posts/kpop-concert-ticketing-seoul-2026/)
 
 ## Turn an announcement into a travel check
@@ -44,4 +45,4 @@ For albums or event benefits, read the product page for the exact edition and ev
 
 Use announced stages, broadcasts with public application instructions, ticketed events and authorized retailers. Do not wait outside private offices, hotels, salons or transport routes. If a public venue has a queue, follow staff instructions and leave entrances and neighboring businesses clear.
 
-The agency site is the primary source used for the group's current public information. Koursea does not confirm rumors, private schedules or fan-created registration forms; when the agency does not publish a visit or booking route, this guide treats it as unavailable.
+The official community and artist channel are the primary sources used for the group's current public information. Koursea does not confirm rumors, private schedules or fan-created registration forms; when the artist or organizer does not publish a visit or booking route, this guide treats it as unavailable.

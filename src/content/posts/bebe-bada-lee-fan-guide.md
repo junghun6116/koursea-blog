@@ -2,7 +2,7 @@
 title: "BEBE and Bada Lee Fan Guide: Official Activities and Fan Etiquette"
 description: "A source-conscious BEBE and Bada Lee guide covering official updates, public workshops when announced and respectful fan planning."
 pubDate: 2026-09-10
-updatedDate: 2026-09-27
+updatedDate: 2026-10-04
 tags: ["bebe", "bada lee", "street woman fighter", "kpop", "seoul"]
 canonicalUrl: "https://blog.koursea.com/posts/bebe-bada-lee-fan-guide/"
 author: "Koursea Editorial"
@@ -12,14 +12,14 @@ faq:
   - question: "What is the role of 1MILLION Dance Studio in the guide?"
     answer: "1MILLION is discussed as a public dance-studio reference point, with visits kept respectful and limited to what the venue officially allows."
   - question: "Which sources should fans check for current information?"
-    answer: "The post points readers to The L1ve and Mnet Plus for official activity and event information."
+    answer: "Start with Bada Lee's verified Instagram account, then confirm each workshop or appearance through the named organizer or broadcaster."
 ---
 
-Bada Lee leads BEBE, the seven-member crew of Bada, Lusher, Kyma, Tatter, Minah, Cheche and Sowon. BEBE won Mnet's *Street Woman Fighter 2* in 2023 and was announced as represented by The L1ve in May 2024.
+Bada Lee leads BEBE, the seven-member crew of Bada, Lusher, Kyma, Tatter, Minah, Cheche and Sowon. BEBE won Mnet's *Street Woman Fighter 2* in 2023. Because representation and booking contacts can change, this guide does not treat an older agency announcement as a current event calendar.
 
 ## What visitors can actually attend
 
-Check [The L1ve](https://www.thel1ve.com/) and BEBE members' verified social accounts for performances, workshops and collaborations. A class belongs in a travel plan only when an official notice provides a public booking route, location and current terms. No such notice means this is a fan-information guide, not a studio-visit promise.
+Check [Bada Lee's verified Instagram](https://www.instagram.com/badalee__/) and the named organizer's official account for performances, workshops and collaborations. A class belongs in a travel plan only when a dated notice provides a public booking route, location and current terms. No such notice means this is a fan-information guide, not a studio-visit promise.
 
 ## About 1MILLION Dance Studio
 
@@ -31,7 +31,7 @@ Attend only announced public events, follow venue filming rules and avoid privat
 
 ## Official sources
 
-- [The L1ve](https://www.thel1ve.com/)
+- [Bada Lee on Instagram](https://www.instagram.com/badalee__/)
 - [Mnet](https://www.mnetplus.world/)
 
 ## How to verify a workshop or appearance
@@ -40,8 +40,14 @@ Start with the artist, agency, broadcaster or host studio's official account. A 
 
 If a studio lists only its normal class timetable, do not assume a specific dancer will teach. Guest teachers and public workshops should be named in a dated announcement. Recheck the post shortly before travel because cast, time and venue changes can happen.
 
+### Before paying for a class
+
+Confirm the teacher's name, class date, studio branch and booking account on the same organizer notice. Check the cancellation policy, age or skill restrictions, and whether the fee covers only the class or also filming. If payment is requested through a personal account or direct message that is not linked by the host, pause and verify it with the studio. Save the confirmation and any entry instructions offline.
+
+For visitors, the most useful announcement is one that clearly says the class is open to the public and explains how a non-Korean participant can register. A promotional dance clip by itself is not a booking notice.
+
 ## Public-event etiquette
 
 Arrive within the organizer's stated check-in window and follow rules for shoes, cameras and personal belongings. Do not turn a workplace or rehearsal location into an unofficial waiting area. Avoid publishing private movements or asking staff to disclose an unannounced schedule.
 
-The L1ve and Mnet Plus links above are the primary starting points used by this guide. Event-specific organizer notices take precedence over this overview.
+Bada Lee's verified account and Mnet are the primary discovery points used by this guide. The event-specific host or ticket notice takes precedence over this overview.
