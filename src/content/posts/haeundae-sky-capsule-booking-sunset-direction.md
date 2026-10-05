@@ -2,7 +2,7 @@
 title: "Haeundae Sky Capsule: Official Booking, Route and Sunset Planning"
 description: "Use Blue Line Park's official booking rules, route information and seasonal operating hours to plan a Haeundae Sky Capsule ride."
 pubDate: 2026-09-06
-updatedDate: 2026-09-27
+updatedDate: 2026-10-02
 tags: ["busan", "sky capsule", "haeundae", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/haeundae-sky-capsule-booking-sunset-direction/"
 author: "Koursea Editorial"
@@ -33,6 +33,20 @@ The route runs between Mipo and Cheongsapo, and direction matters if sunset phot
 - **Mipo to Cheongsapo** is the reverse one-way direction.
 
 Blue Line Park's [official route page](https://www.bluelinepark.com/eng/skyCapsuleCourse.do) describes the Mipo–Cheongsapo trip as roughly 2 km and about 30 minutes. For sunset, check the date-specific sunset time and weather, then leave a buffer: the exact view is not guaranteed by direction alone.
+
+## Pick the station before you plan the rest of the day
+
+Treat Mipo and Cheongsapo as different starting points, not interchangeable labels on the same entrance. Your reservation fixes the departure side, so save that station in your map app before leaving the hotel and compare it with the QR ticket again before boarding.
+
+Mipo is the practical choice when the rest of your day is concentrated around central Haeundae. Cheongsapo is more useful when you deliberately want to start or finish around the coastal village. Those are itinerary choices rather than promises about the view: weather, haze and the date-specific sunset angle can matter more than direction.
+
+If you are combining the capsule with other Busan stops, build the route around one confirmed departure time instead of trying to fit the ride between several distant attractions. Our [Busan subway, QR pass and Haeundae planning guide](/posts/guide-busan-subway-qr-pass-food-gamcheon-haeundae/) explains the wider transit setup.
+
+## Build a delay-safe sunset plan
+
+Use a current sunset forecast as a planning reference, then aim to reach the correct station well before the booked time. A sunset booking is not a weather guarantee, and an attractive photo window may begin before the sun reaches the horizon. Keep a daylight backup plan for cloudy or rainy conditions rather than buying a second ticket based only on a forecast.
+
+If the operator posts a weather or safety change, follow that notice even when an older booking confirmation still shows the original time. Save the reservation number, payment record and cancellation terms together so you can contact the operator without searching through several apps.
 
 ## Before booking
 

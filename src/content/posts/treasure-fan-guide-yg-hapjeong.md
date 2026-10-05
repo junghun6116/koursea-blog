@@ -2,7 +2,7 @@
 title: "TREASURE Fan Guide (2026): Official Sources, YG Hapjeong & the SameE"
 description: "A source-checked TREASURE fan guide covering the current lineup, official fan club and store, YG's Hapjeong neighborhood, and concert ticket preparation."
 pubDate: 2026-09-10
-updatedDate: 2026-09-27
+updatedDate: 2026-10-04
 tags: ["K-Pop", "TREASURE", "YG Entertainment", "Hapjeong", "Concert Tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/treasure-fan-guide-yg-hapjeong/"
 author: "Koursea Editorial"
@@ -30,6 +30,8 @@ TREASURE is a 10-member group under YG Entertainment: Choi Hyunsuk, Jihoon, Yosh
 
 Use the official [Weverse Shop](https://shop.weverse.io/en/shop/USD/artists/25/sales/4637) for current membership details and [YG SELECT](https://en.ygselect.com/category/treasure/592) for official goods. Check stock, edition and shipping region on the live product page.
 
+The [official YG profile](https://www.ygfamily.com/en/artists/treasure/profile) is the reference for the current 10-member lineup used in this guide. Fan databases can help with discovery, but they should not override a current agency profile or dated notice.
+
 ## Visiting the YG area respectfully
 
 [YG Entertainment's headquarters](https://www.koursea.com/place/5362/) is a controlled workplace, not a showroom. Stay on public sidewalks and keep entrances clear. The SameE is a public café and merchandise space for YG artists generally, so inventory and temporary events can change.
@@ -53,6 +55,15 @@ Public schedules, ticketed events and authorized retail spaces are appropriate t
 Start with TREASURE's official YG page, then open the dated notice for the specific performance or fan event. The announcement should identify the venue, sale timetable, seller and any membership-verification step. For example, YG's official notices distinguish fan-club verification from the later ticket sale; do not assume that buying a membership after a verification window creates presale access.
 
 Recheck the seller's identity rules before payment. Use the same romanized name format throughout the membership, ticket and passport fields when the notice requires identity matching. Save the confirmation, order number and event notice offline for venue pickup.
+
+Use this order when pages disagree:
+
+1. The dated YG or TREASURE announcement for the exact event.
+2. The ticket seller linked by that announcement.
+3. The venue's own access and prohibited-items page.
+4. Weverse membership notices when presale verification is involved.
+
+Social reposts and translated summaries are useful alerts, but a screenshot without a working source link should not control a ticket purchase.
 
 ## Plan Hapjeong as a public route
 

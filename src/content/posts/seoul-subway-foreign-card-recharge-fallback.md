@@ -2,7 +2,7 @@
 title: "T-Money Won't Take Your 50,000 Won Note? Recharge Fallbacks in Seoul"
 description: "What to do when a Seoul subway top-up machine rejects your large bill: convenience store counters, station staff, and breaking cash safely."
 pubDate: 2026-09-06
-updatedDate: 2026-09-28
+updatedDate: 2026-10-02
 tags: ["t-money recharge", "seoul subway", "korea transit card", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/seoul-subway-foreign-card-recharge-fallback/"
 author: "Koursea Editorial"
@@ -33,6 +33,18 @@ The machine shows the payment methods and denominations it accepts. If 50,000 wo
 ## Do not confuse T-money with the Climate Card
 
 Seoul's 2026 international-card rollout also covers buying and recharging short-term Climate Card passes at upgraded machines, with an average service fee announced by the city. That change does **not** mean an overseas card can reload every standard T-money card at every station or convenience store. Check the exact product name on the screen before paying.
+
+## Read the machine before choosing a fallback
+
+First confirm whether you are using a transit-card top-up machine, a single-journey ticket machine, or an upgraded machine that sells a short-term Climate Card. These are different transactions even when the machines stand beside one another. Use the English-language menu, check the product name and accepted payment icons, and cancel before payment if the screen is not showing the service you intended.
+
+If the machine keeps returning the same note, move aside before troubleshooting so other passengers can use it. A staffed information desk can point you to another machine or counter, but staff availability and cash-handling services vary by station. Keep enough existing balance for the next ride whenever possible instead of waiting until the gate rejects the card.
+
+## What to say at a convenience store
+
+Hand the transit card to the cashier separately from anything you are buying and state the reload amount. You can show **“티머니 충전해주세요”** (“Please recharge my T-money”) on your phone. Confirm the amount on the display or receipt before leaving; a retail purchase and a transit-card reload can be processed as separate transactions with different payment restrictions.
+
+If you also need cash from a foreign card, do not treat the convenience-store ATM as part of the cashier service. The ATM can have its own operator, network support and fees. Koursea's [foreign-card convenience-store and ATM guide](/posts/korea-convenience-store-payment-atm-foreign-card-guide/) explains that distinction and the safest fallback order.
 
 ## Keep smaller bills on hand going forward
 
