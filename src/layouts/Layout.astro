@@ -30,6 +30,17 @@ const socialImageType = /\.jpe?g(?:$|\?)/i.test(socialImage)
 <!doctype html>
 <html lang="en">
   <head>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+      window.gtag('consent', 'default', {
+        analytics_storage: 'denied',
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        wait_for_update: 500
+      });
+    </script>
     <script is:inline async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7890451432306810" crossorigin="anonymous"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -56,8 +67,6 @@ const socialImageType = /\.jpe?g(?:$|\?)/i.test(socialImage)
     <meta name="twitter:image:alt" content={socialImageAlt} />
     {schema && <script is:inline type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g, '\\u003c')} />}
     <script is:inline>
-      window.dataLayer = window.dataLayer || [];
-      window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());
       window.gtag('config', 'G-5ZLVYKCLD2', { anonymize_ip: true });
     </script>
@@ -87,9 +96,15 @@ const socialImageType = /\.jpe?g(?:$|\?)/i.test(socialImage)
           var firstScript = document.getElementsByTagName("script")[0];
           firstScript.parentNode.insertBefore(script, firstScript);
         };
-        ttq.load('DAHNIJRC77UBCVGL5600');
-        ttq.load('DAIF0IJC77UES974V9R0');
-        ttq.page();
+        ttq.holdConsent();
+        var savedConsent = null;
+        try { savedConsent = window.localStorage.getItem('koursea_blog_consent'); } catch (_) {}
+        if (savedConsent === 'full') {
+          ttq.load('DAHNIJRC77UBCVGL5600');
+          ttq.load('DAIF0IJC77UES974V9R0');
+          ttq.grantConsent();
+          ttq.page();
+        }
       }(window, 'ttq');
     </script>
     <title>{title}</title>
@@ -105,6 +120,7 @@ const socialImageType = /\.jpe?g(?:$|\?)/i.test(socialImage)
           <a href="/category/">Categories</a>
           <a href="/beauty/">K-Beauty &amp; Clinics</a>
           <a href="/about/">About</a>
+          <a href="https://q.koursea.com/">Q · LGBTQ+ Korea</a>
           <a class="service-link" href="https://www.koursea.com/">Explore Koursea ↗</a>
         </nav>
       </div>
@@ -127,10 +143,42 @@ const socialImageType = /\.jpe?g(?:$|\?)/i.test(socialImage)
       })();
     </script>
     <main id="main-content"><slot /></main>
+    <section class="consent-panel" data-consent-panel hidden aria-label="Privacy choices">
+      <div><strong>Your privacy choices</strong><p>Choose whether Koursea Journal may use analytics and advertising storage. Essential site functions remain available either way.</p><a href="/privacy-policy/">Privacy Policy</a></div>
+      <div class="consent-actions"><button type="button" data-consent="full">Analytics + ads</button><button type="button" data-consent="analytics">Analytics only</button><button type="button" data-consent="denied">Decline</button></div>
+    </section>
+    <script is:inline>
+      (function () {
+        var key = 'koursea_blog_consent';
+        var panel = document.querySelector('[data-consent-panel]');
+        var saved = null;
+        try { saved = window.localStorage.getItem(key); } catch (_) {}
+        function apply(choice) {
+          var analytics = choice === 'full' || choice === 'analytics';
+          var ads = choice === 'full';
+          window.gtag('consent', 'update', {
+            analytics_storage: analytics ? 'granted' : 'denied',
+            ad_storage: ads ? 'granted' : 'denied',
+            ad_user_data: ads ? 'granted' : 'denied',
+            ad_personalization: ads ? 'granted' : 'denied'
+          });
+        }
+        if (saved) apply(saved); else panel.hidden = false;
+        panel.addEventListener('click', function (event) {
+          var button = event.target.closest('[data-consent]');
+          if (!button) return;
+          var choice = button.dataset.consent;
+          try { window.localStorage.setItem(key, choice); } catch (_) {}
+          apply(choice);
+          panel.hidden = true;
+          if (choice === 'full') window.location.reload();
+        });
+      }());
+    </script>
     <footer>
       <div class="shell footer-grid">
         <div><a class="brand" href="/">Koursea<span>Journal</span></a><p>Independent, practical Korea travel guidance for international visitors.</p></div>
-        <nav aria-label="Legal and information"><a href="/category/">Categories</a><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy-policy/">Privacy Policy</a></nav>
+        <nav aria-label="Legal and information"><a href="/category/">Categories</a><a href="https://q.koursea.com/">Q by Koursea</a><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy-policy/">Privacy Policy</a></nav>
       </div>
       <p class="copyright">© {new Date().getFullYear()} Koursea. Verify changing fares, hours and rules with official sources.</p>
     </footer>
@@ -145,4 +193,8 @@ const socialImageType = /\.jpe?g(?:$|\?)/i.test(socialImage)
   .eyebrow{margin:0 0 .7rem;color:var(--teal);font-size:.78rem;font-weight:800;letter-spacing:.09em;text-transform:uppercase}
   .prose{min-width:0;overflow-wrap:anywhere}
   .prose table{display:block;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+</style>
+<style is:global>
+  .consent-panel{position:fixed;z-index:80;right:16px;bottom:16px;left:16px;display:flex;align-items:center;justify-content:space-between;gap:22px;max-width:960px;margin:auto;padding:18px 20px;border:1px solid var(--line);border-radius:18px;background:var(--surface);box-shadow:0 24px 70px rgba(23,33,59,.2)}
+  .consent-panel[hidden]{display:none}.consent-panel strong{font-size:15px}.consent-panel p{max-width:620px;margin:4px 0;color:var(--muted);font-size:12px;line-height:1.5}.consent-panel a{color:var(--teal);font-size:12px}.consent-actions{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:8px}.consent-actions button{min-height:40px;padding:9px 13px;border:1px solid var(--ink);border-radius:999px;background:var(--surface);color:var(--ink);font-weight:750;cursor:pointer}.consent-actions button:first-child{background:var(--ink);color:#fff}@media(max-width:700px){.consent-panel{align-items:stretch;flex-direction:column}.consent-actions{justify-content:flex-start}}
 </style>
