@@ -23,8 +23,13 @@ function walk(directory) {
 function pageUrl(file) {
   const path = relative(dist, file).split(sep).join('/');
   if (path === 'index.html') return `${site}/`;
+  if (path === '404.html') return `${site}/404/`;
   if (path.endsWith('/index.html')) return `${site}/${path.slice(0, -'index.html'.length)}`;
   return `${site}/${path}`;
+}
+
+function isSearchConsoleVerification(file) {
+  return /^google[a-z0-9]+\.html$/i.test(relative(dist, file).split(sep).join('/'));
 }
 
 function attrs(tag) {
@@ -51,6 +56,9 @@ for (const file of htmlFiles) {
   const html = readFileSync(file, 'utf8');
   const url = pageUrl(file);
   const label = relative(dist, file);
+  // Google requires this ownership token to remain an exact one-line payload,
+  // so it is not an editorial HTML page and must not be held to page SEO rules.
+  if (isSearchConsoleVerification(file)) continue;
   const tags = [...html.matchAll(/<(?:meta|link)\b[^>]*>/gi)].map((match) => ({ raw: match[0], ...attrs(match[0]) }));
   const canonicals = tags.filter((tag) => tag.rel === 'canonical');
   if (canonicals.length !== 1) errors.push(`${label}: expected 1 canonical, found ${canonicals.length}`);
