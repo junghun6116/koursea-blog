@@ -21,6 +21,8 @@ Busan's most talked-about visitor in autumn 2026 did not arrive on a concert bil
 
 The attention was real, but the situation is easy to misunderstand. Bukangi is a wild animal, not a permanent attraction. Koursea's [live Bukangi visitor guide](https://www.koursea.com/bukangi-shark-busan-north-port-guide.html) carries the latest confirmed status, directions and practical safety information. This article explains the story, why it spread so quickly and how to visit responsibly.
 
+The official Visit Busan Instagram post above provides real visual context from North Port. It remains hosted by Instagram and attributed to `@visitbusan.en`; it should not be read as a live location feed or a guarantee that Bukangi is still visible.
+
 ## The verified timeline
 
 Bukangi was first reported in the North Port canal on **September 18, 2026**. Early coverage proposed more than one possible species, so those first identifications should not be repeated as settled fact.
