@@ -15,6 +15,9 @@ const posts = defineCollection({
     author: z.string().optional(),
     reviewer: z.string().optional(),
     coverImage: z.string().optional(),
+    coverImageAlt: z.string().optional(),
+    coverImageCredit: z.string().optional(),
+    coverImageSourceUrl: z.url().optional(),
     thumbnail: z.string().optional(),
     faq: z.array(z.object({
       question: z.string(),

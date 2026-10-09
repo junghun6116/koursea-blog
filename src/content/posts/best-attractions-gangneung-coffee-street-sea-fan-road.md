@@ -7,6 +7,10 @@ category: "Sightseeing & Food"
 tags: ["best attractions in Gangneung", "Gangneung day trip", "Gangneung Coffee Street", "Sea Fan Road", "Gangneung KTX", "Koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/best-attractions-gangneung-coffee-street-sea-fan-road/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/gangneung-anmok-beach-tourapi.jpg"
+coverImageAlt: "Coffee-cup sculpture facing the blue East Sea at Anmok Beach in Gangneung"
+coverImageCredit: "Photo: Korea Tourism Organization (TourAPI), KOGL Type 1"
+coverImageSourceUrl: "https://tong.visitkorea.or.kr/cms/resource/57/4075957_image2_1.jpg"
 faq:
   - question: "What kind of attractions does this Gangneung guide cover?"
     answer: "It covers coastal stops, Gangneung Coffee Street, the Jeongdong-Simgok Sea Fan Road, a giant hourglass, royal heritage sites, and scenic places such as Gyeongpo Lake."

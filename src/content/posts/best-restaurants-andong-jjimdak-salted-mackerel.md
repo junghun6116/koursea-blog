@@ -7,6 +7,10 @@ category: "Sightseeing & Food"
 tags: ["best restaurants in Andong", "Andong food", "Andong jjimdak", "salted mackerel Andong", "Andong local restaurants", "Koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/best-restaurants-andong-jjimdak-salted-mackerel/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/andong-hahoe-village-tourapi.jpg"
+coverImageAlt: "Traditional thatched-roof homes seen through a wooden doorway in Andong Hahoe Village"
+coverImageCredit: "Photo: Korea Tourism Organization (TourAPI), KOGL Type 1"
+coverImageSourceUrl: "https://tong.visitkorea.or.kr/cms/resource/32/3542032_image2_1.jpg"
 faq:
   - question: "What foods define this Andong restaurant guide?"
     answer: "It focuses on Andong jjimdak, salted mackerel, freshwater stews, soups, and other heritage-style local meals."

@@ -7,6 +7,10 @@ category: "Sightseeing & Food"
 tags: ["best cafes in Yangyang", "Yangyang cafe", "Yangyang ocean view cafe", "Yangyang surf cafe", "Gangwon cafe", "Koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/best-cafes-yangyang-oceanfront-forest-hideaways/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/yangyang-hajodae-tourapi.jpg"
+coverImageAlt: "Pine forest path leading toward the Hajodae pavilion in Yangyang"
+coverImageCredit: "Photo: Korea Tourism Organization (TourAPI), KOGL Type 1"
+coverImageSourceUrl: "https://tong.visitkorea.or.kr/cms/resource/13/3518013_image2_1.jpg"
 faq:
   - question: "What cafe styles are covered in this Yangyang guide?"
     answer: "The list spans ocean-view bakeries, beachfront cafes, surfer-oriented roasteries, restored country houses, pine-forest retreats, and concept cafes."
