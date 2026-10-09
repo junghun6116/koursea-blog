@@ -7,6 +7,10 @@ category: "Sightseeing & Food"
 tags: ["things to do in Pohang", "Pohang attractions", "Pohang Space Walk", "Homigot Sunrise Square", "Guryongpo", "Koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/best-things-to-do-pohang-space-walk-coastal-views/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/pohang-hwanho-space-walk-tourapi.jpg"
+coverImageAlt: "Hwanho Park at sunset with Pohang Space Walk rising above the trees"
+coverImageCredit: "Photo: Korea Tourism Organization (TourAPI), KOGL Type 1"
+coverImageSourceUrl: "https://tong.visitkorea.or.kr/cms/resource/41/3009841_image2_1.jpg"
 faq:
   - question: "What is the main modern landmark in this Pohang guide?"
     answer: "Hwanho Park Space Walk is the headline modern landmark, joined by Yeongildae Beach, Pohang Sea Skywalk, Park1538, and Fire Garden."

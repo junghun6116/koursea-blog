@@ -7,6 +7,10 @@ category: "Sightseeing & Food"
 tags: ["things to do in Gyeongju", "Gyeongju attractions", "Gyeongju itinerary", "Silla heritage", "Gyeongju day trip", "Koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/20-verified-things-to-do-gyeongju/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/gyeongju-cheomseongdae-tourapi.jpg"
+coverImageAlt: "Cheomseongdae stone observatory beneath a clear blue sky in Gyeongju"
+coverImageCredit: "Photo: Korea Tourism Organization (TourAPI), KOGL Type 1"
+coverImageSourceUrl: "https://tong.visitkorea.or.kr/cms/resource/57/3100157_image2_1.jpg"
 faq:
   - question: "Which heritage stops are included in this Gyeongju guide?"
     answer: "The guide covers Silla-era and heritage stops including Cheomseongdae, Donggung and Wolji, Gyeongju National Museum, Woljeonggyo, Seokguram, Daereungwon, Gyochon, and Wolseong."

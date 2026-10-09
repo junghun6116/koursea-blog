@@ -7,6 +7,10 @@ category: "Sightseeing & Food"
 tags: ["best cafes in Gyeongju", "Gyeongju cafe", "Gyeongju hanok cafe", "Bomun Lake cafe", "Hwangridan-gil cafe", "Koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/best-cafes-gyeongju-hanok-lake-views/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/gyeongju-bomun-lake-tourapi.jpg"
+coverImageAlt: "Calm water and lakeside buildings reflected across Bomun Lake in Gyeongju"
+coverImageCredit: "Photo: Korea Tourism Organization (TourAPI), KOGL Type 1"
+coverImageSourceUrl: "https://tong.visitkorea.or.kr/cms/resource_photo/47/3502047_image2_1.JPG"
 faq:
   - question: "What styles of cafes are included in this Gyeongju list?"
     answer: "The list combines lakefront terraces in Bomun with restored traditional hanok roasteries and other coffee-focused cafes."

@@ -26,6 +26,9 @@ interface Props {
   socialImage?: string;
   socialImageAlt?: string;
   coverImage?: string;
+  coverImageAlt?: string;
+  coverImageCredit?: string;
+  coverImageSourceUrl?: string;
   wordCount: number;
   toc: Array<{ depth: number; slug: string; text: string }>;
   relatedGuides?: Array<{ href: string; title: string; eyebrow: string }>;
@@ -47,6 +50,9 @@ const {
   socialImage = '/og-default.png',
   socialImageAlt = `${title} — Koursea Journal`,
   coverImage,
+  coverImageAlt = `${title} cover`,
+  coverImageCredit,
+  coverImageSourceUrl,
   wordCount,
   toc,
   relatedGuides = [],
@@ -131,7 +137,8 @@ const schema = articleSchema;
       </div>
     </header>
     {coverImage && <figure class="article-cover">
-      <img src={coverImage} alt={`${title} cover`} width="1672" height="941" loading="eager" decoding="async" fetchpriority="high" />
+      <img src={coverImage} alt={coverImageAlt} width="1200" height="630" loading="eager" decoding="async" fetchpriority="high" />
+      {coverImageCredit && <figcaption>{coverImageSourceUrl ? <a href={coverImageSourceUrl} rel="noopener noreferrer">{coverImageCredit}</a> : coverImageCredit}</figcaption>}
     </figure>}
     {socialEmbed && <SocialEmbed {...socialEmbed} />}
     {toc.length > 0 && <details class="article-toc">
@@ -181,7 +188,7 @@ const schema = articleSchema;
   .post-breadcrumbs{display:flex;gap:.45rem;align-items:center;margin:0 0 .8rem;color:var(--muted);font-size:.78rem;font-weight:750}.post-breadcrumbs a{color:var(--teal);text-decoration:none}.post-title{margin:.15rem 0 1rem}
   .post-category-links{display:flex;flex-wrap:wrap;align-items:center;gap:.55rem;margin-top:2.5rem;padding-top:1.25rem;border-top:1px solid var(--line);font-size:.78rem}.post-category-links span{color:var(--muted);font-weight:750}.post-category-links a{padding:.45rem .7rem;border-radius:999px;background:var(--teal-soft);color:var(--teal);font-weight:850;text-decoration:none}
   .article-toc{margin:1.5rem 0 2rem;padding:1rem 1.1rem;border:1px solid var(--line);border-radius:16px;background:var(--surface)}
-  .article-cover{margin:0 0 2rem;overflow:hidden;border-radius:20px;background:var(--surface);box-shadow:var(--shadow)}.article-cover img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
+  .article-cover{margin:0 0 2rem;overflow:hidden;border-radius:20px;background:var(--surface);box-shadow:var(--shadow)}.article-cover img{display:block;width:100%;height:auto;aspect-ratio:40/21;object-fit:cover}.article-cover figcaption{padding:.65rem .9rem;color:var(--muted);font-size:.72rem;line-height:1.4}.article-cover figcaption a{color:inherit;text-underline-offset:2px}
   .article-toc summary{cursor:pointer;font-weight:850;list-style-position:inside}.article-toc ol{display:grid;gap:.45rem;margin:.9rem 0 0;padding-left:1.35rem}.article-toc li{padding-left:.15rem}.article-toc li.nested{margin-left:1rem;font-size:.92rem}.article-toc a{color:var(--teal);text-decoration-thickness:1px;text-underline-offset:3px}
   .related-pseo{margin-top:3.5rem;padding-top:2rem;border-top:1px solid var(--line)}.related-pseo h2{margin:.2rem 0 1.25rem;font:700 clamp(1.7rem,4vw,2.35rem)/1.05 Georgia,serif}.related-pseo-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem}.related-pseo-grid a{display:flex;min-height:150px;flex-direction:column;padding:1.1rem;border:1px solid var(--line);border-radius:15px;background:var(--surface);text-decoration:none}.related-pseo-grid span{color:var(--teal);font-size:.68rem;font-weight:900;letter-spacing:.08em}.related-pseo-grid strong{margin:.55rem 0;font:700 1.08rem/1.2 Georgia,serif}.related-pseo-grid small{margin-top:auto;color:var(--teal);font-weight:800}
   .article-cta__actions{display:flex;flex-wrap:wrap;gap:.65rem}.article-cta__actions a{display:inline-flex;align-items:center;min-height:44px}.article-cta__actions .article-cta__secondary{background:transparent;color:var(--teal);box-shadow:inset 0 0 0 1px var(--teal)}

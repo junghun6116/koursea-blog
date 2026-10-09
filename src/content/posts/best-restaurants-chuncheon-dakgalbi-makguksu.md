@@ -7,6 +7,10 @@ category: "Sightseeing & Food"
 tags: ["best restaurants in Chuncheon", "Chuncheon dakgalbi", "Chuncheon makguksu", "Chuncheon food guide", "Chuncheon day trip", "Koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/best-restaurants-chuncheon-dakgalbi-makguksu/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/chuncheon-soyanggang-skywalk-tourapi.jpg"
+coverImageAlt: "Soyanggang Skywalk entrance beside the river in Chuncheon"
+coverImageCredit: "Photo: Korea Tourism Organization (TourAPI), KOGL Type 1"
+coverImageSourceUrl: "https://tong.visitkorea.or.kr/cms/resource/89/3549689_image2_1.jpg"
 faq:
   - question: "What foods are central to this Chuncheon restaurant guide?"
     answer: "The guide focuses on dakgalbi, Chuncheon's spicy grilled chicken specialty, and makguksu, its cold buckwheat noodle specialty."

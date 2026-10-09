@@ -7,6 +7,10 @@ category: "Sightseeing & Food"
 tags: ["best attractions in Pocheon", "Pocheon day trip", "Hantan River Geopark", "Pocheon Herb Island", "Pocheon Art Valley", "Koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/best-attractions-pocheon-sky-bridge-hantan-geopark/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/pocheon-hantan-sky-bridge-tourapi.jpg"
+coverImageAlt: "Pocheon Hantan River Sky Bridge crossing a green basalt gorge"
+coverImageCredit: "Photo: Korea Tourism Organization (TourAPI), KOGL Type 1"
+coverImageSourceUrl: "https://tong.visitkorea.or.kr/cms/resource/45/3519945_image2_1.jpg"
 faq:
   - question: "What is the signature nature attraction in this Pocheon guide?"
     answer: "The guide highlights the Hantan River Geopark and its glass sky bridge as a major nature stop."
