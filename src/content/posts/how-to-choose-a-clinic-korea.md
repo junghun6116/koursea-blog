@@ -2,8 +2,8 @@
 title: "Factory-Style vs Private Clinic in Korea: How to Choose"
 description: "Compare factory-style and private Korean skin clinics by price, consultation, doctor continuity, procedure complexity, language, and aftercare."
 pubDate: 2026-09-04
-updatedDate: 2026-09-04
-tags: ["korean dermatology near me", "best skin clinic in seoul for foreigners", "korea dermatology clinic", "gangnam skin clinic", "koursea"]
+updatedDate: 2026-10-10
+tags: ["korean dermatology near me", "best skin clinic in seoul for foreigners", "korea dermatology clinic", "gangnam skin clinic", "facial feminization surgery korea", "gender-affirming care korea", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/how-to-choose-a-clinic-korea/"
 author: "Koursea Editorial"
 reviewer: "HJ MUN"
@@ -154,6 +154,12 @@ Before paying, ask what happens if you develop severe pain, visual symptoms, bre
 
 If you are flying soon, choose based partly on how long the clinic wants you to remain nearby. The [flying after a skin procedure guide](/posts/flying-after-skin-procedure-korea/) separates visible downtime from medical clearance and complication access.
 
+## Planning FFS or Gender-Affirming Aesthetic Care
+
+This article compares outpatient skin-clinic service models. Facial feminization surgery (FFS) is a different decision: it may combine procedures involving the forehead or hairline, nose, cheeks, jaw, chin, lips, or neck, and the plan may be completed together or in stages. Do not extend a skin-clinic price comparison to surgery without checking the surgeon, facility, anesthesia, procedure scope, recovery plan, and access to follow-up.
+
+Start with Koursea Q's independent [FFS in Korea research hub](https://q.koursea.com/ffs-korea), then use the [FFS consultation and cost worksheet](https://q.koursea.com/ffs-cost-consultation-korea) to compare written, itemized plans rather than headline prices. The broader [Care in Korea hub](https://q.koursea.com/care) covers clinic verification, records, recovery, and travel planning. These pages do not rank clinics or arrange treatment.
+
 ## Bottom Line
 
 Factory-style and private clinics are service models, not quality grades. A high-volume clinic can suit a carefully verified repeat procedure; a consultation-led practice can be valuable for uncertain diagnosis, complex anatomy, or detailed communication. Neither label replaces checking the individual physician, exact treatment variables, informed consent, emergency plan, and final tax-inclusive price.
@@ -166,6 +172,9 @@ Use [Koursea](https://koursea.com/) to navigate to a verified Korean address and
 - [U.S. FDA: Potential risks with certain RF microneedling uses](https://www.fda.gov/medical-devices/safety-communications/potential-risks-certain-uses-radiofrequency-rf-microneedling-fda-safety-communication)
 - [PubMed: Effectiveness of polynucleotides in esthetic medicine](https://pubmed.ncbi.nlm.nih.gov/39645667/)
 - [American Academy of Dermatology: Melasma diagnosis and treatment](https://www.aad.org/public/diseases/a-z/melasma-treatment)
+- [Johns Hopkins Medicine: Facial feminization surgery](https://www.hopkinsmedicine.org/health/expert-qa/facial-feminization-surgery)
+- [Medical Korea: Registered foreign-patient medical institutions](https://www.medicalkorea.or.kr/en/registeredhospitals)
+- [CDC Yellow Book: Medical tourism](https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html)
 
 ## Social & Community Distribution Snippets
 
