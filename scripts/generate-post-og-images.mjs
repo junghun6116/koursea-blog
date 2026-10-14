@@ -23,6 +23,11 @@ function titleFromFrontmatter(source, slug) {
   return raw;
 }
 
+function hasCoverImage(source) {
+  const frontmatter = source.match(/^---\s*\n([\s\S]*?)\n---/u)?.[1] ?? '';
+  return /^coverImage:\s*\S+/mu.test(frontmatter);
+}
+
 function wrapTitle(title, max = 34) {
   const words = title.split(/\s+/u);
   const lines = [];
@@ -73,9 +78,19 @@ function artwork(title, slug) {
 
 await fs.mkdir(outputDir, { recursive: true });
 const files = (await fs.readdir(postsDir)).filter((file) => file.endsWith('.md')).sort();
+let generated = 0;
+let covered = 0;
 for (const file of files) {
   const slug = path.basename(file, '.md');
   const source = await fs.readFile(path.join(postsDir, file), 'utf8');
+  const outputPath = path.join(outputDir, `${slug}.png`);
+  if (hasCoverImage(source)) {
+    // The article's licensed cover is also its social image. Do not keep a
+    // second text-only card that can drift from the visible article media.
+    await fs.rm(outputPath, { force: true });
+    covered += 1;
+    continue;
+  }
   const title = titleFromFrontmatter(source, slug);
   // SVG text uses the standard Arial/Helvetica and Georgia/Times New Roman
   // fallback families. Keep the rasterizer's PNG settings explicit so the
@@ -87,7 +102,8 @@ for (const file of files) {
       effort: 7,
       palette: true,
     })
-    .toFile(path.join(outputDir, `${slug}.png`));
+    .toFile(outputPath);
+  generated += 1;
 }
 
-console.log(`Generated ${files.length} individual post OG images in public/og/posts/.`);
+console.log(`Generated ${generated} text OG images; ${covered} posts use their licensed cover image.`);

@@ -11,6 +11,10 @@ tags:
   - K-pop Award Show Travel
 canonicalUrl: "https://blog.koursea.com/posts/kgma-mma-2026-gocheok-sky-dome-seoul-trip-guide/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/gocheok-sky-dome-wide-wikimedia.jpg"
+coverImageAlt: "Wide interior view of Gocheok Sky Dome with the field and tiered seating visible"
+coverImageCredit: "Photo: Trainholic, Wikimedia Commons, CC BY-SA 4.0; resized for web"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:Gocheok_Sky_Dome_inside_WBSC_Premier_12_2019.jpg"
 
 faq:
   - question: "Are KGMA and MMA 2026 at the same venue?"
