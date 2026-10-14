@@ -11,6 +11,10 @@ tags:
   - Korea Immigration Forms
 canonicalUrl: "https://blog.koursea.com/posts/k-eta-vs-e-arrival-card-korea-2026-guide/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/icn-terminal-2-arrival-keta-earrival.webp"
+coverImageAlt: "Travelers collecting luggage in the Terminal 2 arrival hall at Incheon International Airport"
+coverImageCredit: "Photo: AirportTerminalGuy, Wikimedia Commons, CC BY 4.0; resized and converted to WebP"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:ICN_T2_arrival.jpg"
 
 faq:
   - question: "Are K-ETA and the e-Arrival Card the same thing?"
@@ -25,7 +29,7 @@ faq:
 
 # K-ETA vs. Korea's e-Arrival Card: The Two Forms Travelers Keep Confusing (2026 Guide)
 
-Two separate Korean government forms, one easy mistake: assuming that completing one covers the other. K-ETA (Korea Electronic Travel Authorization) is a pre-travel screening some visa-free travelers apply for before they fly; the e-Arrival Card is a short entry declaration submitted within three days of landing. They come from different parts of the same process, and — critically — being exempt from one does not mean you're exempt from the other.
+Two separate Korean government forms, one easy mistake: assuming that completing one covers the other. K-ETA (Korea Electronic Travel Authorization) is a pre-travel screening some visa-free travelers apply for before they fly; the e-Arrival Card is a short entry declaration that becomes available three days before arrival in Korea, based on Korea Standard Time. They come from different parts of the same process, and — critically — being exempt from one does not mean you're exempt from the other.
 
 This mix-up matters more in 2026 than usual, because Korea extended a temporary K-ETA exemption for many visa-free nationalities through the end of the year. That exemption has quietly created a second wave of confusion: travelers who no longer need K-ETA sometimes assume they're done with paperwork entirely, then discover at check-in that the separate e-Arrival Card still applies to them.
 
@@ -57,7 +61,7 @@ In other words: "I don't need K-ETA" and "I don't need the e-Arrival Card" are t
 
 ## The Scam Pattern Behind Both Forms
 
-Korean authorities have repeatedly warned about imitation sites that mimic both services and overcharge travelers for a process that is either free (e-Arrival Card) or carries only a modest official fee (K-ETA). The pattern is consistent enough to be worth memorizing:
+Korean authorities have warned about unofficial sites for both services: the K-ETA notice describes agencies charging more than the official fee, while the Ministry of Justice says any e-Arrival Card site requesting payment information is unofficial. The pattern is consistent enough to be worth memorizing:
 
 - Type the address directly — `www.k-eta.go.kr` or `www.e-arrivalcard.go.kr` — rather than clicking a sponsored search result.
 - Confirm the domain actually ends in `.go.kr`.
@@ -74,3 +78,12 @@ Once your entry paperwork is sorted, the next practical hurdles are usually conn
 - [ ] Apply only at `.go.kr` domains, and never pay for a free government service.
 
 If you'd rather not juggle tabs mid-trip, Koursea's free, zero-login tools can help with everything that comes after you land, from transit routing to offline-friendly neighborhood guides.
+
+## Official Sources and Photo Credit
+
+- [K-ETA: temporary exemption extended through December 31, 2026](https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707&locale=EN)
+- [K-ETA: warning about non-official websites and agencies](https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=114771&locale=EN)
+- [Korea e-Arrival Card guide](https://www.e-arrivalcard.go.kr/portal/guide/eacGuide.do)
+- [Korea e-Arrival Card declaration targets and exclusions](https://www.e-arrivalcard.go.kr/portal/guide/eacTargetGuide.do)
+- [Ministry of Justice: warning about fake e-Arrival Card websites](https://www.immigration.go.kr/bbs/immigration_eng/229/604164/artclView.do)
+- Cover photo: [Incheon Airport Terminal 2 Arrival Hall](https://commons.wikimedia.org/wiki/File:ICN_T2_arrival.jpg) by AirportTerminalGuy, licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); resized and converted to WebP by Koursea.
