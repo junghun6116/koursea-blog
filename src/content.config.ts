@@ -23,6 +23,22 @@ const posts = defineCollection({
       question: z.string(),
       answer: z.string()
     })).optional()
+  }).superRefine((post, context) => {
+    if (post.pubDate < new Date('2026-10-14T00:00:00Z')) return;
+    const visualFields: Array<[string, unknown]> = [
+      ['coverImage', post.coverImage],
+      ['coverImageAlt', post.coverImageAlt],
+      ['coverImageCredit', post.coverImageCredit],
+      ['coverImageSourceUrl', post.coverImageSourceUrl]
+    ];
+    for (const [field, value] of visualFields) {
+      if (value) continue;
+      context.addIssue({
+        code: 'custom',
+        path: [field],
+        message: 'Cover images require alt text, a visible credit and the original source URL.'
+      });
+    }
   })
 });
 

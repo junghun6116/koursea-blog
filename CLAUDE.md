@@ -9,6 +9,50 @@ Content lives in `src/content/posts/*.md`, one file per post, with frontmatter
 keys `title`, `description`, `pubDate`, `updatedDate`, `tags`, `canonicalUrl`,
 `author`.
 
+## Entertainment content — travel-action requirement
+
+New content prioritizes Korean entertainment (K-pop, concerts, dramas, actors,
+variety shows) framed as travel behavior, not celebrity news summaries. Every
+new entertainment post must cover **at least 2** of:
+
+- Venue, filming location, or fan landmark
+- A neighborhood/area good for staying nearby
+- Transit, last train, or how to get back late
+- Nearby restaurants, cafés, or shopping
+- Booking/payment steps a foreign visitor actually needs
+- A one-day or overnight itinerary
+
+Before writing a new entertainment post, check for search-intent overlap with
+existing posts in `src/content/posts/` (grep by artist, agency, or venue name).
+If an existing post already covers the same intent, update that post instead
+of creating a new one.
+
+Use official/primary sources for schedules, venues, agencies, and tourism-board
+info — ticketing platforms, agency notices, venue or tourism-board sites — not
+aggregator/travel-blog roundups. Link to related Koursea place pages
+(koursea.com) and existing practical guides as internal links.
+
+## Visual publishing requirement
+
+Every newly published editorial post must include all four cover fields:
+`coverImage`, `coverImageAlt`, `coverImageCredit`, and `coverImageSourceUrl`.
+Use a real, topic-matched photograph that can be reused: Koursea-owned media,
+an official asset with explicit permission, a compatible KOGL asset from
+TourAPI, or a Wikimedia Commons file with a compatible license. Do not copy or
+rehost search-result images, news-site images, or social-media images.
+
+The cover image is not a social-only decoration. `PostLayout.astro` renders it
+in the article body with the visible credit, and the same image is used for OG
+and social previews. Write specific alt text, keep the credit/license accurate,
+and link `coverImageSourceUrl` to the original asset page rather than to a
+search result or copied file.
+
+If an accurate, rights-cleared photograph is not ready, keep the post off
+`main`. Do not publish a new post with only the generated text OG card. Legacy
+posts without photographs may keep their existing text cards until they are
+individually reviewed. `pnpm check:editorial-covers` and the build enforce this
+rule for posts published on or after October 14, 2026.
+
 ## AI mark hygiene — required for every post
 
 **Every new or edited file under `src/content/posts/` goes through
