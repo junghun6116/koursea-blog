@@ -9,6 +9,29 @@ Content lives in `src/content/posts/*.md`, one file per post, with frontmatter
 keys `title`, `description`, `pubDate`, `updatedDate`, `tags`, `canonicalUrl`,
 `author`.
 
+## Entertainment content — travel-action requirement
+
+New content prioritizes Korean entertainment (K-pop, concerts, dramas, actors,
+variety shows) framed as travel behavior, not celebrity news summaries. Every
+new entertainment post must cover **at least 2** of:
+
+- Venue, filming location, or fan landmark
+- A neighborhood/area good for staying nearby
+- Transit, last train, or how to get back late
+- Nearby restaurants, cafés, or shopping
+- Booking/payment steps a foreign visitor actually needs
+- A one-day or overnight itinerary
+
+Before writing a new entertainment post, check for search-intent overlap with
+existing posts in `src/content/posts/` (grep by artist, agency, or venue name).
+If an existing post already covers the same intent, update that post instead
+of creating a new one.
+
+Use official/primary sources for schedules, venues, agencies, and tourism-board
+info — ticketing platforms, agency notices, venue or tourism-board sites — not
+aggregator/travel-blog roundups. Link to related Koursea place pages
+(koursea.com) and existing practical guides as internal links.
+
 ## AI mark hygiene — required for every post
 
 **Every new or edited file under `src/content/posts/` goes through
