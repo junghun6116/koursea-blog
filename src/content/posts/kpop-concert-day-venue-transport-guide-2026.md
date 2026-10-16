@@ -6,6 +6,10 @@ updatedDate: 2026-09-25
 tags: ["K-pop concert Korea", "KSPO Dome transport", "Gocheok Sky Dome parking", "Inspire Arena shuttle", "Jamsil Indoor Stadium"]
 canonicalUrl: "https://blog.koursea.com/posts/kpop-concert-day-venue-transport-guide-2026/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/gocheok-sky-dome-interior-wikimedia.webp"
+coverImageAlt: "Interior seating, field and curved roof structure at Gocheok Sky Dome in Seoul"
+coverImageCredit: "Photo: redlegsfan21 (Daniel Betts), CC BY-SA 2.0, via Wikimedia Commons"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:Gocheok_Sky_Dome_(36530170325).jpg"
 faq:
   - question: "Can I drive to a K-pop concert venue in Seoul?"
     answer: "Parking is limited and may be reserved by the event organizer. Check the specific concert notice before departure and keep a public-transport return plan."

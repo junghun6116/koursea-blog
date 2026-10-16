@@ -6,6 +6,10 @@ updatedDate: 2026-10-02
 tags: ["arex", "incheon airport", "ktx transfer", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/arex-express-vs-all-stop-seoul-station-transfer/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/arex-train-wikimedia.jpg"
+coverImageAlt: "Blue AREX airport railroad train traveling on elevated tracks near Seoul"
+coverImageCredit: "Photo: mailer_diablo, CC BY-SA 3.0, via Wikimedia Commons"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:AREX-2000series.JPG"
 faq:
   - question: "What's the actual difference between AREX Express and All-Stop trains?"
     answer: "Both run the same Incheon Airport to Seoul Station route on the same track, but Express trains skip the intermediate stations, making the trip noticeably faster. All-Stop trains cost less but take longer since they call at every station along the line."
