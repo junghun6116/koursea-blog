@@ -6,6 +6,10 @@ updatedDate: 2026-09-05
 tags: ["Seongsu route", "Seongsu fashion", "pop-up stores", "Seoul Forest", "Ttukseom Hangang Park", "Seoul shopping"]
 canonicalUrl: "https://blog.koursea.com/posts/seongsu-trend-fashion-walking-route/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/seongsu-neighborhood-wikimedia.jpg"
+coverImageAlt: "Pedestrians walking past low-rise shops and a bright pink storefront in Seoul's Seongsu neighborhood"
+coverImageCredit: "Photo: Sgroey, CC BY-SA 4.0, via Wikimedia Commons"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:Seongsu_seoul_1.jpg"
 faq:
   - question: "Where does this Seongsu walking route start?"
     answer: "It starts near Seongsu Station and moves through the warehouse-scale cafe and industrial-street area before continuing toward Seoul Forest."

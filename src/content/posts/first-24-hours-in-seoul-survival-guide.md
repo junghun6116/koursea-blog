@@ -6,6 +6,10 @@ updatedDate: 2026-09-28
 tags: ["first time Seoul", "AREX", "Myeongdong", "WOWPASS", "Seoul arrival guide", "N Seoul Tower"]
 canonicalUrl: "https://blog.koursea.com/posts/first-24-hours-in-seoul-survival-guide/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/incheon-airport-terminal-2-arrival-wikimedia.jpg"
+coverImageAlt: "Travelers waiting beside baggage carousels in the Incheon Airport Terminal 2 arrivals hall"
+coverImageCredit: "Photo: AirportTerminalGuy, CC BY 4.0, via Wikimedia Commons"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:ICN_T2_arrival.jpg"
 faq:
   - question: "What does this first-day Seoul plan cover first?"
     answer: "It starts with immigration and baggage, then covers an AREX trip or luggage transfer, hotel check-in, and setting up money and transit for Myeongdong."

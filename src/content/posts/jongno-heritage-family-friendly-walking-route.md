@@ -6,6 +6,10 @@ updatedDate: 2026-09-05
 tags: ["Jongno family route", "Gyeongbokgung", "hanbok rental", "Samcheong-dong", "Insadong", "Gwangjang Market"]
 canonicalUrl: "https://blog.koursea.com/posts/jongno-heritage-family-friendly-walking-route/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/gyeongbokgung-palace-kto.webp"
+coverImageAlt: "Gyeonghoeru Pavilion reflected in its pond at Gyeongbokgung Palace in Seoul"
+coverImageCredit: "Photo: Korea Tourism Organization, KOGL Type 1"
+coverImageSourceUrl: "https://tong.visitkorea.or.kr/cms/resource/98/3487598_image2_1.jpg"
 faq:
   - question: "What is the route order in this Jongno family guide?"
     answer: "The sample day starts at Gyeongbokgung, continues through Samcheong-dong and Insadong, loops through Ssamzigil, and treats Gwangjang Market as an optional finale."
