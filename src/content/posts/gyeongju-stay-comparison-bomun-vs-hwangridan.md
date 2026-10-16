@@ -6,6 +6,10 @@ updatedDate: 2026-10-02
 tags: ["gyeongju hotels", "hwangridan-gil", "bomun", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/gyeongju-stay-comparison-bomun-vs-hwangridan/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/gyeongju-bomun-lake-tourapi.jpg"
+coverImageAlt: "Bomun Lake and surrounding green hills in Gyeongju"
+coverImageCredit: "Photo: Korea Tourism Organization (TourAPI), KOGL Type 1"
+coverImageSourceUrl: "https://tong.visitkorea.or.kr/cms/resource_photo/47/3502047_image2_1.JPG"
 faq:
   - question: "Which is more convenient without a car: Hwangridan-gil or Bomun?"
     answer: "Hwangridan-gil, by a wide margin. It's directly bus-accessible from Gyeongju KTX Station and walkable to Cheomseongdae, Daereungwon, and Woljeonggyo. Bomun generally needs a bus transfer or taxi from the station and a car or local bus to move between its own attractions."

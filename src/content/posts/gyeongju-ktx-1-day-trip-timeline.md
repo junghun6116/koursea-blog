@@ -6,6 +6,10 @@ updatedDate: 2026-09-28
 tags: ["gyeongju day trip", "ktx", "hwangridan-gil", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/gyeongju-ktx-1-day-trip-timeline/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/gyeongju-cheomseongdae-tourapi.jpg"
+coverImageAlt: "Cheomseongdae stone observatory beneath a clear blue sky in Gyeongju"
+coverImageCredit: "Photo: Korea Tourism Organization (TourAPI), KOGL Type 1"
+coverImageSourceUrl: "https://tong.visitkorea.or.kr/cms/resource/57/3100157_image2_1.jpg"
 faq:
   - question: "Is Gyeongju doable as a day trip from Seoul?"
     answer: "Yes, if you reserve suitable outbound and return KTX services and leave transfer buffers at both ends. Train availability and journey times vary by date, so confirm the actual timetable on Korail rather than relying on a fixed frequency."

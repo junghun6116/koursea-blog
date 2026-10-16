@@ -7,6 +7,10 @@ category: "Sightseeing & Food"
 tags: ["Jeonju Hanok Village", "Jeonju travel", "hanbok rental", "hanok stay", "Jeonju bibimbap", "KTX to Jeonju", "Koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/jeonju-hanok-village-guide/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/jeonju-hanok-village-wikimedia.webp"
+coverImageAlt: "Traditional tiled-roof buildings in Jeonju Hanok Village"
+coverImageCredit: "Photo: Jjw, CC BY 4.0"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:20240727_Jeonju_Hanok_Village_004.jpg"
 faq:
   - question: "Can I rent hanbok in Jeonju Hanok Village?"
     answer: "Yes. Jeonju's official tourism site describes traditional, modernized, and themed hanbok options available in the village. Rental shops set their own terms and current prices, so check directly before choosing one."
