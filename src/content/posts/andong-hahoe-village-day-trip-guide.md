@@ -7,6 +7,10 @@ category: "Sightseeing & Food"
 tags: ["Andong Hahoe Village", "Andong day trip", "Korea folk village", "UNESCO Korea", "Andong travel", "Koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/andong-hahoe-village-day-trip-guide/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/andong-hahoe-village-tourapi.jpg"
+coverImageAlt: "Traditional tiled roofs and wooded hills at Andong Hahoe Village"
+coverImageCredit: "Photo: Korea Tourism Organization (TourAPI), KOGL Type 1"
+coverImageSourceUrl: "https://tong.visitkorea.or.kr/cms/resource/32/3542032_image2_1.jpg"
 faq:
   - question: "Can I visit Hahoe Village as a day trip from Andong?"
     answer: "Yes. Hahoe Village is an Andong attraction, and official tourism information describes reaching it from Andong Station or the bus terminal by local transport. Check the current route and return times before you go, since service details can change."

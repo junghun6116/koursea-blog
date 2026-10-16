@@ -6,6 +6,10 @@ updatedDate: 2026-10-02
 tags: ["busan", "sky capsule", "haeundae", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/haeundae-sky-capsule-booking-sunset-direction/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/haeundae-blueline-park-wikimedia.webp"
+coverImageAlt: "Sky Capsule train at Haeundae Blueline Park in Busan"
+coverImageCredit: "Photo: VN.NguyenDucDuy, CC BY-SA 4.0"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:Sky_Capsule_train_at_Haeundae_Blueline_Park,_Busan.jpg"
 faq:
   - question: "Where should I book the Sky Capsule?"
     answer: "Start with Blue Line Park's official reservation page and follow the current payment and cancellation instructions shown there."
