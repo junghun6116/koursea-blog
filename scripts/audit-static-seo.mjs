@@ -23,6 +23,7 @@ function walk(directory) {
 function pageUrl(file) {
   const path = relative(dist, file).split(sep).join('/');
   if (path === 'index.html') return `${site}/`;
+  if (path === '404.html') return `${site}/404/`;
   if (path.endsWith('/index.html')) return `${site}/${path.slice(0, -'index.html'.length)}`;
   return `${site}/${path}`;
 }
@@ -40,7 +41,10 @@ function localTarget(url) {
 }
 
 if (!existsSync(dist)) throw new Error('dist/ does not exist. Run astro build first.');
-const htmlFiles = walk(dist).filter((file) => file.endsWith('.html'));
+const htmlFiles = walk(dist).filter((file) =>
+  file.endsWith('.html')
+  && !/^google[a-z0-9]+\.html$/i.test(relative(dist, file).split(sep).join('/'))
+);
 
 for (const file of htmlFiles) {
   const html = readFileSync(file, 'utf8');
