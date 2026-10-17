@@ -6,6 +6,10 @@ updatedDate: 2026-09-27
 tags: ["tax refund korea", "myeongdong shopping", "kpop merch", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/myeongdong-kpop-merch-immediate-tax-refund/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/myeongdong-street-wikimedia.jpg"
+coverImageAlt: "Pedestrians walking between shopfronts on a central Myeongdong shopping street"
+coverImageCredit: "Photo: Izzatfikry99, CC BY 4.0"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:Myeongdong_street.jpg"
 faq:
   - question: "What's the actual limit for an immediate tax refund in Korea?"
     answer: "Under the current special provision (Presidential Decree No. 35947, effective 2026-01-02, Article 10-2), an immediate refund applies to a single transaction under 1,000,000 KRW, with a total refund cap of 5,000,000 KRW per visit."
