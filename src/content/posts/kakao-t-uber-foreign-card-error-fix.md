@@ -6,6 +6,10 @@ updatedDate: 2026-09-28
 tags: ["kakao t", "uber korea", "taxi payment", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/kakao-t-uber-foreign-card-error-fix/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/seoul-standard-taxis-wikimedia.jpg"
+coverImageAlt: "Standard silver taxis waiting in Seoul"
+coverImageCredit: "Photo: Ilya Plekhanov, CC BY-SA 4.0"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:Seoul_taxis_01.jpg"
 faq:
   - question: "Why does my foreign card get declined in the Kakao T app?"
     answer: "Kakao Mobility officially lists overseas-issued Visa, Mastercard, JCB and American Express cards for taxi use. A decline can still come from the issuer, an expired or incorrectly stored card, an overseas or online-payment block, or a temporary authorization failure. Check the card network and issuer settings before assuming foreign cards are unsupported."

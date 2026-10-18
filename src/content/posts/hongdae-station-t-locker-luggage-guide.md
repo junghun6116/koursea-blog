@@ -6,6 +6,10 @@ updatedDate: 2026-09-27
 tags: ["hongdae luggage storage", "t-locker", "seoul subway", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/hongdae-station-t-locker-luggage-guide/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/hongdae-station-concourse-wikimedia.jpg"
+coverImageAlt: "Hongik University Station concourse with overhead wayfinding signs"
+coverImageCredit: "Photo: MNXANL, CC BY-SA 4.0"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:202403_Concourse_of_Hongik_University_Station.jpg"
 faq:
   - question: "Where exactly are the lockers inside Hongik University Station?"
     answer: "T-Locker banks are installed near the station's main transfer corridors, close to Exit 9 and the passage connecting to the AREX airport line. Signage inside the station points to 'Locker' or '물품보관함' from the main concourse."
