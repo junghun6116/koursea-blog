@@ -7,6 +7,10 @@ category: "Sightseeing & Food"
 tags: ["best restaurants in Yeosu", "Yeosu food", "Yeosu gejang", "Yeosu eel soup", "Jeolla-do cuisine", "Koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/best-restaurants-yeosu-raw-crab-eel-soup/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/yeosu-ganjang-gejang-wikimedia.webp"
+coverImageAlt: "Ganjang gejang, soy-marinated crab served in Korea"
+coverImageCredit: "Photo: SJ Yang, CC BY-SA 2.0, via Wikimedia Commons"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:Korean_seafood-Ganjang_gejang-Marinated_crabs_in_soy_sauce-01.jpg"
 faq:
   - question: "What specialties are featured in this Yeosu restaurant list?"
     answer: "The guide features raw marinated crab, crab set meals, local set meals, eel and seafood soups, and regional dishes such as gat-kimchi pairings."

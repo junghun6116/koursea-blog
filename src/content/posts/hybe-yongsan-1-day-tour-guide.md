@@ -6,6 +6,10 @@ updatedDate: 2026-09-25
 tags: ["K-Pop", "HYBE", "Yongsan", "Seoul Itinerary", "Concert Travel"]
 canonicalUrl: "https://blog.koursea.com/posts/hybe-yongsan-1-day-tour-guide/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/yongsan-view-wikimedia.webp"
+coverImageAlt: "View across Yongsan-gu in Seoul"
+coverImageCredit: "Photo: m-louis, CC BY-SA 2.0, via Wikimedia Commons"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:Seoul-Yongsan.gu-01.jpg"
 faq:
   - question: "What can visitors actually do at HYBE Headquarters?"
     answer: "The guide focuses on respectful public-space viewing and does not present the working headquarters as an indoor tourist attraction."

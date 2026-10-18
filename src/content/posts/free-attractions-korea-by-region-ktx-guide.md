@@ -7,6 +7,10 @@ category: "travel"
 tags: ["free things to do korea", "korea day trip ktx", "free attractions by region korea", "jeonju gyeongju free attractions", "jeju free attractions", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/free-attractions-korea-by-region-ktx-guide/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/suwon-hwaseong-fortress-wikimedia.webp"
+coverImageAlt: "Stone walls and gate at Suwon Hwaseong Fortress"
+coverImageCredit: "Photo: Bernard Gagnon, CC0, via Wikimedia Commons"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:Hwaseong_Fortress_01.jpg"
 faq:
   - question: "Are every attraction in this guide completely free?"
     answer: "No. The guide distinguishes free sites from places with free grounds but paid extras, free access with conditions, paid attractions, and entries where the cost is unclear."

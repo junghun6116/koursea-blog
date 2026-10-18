@@ -7,6 +7,10 @@ category: "Sightseeing & Food"
 tags: ["best cafes in Yongin", "Yongin cafes", "Yongin bakery cafes", "Yongin hanok cafe", "Goki-ri cafes", "Koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/best-cafes-yongin-forest-hanok-lakeside/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/yongin-korean-folk-village-tourapi.webp"
+coverImageAlt: "Traditional buildings at Korean Folk Village in Yongin"
+coverImageCredit: "Photo: Korea Tourism Organization (TourAPI), KOGL Type 1"
+coverImageSourceUrl: "https://tong.visitkorea.or.kr/cms/resource/87/3563987_image2_1.jpg"
 faq:
   - question: "What kinds of cafes are included in Yongin?"
     answer: "The guide covers large garden bakeries, architectural flagships, lake-view cafes, valley retreats, and minimalist nature-oriented spaces."
