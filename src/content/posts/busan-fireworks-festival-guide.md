@@ -7,6 +7,10 @@ category: "travel"
 tags: ["busan fireworks festival", "gwangalli beach", "busan events 2026", "busan november", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/busan-fireworks-festival-guide/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/gwangalli-beach-tourapi.webp"
+coverImageAlt: "Gwangalli Beach and the Busan waterfront"
+coverImageCredit: "Photo: Korea Tourism Organization (TourAPI), KOGL Type 1"
+coverImageSourceUrl: "https://tong.visitkorea.or.kr/cms/resource/45/3311245_image2_1.jpg"
 faq:
   - question: "Where does this Busan fireworks guide suggest watching from?"
     answer: "It compares Gwangalli Beach, Dongbaekseom and Haeundae-side viewpoints, Igidae, and paid seats."

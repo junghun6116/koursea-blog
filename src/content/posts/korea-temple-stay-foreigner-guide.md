@@ -7,6 +7,10 @@ category: "travel"
 tags: ["Korea temple stay", "temple stay for foreigners", "Korean Buddhism", "Korea cultural experience", "Korea travel planning", "Koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/korea-temple-stay-foreigner-guide/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/bongeunsa-temple-tourapi.webp"
+coverImageAlt: "Bongeunsa Temple buildings in Seoul"
+coverImageCredit: "Photo: Korea Tourism Organization (TourAPI), KOGL Type 1"
+coverImageSourceUrl: "https://tong.visitkorea.or.kr/cms/resource/70/3422470_image2_1.jpg"
 faq:
   - question: "What happens during a Korean temple stay?"
     answer: "Programs vary by temple, but VISITKOREA describes activities that may include Buddhist services, meditation, 108 prostrations, communal work, and temple food. Check the individual program listing to see what is actually included."

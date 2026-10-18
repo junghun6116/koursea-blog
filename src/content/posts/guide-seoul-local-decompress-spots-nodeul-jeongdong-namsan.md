@@ -6,6 +6,10 @@ updatedDate: 2026-09-04
 tags: ["Seoul Travel", "Hidden Seoul", "Nodeul Island", "Namsan", "Local Seoul"]
 canonicalUrl: "https://blog.koursea.com/posts/guide-seoul-local-decompress-spots-nodeul-jeongdong-namsan/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/nodeul-island-wikimedia.webp"
+coverImageAlt: "Nodeul Island beside the Han River in Seoul"
+coverImageCredit: "Photo: Kangwonp, CC BY-SA 4.0, via Wikimedia Commons"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:Photo_by_Nodeul_Island.jpg"
 faq:
   - question: "Which decompression areas are compared?"
     answer: "The guide compares Nodeul Island, Jeong-dong's Seoul Maru and SeSil Maru, Namsan Outdoor Botanical Garden, Yangjaecheon, and Maeheon Citizens' Forest."

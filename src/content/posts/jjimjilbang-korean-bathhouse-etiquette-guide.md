@@ -6,6 +6,10 @@ updatedDate: 2026-10-02
 tags: ["jjimjilbang", "korean sauna", "etiquette", "seoul", "foreigner-guide"]
 canonicalUrl: "https://blog.koursea.com/posts/jjimjilbang-korean-bathhouse-etiquette-guide/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/jjimjilbang-common-room-wikimedia.webp"
+coverImageAlt: "Common relaxation room inside a Korean jjimjilbang"
+coverImageCredit: "Photo: Choikwangmo9, CC0, via Wikimedia Commons"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File%3A2020-03-11_22.51.49_%EC%B0%9C%EC%A7%88%EB%B0%A9_%EC%A0%84%EA%B2%BD.jpg"
 faq:
   - question: "What should a first-time visitor expect at jjimjilbang check-in?"
     answer: "The guide explains the check-in flow, towel handling, and the distinction between nude bathing zones and shared sauna rooms."

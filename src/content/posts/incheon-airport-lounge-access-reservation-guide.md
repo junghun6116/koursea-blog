@@ -6,6 +6,10 @@ updatedDate: 2026-09-28
 tags: ["Incheon Airport", "Airport Lounges", "Terminal 1", "Terminal 2", "Airport Planning"]
 canonicalUrl: "https://blog.koursea.com/posts/incheon-airport-lounge-access-reservation-guide/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/incheon-airport-terminal-2-arrival-wikimedia.jpg"
+coverImageAlt: "Arrival hall inside Incheon International Airport Terminal 2"
+coverImageCredit: "Photo: AirportTerminalGuy, CC BY 4.0, via Wikimedia Commons"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:ICN_T2_arrival.jpg"
 
 faq:
   - question: "What should I check before booking an airport lounge?"

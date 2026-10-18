@@ -6,6 +6,10 @@ updatedDate: 2026-09-04
 tags: ["K-Pop", "YG Entertainment", "Hapjeong", "Hongdae", "K-Pop Shopping"]
 canonicalUrl: "https://blog.koursea.com/posts/yg-hapjeong-mapo-tour-guide/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/hongdae-nightlife-wikimedia.webp"
+coverImageAlt: "Hongdae nightlife district near Hapjeong in Seoul"
+coverImageCredit: "Photo: Ken Eckert, CC BY-SA 4.0, via Wikimedia Commons"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:Hongdae_Party_District_at_Night,_Seoul.jpg"
 faq:
   - question: "Can visitors enter YG Entertainment headquarters in Hapjeong?"
     answer: "No. The guide treats YG as an active office and recommends only a brief exterior photo stop from public space without waiting at gates or driveways."
