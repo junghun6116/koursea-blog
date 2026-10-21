@@ -2,7 +2,7 @@
 title: "K-POP Music Shows in Seoul: Inkigayo & The Show 2026"
 description: "Foreigner guide to Seoul music shows: Network lotteries vs. Weverse pre-recordings vs. guaranteed packages. ID matching rules, gear checks, and booking."
 pubDate: 2026-09-04
-updatedDate: 2026-09-04
+updatedDate: 2026-10-21
 category: "travel"
 tags: ["kpop music shows", "inkigayo tickets", "the show sbs", "weverse pre-recording", "seoul travel"]
 canonicalUrl: "https://blog.koursea.com/posts/guide-kpop-music-show-foreigner-tickets-inkigayo-theshow/"
@@ -33,11 +33,11 @@ Pre-recording sessions (사전녹화, commonly shortened to "사녹"/sa-nok) are
 Paid tour packages built specifically for non-Korean passport holders are the one pathway designed around the exact problems Pathways A and B create: no Korean phone verification, no lottery, no fanclub membership required. Platforms like Trazy, Klook, and Korea Travel Easy sell seats to "The Show" (SBS's foreigner-facing music show taping) bundled with a short guided tour, confirmed by email in advance. If your goal is "guaranteed seat in a real K-pop taping during my trip," this is the pathway that actually delivers that.
 
 ## Important 2026 Update: "The Show" Returned Changed
-Worth knowing before you book anything: The Show returned in **June 2026** as a relaunched, globally-simulcast format (branded "SBS Life The Show" going forward), rebroadcast simultaneously on SBS Life, BIGC ON, and the show's own YouTube and TikTok channels.
+Worth knowing before you book anything: [Soompi reported The Show's official return](https://www.soompi.com/article/1840768wpp/music-program-the-show-announces-official-return) in **June 2026** as a relaunched, globally-simulcast format (branded "SBS Life The Show" going forward), with production now run by entertainment-tech company BIGC rather than SBS Medianet directly, rebroadcast simultaneously on SBS Life, BIGC ON, and the show's own YouTube and TikTok channels.
 
 Two practical changes from the pre-2026 version most fan guides still describe:
-1. Filming now happens **roughly twice a month on Tuesdays rather than every week**.
-2. Voting has moved to a new global BIGC platform.
+1. Broadcasts now run **roughly every two weeks on Tuesdays rather than every week** — [Sports Khan's episode-by-episode coverage](https://sports.khan.co.kr/article/202607101213003) shows episode 395 airing July 14 and episode 396 airing July 28, both Tuesdays, two weeks apart.
+2. Pre-voting has moved to **BIGC CHOICE**, a fandom platform run by BIGC, replacing the show's old voting system.
 
 The venue hasn't changed — it's still **SBS Prism Tower in Sangam-dong** — but check the specific taping date on your booking platform before you build a day around it, since it's no longer a guaranteed weekly fixture.
 
@@ -48,8 +48,8 @@ If you're going the fanclub pre-recording route rather than a paid package, thes
 - **Application timing is unforgiving:** Forms open at a precise server time, and slots fill within seconds. Have the form pre-loaded before the stated second.
 
 ## The Guaranteed Foreigner Package: What It Actually Costs and Includes
-- **How it works:** Foreigner-only seats to The Show at SBS Prism Tower bundled with a short guided tour and English-speaking staff.
-- **Price range:** Expect roughly **$65 to $170 USD** depending on the platform, seat tier (reserved seating vs. standing), and season.
+- **How it works:** Foreigner-only seats to The Show at SBS Prism Tower bundled with a short guided tour and English-speaking staff, sold by platforms including [Trazy](https://www.trazy.com/ko/experience/detail/sbs-life-the-show-tour) and Klook.
+- **Price range:** Listed prices vary by platform, seat tier, and season — Koursea checked multiple current listings while updating this guide and found figures scattered roughly between $90 and $170 USD for comparable show-plus-tour packages, with no single stable number across platforms. Check the live price on your chosen platform rather than relying on a figure quoted here or elsewhere.
 - **Why it's worth it:** It sidesteps domestic Korean phone verification and fanclub membership gates entirely.
 
 ## On-Site Survival & Etiquette in Sangam-dong
@@ -59,5 +59,7 @@ If you're going the fanclub pre-recording route rather than a paid package, thes
 
 ## Getting There Without Guesswork
 Whichever pathway lands you a seat, showing an unfamiliar studio address to a taxi driver in Korean beats trying to pronounce "SBS 프리즘타워" yourself. Search SBS Prism Tower, CJ ENM Center, or KBS Hall on [Koursea](https://koursea.com) and use the one-tap Korean address card to show your driver directly from your phone.
+
+Sources and verification date (2026-10-21): Soompi and Sports Khan for The Show's June 2026 relaunch, broadcast cadence, and BIGC CHOICE voting; Trazy's own product listing for the guaranteed-package concept. Package pricing was re-checked against multiple current platform listings while updating this guide — the figures disagreed enough that this guide now points to the live listing instead of quoting one number.
 
 ---
