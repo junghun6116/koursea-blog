@@ -2,7 +2,7 @@
 title: "Beyond Seoul & Busan: Free Things to Do Across Korea by Region (2026)"
 description: "A KTX-accessible, officially-verified guide to free and mostly-free attractions in Suwon, Incheon, Daegu, Gwangju, Jeonju, Namwon, Gyeongju, Andong, and Jeju."
 pubDate: 2026-09-05
-updatedDate: 2026-09-05
+updatedDate: 2026-10-22
 category: "travel"
 tags: ["free things to do korea", "korea day trip ktx", "free attractions by region korea", "jeonju gyeongju free attractions", "jeju free attractions", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/free-attractions-korea-by-region-ktx-guide/"
@@ -32,11 +32,11 @@ Korea's national and public museums almost all follow the same pattern: the perm
 - **Paid** — flagging this because it's commonly assumed to be free and isn't.
 - **Unclear** — the official source doesn't state it plainly enough to promise "free" in good faith; confirm on-site or skip if budget is tight.
 
-## Suwon (30–40 min from Seoul)
+## Suwon: Plan the Station Connection
 
 **Free** — Hwaseong Fortress's wall walk, including [Janganmun Gate](https://www.koursea.com/place/1179/), [Hwaseomun Gate](https://www.koursea.com/place/2593/), and [Banghwasuryujeong Pavilion](https://www.koursea.com/place/1236/), costs nothing to walk. It's one of the few full UNESCO World Heritage sites in the country you can experience without buying a ticket. [Suwon Museum of Art](https://www.koursea.com/place/1239/)'s Art Library and the [Hangridan-gil shopping street](https://www.koursea.com/place/1241/) are both free to browse as well.
 
-Suwon works well as a half-day add-on before or after a Seoul itinerary — everything above is within walking distance of Suwon Station.
+Plan the connection from Suwon Station to the heritage area separately. The [Suwon Cultural Foundation's official directions](https://www.swcf.or.kr/?p=68) list a bus connection to Hwaseong Haenggung followed by a short walk; do not assume every stop above is beside the station. Our [Suwon day-trip guide](/posts/lovely-runner-suwon-filming-locations-day-trip-guide/#getting-there-from-seoul) gives the station exit, bus stop, and palace arrival route. Check live departures and your return connection before leaving. This Suwon transport note was checked on October 22, 2026; the other regional admission notes retain their September verification date.
 
 ## Incheon (subway/AREX distance from Seoul)
 
