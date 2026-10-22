@@ -1,8 +1,8 @@
 ---
 title: "A Suwon Day Trip: Hwaseong Fortress, Haenggung-dong & Lovely Runner's Filming Cafe"
-description: "Plan a Suwon day trip from Seoul around Hwaseong Fortress and Haenggung-dong, including the real cafe used in Lovely Runner — with sourced transit, admission, and lodging notes, and what you should verify yourself before going."
+description: "Plan a Suwon day trip from Seoul around Hwaseong Fortress and Haenggung-dong, including the cafe identified in Korean reporting as a Lovely Runner filming location — with sourced transit, admission, and lodging notes."
 pubDate: 2026-10-20
-updatedDate: 2026-10-20
+updatedDate: 2026-10-22
 tags:
   - Suwon Day Trip from Seoul
   - Suwon Hwaseong Fortress
@@ -24,12 +24,12 @@ faq:
   - question: "How do I get from Seoul to Haenggung-dong?"
     answer: "Suwon is reachable from Seoul by rail. Check Korail or a map app such as Naver Map or Kakao Map for the current train and subway options and schedule, since this guide does not assert which specific services run."
   - question: "What are Hwaseong Haenggung Palace's hours and fees?"
-    answer: "The Suwon Cultural Foundation's official page lists daytime hours as 09:00-18:00 year-round, with a seasonal night-opening from May 1 to November 1, 2026 on Fridays, weekends, and public holidays, 18:00-21:00 entry / 21:30 close. Confirm the live listing before you go, since schedules can change."
+    answer: "The Suwon Cultural Foundation's official page lists daytime hours as 09:00-18:00 year-round. Its 2026 seasonal night-opening runs May 1-November 1 on Fridays, weekends, and public holidays, from 18:00 to 21:30, with last admission at 21:00. Confirm the live listing before you go, since schedules can change."
 ---
 
 # A Suwon Day Trip: Hwaseong Fortress, Haenggung-dong & Lovely Runner's Filming Cafe
 
-Suwon's Haenggung-dong neighborhood, built around the UNESCO World Heritage Hwaseong Fortress, is a genuine day trip from Seoul on its own — and it also happens to hold the real cafe used in "Lovely Runner" (선재 업고 튀어). The photo above shows the fortress itself as general area context; it is not a still from the drama. This guide focuses on what's actually sourced: the fortress's official hours and fees, how to get there, where to stay, and a reminder to respect private property along the way.
+Suwon's Haenggung-dong neighborhood, built around the UNESCO World Heritage Hwaseong Fortress, is a genuine day trip from Seoul on its own — and Korean entertainment reporting identifies a cafe there as an Im Sol filming location from "Lovely Runner" (선재 업고 튀어). The photo above shows the fortress itself as general area context; it is not a still from the drama. This guide focuses on what's actually sourced: the fortress's official hours and fees, how to get there, where to stay, and a reminder to respect private property along the way.
 
 For other sourced filming locations around Seoul, see Koursea's [10 K-Drama & K-Pop Filming Locations Near Seoul](/posts/kdrama-kpop-filming-locations-seoul-2026/). This guide goes deep on a single day trip instead.
 
@@ -57,7 +57,7 @@ If your interest is a different drama's Suwon filming spots, Koursea separately 
 
 ## Food and Cafes Beyond Monte-d
 
-Haengridan-gil — a nickname [Dailian's travel feature](https://www.dailian.co.kr/news/view/1476852/) traces to a blend of Seoul's "Gyeongridan-gil" and "Haenggung-dong" — has grown into a cafe-and-hanok-alley district on its own, independent of any one drama. Koursea's dedicated [cafe street guide](https://www.koursea.com/suwon-haenggung-dong-cafe-street-hanok-courtyards-pastries.html) lists hanok-courtyard cafes and pastry shops in the immediate area if Monte-d has a wait.
+[Dailian's travel feature](https://www.dailian.co.kr/news/view/1476852/) describes Haengridan-gil as one of Suwon's best-known visitor routes, with architecture and distinctive cafes drawing travelers beyond any one drama location. Koursea's dedicated [cafe street guide](https://www.koursea.com/suwon-haenggung-dong-cafe-street-hanok-courtyards-pastries.html) lists hanok-courtyard cafes and pastry shops in the immediate area if Monte-d has a wait.
 
 ## Summary Checklist
 
@@ -67,4 +67,4 @@ Haengridan-gil — a nickname [Dailian's travel feature](https://www.dailian.co.
 - [ ] Use the Suwon Cultural Foundation's official page to confirm the current Haenggung Palace daytime hours, night-opening season, and fees.
 - [ ] Budget time for the wider Haengridan-gil cafe street, not just the one filming spot.
 
-Sources and verification date (2026-10-20): the Suwon Cultural Foundation's official Haenggung Palace page for daytime and night-opening hours; TF News, WikiTree, Dailian, and fan-community reporting (fanmaum.com) for the Lovely Runner cafe context and neighborhood background. This session could not independently verify Korail's current timetable against a primary source, so it is flagged above for on-site confirmation rather than stated as fact.
+Sources and verification date (2026-10-22): the Suwon Cultural Foundation's official Haenggung Palace page for daytime and night-opening hours; TF News, WikiTree, Dailian, and fan-community reporting (fanmaum.com) for the Lovely Runner cafe context and neighborhood background. This session could not independently verify Korail's current timetable against a primary source, so it is flagged above for on-site confirmation rather than stated as fact.
