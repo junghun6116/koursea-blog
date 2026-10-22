@@ -22,7 +22,7 @@ faq:
   - question: "Should I try to find the house used as a character's home in the drama?"
     answer: "No. Koursea does not publish directions to private residences connected to any filming location. If one happens to be visible from a public street, do not approach, photograph, or linger — it is someone's actual home."
   - question: "How do I get from Seoul to Haenggung-dong?"
-    answer: "Suwon is reachable from Seoul by rail. Check Korail or a map app such as Naver Map or Kakao Map for the current train and subway options and schedule, since this guide does not assert which specific services run."
+    answer: "Plan a rail journey to Suwon Station, served by Line 1 and the Suin–Bundang Line. The Suwon Cultural Foundation lists buses 11 or 13 from the Novotel stop near Exit 4 to Hwaseong Haenggung · Suwon Seongji, followed by about a five-minute walk. Recheck the current route before leaving."
   - question: "What are Hwaseong Haenggung Palace's hours and fees?"
     answer: "The Suwon Cultural Foundation's official page lists daytime hours as 09:00-18:00 year-round. Its 2026 seasonal night-opening runs May 1-November 1 on Fridays, weekends, and public holidays, from 18:00 to 21:30, with last admission at 21:00. Confirm the live listing before you go, since schedules can change."
 ---
@@ -43,11 +43,19 @@ Beyond this one cafe, Koursea could not independently confirm which specific sce
 
 ## Getting There from Seoul
 
-Koursea could not independently confirm which specific trains or subway lines currently connect Seoul to Suwon Station for this guide, so check Korail or a map app such as Naver Map or Kakao Map for the current rail and subway options before you travel. From Suwon Station, Haenggung-dong and Hwaseong Fortress require a further bus or taxi ride — the station is not within walking distance of the fortress area.
+Plan your rail journey to **Suwon Station (수원역)**, which [Seoul's official 2026 guidebook](https://english.seoul.go.kr/wp-content/uploads/2026/03/seoulguidebook_eng.pdf#page=53) lists on **Line 1 and the Suin–Bundang Line**. Check your departure station, service destination, transfers, and return journey in a live map app before leaving, and allow time for the onward connection below.
+
+The [Suwon Cultural Foundation's official directions](https://www.swcf.or.kr/?p=68) give this onward route to **Hwaseong Haenggung Palace (화성행궁)**:
+
+1. Leave Suwon Station through **Exit 4** and find the **Suwon Station Novotel stop (수원역 노보텔)** in front of the hotel.
+2. Take city bus **11 or 13** toward **Hwaseong Haenggung · Suwon Seongji (화성행궁·수원성지)**.
+3. Get off at that stop and walk **about five minutes** to the palace. Use the palace as your arrival point before exploring Haenggung-dong.
+
+Bus routes and stop arrangements can change; recheck the official directions and live departures on the day. If you prefer walking from the station, compare the full walking route and your group's needs in a map app rather than assuming the heritage area is beside the station. For card setup before boarding, see our [Seoul transit card guide](/posts/seoul-subway-transit-card-guide/).
 
 ## Where to Stay
 
-For a single day trip, most visitors base themselves in Seoul and travel to Suwon and back the same day by rail — check Korail or a map app for the current options. If you'd rather stay overnight, lodging clusters near Suwon Station itself (better onward transit) and within walking distance of Haenggung-dong (closer to the fortress and the cafe street, but fewer large hotel options). Koursea's [Suwon Haenggung-dong Cafe Street guide](https://www.koursea.com/suwon-haenggung-dong-cafe-street-hanok-courtyards-pastries.html) covers the immediate neighborhood if you're staying inside it.
+For a single day trip, most visitors base themselves in Seoul and travel to Suwon and back the same day by rail — check a live map app for your outbound and return connections. If you'd rather stay overnight, lodging clusters near Suwon Station itself (better onward transit) and within walking distance of Haenggung-dong (closer to the fortress and the cafe street, but fewer large hotel options). Koursea's [Suwon Haenggung-dong Cafe Street guide](https://www.koursea.com/suwon-haenggung-dong-cafe-street-hanok-courtyards-pastries.html) covers the immediate neighborhood if you're staying inside it.
 
 ## Hwaseong Fortress and Haenggung Palace: Sourced Hours and Fees
 
@@ -63,8 +71,8 @@ If your interest is a different drama's Suwon filming spots, Koursea separately 
 
 - [ ] Confirm Monte-d's current address, hours, and walk-in/reservation policy on the day you go, via a live map listing or its own social account.
 - [ ] Do not seek out, approach, or photograph any private residence connected to a filming location.
-- [ ] Check Korail or a map app for the current Seoul–Suwon rail and subway options before you travel.
+- [ ] Save the official Suwon Station–Haenggung Palace directions above, and check live outbound and return connections before you travel.
 - [ ] Use the Suwon Cultural Foundation's official page to confirm the current Haenggung Palace daytime hours, night-opening season, and fees.
 - [ ] Budget time for the wider Haengridan-gil cafe street, not just the one filming spot.
 
-Sources and verification date (2026-10-22): the Suwon Cultural Foundation's official Haenggung Palace page for daytime and night-opening hours; TF News, WikiTree, Dailian, and fan-community reporting (fanmaum.com) for the Lovely Runner cafe context and neighborhood background. This session could not independently verify Korail's current timetable against a primary source, so it is flagged above for on-site confirmation rather than stated as fact.
+Sources and verification date (2026-10-22): the Suwon Cultural Foundation's [visitor information](https://www.swcf.or.kr/?p=65) for daytime and night-opening hours and [official directions](https://www.swcf.or.kr/?p=68) for the station lines, bus connection, and final walk; TF News, WikiTree, Dailian, and fan-community reporting (fanmaum.com) for the Lovely Runner cafe context and neighborhood background. Live rail timetables and the cafe's current opening details still need checking before your trip.
