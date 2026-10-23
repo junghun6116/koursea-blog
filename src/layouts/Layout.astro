@@ -192,7 +192,7 @@ const socialImageType = /\.jpe?g(?:$|\?)/i.test(socialImage)
 <style is:global>
   .eyebrow{margin:0 0 .7rem;color:var(--teal);font-size:.78rem;font-weight:800;letter-spacing:.09em;text-transform:uppercase}
   .prose{min-width:0;overflow-wrap:anywhere}
-  .prose table{display:block;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .prose table{display:block;min-width:0;max-width:100%;overflow-x:auto;overflow-wrap:normal;-webkit-overflow-scrolling:touch}
 </style>
 <style is:global>
   .consent-panel{position:fixed;z-index:80;right:16px;bottom:16px;left:16px;display:flex;align-items:center;justify-content:space-between;gap:22px;max-width:960px;margin:auto;padding:18px 20px;border:1px solid var(--line);border-radius:18px;background:var(--surface);box-shadow:0 24px 70px rgba(23,33,59,.2)}
