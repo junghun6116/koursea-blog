@@ -34,17 +34,17 @@ Since what audiences see on stage is an animated avatar driven by a performer wo
 
 ## KEEP IT MANIC: Recent Context, Not a Current Event
 
-Seoul has already sold out arena and stadium dates for PLAVE before — two encore nights at Gocheok Sky Dome closed the 2025 Asia tour "DASH: Quantum Leap" in November 2025, reportedly the first time a virtual act sold out that venue, though exact attendance figures vary by outlet and no single official number has been verified here. PLAVE's first *world* tour, **"KEEP IT MANIC,"** opened in 2026 with two shows at **Incheon Munhak Stadium** on **September 12 and 13**, confirmed on [PLAVE's official Weverse tour notice](https://weverse.io/plave/notice/37847). That same notice lists the tour continuing afterward to Kanagawa (Japan), Kaohsiung, Bangkok, Singapore, Taipei and Macau — so by the time you're reading this, the tour itself may already be in a different country or finished entirely.
+PLAVE's first *world* tour, **"KEEP IT MANIC,"** opened in 2026 with two shows at **Incheon Munhak Stadium** on **September 12 and 13**, confirmed on [PLAVE's official Weverse tour notice](https://weverse.io/plave/notice/37847). That notice lists later stops in Kanagawa, Kaohsiung, Bangkok, Singapore, Taipei, Macau and Pasadena, so check the current notice rather than treating the Incheon dates as an active sale.
 
-The Incheon dates sold through [NOL Ticket's official listing for the show](https://nol.yanolja.com/ticket/products/26008189), which priced general admission at VIP ₩198,000, R-seat ₩154,000 and S-seat ₩132,000, running a PLLI membership presale before general sale opened. Those prices and that presale window applied only to the Incheon show — they are not a standing price for a future date.
+The Incheon dates sold through [NOL Ticket's official listing for the show](https://nol.yanolja.com/ticket/products/26008189). The listing confirms the venue, dates and PLLI membership presale requirements, and now marks the event as closed. Those rules applied only to the Incheon show and should not be assumed for a future date.
 
 Whenever you're reading this, September 2026 is already in the past — worth knowing for how PLAVE structures a tour and prices its tickets, but not evidence that a new Seoul-area date is on sale right now. Any older tour poster or ticket page deserves the same treatment this site gives other groups' past eras: background, not a live schedule.
 
 ## Where to Check for a New Seoul-Area Date
 
-VLAST has not announced a new Korea date as of this update. Rather than guessing, use these official or primary-source channels directly:
+The official sources checked on October 25, 2026 did not list another Korea date after Incheon. Rather than guessing, use these channels directly:
 
-- PLAVE's own [Weverse](https://weverse.io/plave) community and notice board, where every tour and ticketing announcement has run so far.
+- PLAVE's own [Weverse](https://weverse.io/plave) notice board for current tour announcements.
 - Koursea's own [2026 Korea K-pop concert and fan meeting calendar](https://www.koursea.com/kpop-concert-fanmeeting-calendar-korea-2026.html), which tracks confirmed Korea-area concert and fan-meeting dates (including PLAVE's past Incheon run) as organizers announce them.
 - NOL Ticket's event listings, since VLAST's Korea shows have sold through NOL so far — though a different platform is possible for a future show.
 
@@ -67,6 +67,4 @@ Read the [K-Pop concert ticketing guide](/posts/kpop-concert-ticketing-seoul-202
 Checked 2026-10-25. Primary sources used:
 
 - [PLAVE official Weverse tour notice](https://weverse.io/plave/notice/37847) — confirms the Incheon Munhak Stadium dates (September 12–13, 2026) and the tour's later stops.
-- [NOL Ticket's official listing for the Incheon show](https://nol.yanolja.com/ticket/products/26008189) — confirms venue, ticket tiers and pricing, and the presale structure.
-
-**Limitation, disclosed per policy:** this session's `WebFetch` tool could not directly open either URL (`getaddrinfo ENOTFOUND`, a structural block in this environment on every external domain tried). Both facts are drawn from `WebSearch` result summaries of those official pages, not a direct-rendered fetch, and both were cross-checked against Koursea's own main-site [K-pop concert calendar](https://www.koursea.com/kpop-concert-fanmeeting-calendar-korea-2026.html), which independently lists the same Incheon dates, venue and the same official Weverse notice as its source. The 2025 Gocheok Sky Dome sellout mentioned above is reported by entertainment-press outlets, not an official PLAVE/VLAST statement, and is kept as background context rather than a sourced claim. No price, date or sale rule was estimated or invented.
+- [NOL Ticket's official listing for the Incheon show](https://nol.yanolja.com/ticket/products/26008189) — confirms the venue, dates, official seller, membership-presale requirement and that sales have ended.
