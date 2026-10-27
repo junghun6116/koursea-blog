@@ -9,12 +9,12 @@ const hubs = categoryHubs.map((hub) => ({
   count: posts.filter((post) => categoriesForTags(post.data.tags).some((category) => category.slug === hub.slug)).length
 }));
 ---
-<Layout title="Guide Categories | Koursea Blog" description="Browse Koursea travel guides by K-Pop, healthcare and practical travel topics.">
+<Layout title="Guide Categories | Koursea Journal" description="Browse independent Korea travel guides by K-Pop, practical travel and K-Beauty planning.">
   <section class="category-page shell">
     <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Journal</a><span aria-hidden="true">/</span><span>Categories</span></nav>
     <p class="eyebrow">GUIDE LIBRARY</p>
-    <h1>Browse by category</h1>
-    <p class="intro">Explore the existing Koursea guide library through categories derived from each post's published tags.</p>
+    <h1>Pick the part of Korea you need next.</h1>
+    <p class="intro">Start with concert travel, everyday trip logistics or K-Beauty planning. Each library brings together current guides around one real decision.</p>
     <div class="hub-grid">
       {hubs.map((hub) => <a href={`/category/${hub.slug}/`}><span>{hub.count} guides</span><strong>{hub.label}</strong><p>{hub.description}</p><small>Open category →</small></a>)}
     </div>
@@ -22,5 +22,5 @@ const hubs = categoryHubs.map((hub) => ({
 </Layout>
 
 <style>
-  .category-page{padding:72px 0}.breadcrumbs{display:flex;gap:.45rem;margin-bottom:2rem;color:var(--muted);font-size:.78rem;font-weight:750}.breadcrumbs a{color:var(--teal)}h1{max-width:12ch;margin:.25rem 0 1rem;font:700 clamp(2.7rem,7vw,5.2rem)/.96 Georgia,serif;letter-spacing:-.05em}.intro{max-width:680px;color:var(--muted);font-size:1.08rem}.hub-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:42px}.hub-grid>a{display:flex;min-height:300px;flex-direction:column;padding:26px;border:1px solid var(--line);border-radius:20px;background:var(--surface);box-shadow:var(--shadow);text-decoration:none}.hub-grid span{color:var(--teal);font-size:.72rem;font-weight:900;text-transform:uppercase}.hub-grid strong{margin:2rem 0 .8rem;font:700 1.8rem/1.05 Georgia,serif}.hub-grid p{margin:0;color:var(--muted)}.hub-grid small{margin-top:auto;padding-top:2rem;color:var(--teal);font-weight:850}@media(max-width:760px){.category-page{padding:46px 0}.hub-grid{grid-template-columns:1fr}.hub-grid>a{min-height:230px}}
+  .category-page{padding:72px 0}.breadcrumbs{display:flex;gap:.45rem;margin-bottom:2rem;color:var(--muted);font-size:.78rem;font-weight:750}.breadcrumbs a{color:var(--teal)}h1{max-width:14ch;margin:.25rem 0 1rem;font:700 clamp(2.7rem,7vw,5.2rem)/.96 var(--font-display);letter-spacing:-.05em}.intro{max-width:680px;color:var(--muted);font-size:1.08rem}.hub-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:42px;padding-top:18px;border-top:1px solid var(--ink)}.hub-grid>a{display:flex;min-height:310px;flex-direction:column;padding:26px;border:1px solid var(--line);border-radius:4px 24px 4px 4px;background:var(--surface);box-shadow:var(--shadow-sm);text-decoration:none}.hub-grid span{color:var(--teal);font-size:.72rem;font-weight:900;text-transform:uppercase}.hub-grid strong{margin:2rem 0 .8rem;font:700 1.8rem/1.05 var(--font-display)}.hub-grid p{margin:0;color:var(--muted)}.hub-grid small{margin-top:auto;padding-top:2rem;color:var(--teal);font-weight:850}@media(max-width:760px){.category-page{padding:46px 0}.hub-grid{grid-template-columns:1fr}.hub-grid>a{min-height:230px}}
 </style>

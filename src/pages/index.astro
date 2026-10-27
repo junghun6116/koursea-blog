@@ -1,6 +1,7 @@
 ---
 import { getCollection, type CollectionEntry } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
+import BlogHome from '../components/BlogHome.astro';
 import beautyPages from '../data/beauty-pseo-pages.json';
 import itineraryPages from '../data/itinerary-pseo-pages.json';
 
@@ -76,12 +77,14 @@ const collectionHref = (item: any) => item.href ?? `/posts/${item.id}/`;
 const schema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  name: 'Koursea Blog',
+  name: 'Koursea Journal',
   url: 'https://blog.koursea.com/',
-  description: 'Source-aware, field-tested guides to navigating, paying, eating and traveling across South Korea.'
+  description: 'Independent Korea travel reporting for K-pop trips, practical planning and K-beauty research.'
 };
 ---
-<Layout title="Koursea Blog | Practical Korea Travel Guides" description="Source-aware, field-tested guides to navigating, paying, eating and traveling across South Korea." schema={schema}>
+<Layout title="Koursea Journal | Korea Travel, K-Pop & K-Beauty Guides" description="Independent Korea travel reporting for K-pop trips, practical planning and K-beauty research." schema={schema}>
+  <BlogHome posts={posts} />
+  {false && <>
   <section class="hero shell">
     <p class="eyebrow">KOREA, WITHOUT THE GUESSWORK</p>
     <h1>Arrive informed.<br />Travel like you belong.</h1>
@@ -150,6 +153,7 @@ const schema = {
     <div class="library-copy"><p class="eyebrow">9 FIELD-READY ROUTES</p><h2 id="itinerary-library-title">1-Day Korea Itineraries</h2><p>Follow compact routes through Seoul, Busan and Jeju without wasting time backtracking.</p><a href="/itinerary/">Explore all itineraries →</a></div>
     <div class="library-links">{itineraryPages.slice(0, 4).map((page) => <a href={`/itinerary/${page.slug}/`}><span>{page.duration}</span><strong>{page.region_name}</strong></a>)}</div>
   </section>
+  </>}
 </Layout>
 <script>
   const tabs = Array.from(document.querySelectorAll<HTMLButtonElement>('[data-category]'));
