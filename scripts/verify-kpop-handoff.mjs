@@ -4,6 +4,7 @@ import assert from 'node:assert/strict';
 const postLayout = fs.readFileSync('src/layouts/PostLayout.astro', 'utf8');
 const categoryPage = fs.readFileSync('src/pages/category/[slug].astro', 'utf8');
 const categoryHubs = fs.readFileSync('src/lib/category-hubs.ts', 'utf8');
+const blogHome = fs.readFileSync('src/components/BlogHome.astro', 'utf8');
 
 for (const source of [postLayout, categoryPage]) {
   assert(source.includes('utm_source=koursea_blog'), 'K-pop handoff must preserve the blog source');
@@ -15,6 +16,14 @@ for (const source of [postLayout, categoryPage]) {
 assert(postLayout.includes("kpop_blog_cta_click"), 'article CTA clicks must be measurable');
 assert(categoryPage.includes("kpop_blog_category_cta_click"), 'category CTA clicks must be measurable');
 
+for (const destination of ['kpop', 'places', 'community']) {
+  assert(blogHome.includes(`data-journal-handoff="${destination}"`), `home bridge must identify the ${destination} destination`);
+  assert(blogHome.includes(`utm_content=home_${destination}`), `home bridge must preserve the ${destination} entry point`);
+}
+assert(blogHome.includes('utm_source=koursea_blog&utm_medium=referral&utm_campaign=journal_handoff'), 'home bridge must preserve a shared campaign source');
+assert(blogHome.includes("journal_handoff_click"), 'home bridge clicks must be measurable');
+assert(blogHome.includes("source_area: 'home_bridge'"), 'home bridge events must identify their source area');
+
 const kpopPattern = categoryHubs.match(/slug: 'kpop'[\s\S]*?matches: \/([^\n]+)\/i/)?.[1];
 assert(kpopPattern, 'K-pop category matcher must be present');
 const kpopMatcher = new RegExp(kpopPattern, 'i');
@@ -22,4 +31,4 @@ assert(kpopMatcher.test('stray kids'), 'Stray Kids must stay in the K-pop catego
 assert(!kpopMatcher.test('Korea temple stay'), 'ordinary travel stays must not enter the K-pop category');
 assert(!kpopMatcher.test('Jeonju hanok stay'), 'hanok stays must not enter the K-pop category');
 
-console.log('PASS K-pop blog handoff: UTM, hub, Ask and CTA events are connected');
+console.log('PASS blog handoff: K-pop, Places and Community UTMs and CTA events are connected');

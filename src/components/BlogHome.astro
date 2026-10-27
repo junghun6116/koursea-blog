@@ -19,6 +19,7 @@ const lanes = [
   { href: '/category/travel/', number: '02', title: 'Travel essentials', copy: 'Arrival, transit, payments, neighborhoods and day trips with the details that change on the ground.', count: countMatching(/travel|airport|subway|transit|payment|cafe|restaurant|attraction|day trip/i) },
   { href: '/category/healthcare/', number: '03', title: 'K-Beauty planning', copy: 'Shopping, treatment research and clinic logistics for visitors who want the facts before they book.', count: countMatching(/beauty|skin|clinic|olive young|treatment|procedure/i) }
 ];
+const handoffCampaign = 'utm_source=koursea_blog&utm_medium=referral&utm_campaign=journal_handoff';
 ---
 
 <div class="blog-home">
@@ -36,10 +37,22 @@ const lanes = [
 
   <section class="latest shell" aria-labelledby="latest-heading-new"><div class="section-heading section-heading--row"><div><p>RECENTLY UPDATED</p><h2 id="latest-heading-new">Fresh checks and field notes</h2></div><a href="/category/">Open the guide library →</a></div><div class="latest-grid">{latest.map((post) => <GuideCard href={`/posts/${post.id}/`} title={post.data.title} description={post.data.description} label={labelFor(post)} date={post.data.updatedDate ?? post.data.pubDate} image={post.data.coverImage} imageAlt={coverAlt(post)} />)}</div></section>
 
-  <section class="bridge shell" aria-labelledby="bridge-heading"><div><p>CONTINUE ON KOURSEA</p><h2 id="bridge-heading">Turn the reading into a real route.</h2><span>Search source-linked places, save stops and ask travelers who know Korea.</span></div><nav aria-label="Koursea planning tools"><a href="https://www.koursea.com/kpop.html">Plan a K-Pop trip ↗</a><a href="https://www.koursea.com/places.html">Find places ↗</a><a href="https://www.koursea.com/community.html">Ask the community ↗</a></nav></section>
+  <section class="bridge shell" aria-labelledby="bridge-heading"><div><p>CONTINUE ON KOURSEA</p><h2 id="bridge-heading">Turn the reading into a real route.</h2><span>Search source-linked places, save stops and ask travelers who know Korea.</span></div><nav aria-label="Koursea planning tools"><a href={`https://www.koursea.com/kpop.html?${handoffCampaign}&utm_content=home_kpop`} data-journal-handoff="kpop">Plan a K-Pop trip ↗</a><a href={`https://www.koursea.com/places.html?${handoffCampaign}&utm_content=home_places`} data-journal-handoff="places">Find places ↗</a><a href={`https://www.koursea.com/community.html?${handoffCampaign}&utm_content=home_community`} data-journal-handoff="community">Ask the community ↗</a></nav></section>
 
   <section class="standards shell" aria-label="Koursea editorial standards"><strong>How we work</strong><p>Changing details are checked against named sources. Photo credits stay visible. Sponsored links are labeled, and editorial rankings are not sold.</p><a href="/about/">Read our editorial standards →</a></section>
 </div>
+
+<script is:inline>
+  document.querySelectorAll('[data-journal-handoff]').forEach((link) => {
+    link.addEventListener('click', () => {
+      if (typeof window.gtag !== 'function') return;
+      window.gtag('event', 'journal_handoff_click', {
+        destination: link.getAttribute('data-journal-handoff') || 'unknown',
+        source_area: 'home_bridge'
+      });
+    });
+  });
+</script>
 
 <style>
   .section-label,.section-heading>p,.section-heading>div>p,.bridge>div>p{margin:0;color:var(--teal);font-size:.68rem;font-weight:900;letter-spacing:.15em}.hero{display:grid;grid-template-columns:minmax(0,.85fr) minmax(460px,1.15fr);gap:52px;align-items:center;padding:58px 0 74px}.hero__copy h1{margin:.7rem 0 1.15rem;font:750 clamp(3.4rem,6.6vw,6.6rem)/.86 var(--font-display);letter-spacing:-.065em}.hero__copy h1 em{color:var(--teal);font-weight:500}.hero__copy>p:not(.section-label){max-width:570px;margin:0;color:var(--muted);font-size:1.03rem;line-height:1.65}.hero__actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:1.7rem}.hero__actions a{display:inline-flex;min-height:46px;align-items:center;padding:10px 16px;border:1px solid var(--ink);border-radius:999px;font-size:.78rem;font-weight:850;text-decoration:none}.hero__actions a:first-child{background:var(--ink);color:#fff}.hero__story{position:relative;display:block;min-height:510px;overflow:hidden;border-radius:4px 48px 4px 4px;background:var(--ink);color:#fff;text-decoration:none;box-shadow:var(--shadow)}.hero__story:after{position:absolute;inset:25% 0 0;content:"";background:linear-gradient(transparent,rgba(8,18,25,.92))}.hero__story img{position:absolute;width:100%;height:100%;object-fit:cover;transition:transform .45s ease}.hero__story:hover img{transform:scale(1.02)}.hero__story>span{position:absolute;z-index:1;right:32px;bottom:30px;left:32px;display:grid;gap:10px}.hero__story small{font-size:.68rem;font-weight:900;letter-spacing:.13em;text-transform:uppercase}.hero__story strong{max-width:18ch;font:700 clamp(1.8rem,3.4vw,3rem)/1.02 var(--font-display)}.hero__story b{font-size:.74rem}
