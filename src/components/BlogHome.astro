@@ -1,6 +1,7 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import GuideCard from './GuideCard.astro';
+import { categoriesForTags } from '../lib/category-hubs';
 
 interface Props { posts: CollectionEntry<'posts'>[] }
 const { posts } = Astro.props;
@@ -10,14 +11,16 @@ const featuredHeadline = featured.id === 'kgma-mma-2026-gocheok-sky-dome-seoul-t
   ? 'Two award shows. One Seoul base.'
   : featured.data.title;
 const leadStories = [bySlug.get('hybe-yongsan-1-day-tour-guide'), bySlug.get('olive-young-guide-foreign-travelers'), bySlug.get('first-24-hours-in-seoul-survival-guide')].filter(Boolean) as CollectionEntry<'posts'>[];
-const latest = posts.filter((post) => post.id !== featured.id && !leadStories.some((story) => story.id === post.id)).slice(0, 6);
+const latest = posts.filter((post) => post.id !== featured.id && !leadStories.some((story) => story.id === post.id))
+  .sort((a, b) => (b.data.updatedDate ?? b.data.pubDate).valueOf() - (a.data.updatedDate ?? a.data.pubDate).valueOf())
+  .slice(0, 6);
 const coverAlt = (post: CollectionEntry<'posts'>) => post.data.coverImageAlt ?? `${post.data.title} guide cover`;
 const labelFor = (post: CollectionEntry<'posts'>) => post.data.category ?? post.data.tags[0] ?? 'Korea guide';
-const countMatching = (pattern: RegExp) => posts.filter((post) => pattern.test(`${post.data.title} ${post.data.tags.join(' ')}`)).length;
+const countMatching = (slug: string) => posts.filter((post) => categoriesForTags(post.data.tags).some((hub) => hub.slug === slug)).length;
 const lanes = [
-  { href: '/category/kpop/', number: '01', title: 'K-Pop & concerts', copy: 'Venue logistics, official fan stops, merch checks and routes that still work after the encore.', count: countMatching(/k-?pop|concert|fan guide|fandom|bts|hybe|jyp|\bsm\b|\byg\b/i) },
-  { href: '/category/travel/', number: '02', title: 'Travel essentials', copy: 'Arrival, transit, payments, neighborhoods and day trips with the details that change on the ground.', count: countMatching(/travel|airport|subway|transit|payment|cafe|restaurant|attraction|day trip/i) },
-  { href: '/category/healthcare/', number: '03', title: 'K-Beauty planning', copy: 'Shopping, treatment research and clinic logistics for visitors who want the facts before they book.', count: countMatching(/beauty|skin|clinic|olive young|treatment|procedure/i) }
+  { href: '/category/kpop/', number: '01', title: 'K-Pop & concerts', copy: 'Venue logistics, official fan stops, merch checks and routes that still work after the encore.', count: countMatching('kpop') },
+  { href: '/category/travel/', number: '02', title: 'Travel essentials', copy: 'Arrival, transit, payments, neighborhoods and day trips with the details that change on the ground.', count: countMatching('travel') },
+  { href: '/category/healthcare/', number: '03', title: 'K-Beauty planning', copy: 'Shopping, treatment research and clinic logistics for visitors who want the facts before they book.', count: countMatching('healthcare') }
 ];
 const handoffCampaign = 'utm_source=koursea_blog&utm_medium=referral&utm_campaign=journal_handoff';
 ---
