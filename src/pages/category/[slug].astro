@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 import GuideCard from '../../components/GuideCard.astro';
-import { categoryHubs, categoriesForTags, categoryForSlug } from '../../lib/category-hubs';
+import { categoryHubs, categoriesForTags, categoryForSlug, beautyShoppingPriority } from '../../lib/category-hubs';
 
 export async function getStaticPaths() {
   return categoryHubs.map((hub) => ({ params: { slug: hub.slug } }));
@@ -13,7 +13,7 @@ const hub = categoryForSlug(slug);
 if (!hub) return Astro.redirect('/category/');
 const posts = (await getCollection('posts'))
   .filter((post) => categoriesForTags(post.data.tags).some((category) => category.slug === hub.slug))
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+  .sort((a, b) => (hub.slug === 'healthcare' ? beautyShoppingPriority(a.data.tags) - beautyShoppingPriority(b.data.tags) : 0) || b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 const canonicalUrl = new URL(`/category/${hub.slug}/`, Astro.site).href;
 const isKpopHub = hub.slug === 'kpop';
 const kpopCampaign = 'utm_source=koursea_blog&utm_medium=referral&utm_campaign=kpop_fan_travel';
