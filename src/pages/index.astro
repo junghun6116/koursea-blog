@@ -152,10 +152,12 @@ const schema = {
       {posts.map((post) => (
         <article class:list={{ 'post-feature': post.id === featuredPostId }} data-categories={categoriesFor(post).join(' ')} data-default-hidden={latestVisibleSlugs.has(post.id) ? 'false' : 'true'} hidden={!latestVisibleSlugs.has(post.id)}>
           {post.data.coverImage && <a class="card-cover" href={`/posts/${post.id}/`} aria-label={`Read ${post.data.title}`}><img src={post.data.coverImage} alt={`${post.data.title} guide cover`} width="1672" height="941" loading="lazy" decoding="async" /></a>}
-          <div class="card-top"><span>{categoryLabelFor(post)}</span><time datetime={post.data.pubDate.toISOString()}>{post.data.pubDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</time></div>
-          <h3><a href={`/posts/${post.id}/`}>{post.data.title}</a></h3>
-          <p>{post.data.description}</p>
-          <a class="read" href={`/posts/${post.id}/`}>Read the guide <span>→</span></a>
+          <div class="card-body">
+            <div class="card-top"><span>{categoryLabelFor(post)}</span><time datetime={post.data.pubDate.toISOString()}>{post.data.pubDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</time></div>
+            <h3><a href={`/posts/${post.id}/`}>{post.data.title}</a></h3>
+            <p>{post.data.description}</p>
+            <a class="read" href={`/posts/${post.id}/`}>Read the guide <span>→</span></a>
+          </div>
         </article>
       ))}
     </div>
@@ -232,7 +234,7 @@ const schema = {
   /* Hero: a right-side panel balances the headline on wide screens and gives
      color a job (a signal, not decoration) instead of just the big pill CTAs. */
   .hero-row{display:flex;gap:48px;align-items:flex-end;flex-wrap:wrap}
-  .hero-row .hero{flex:1 1 560px;min-width:0;padding:0}
+  .hero-row .hero{flex:1 1 560px;min-width:0}
   .verified-panel{display:none}
   @media(min-width:701px){
     .verified-panel{display:block;flex:1 1 300px;max-width:360px;min-width:260px;padding:22px 22px 8px;border:1px solid var(--line);border-radius:4px;background:var(--surface)}
@@ -259,14 +261,12 @@ const schema = {
      one post with a genuine cover photo a wider, deliberate feature slot. */
   .post-grid{align-items:start}
   .post-grid article{min-height:0}
+  .card-body{display:flex;flex:1 1 auto;min-width:0;flex-direction:column}
   .post-grid article.post-feature{grid-column:1/-1}
   @media(min-width:701px){
-    .post-grid article.post-feature{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:24px;align-items:center}
-    .post-grid article.post-feature .card-cover{grid-column:1;grid-row:1/-1;margin:0;border-radius:16px}
-    .post-grid article.post-feature .card-top,
-    .post-grid article.post-feature h3,
-    .post-grid article.post-feature p,
-    .post-grid article.post-feature .read{grid-column:2}
+    .post-grid article.post-feature{display:flex;flex-direction:row;align-items:center;gap:28px}
+    .post-grid article.post-feature .card-cover{flex:0 0 44%;margin:0;border-radius:16px}
+    .post-grid article.post-feature .card-body{flex:1 1 auto}
     .post-grid article.post-feature h3{margin-top:0}
   }
 </style>
