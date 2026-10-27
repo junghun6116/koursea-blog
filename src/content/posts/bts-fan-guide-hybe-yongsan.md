@@ -2,7 +2,7 @@
 title: "BTS Fan Guide: HYBE Yongsan, ARMY Stops & Concert Prep"
 description: "Plan a respectful BTS fan trip to HYBE Yongsan with subway directions, exterior photo rules, nearby stops, ticketing, eSIM and payment advice."
 pubDate: 2026-09-02
-updatedDate: 2026-09-25
+updatedDate: 2026-10-27
 category: "K-Pop & Concerts"
 tags:
   - bts
@@ -25,6 +25,18 @@ faq:
 # BTS Fan Guide: HYBE Yongsan, ARMY Stops & Concert Prep
 
 BTS debuted in June 2013 under BIGHIT MUSIC. The seven-member group—RM, Jin, SUGA, j-hope, Jimin, V and Jung Kook—calls its official fandom **ARMY**. For visitors, the most practical BTS-related stop in Seoul is [HYBE's headquarters in Yongsan](https://www.koursea.com/place/5360/), but it should be treated as a working office rather than a public attraction.
+
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/yYC_U2atiE8" title="BTS (방탄소년단) 'Merry Go Round' Official MV — BANGTANTV" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<p class="video-embed-credit">Official music video from <a href="https://www.youtube.com/@BTS">BANGTANTV</a>, BTS's official YouTube channel.</p>
+
+<style>
+.video-embed{position:relative;width:100%;aspect-ratio:16/9;margin:1.5rem 0 .5rem;border-radius:12px;overflow:hidden;background:#000}
+.video-embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.video-embed-credit{margin:0 0 1.5rem;color:#6b6656;font-size:.8rem}
+.video-embed-credit a{color:#1f685c}
+</style>
 
 ## Key Takeaways for ARMY Visiting Seoul
 
