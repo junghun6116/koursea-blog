@@ -2,7 +2,7 @@
 title: "CORTIS Fandom Name COER: Meaning, Membership & Concert Guide (2026)"
 description: "COER is CORTIS's official fandom name, confirmed via Weverse. This guide explains what COER means, membership and ticket-safety tips, and concert prep for Seoul shows."
 pubDate: 2026-09-07
-updatedDate: 2026-09-07
+updatedDate: 2026-10-28
 category: "K-Pop & Concerts"
 tags:
   - cortis
@@ -59,7 +59,7 @@ If you are shopping in Seoul, keep the receipt and inspect packaging before leav
 
 ## CORTIS Concert and Event Preparation
 
-Official CORTIS notices have included tour and fan-benefit information, but every event can use different rules. Work from the notice for the exact city and date you are attending.
+The linked [COER ZONE notice](https://weverse.io/cortis/notice/37792) concerns Irving, Texas, on August 11, 2026. It is a past-event example, not a Seoul concert announcement or a benefit available today. Rechecked on October 28, 2026, it illustrates why fans must use the notice for the exact city and date they are attending. Start with [current official CORTIS notices](https://weverse.io/cortis/notice) before booking travel.
 
 Before ticketing:
 
@@ -70,6 +70,12 @@ Before ticketing:
 5. Save the organizer's venue, pickup and prohibited-items notice offline.
 
 Our [K-Pop concert ticketing guide](/posts/kpop-concert-ticketing-seoul-2026/) covers Korean ticket platforms, identity matching and foreign-card failure points. If the platform needs a Korean verification message, review the [Korea eSIM and phone-number guide](/posts/korea-esim-with-phone-number-2026-guide/) before buying a data-only plan.
+
+## A Public Seoul Shopping Stop Between Events
+
+Use the [Hongdae K-pop store comparison](https://www.koursea.com/kpop-idol-goods-flagship-stores-kwangya-withmuu-line-friends.html) to choose a public record-shopping stop, then check [WITHMUU Hongdae's location and official source links](https://www.koursea.com/place/5364/). These stores are general retail options, not dedicated CORTIS attractions. Confirm CORTIS stock, editions and any purchase benefits with the retailer before making a special trip.
+
+Pair shopping with the [Hongdae neighborhood guide](https://www.koursea.com/area-hongdae-seoul-guide.html) instead of waiting at an agency office. If an official pop-up is announced, check its reservation rules and dates before adding another journey across Seoul.
 
 ## Respectful Fan Travel Checklist
 
@@ -84,5 +90,5 @@ Our [K-Pop concert ticketing guide](/posts/kpop-concert-ticketing-seoul-2026/) c
 - [CORTIS official profile](https://cortis-official.jp/profile)
 - [BIGHIT MUSIC: COLOR OUTSIDE THE LINES](https://ibighit.com/legacy/cortis/color-outside-the-lines-en.html)
 - [Weverse official COER fandom-name notice](https://weverse.io/cortis/notice/31881)
-- [Weverse official CORTIS tour notice](https://weverse.io/cortis/notice/37792)
+- [Weverse COER ZONE booth notice: Irving, August 11, 2026 (past event)](https://weverse.io/cortis/notice/37792)
 - [CORTIS official debut post on Weverse](https://weverse.io/cortis/artist/1-163118592)
