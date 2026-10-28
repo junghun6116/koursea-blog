@@ -1,8 +1,8 @@
 ---
 title: "ILLIT Fan Guide: GLLIT, Seoul Pop-Ups & Concert Prep"
-description: "A practical ILLIT fan guide for GLLIT covering official event checks, temporary Seoul pop-ups, the upcoming BREAK EVEN release, and concert planning."
+description: "A practical ILLIT fan guide for GLLIT covering official event checks, temporary Seoul pop-ups, the BREAK EVEN announcement, and concert planning."
 pubDate: 2026-09-19
-updatedDate: 2026-09-19
+updatedDate: 2026-10-28
 category: "K-Pop & Concerts"
 tags: ["ILLIT", "GLLIT", "BELIFT LAB", "BREAK EVEN", "K-pop concert tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/illit-fan-guide/"
@@ -12,8 +12,8 @@ faq:
     answer: "BELIFT LAB announced GLLIT as ILLIT's official fan club name through the group's Weverse notice."
   - question: "Can fans visit BELIFT LAB or HYBE offices as an ILLIT attraction?"
     answer: "No public office visitor facility is verified in the official sources checked. BELIFT LAB's fan-etiquette notice says not to visit company offices, practice studios, or other private spaces; attend only officially announced public events."
-  - question: "What is ILLIT's next confirmed Korean album release as of September 19, 2026?"
-    answer: "BELIFT LAB's Weverse notice says ILLIT's fifth mini album, BREAK EVEN, is scheduled for release on October 26, 2026, with pre-orders beginning September 28. Recheck the notice for updates."
+  - question: "What date did BELIFT LAB announce for BREAK EVEN?"
+    answer: "BELIFT LAB's announcement listed October 26, 2026 at 6 p.m. KST, with pre-orders starting September 28. Those dates have passed; check current official notices for availability and events."
 ---
 
 # ILLIT Fan Guide: GLLIT, Seoul Pop-Ups & Concert Prep
@@ -24,7 +24,7 @@ ILLIT is a five-member girl group created by BELIFT LAB, with an official debut 
 
 - Start with [ILLIT's official Weverse notices](https://weverse.io/illit/notice) and BELIFT LAB's [artist profile](https://beliftlab.com/artist/profile/ILLIT).
 - GLLIT is the official fan club name announced by BELIFT LAB.
-- As of September 19, 2026, BELIFT LAB has announced the fifth mini album *BREAK EVEN* for October 26, with pre-orders beginning September 28. Confirm the current details on Weverse before making plans.
+- BELIFT LAB's *BREAK EVEN* announcement listed October 26, 2026, with pre-orders starting September 28. Those dates have passed; the announcement is not a current event or ticket offer.
 - The official channels announce temporary pop-ups and events; that is different from a permanent fan visitor facility.
 - For a future Seoul concert, use the [Foreigner's Guide to K-pop Concert Ticketing in Seoul](/posts/kpop-concert-ticketing-seoul-2026/).
 
@@ -38,9 +38,9 @@ No permanent public ILLIT visitor facility is verified in the official sources c
 
 Temporary public events are different. For example, Weverse published a reservation-based guide for an ILLIT character pop-up at 1F, 42 Hangang-daero, Yongsan-gu, Seoul, from September 2–6, 2026. That event has ended; its address is not a standing invitation or a permanent shop. Before traveling to any future pop-up, confirm that the notice is current, check its dates and reservation instructions, and follow the stated entry process. Do not rely on an old map pin or fan repost.
 
-## Current release context for GLLIT
+## Reading the BREAK EVEN announcement now
 
-As of September 19, 2026, BELIFT LAB's official notice says ILLIT's fifth mini album, *BREAK EVEN*, is scheduled for release at 6 p.m. KST on October 26, 2026, with pre-orders beginning September 28. This is an announced future release, not a past or currently available event. Check the [official Weverse notice](https://weverse.io/illit/notice/39196) again for later changes and detailed retailer information.
+BELIFT LAB's [official announcement](https://weverse.io/illit/notice/39196), rechecked on October 28, 2026, lists October 26 at 6 p.m. KST for *BREAK EVEN* and September 28 for the start of pre-orders. Both dates have passed. This announcement alone does not confirm current stock, a Seoul pop-up, or remaining benefits; use the latest official notices and the named retailer's current listing before paying or traveling.
 
 For merchandise, confirm the product edition, seller, benefit period, shipping or pickup terms, and eligibility directly on Weverse Shop or the seller named in the official notice. A post advertising an old pop-up benefit does not show that the benefit is still available.
 
@@ -49,6 +49,12 @@ For merchandise, confirm the product edition, seller, benefit period, shipping o
 When ILLIT announces a concert or fan event, use the seller linked by the official organizer rather than a search ad or unsolicited resale message. Check whether membership status or a separate application is required, whether the booking name must match your passport, and whether your payment method is accepted. The exact rules can differ by event.
 
 Our [K-pop concert ticketing guide](/posts/kpop-concert-ticketing-seoul-2026/) explains common Seoul ticket-platform steps, overseas payment checks, identity matching, pickup planning, and transport after a show. Read the specific ILLIT notice as the authority for that event, then save its venue address and return route offline.
+
+## Plan a Seoul fan day without an event booking
+
+1. Start with the [Hongdae K-pop store comparison](https://www.koursea.com/kpop-idol-goods-flagship-stores-kwangya-withmuu-line-friends.html) to choose a public shopping stop. These are general retail options, not ILLIT attractions or a promise of ILLIT stock.
+2. Check [WITHMUU Hongdae's location and source links](https://www.koursea.com/place/5364/) before leaving. Confirm any ILLIT edition or benefit with the store rather than assuming it is available.
+3. Keep the rest of the day in the [Hongdae neighborhood](https://www.koursea.com/area-hongdae-seoul-guide.html). Add a pop-up only after a current official notice confirms its venue, dates and entry requirements.
 
 ## Respectful fan travel
 
