@@ -22,6 +22,7 @@ function scalar(block, field) {
 const files = (await fs.readdir(postsDir)).filter((file) => file.endsWith('.md')).sort();
 const failures = [];
 let checked = 0;
+let omitted = 0;
 
 for (const file of files) {
   const block = frontmatter(await fs.readFile(path.join(postsDir, file), 'utf8'));
@@ -30,6 +31,14 @@ for (const file of files) {
   checked += 1;
 
   const values = Object.fromEntries(requiredFields.map((field) => [field, scalar(block, field)]));
+  const omission = scalar(block, 'coverOmissionReason');
+  if (omission) {
+    if (omission.length < 20 || Object.values(values).some(Boolean) || scalar(block, 'thumbnail')) {
+      failures.push(`${file}: omitted cover requires a meaningful reason and no retained image fields`);
+    }
+    omitted += 1;
+    continue;
+  }
   for (const field of requiredFields) {
     if (!values[field]) failures.push(`${file}: missing ${field}`);
   }
@@ -57,5 +66,5 @@ if (failures.length) {
   console.error('Keep the post off main until a rights-cleared cover, alt text, credit and original source URL are ready.');
   process.exitCode = 1;
 } else {
-  console.log(`PASS editorial cover policy: ${checked} post(s) published on or after ${policyStart} have complete, local, source-linked cover media.`);
+  console.log(`PASS editorial cover policy: ${checked - omitted} source-linked covers, ${omitted} explicitly documented omissions.`);
 }

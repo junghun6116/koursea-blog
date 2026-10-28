@@ -15,6 +15,7 @@ const posts = defineCollection({
     author: z.string().optional(),
     reviewer: z.string().optional(),
     coverImage: z.string().optional(),
+    coverOmissionReason: z.string().min(20).optional(),
     coverImageAlt: z.string().optional(),
     coverImageCredit: z.string().optional(),
     coverImageSourceUrl: z.url().optional(),
@@ -24,6 +25,12 @@ const posts = defineCollection({
       answer: z.string()
     })).optional()
   }).superRefine((post, context) => {
+    if (post.coverOmissionReason) {
+      if (post.coverImage || post.thumbnail || post.coverImageAlt || post.coverImageCredit || post.coverImageSourceUrl) {
+        context.addIssue({ code: 'custom', path: ['coverOmissionReason'], message: 'An omitted cover must not retain image fields or a substitute thumbnail.' });
+      }
+      return;
+    }
     if (post.pubDate < new Date('2026-10-14T00:00:00Z')) return;
     const visualFields: Array<[string, unknown]> = [
       ['coverImage', post.coverImage],
