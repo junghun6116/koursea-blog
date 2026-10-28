@@ -28,7 +28,15 @@ export const categoryHubs: CategoryHub[] = [
 
 export const categoriesForTags = (tags: string[]) => {
   const tagText = tags.join(' ');
-  return categoryHubs.filter((hub) => hub.matches.test(tagText));
+  // Parcel contents do not make a shipping guide a beauty/health guide.
+  const isShippingGuide = tags.some((tag) => /^(post office|ems|international shipping|shipping|send luggage home)$/i.test(tag.trim()));
+  return categoryHubs.filter((hub) => !(isShippingGuide && hub.slug === 'healthcare') && hub.matches.test(tagText));
+};
+
+export const beautyShoppingPriority = (tags: string[]) => {
+  const text = tags.join(' ');
+  if (/clinic|botox|filler|medical|dermat|surgery|laser|rejuran|ultherapy|shurink|hifu|potenza|microneedling/i.test(text)) return 1;
+  return /olive young|shopping|skincare|head spa|scalp|beauty/i.test(text) ? 0 : 1;
 };
 
 export const categoryForSlug = (slug: string) => categoryHubs.find((hub) => hub.slug === slug);

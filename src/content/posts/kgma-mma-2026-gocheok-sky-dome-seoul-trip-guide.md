@@ -11,10 +11,10 @@ tags:
   - K-pop Award Show Travel
 canonicalUrl: "https://blog.koursea.com/posts/kgma-mma-2026-gocheok-sky-dome-seoul-trip-guide/"
 author: "Koursea Editorial"
-coverImage: "/images/blog/gocheok-sky-dome-wide-wikimedia.jpg"
-coverImageAlt: "Wide interior view of Gocheok Sky Dome with the field and tiered seating visible"
-coverImageCredit: "Photo: Trainholic, Wikimedia Commons, CC BY-SA 4.0; resized for web"
-coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:Gocheok_Sky_Dome_inside_WBSC_Premier_12_2019.jpg"
+coverImage: "/images/blog/mma-2016-bts-archive.jpg"
+coverImageAlt: "Archive photo: BTS accepting an award at the 2016 Melon Music Awards, not the 2026 event"
+coverImageCredit: "Archive: MMA 2016, not the 2026 lineup. Photo: F28STAR, Wikimedia Commons, CC BY 4.0; supplied file unchanged"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:BTS_on_Melon_Music_Awards_2016.jpg"
 
 faq:
   - question: "Are KGMA and MMA 2026 at the same venue?"
@@ -28,6 +28,8 @@ faq:
 ---
 
 # KGMA & MMA 2026 at Gocheok Sky Dome: Planning a Seoul Trip Around Both Award Shows
+
+*Cover photo: BTS at the **2016** Melon Music Awards. This archival award-stage photograph does not show the 2026 event or confirm any artist's 2026 appearance. [F28STAR / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:BTS_on_Melon_Music_Awards_2016.jpg), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The supplied file is unchanged.*
 
 Two of Korea's biggest year-end music award shows are landing at the same Seoul venue one week apart this November. The Korea Grand Music Awards (KGMA) run November 7-8, and the Melon Music Awards (MMA) follow on November 14-15 — both at Gocheok Sky Dome. That's an unusual scheduling overlap, and it turns a single-show trip into a real choice: fly in for one weekend, or stay the week and catch both.
 
