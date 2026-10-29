@@ -27,6 +27,7 @@ const validInstagramUrl = instagramUrl && /^https:\/\/(?:www\.)?instagram\.com\/
         </blockquote>
       </div>
     )}
+    {validInstagramUrl && <a class="social-embed__original" href={validInstagramUrl} target="_blank" rel="noopener noreferrer">Open the original post on Instagram ↗</a>}
   </aside>
 )}
 
@@ -39,5 +40,7 @@ const validInstagramUrl = instagramUrl && /^https:\/\/(?:www\.)?instagram\.com\/
   .social-embed__frame{display:grid;width:100%;min-height:370px;place-items:start center;overflow:hidden}
   .social-embed__frame :global(blockquote){width:100%!important;max-width:550px!important;margin:0 auto!important}
   .social-embed__frame--instagram{min-height:480px}
+  .social-embed__frame--instagram :global(iframe){min-width:0!important;max-width:100%!important;width:100%!important}
+  .social-embed__original{display:block;margin-top:.75rem;font-size:.875rem;overflow-wrap:anywhere}
   @media(max-width:600px){.social-embed{min-height:400px;padding:.7rem}.social-embed__frame{min-height:350px}.social-embed__frame--instagram{min-height:450px}}
 </style>
