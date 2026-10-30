@@ -2,7 +2,7 @@
 title: "K-ETA vs. Korea's e-Arrival Card: The Two Forms Travelers Keep Confusing (2026 Guide)"
 description: "K-ETA and Korea's e-Arrival Card are not the same form. Here's who actually needs which one, the December 2026 exemption deadline, and how to avoid fake payment sites."
 pubDate: 2026-10-14
-updatedDate: 2026-10-14
+updatedDate: 2026-10-30
 tags:
   - Korea K-ETA
   - Korea e-Arrival Card
@@ -39,9 +39,11 @@ For the full official step-by-step on each form, Koursea's [South Korea entry fo
 
 K-ETA is a pre-travel authorization, broadly similar in spirit to the US ESTA, for travelers entering Korea without a visa under the country's visa-waiver arrangements. It is not a visa — an approved K-ETA still leaves the final entry decision to the immigration officer at the airport.
 
-Korea's Ministry of Justice has extended a **temporary exemption** from the K-ETA requirement for travelers from the countries and regions that are currently exempt, **through December 31, 2026 (Korea Standard Time)**, according to the official K-ETA notice (verified 2026-10-14). Exactly which countries are covered, and whether that changes again afterward, is precisely the kind of detail that shifts — check the current list directly on [www.k-eta.go.kr](https://www.k-eta.go.kr) before relying on anything written elsewhere, including this post.
+Korea's Ministry of Justice has extended a **temporary exemption** from the K-ETA requirement for travelers from the countries and regions that are currently exempt, **through December 31, 2026 (Korea Standard Time)**, according to the official K-ETA notice (posted 2025-12-23; rechecked on the official site 2026-10-30). Exactly which countries are covered, and whether that changes again afterward, is precisely the kind of detail that shifts — check the current list directly on [www.k-eta.go.kr](https://www.k-eta.go.kr) before relying on anything written elsewhere, including this post.
 
 > **Practical rule:** Even if you're currently exempt from applying for K-ETA, you can still apply for one voluntarily. The official K-ETA notice states that an approved K-ETA carries one specific benefit: it generally excuses you from also filing the e-Arrival Card. That's an optional trade-off, not a requirement.
+
+> **If you do apply, mind your email address:** the official K-ETA site carries a notice that email delivery to Gmail users has been delayed and asks applicants to use a different email address. It adds that addresses hosted in the United States, such as Outlook.com and Hotmail.com, can see the same delay. The date shown for that notice differs between the notice list and the notice page, so open it and check whether it is still current before you rely on it (checked 2026-10-30).
 
 ## What the e-Arrival Card Actually Is
 
@@ -76,12 +78,14 @@ Once your entry paperwork is sorted, the next practical hurdles are usually conn
 - [ ] If currently K-ETA-exempt, check separately whether you still need the e-Arrival Card.
 - [ ] Submit the e-Arrival Card no earlier than three days before arrival (Korea Standard Time).
 - [ ] Apply only at `.go.kr` domains, and never pay for a free government service.
+- [ ] If you apply for K-ETA, check the official notice about delayed email delivery to Gmail before choosing which email address to use.
 
 If you'd rather not juggle tabs mid-trip, Koursea's free, zero-login tools can help with everything that comes after you land, from transit routing to offline-friendly neighborhood guides.
 
 ## Official Sources and Photo Credit
 
 - [K-ETA: temporary exemption extended through December 31, 2026](https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707&locale=EN)
+- [K-ETA: email delay notice for Gmail users (Korean page)](https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=307496)
 - [K-ETA: warning about non-official websites and agencies](https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=114771&locale=EN)
 - [Korea e-Arrival Card guide](https://www.e-arrivalcard.go.kr/portal/guide/eacGuide.do)
 - [Korea e-Arrival Card declaration targets and exclusions](https://www.e-arrivalcard.go.kr/portal/guide/eacTargetGuide.do)
