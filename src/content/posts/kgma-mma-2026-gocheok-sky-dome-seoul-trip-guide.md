@@ -2,7 +2,7 @@
 title: "KGMA & MMA 2026 at Gocheok Sky Dome: Planning a Seoul Trip Around Both Award Shows"
 description: "KGMA (Nov 7-8) and MMA (Nov 14-15) both land at Gocheok Sky Dome this November, one week apart. Here's how to plan lodging, transit, and tickets around one show or both."
 pubDate: 2026-10-14
-updatedDate: 2026-10-25
+updatedDate: 2026-11-01
 tags:
   - KGMA 2026
   - Melon Music Awards 2026
@@ -17,7 +17,11 @@ faq:
   - question: "Are KGMA and MMA 2026 at the same venue?"
     answer: "Yes. Both the Korea Grand Music Awards (Nov 7-8) and the Melon Music Awards (Nov 14-15) are scheduled at Gocheok Sky Dome in Seoul, one week apart, as of this post's verification date."
   - question: "Can I still buy KGMA 2026 tickets?"
-    answer: "The domestic sale on NOL opened October 2, 2026 and has already run; check NOL World, or a foreigner-only package such as Trazy's KGMA listing (confirm the exact date and seating on the live page), rather than an unofficial reseller."
+    answer: "NOL's listing says booking closes at 15:00 on each show day, before entry opens. The listing does not tell us whether seats remain, so open the live page to see current inventory, or check a foreigner-only package such as Trazy's KGMA listing (confirm the exact date and seating on that page), rather than an unofficial reseller."
+  - question: "How long is the KGMA show and is there an intermission?"
+    answer: "NOL's listing gives 17:00 to 21:30 for both days, 270 minutes, with no intermission. It does not say whether 17:00 is door opening or show start, so check the time on your own ticket notice."
+  - question: "What is the minimum age for KGMA 2026?"
+    answer: "NOL's listing gives an age guideline of 9 and older (만 9세 이상)."
   - question: "Are MMA 2026 tickets on sale yet?"
     answer: "Melon's official MMA timeline lists a first ticket sale on October 19, 2026 for GOLD-tier-and-above members and a second sale on October 22 for Melon paid members. Those listed dates have passed, so check the live Melon ticket page for current inventory or further official sales rather than relying on an older screenshot."
   - question: "What subway station serves Gocheok Sky Dome?"
@@ -34,11 +38,24 @@ This post covers what's actually confirmed about each show, how to think about l
 
 ## The Schedule, As Confirmed So Far
 
-**KGMA — November 7-8, 2026, Gocheok Sky Dome.** The event's [official ticket listing on NOL](https://nol.yanolja.com/ticket/products/26013920) confirms the Saturday-Sunday dates and venue. The domestic sale opened on NOL on October 2; if you're planning around this show now, check NOL World's international listing, or [Trazy's foreigner-only KGMA package](https://www.trazy.com/experience/detail/korea-grand-music-awards-kgma-ticket-package) (confirm the exact date, start time, and seating on the live page — some localized versions of that listing still show leftover text from the prior year's event), rather than an unofficial reseller, since the main domestic sale window has already passed.
+**KGMA — November 7-8, 2026, Gocheok Sky Dome.** The event's [official ticket listing on NOL](https://nol.yanolja.com/ticket/products/26013920) confirms the Saturday-Sunday dates and venue. The domestic sale opened on NOL on October 2; if you're planning around this show now, check NOL World's international listing, or [Trazy's foreigner-only KGMA package](https://www.trazy.com/experience/detail/korea-grand-music-awards-kgma-ticket-package) (confirm the exact date, start time, and seating on the live page — some localized versions of that listing still show leftover text from the prior year's event), rather than an unofficial reseller. The NOL listing shows booking closing at 15:00 on each show day, so the sale is not necessarily over, but the page we could read does not show remaining seats; check it live.
 
 **MMA — November 14-15, 2026, Gocheok Sky Dome.** This is the first time in the show's 18-year history that MMA runs two days instead of one. The [official Melon MMA page](https://m2.melon.com/en/mma/2026/info/) confirms the dates, venue and 18:00 start time. Its timeline lists a first ticket sale on October 19 for GOLD-tier-and-above members and a second sale on October 22 for Melon paid members. Those listed dates have passed, but the overview does not establish current inventory, a future international sale, a fixed price or a per-account ticket cap. Check Melon's live ticket flow and official notices for the option available to your account instead of relying on an older screenshot or resale post.
 
 > **Practical rule:** Treat both schedules as subject to change until you see them on the artist's or promoter's own ticket page. A one-week gap between two shows at the same dome is a real opportunity, but neither date is a substitute for checking your own ticket notice closer to travel.
+
+## KGMA Show-Day Details From NOL
+
+These details come from the NOL ticket listing for KGMA 2026, which we opened on 2026-11-01:
+
+- **Hours:** the listing gives 17:00 to 21:30 for both November 7 and 8, a running time of 270 minutes with no intermission. It does not say whether 17:00 is door opening or the start of the show, so check the time on your own ticket notice. Plan your return from the 21:30 end time, not from the time you enter.
+- **Booking cutoff:** the listing says booking closes at 15:00 on each show day, before entry opens.
+- **Age guideline:** 9 and older.
+- **Seat prices (KRW):** VIP 121,000, R 99,000, S 77,000, and 129,000 each for the Floor C row and the ground seats. The listing says some prices apply only to certain dates or periods and points to a "see all prices" view, so confirm the price for your day on the live page.
+- **Cancellation:** cancelling within 7 days of booking refunds the ticket price excluding the booking fee, and cancelling before midnight on the booking day carries no cancellation fee. After that, the listing sets fees by days before the show, from 4,000 won per ticket (capped at 10% of the price) up to 30% in the last two days before the deadline. The exact deadline appears in your booking details after you book, and a passed deadline means no cancellation or refund.
+- **Support:** NOL customer service is listed as 1544-1555, 09:00 to 18:00 every day.
+
+The listing does not cover ID checks, prohibited items or schedule changes, so we do not state any here. Use the notice that comes with your ticket for those. For the ride home, the earlier plan still applies: Guil Station, Line 1, Exit 2, with the longer Line 1 intervals described in the [K-pop concert day venue guide](/posts/kpop-concert-day-venue-transport-guide-2026/). We did not check Line 1 last-train times for this update, so look them up for the night you attend.
 
 ## One Venue, Two Shows: Two Ways to Plan the Trip
 
@@ -73,4 +90,4 @@ For the rest of your K-pop trip planning, Koursea's [K-pop fan travel hub](https
 
 ---
 
-**Sources and verification (updated 2026-10-25):** KGMA dates, venue, current seat prices and the November 7-8 booking cutoff were checked on [NOL's official ticket listing](https://nol.yanolja.com/ticket/products/26013920). Trazy's live [2026 KGMA foreigner-package page](https://www.trazy.com/experience/detail/korea-grand-music-awards-kgma-ticket-package) confirms November 7-8 availability, Gocheok Sky Dome, an A-zone seated ticket and on-site pickup; its FAQ still contains a 2025 typo, so the selected 2026 option must be checked before payment. MMA dates, venue, start time and the October 19 and October 22 ticket-sale schedule were checked on the [official Melon MMA page](https://m2.melon.com/en/mma/2026/info/). This guide does not quote an MMA ticket price, per-account cap or international sale date because those details were not confirmed on that official overview.
+**Sources and verification (updated 2026-11-01):** KGMA dates, venue, hours, age guideline, seat prices, booking cutoff and cancellation rules were checked on [NOL's official ticket listing](https://nol.yanolja.com/ticket/products/26013920) on 2026-11-01. The MMA page could not be reopened on 2026-11-01, so the MMA details below are from the 2026-10-25 check. Trazy's live [2026 KGMA foreigner-package page](https://www.trazy.com/experience/detail/korea-grand-music-awards-kgma-ticket-package) confirms November 7-8 availability, Gocheok Sky Dome, an A-zone seated ticket and on-site pickup; its FAQ still contains a 2025 typo, so the selected 2026 option must be checked before payment. MMA dates, venue, start time and the October 19 and October 22 ticket-sale schedule were checked on the [official Melon MMA page](https://m2.melon.com/en/mma/2026/info/). This guide does not quote an MMA ticket price, per-account cap or international sale date because those details were not confirmed on that official overview.
