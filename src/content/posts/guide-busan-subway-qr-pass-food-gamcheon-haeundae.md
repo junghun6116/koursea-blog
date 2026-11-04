@@ -7,6 +7,10 @@ category: "travel"
 tags: ["busan travel", "visit busan pass", "busan subway qr", "solo dining busan", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/guide-busan-subway-qr-pass-food-gamcheon-haeundae/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/gamcheon-culture-village-commons.webp"
+coverImageAlt: "Colorful hillside houses of Gamcheon Culture Village in Busan"
+coverImageCredit: "Photo: Bernard Gagnon, CC0, via Wikimedia Commons"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:Gamcheon_Culture_Village.jpg"
 
 faq:
   - question: "Are Busan Metro single-ride tickets deposit cards?"
