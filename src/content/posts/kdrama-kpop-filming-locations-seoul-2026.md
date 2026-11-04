@@ -7,6 +7,10 @@ category: "K-Pop & Concerts"
 tags: ["K-drama filming locations Seoul", "K-pop filming locations", "BTS Gyeongbokgung", "Queen of Tears locations", "Vincenzo filming locations", "Koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/kdrama-kpop-filming-locations-seoul-2026/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/geunjeongjeon-filming-guide.jpg"
+coverImageAlt: "Geunjeongjeon Hall seen across the stone courtyard at Gyeongbokgung Palace in Seoul, with its two-tiered roof against a blue sky."
+coverImageCredit: "Photo: Basile Morin, CC BY-SA 4.0, via Wikimedia Commons"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:Front_view_of_the_Imperial_Throne_Hall_Geunjeongjeon_at_Gyeongbokgung_Palace_with_blue_sky_in_Seoul.jpg"
 faq:
   - question: "Which filming locations are included in this guide?"
     answer: "The list includes Gyeongbokgung, Irwol Arboretum, The Hyundai Seoul's Sounds Forest, Bidulginang Falls, Baek In-je House, Some Sevit, Cheongna Lake Park, Nodeul Island, Sewoon Plaza, and Cafe Grandpa Factory."
