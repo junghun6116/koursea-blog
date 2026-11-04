@@ -6,6 +6,10 @@ updatedDate: 2026-09-25
 tags: ["K-Pop", "KSPO Dome", "Concerts", "Olympic Park", "Seoul Transit"]
 canonicalUrl: "https://blog.koursea.com/posts/kspo-dome-concert-survival-guide/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/kspo-dome-commons.webp"
+coverImageAlt: "A crowd and stage lights inside the KSPO Dome arena at Olympic Park, Seoul"
+coverImageCredit: "Photo: Moonhayun, CC BY-SA 4.0, via Wikimedia Commons"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:%EC%98%AC%EB%A6%BC%ED%94%BD%EC%B2%B4%EC%A1%B0.jpg"
 faq:
   - question: "What venue does this concert survival guide cover?"
     answer: "It covers KSPO Dome in Olympic Park, including the relevant exits, queues, lockers, food, meeting points, and late-night return planning."

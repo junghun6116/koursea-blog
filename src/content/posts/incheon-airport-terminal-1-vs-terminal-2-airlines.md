@@ -6,6 +6,10 @@ updatedDate: 2026-09-28
 tags: ["Incheon Airport", "Terminal 1", "Terminal 2", "Airlines", "Airport Planning"]
 canonicalUrl: "https://blog.koursea.com/posts/incheon-airport-terminal-1-vs-terminal-2-airlines/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/incheon-terminal-2-arrivals-commons.jpg"
+coverImageAlt: "Arrivals hall at Incheon Airport Terminal 2"
+coverImageCredit: "Photo: AirportTerminalGuy, CC BY 4.0, via Wikimedia Commons"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:ICN_T2_arrival.jpg"
 
 faq:
   - question: "Why should I check my terminal before leaving Seoul?"

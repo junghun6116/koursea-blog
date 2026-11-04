@@ -6,6 +6,10 @@ updatedDate: 2026-10-09
 tags: ["busan", "bukangi shark", "north port", "wildlife", "busan travel"]
 canonicalUrl: "https://blog.koursea.com/posts/bukangi-shark-busan-north-port-guide/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/busan-international-passenger-terminal-commons.webp"
+coverImageAlt: "Busan International Passenger Terminal building at Busan North Port"
+coverImageCredit: "Photo: hyolee2, CC BY-SA 3.0, via Wikimedia Commons"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:Busan_International_Passenger_Terminal_.JPG"
 faq:
   - question: "What kind of shark is Bukangi?"
     answer: "The National Institute of Fisheries Science identified Bukangi on October 6, 2026 as a female dusky shark about three meters long."
