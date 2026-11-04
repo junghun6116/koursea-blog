@@ -6,6 +6,10 @@ updatedDate: 2026-09-28
 tags: ["Korea Travel", "Address", "eSIM", "Korea Post", "Practical Guide"]
 canonicalUrl: "https://blog.koursea.com/posts/korea-road-name-address-system-guide/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/bukchon-road-address-sign.jpg"
+coverImageAlt: "A blue address plate in Seoul shows 북촌로11길 and Bukchon-ro 11-gil above building number 54, beside a decorative plaque with the same address."
+coverImageCredit: "Photo: Bernard Gagnon (Bgag), CC0 1.0, via Wikimedia Commons"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:Bukchon_Hanok_Village_08.jpg"
 faq:
   - question: "What do -daero, -ro, and -gil mean in Korean addresses?"
     answer: "The guide explains these as common road-name address components and shows how they fit into Korea's road-name system."
