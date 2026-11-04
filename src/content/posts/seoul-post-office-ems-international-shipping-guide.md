@@ -6,6 +6,10 @@ updatedDate: 2026-09-05
 tags: ["post office", "EMS", "international shipping", "우체국", "Seoul Central Post Office", "shipping Korea cosmetics", "send luggage home"]
 canonicalUrl: "https://blog.koursea.com/posts/seoul-post-office-ems-international-shipping-guide/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/seoul-central-post-office-entrance-commons.jpg"
+coverImageAlt: "The red Korea Post sign marks the entrance to Seoul Central Post Office beside the statue of Hong Yeong-sik."
+coverImageCredit: "Photo: Minseong Kim, CC BY-SA 4.0, via Wikimedia Commons"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:Korea_Post_Seoul_Post_Tower_Entrance.jpg"
 
 faq:
   - question: "What should I check before sending an international parcel?"

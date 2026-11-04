@@ -6,6 +6,10 @@ updatedDate: 2026-10-02
 tags: ["busan station", "luggage delivery", "haeundae", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/busan-station-zimcarry-luggage-delivery-guide/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/busan-station-waiting-hall-commons.jpg"
+coverImageAlt: "Passengers sit on benches beneath the steel roof and train information boards in the Busan Station concourse."
+coverImageCredit: "Photo: bryan..., CC BY-SA 2.0, via Wikimedia Commons"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:Busan_Station_Busan_(31885854218).jpg"
 faq:
   - question: "Where is the luggage delivery counter at Busan Station?"
     answer: "It's on the 1st floor of Busan Station, near Exit 5 and the central information area."
