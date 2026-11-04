@@ -6,6 +6,10 @@ updatedDate: 2026-10-02
 tags: ["t-money recharge", "seoul subway", "korea transit card", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/seoul-subway-foreign-card-recharge-fallback/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/soraepogu-transit-card-reload-machine.jpg"
+coverImageAlt: "At Soraepogu Station in Incheon, a blue sign identifies a transit-card reload machine with a red card reader and a separate banknote slot."
+coverImageCredit: "Photo: LandAndTree, CC BY 4.0, via Wikimedia Commons"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:Ticket_Vending_and_Card_Reload_Machine_-_Seoul_Metropolitan_Subway_20240713.jpg"
 faq:
   - question: "Why did the subway machine reject my 50,000 won bill?"
     answer: "Accepted denominations vary by machine. If the screen or bill slot does not list 50,000 won, do not keep retrying it; use a listed denomination or recharge with cash at a staffed convenience store or transit-card counter."
