@@ -6,6 +6,10 @@ updatedDate: 2026-09-04
 tags: ["K-Pop", "SM Entertainment", "KWANGYA", "Seongsu", "Seoul Forest"]
 canonicalUrl: "https://blog.koursea.com/posts/sm-kwangya-seongsu-tour-guide/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/seoul-forest-station-commons.jpg"
+coverImageAlt: "A yellow Exit 4 sign points toward the D Tower doors inside Seoul Forest Station, where the Seongsu fan route begins."
+coverImageCredit: "Photo: CartoonChess, CC BY-SA 4.0, via Wikimedia Commons"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:Inside_Seoul_Forest_station.jpg"
 faq:
   - question: "Where does this SM KWANGYA and Seongsu route begin?"
     answer: "The route starts at Seoul Forest Station and includes the verified KWANGYA public area before continuing through Seoul Forest and Seongsu."

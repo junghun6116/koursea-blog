@@ -6,6 +6,10 @@ updatedDate: 2026-09-27
 tags: ["hybe yongsan", "kpop travel", "bts", "seventeen", "koursea"]
 canonicalUrl: "https://blog.koursea.com/posts/hybe-yongsan-visit-rules-nearest-official-shops/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/yongsan-station-front-commons.jpg"
+coverImageAlt: "Steps and escalators lead to the entrance marked Yongsan Station in Korean and English, photographed in 2013."
+coverImageCredit: "Photo: Douglas Paul Perkins, CC BY 3.0, via Wikimedia Commons"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:Yongsan_Station.jpg"
 faq:
   - question: "Can I go inside the HYBE building in Yongsan?"
     answer: "No. The building is a fully operational office facility, and general public access — lobby, internal cafe, basement level — is not permitted. There's no public museum or store inside as of 2026."

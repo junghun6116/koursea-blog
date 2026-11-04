@@ -6,6 +6,10 @@ updatedDate: 2026-09-30
 tags: ["free things to do seoul", "free museums korea", "budget travel korea", "free busan attractions", "무료전시", "무료관광"]
 canonicalUrl: "https://blog.koursea.com/posts/free-things-to-do-seoul-busan-jongno-exhibitions/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/national-museum-front-commons.webp"
+coverImageAlt: "The National Museum of Korea in Seoul stands across a pond with a traditional pavilion on its bank."
+coverImageCredit: "Photo: Jinah78, CC BY-SA 3.0, via Wikimedia Commons"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:Front_view_of_national_museum_of_korea.jpg"
 faq:
   - question: "Which cities are covered by this free-attractions guide?"
     answer: "It covers free museums, parks, public spaces, and exhibitions in Seoul and Busan, with a dedicated Jongno art section."
