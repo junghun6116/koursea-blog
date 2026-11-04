@@ -2,7 +2,7 @@
 title: "K-ETA vs. Korea's e-Arrival Card: The Two Forms Travelers Keep Confusing (2026 Guide)"
 description: "K-ETA and Korea's e-Arrival Card are not the same form. Here's who actually needs which one, the December 2026 exemption deadline, and how to avoid fake payment sites."
 pubDate: 2026-10-14
-updatedDate: 2026-10-30
+updatedDate: 2026-11-04
 tags:
   - Korea K-ETA
   - Korea e-Arrival Card
@@ -21,6 +21,8 @@ faq:
     answer: "No. K-ETA is a pre-travel authorization some visa-free travelers need before flying; the e-Arrival Card is a separate entry declaration submitted up to three days before landing. Having one does not automatically cover the other."
   - question: "Do I still need the e-Arrival Card if I'm exempt from K-ETA?"
     answer: "Often yes. Korea's official e-Arrival Card target guide specifically lists travelers covered by the temporary K-ETA exemption as still needing the declaration, so check the official navigator for your own passport and entry document."
+  - question: "How much does K-ETA cost, and can I get a refund?"
+    answer: "The official K-ETA site lists a fee of KRW 10,000 per person (about USD 7 to 8) plus an online payment surcharge of about 3 percent. It is not refunded whatever the result, and review generally takes within 72 hours, so apply well before you fly. Checked on the official site on 2026-11-04."
   - question: "Until when is the temporary K-ETA exemption valid?"
     answer: "Korea's Ministry of Justice extended the temporary exemption for currently exempt countries and regions through December 31, 2026 (Korea Standard Time), per the official K-ETA notice."
   - question: "How do I avoid paying a fake K-ETA or e-Arrival Card site?"
@@ -43,7 +45,21 @@ Korea's Ministry of Justice has extended a **temporary exemption** from the K-ET
 
 > **Practical rule:** Even if you're currently exempt from applying for K-ETA, you can still apply for one voluntarily. The official K-ETA notice states that an approved K-ETA carries one specific benefit: it generally excuses you from also filing the e-Arrival Card. That's an optional trade-off, not a requirement.
 
-> **If you do apply, mind your email address:** the official K-ETA site carries a notice that email delivery to Gmail users has been delayed and asks applicants to use a different email address. It adds that addresses hosted in the United States, such as Outlook.com and Hotmail.com, can see the same delay. The date shown for that notice differs between the notice list and the notice page, so open it and check whether it is still current before you rely on it (checked 2026-10-30).
+> **If you do apply, mind your email address:** the official K-ETA site carries a notice that email delivery to Gmail users has been delayed and asks applicants to use a different email address. It adds that addresses hosted in the United States, such as Outlook.com and Hotmail.com, can see the same delay. The notice was posted on 2026-03-11 according to the official notice list (checked 2026-11-04). The site does not say whether the delay has been resolved, so open the notice and use a non-Gmail, non-US-hosted address if you can.
+
+## What K-ETA Costs and How Long It Takes
+
+If you do apply, these are the official numbers, read on www.k-eta.go.kr on 2026-11-04:
+
+- **Fee:** KRW 10,000 per person, about USD 7 to 8. An online payment surcharge of about 3 percent is added.
+- **No refund:** the fee covers application and review and is not refunded, whatever the result. Authorizations already issued are not refunded either when an exemption applies later.
+- **Accepted cards:** VISA, MASTER, JCB, AMEX, Diners Club, DISCOVER, UnionPay and Alipay+. A card that blocks overseas payments may fail, so check with your card issuer first.
+- **Review time:** generally within 72 hours.
+- **Where to apply:** only at www.k-eta.go.kr or in the K-ETA mobile app. The site warns about look-alike agency and fast-track sites that charge high fees.
+
+The same numbers are kept, with their sources and check dates, in Koursea's [Korea Travel Facts](https://www.koursea.com/korea-travel-facts.html#keta-application-fee).
+
+> **Scheduled pause on 11 November:** a notice posted on 2026-11-02 says K-ETA email services will be unavailable from 12:00 to 13:30 KST on Wednesday, 11 November 2026 (the time may shift). During that window new sign-ups, password resets, and applications from non-member accounts are limited, and result emails and email-based result look-ups are paused. Members who already have a K-ETA account can log in without email verification and still apply, and their confirmation emails arrive after the maintenance ends.
 
 ## What the e-Arrival Card Actually Is
 
@@ -78,14 +94,17 @@ Once your entry paperwork is sorted, the next practical hurdles are usually conn
 - [ ] If currently K-ETA-exempt, check separately whether you still need the e-Arrival Card.
 - [ ] Submit the e-Arrival Card no earlier than three days before arrival (Korea Standard Time).
 - [ ] Apply only at `.go.kr` domains, and never pay for a free government service.
-- [ ] If you apply for K-ETA, check the official notice about delayed email delivery to Gmail before choosing which email address to use.
+- [ ] If you apply for K-ETA, budget KRW 10,000 plus a card surcharge of about 3 percent (not refundable) and apply at least a few days ahead, because review generally takes up to 72 hours.
+- [ ] If you apply for K-ETA, check the official notice about delayed email delivery to Gmail before choosing which email address to use, and avoid 11 November, 12:00 to 13:30 KST, when K-ETA email services pause.
 
 If you'd rather not juggle tabs mid-trip, Koursea's free, zero-login tools can help with everything that comes after you land, from transit routing to offline-friendly neighborhood guides.
 
 ## Official Sources and Photo Credit
 
 - [K-ETA: temporary exemption extended through December 31, 2026](https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707&locale=EN)
-- [K-ETA: email delay notice for Gmail users (Korean page)](https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=307496)
+- [K-ETA: application fee information (Korean page, read 2026-11-04)](https://www.k-eta.go.kr/portal/guide/viewetafeeinformation.do)
+- [K-ETA: email service pause on 11 November 2026 (Korean page, posted 2026-11-02)](https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=330633)
+- [K-ETA: email delay notice for Gmail users (Korean page, posted 2026-03-11)](https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=307496)
 - [K-ETA: warning about non-official websites and agencies](https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=114771&locale=EN)
 - [Korea e-Arrival Card guide](https://www.e-arrivalcard.go.kr/portal/guide/eacGuide.do)
 - [Korea e-Arrival Card declaration targets and exclusions](https://www.e-arrivalcard.go.kr/portal/guide/eacTargetGuide.do)
