@@ -13,6 +13,10 @@ tags:
   - seoul
 canonicalUrl: "https://blog.koursea.com/posts/bts-fan-guide-hybe-yongsan/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/sinyongsan-station-street-entrance.jpg"
+coverImageAlt: "Glass-covered entrance to Sinyongsan Station beside a crosswalk and office buildings on Hangang-daero in Seoul."
+coverImageCredit: "Photo: Narubaru7, CC BY 4.0, via Wikimedia Commons"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:%EC%8B%A0%EC%9A%A9%EC%82%B0%EC%97%AD_5%EB%B2%88%EC%B6%9C%EA%B5%AC_2025.jpg"
 faq:
   - question: "What is HYBE's Yongsan address in the guide?"
     answer: "The guide lists 42 Hangang-daero, Yongsan-gu, Seoul (서울특별시 용산구 한강대로 42)."
