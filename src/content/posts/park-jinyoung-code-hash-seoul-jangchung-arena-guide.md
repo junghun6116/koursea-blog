@@ -1,6 +1,6 @@
 ---
-title: "Park Jinyoung (GOT7) in Seoul (Nov 7–8, 2026): Jangchung Arena, View-Limited Seats and Getting Back"
-description: "Going to Park Jinyoung's first solo tour stop in Seoul this weekend? Official show times, prices, view-limited seat rules and pickup from Melon Ticket, plus Dongguk Univ. Station directions and a late return plan."
+title: "Park Jinyoung (GOT7) in Seoul, Nov 7–8: Jangchung Arena Guide"
+description: "Park Jinyoung's Nov 7–8 shows at Jangchung Arena: times, prices, view-limited seats and pickup rules, plus Dongguk Univ. Station directions."
 pubDate: 2026-11-05
 updatedDate: 2026-11-05
 tags:
@@ -86,7 +86,7 @@ For general crowd-flow habits at Seoul venues, see the [concert-day venue and tr
 
 ## Food Before or After
 
-Jangchung-dong is best known for its pork trotters (jokbal) street, a few minutes from the arena. Koursea's [Jangchung-dong jokbal guide](https://koursea.com/jangchung-dong-jokbal-pork-trotters-street-history-ssam.html) explains the history and how to order. Opening hours vary by shop, so confirm before you plan a post-show meal. For the wider trip, see the [K-pop hub](https://koursea.com/kpop.html) and the [concert and fan-meeting calendar](https://koursea.com/kpop-concert-fanmeeting-calendar-korea-2026.html).
+Jangchung-dong is best known for its pork trotters (jokbal) street, a few minutes from the arena. Koursea's [Jangchung-dong jokbal guide](https://www.koursea.com/jangchung-dong-jokbal-pork-trotters-street-history-ssam.html) explains the history and how to order. Opening hours vary by shop, so confirm before you plan a post-show meal. For the wider trip, see the [K-pop hub](https://www.koursea.com/kpop.html) and the [concert and fan-meeting calendar](https://www.koursea.com/kpop-concert-fanmeeting-calendar-korea-2026.html).
 
 ## Checklist
 

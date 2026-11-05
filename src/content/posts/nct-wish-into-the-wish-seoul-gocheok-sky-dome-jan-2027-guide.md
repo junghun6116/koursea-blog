@@ -1,6 +1,6 @@
 ---
-title: "NCT WISH in Seoul (Jan 15–16, 2027): Gocheok Sky Dome, Mobile Entry Rules and Getting Back"
-description: "Planning for NCT WISH's 'INTO THE WISH: Face Our WISH' in Seoul? Show times, prices, sale dates, mobile-ticket and gifting rules from Melon Ticket, plus a Gocheok Sky Dome return plan."
+title: "NCT WISH in Seoul, Jan 2027: Mobile Entry & Getting Back"
+description: "NCT WISH at Gocheok Sky Dome, Jan 15–16, 2027: prices, sale dates, mobile-ticket and gifting rules from Melon Ticket, and a Guil Station return plan."
 pubDate: 2026-11-05
 updatedDate: 2026-11-05
 tags:
@@ -94,7 +94,7 @@ Winter evening, thousands of people, one station. Plan this before the ticket:
 - **Meeting point.** Pick a specific named landmark before entering. If your group splits, wait there rather than moving against the exiting crowd.
 - **January cold.** An evening dome show means waiting outside in the cold. Bring layers, hand warmers and a charged phone, since your ticket is on it.
 
-The [KGMA and MMA Gocheok trip guide](/posts/kgma-mma-2026-gocheok-sky-dome-seoul-trip-guide/) has a stay-area and return-route breakdown for the same venue, and the [Koursea K-pop hub](https://koursea.com/kpop.html) and [concert calendar](https://koursea.com/kpop-concert-fanmeeting-calendar-korea-2026.html) can help you build around other dates.
+The [KGMA and MMA Gocheok trip guide](/posts/kgma-mma-2026-gocheok-sky-dome-seoul-trip-guide/) has a stay-area and return-route breakdown for the same venue, and the [Koursea K-pop hub](https://www.koursea.com/kpop.html) and [concert calendar](https://www.koursea.com/kpop-concert-fanmeeting-calendar-korea-2026.html) can help you build around other dates.
 
 ## Checklist
 

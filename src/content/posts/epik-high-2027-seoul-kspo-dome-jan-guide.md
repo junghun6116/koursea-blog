@@ -1,6 +1,6 @@
 ---
-title: "Epik High in Seoul (Jan 22–24, 2027): Seat Classes, Booking Rules and Getting Back"
-description: "Planning for Epik High's 2027 Seoul shows at KSPO DOME? Official show times, R/S/A prices, the sale schedule and cancellation fees from Melon Ticket, plus a winter return plan from Olympic Park."
+title: "Epik High in Seoul, Jan 2027: Booking Rules & Getting Back"
+description: "Epik High's Jan 22–24, 2027 shows at KSPO DOME: R/S/A prices, sale dates and cancellation fees from Melon Ticket, plus a winter return plan."
 pubDate: 2026-11-05
 updatedDate: 2026-11-05
 tags:
@@ -86,7 +86,7 @@ The venue facts below come from the operator-sourced details in our earlier guid
 
 ## Planning the Trip Around It
 
-Three nights in one week make it easy to pair this with other plans. Choose your hotel by the return trip, not by the arena, then check the [K-pop hub](https://koursea.com/kpop.html) and the [concert and fan-meeting calendar](https://koursea.com/kpop-concert-fanmeeting-calendar-korea-2026.html) for other dates around your stay.
+Three nights in one week make it easy to pair this with other plans. Choose your hotel by the return trip, not by the arena, then check the [K-pop hub](https://www.koursea.com/kpop.html) and the [concert and fan-meeting calendar](https://www.koursea.com/kpop-concert-fanmeeting-calendar-korea-2026.html) for other dates around your stay.
 
 ## Checklist
 
