@@ -6,6 +6,10 @@ updatedDate: 2026-09-09
 tags: ["Incheon Airport", "K-Pop", "Fan Etiquette", "Photography", "Airport Safety"]
 canonicalUrl: "https://blog.koursea.com/posts/incheon-airport-fan-photography-etiquette/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/incheon-departure-lobby-check-in.jpg"
+coverImageAlt: "Passengers walk past seating and luggage carts toward the check-in counters in Incheon International Airport’s departure hall."
+coverImageCredit: "Photo: Kanchi1979, CC BY 2.5, via Wikimedia Commons"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:Korea-Incheon-International-Airport-Deperture-lobby-check-in-counter.JPG"
 faq:
   - question: "Where should fan photography stay at Incheon Airport?"
     answer: "The guide says to remain in ordinary public areas and never cross staff, immigration, security, or access-control boundaries."
