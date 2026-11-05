@@ -1,6 +1,6 @@
 ---
-title: "EVNNE FAN-CONCERT [ONE TAKE] in Seoul (Nov 21–22, 2026): Tickets, YES24 LIVE HALL and Getting Back"
-description: "Going to EVNNE's ONE TAKE fan-concert in Seoul? Show times, ticket prices, how booking and payment work for visitors, and how to plan the trip to YES24 LIVE HALL and back."
+title: "EVNNE [ONE TAKE] in Seoul, Nov 2026: Booking & Getting Back"
+description: "EVNNE's Nov 21–22 fan-concert at YES24 LIVE HALL: show times, prices, how booking and payment work, and how to plan the trip to the hall and back."
 pubDate: 2026-11-05
 updatedDate: 2026-11-05
 tags:
@@ -96,7 +96,7 @@ You do not need a full itinerary for a two-hour fan-concert, but a simple patter
 2. **Arrive early for entry checks.** Fan-concerts commonly check tickets and IDs at the door. Bring the ID or passport your booking requires, and read the notice for bag and recording rules.
 3. **Leave the pre-show area early after the encore.** Everyone walks to the same station at once.
 
-For Seoul eating, café and late-night ideas around your stay, browse the [K-pop and concert hub on Koursea](https://koursea.com/kpop.html) and the [K-pop concert and fan-meeting calendar](https://koursea.com/kpop-concert-fanmeeting-calendar-korea-2026.html), which tracks other dates you might combine into the same trip.
+For Seoul eating, café and late-night ideas around your stay, browse the [K-pop and concert hub on Koursea](https://www.koursea.com/kpop.html) and the [K-pop concert and fan-meeting calendar](https://www.koursea.com/kpop-concert-fanmeeting-calendar-korea-2026.html), which tracks other dates you might combine into the same trip.
 
 ## Checklist
 

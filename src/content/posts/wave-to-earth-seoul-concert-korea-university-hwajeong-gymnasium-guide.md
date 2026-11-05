@@ -1,6 +1,6 @@
 ---
-title: "wave to earth in Seoul (Dec 18–20, 2026): Korea University Hwajeong Gymnasium, Booking Rules and Getting Back"
-description: "Planning for wave to earth's Seoul concerts? Show times, prices, Melon Ticket booking and cancellation rules, plus how to plan the trip to Korea University's Hwajeong Gymnasium and back."
+title: "wave to earth in Seoul (Dec 18–20): Hwajeong Gym Guide"
+description: "wave to earth's Dec 18–20 Seoul shows at Korea University's Hwajeong Gymnasium: times, prices, Melon Ticket booking and cancellation rules, and a return plan."
 pubDate: 2026-11-05
 updatedDate: 2026-11-05
 tags:
@@ -76,7 +76,7 @@ For crowd-flow habits that apply to any Seoul venue, the [concert-day venue and 
 
 - **Stay on a line with few transfers.** Line 6 passes through Itaewon and Hapjeong, so a hotel on that line gives a simpler return. Confirm the last train for the full route before booking.
 - **Before the show.** Eat near your hotel or on the Line 6 route before heading to the campus, since the area fills at doors-open.
-- **The next day.** The Saturday and Sunday shows leave your mornings free. See the [K-pop hub on Koursea](https://koursea.com/kpop.html) and the [concert and fan-meeting calendar](https://koursea.com/kpop-concert-fanmeeting-calendar-korea-2026.html) to build a wider trip around other dates.
+- **The next day.** The Saturday and Sunday shows leave your mornings free. See the [K-pop hub on Koursea](https://www.koursea.com/kpop.html) and the [concert and fan-meeting calendar](https://www.koursea.com/kpop-concert-fanmeeting-calendar-korea-2026.html) to build a wider trip around other dates.
 
 ## Checklist
 

@@ -1,6 +1,6 @@
 ---
-title: "EXO PLANET #6 – EXhOrizon [dot] in Seoul (Nov 6–8, 2026): Pickup Rules, Seat Notes and Getting Back"
-description: "Going to EXO's Seoul shows at KSPO DOME this weekend? Official show times, prices, ticket pickup rules, seat view warnings and cancellation fees, plus a late-night return plan."
+title: "EXO PLANET #6 in Seoul (Nov 6–8): Pickup Rules & Getting Back"
+description: "EXO's Nov 6–8 shows at KSPO DOME: official times, prices, on-site pickup and ID rules, seat view warnings, cancellation fees and a late return plan."
 pubDate: 2026-11-05
 updatedDate: 2026-11-05
 tags:
@@ -88,7 +88,7 @@ The venue transit facts are the same as for every KSPO show, and our other guide
 - **Driving.** Do not plan on parking. If you must drive, the operator's parking facts are in the venue guide, and an organizer can impose different controls on show days.
 - **Backup.** Keep a taxi app and your hotel name in Korean ready in case you miss the train you planned.
 
-For the Koursea place page and a wider K-pop trip, see the [K-pop hub](https://koursea.com/kpop.html) and the [concert and fan-meeting calendar](https://koursea.com/kpop-concert-fanmeeting-calendar-korea-2026.html).
+For the Koursea place page and a wider K-pop trip, see the [K-pop hub](https://www.koursea.com/kpop.html) and the [concert and fan-meeting calendar](https://www.koursea.com/kpop-concert-fanmeeting-calendar-korea-2026.html).
 
 ## Checklist
 
