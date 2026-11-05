@@ -20,7 +20,10 @@ faq:
     answer: "Use station numbers and platform signs, check fast-transfer markings, and ask staff through the help bell if you realize you are on the wrong side of the gates."
   - question: "Can I board with an open drink?"
     answer: "Seoul's open-container restriction cited here applies to public buses. Finish or securely seal drinks before boarding and follow any additional operator instructions on the subway."
-coverImage: "/images/blog/seoul-subway-transit-guide.jpg"
+coverImage: "/images/blog/myeongdong-subway-gates.jpg"
+coverImageAlt: "A row of fare gates beneath a yellow exit sign at Myeongdong Station on Seoul Subway Line 4."
+coverImageCredit: "Photo: LERK, CC BY-SA 4.0, via Wikimedia Commons"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:Seoul-metro-424-Myeongdong-station-gate-20181124-081950.jpg"
 ---
 
 # Seoul Transit Cards 2026: T-Money vs Climate Card
