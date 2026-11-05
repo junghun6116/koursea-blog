@@ -20,7 +20,10 @@ faq:
     answer: "No. Store size, stock and promotion availability vary. A larger location may offer a broader range, but confirm the exact branch and current hours before travelling for one product."
   - question: "How can I prepare before shopping?"
     answer: "Choose product categories such as sunscreen, hydration, blemish care, or gifts before entering, then compare texture, size, and promotion terms in the store."
-coverImage: "/images/blog/olive-young-guide.jpg"
+coverImage: "/images/blog/myeongdong-olive-young.jpg"
+coverImageAlt: "Numbered checkout counters beneath a green Olive Young sign inside the Myeongdong store in Seoul."
+coverImageCredit: "Photo: Sgroey, CC BY-SA 4.0, via Wikimedia Commons"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:Olive_Young_Myeongdong.jpg"
 ---
 
 # The Complete Olive Young Guide for Foreign Travelers: Tax Refunds & Store Navigation
