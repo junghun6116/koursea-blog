@@ -8,6 +8,10 @@ tags: ["music bank tickets", "m countdown tickets", "kbs music bank foreigner", 
 canonicalUrl: "https://blog.koursea.com/posts/guide-music-bank-mcountdown-foreigner-tickets/"
 author: "Koursea Editorial"
 
+coverImage: "/images/blog/national-assembly-station-line-9.jpg"
+coverImageAlt: "National Assembly Station sign on Seoul Subway Line 9, showing station number 914 and directions to Yeouido and Dangsan."
+coverImageCredit: "Photo: Striker9498, CC0 1.0, via Wikimedia Commons"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:20250511_%EA%B5%AD%ED%9A%8C%EC%9D%98%EC%82%AC%EB%8B%B9%EC%97%AD_%EC%97%AD%EB%AA%85%ED%8C%90.jpg"
 faq:
   - question: "How can an overseas visitor apply for Music Bank?"
     answer: "Check the current Music Bank episode on KBS's official audience-application page, sign in with a KBS account and follow that episode's eligibility and identity-check instructions. KBS does not present the page as a guaranteed foreigner ticket."
