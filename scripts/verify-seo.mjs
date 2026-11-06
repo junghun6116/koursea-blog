@@ -108,9 +108,14 @@ if (!existsSync(robotsPath)) {
   fail('dist/robots.txt is missing.');
 } else {
   const robots = readFileSync(robotsPath, 'utf8');
-  for (const bot of ['GPTBot', 'PerplexityBot', 'ClaudeBot', 'ChatGPT-User', 'Google-Extended']) {
-    const block = robots.match(new RegExp(`User-agent:\\s*${bot}\\s*([\\s\\S]*?)(?=\\n\\s*User-agent:|$)`, 'i'))?.[1] ?? '';
-    if (!/^\s*Allow:\s*\/\s*$/im.test(block)) fail(`robots.txt: ${bot} does not have an explicit "Allow: /" rule.`);
+  const blockFor = (bot) => robots.match(new RegExp(`User-agent:\\s*${bot}\\s*([\\s\\S]*?)(?=\\n\\s*User-agent:|$)`, 'i'))?.[1] ?? '';
+  // Search and user-requested AI retrieval stay open so the site can be cited.
+  for (const bot of ['PerplexityBot', 'ChatGPT-User', 'OAI-SearchBot', 'Claude-SearchBot', 'Claude-User']) {
+    if (!/^\s*Allow:\s*\/\s*$/im.test(blockFor(bot))) fail(`robots.txt: ${bot} does not have an explicit "Allow: /" rule.`);
+  }
+  // Bulk model-training crawlers are opted out.
+  for (const bot of ['GPTBot', 'ClaudeBot', 'Google-Extended', 'CCBot', 'Bytespider']) {
+    if (!/^\s*Disallow:\s*\/\s*$/im.test(blockFor(bot))) fail(`robots.txt: ${bot} does not have an explicit "Disallow: /" rule.`);
   }
 }
 
