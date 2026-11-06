@@ -5,7 +5,7 @@ description: Verify a koursea-blog change and recover from a failed build or che
 
 # Koursea blog verify and recover
 
-Conventions shared with the other Koursea repositories: "Project skills and shared conventions" in `CLAUDE.md`. Repo decisions: `docs/decision-log.md`.
+Minimum principles and the repo map: "Project skills and shared conventions" in `CLAUDE.md` (say "shared conventions not read" if you did not open the linked file). Repo decisions: `docs/decision-log.md`.
 
 ## Commands (all from `package.json` and `scripts/`)
 
@@ -39,9 +39,20 @@ A content change that is not rebuilt is not verified. `dist/` is ignored by git,
 
 1. Read the first real error, not the last line. Reproduce with the same command.
 2. Classify: schema or frontmatter (`src/content.config.ts`), cover policy, generated file, recommendation or SEO assertion, environment (service not running, missing key), or a transient fetch.
-3. Fix the post, template or generator. Do not edit a verifier or the cover policy to make a post pass; if a check is wrong, change it separately and say why.
+3. Decide what is wrong before changing anything (see "When a recommendation or SEO check fails"). Fix the post, template or generator when that is the cause. Never loosen a check just to turn it green; if the check or its expectation is the faulty part, change it in its own commit and say why.
 4. Rerun the failing command, then `pnpm build`.
 5. Repeated cause: add it to `docs/decision-log.md`.
+
+## When a recommendation or SEO check fails
+
+Work out which of four things is wrong, in this order, and write down the answer:
+
+1. **Content.** Do the post's title, tags and description describe what the post really says? If a word is misleading, fix it for accuracy. Do not drop an accurate term only to change a score.
+2. **Output.** Is the result bad for a reader? Read the rendered list or tag (`dist/posts/<slug>/index.html`, the `related-pseo` aside). For related posts, the list comes from `src/pages/posts/[...slug].astro`: curated entries in `src/data/post-related-pseo.json`, otherwise a score from shared tags and title words, and for K-pop posts a bonus for candidate titles with ticket, venue or concert words, newest first on ties.
+3. **Logic.** Does the scoring rule rank for the wrong reason (for example a generic word in an event title earning the same bonus as a practical guide)? Then the rule is the defect.
+4. **Expectation.** Does the check pin slugs or counts that a newer, equally relevant guide now legitimately displaces? Then the expectation is stale.
+
+Only after that choose the fix: metadata accuracy (1), a curated entry or the scoring (2, 3), or the expectation with a stated reason (4). Whichever you change, say which of the four it was.
 
 ## Specific checks
 

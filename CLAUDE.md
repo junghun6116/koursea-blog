@@ -35,7 +35,8 @@ aggregator/travel-blog roundups. Link to related Koursea place pages
 ## Visual publishing requirement
 
 Every newly published editorial post must include all four cover fields:
-`coverImage`, `coverImageAlt`, `coverImageCredit`, and `coverImageSourceUrl`.
+`coverImage`, `coverImageAlt`, `coverImageCredit`, and `coverImageSourceUrl`
+(or the documented omission described below).
 Use a real, topic-matched photograph that can be reused: Koursea-owned media,
 an official asset with explicit permission, a compatible KOGL asset from
 TourAPI, or a Wikimedia Commons file with a compatible license. Do not copy or
@@ -47,11 +48,24 @@ and social previews. Write specific alt text, keep the credit/license accurate,
 and link `coverImageSourceUrl` to the original asset page rather than to a
 search result or copied file.
 
-If an accurate, rights-cleared photograph is not ready, keep the post off
-`main`. Do not publish a new post with only the generated text OG card. Legacy
-posts without photographs may keep their existing text cards until they are
-individually reviewed. `pnpm check:editorial-covers` and the build enforce this
-rule for posts published on or after October 14, 2026.
+A real, rights-cleared photograph is the first choice. If none is ready, do not
+use a lookalike, a search-result image, or a title/logo card as the cover. Two
+honest options remain:
+
+- keep the post unpublished until a photograph is ready; or
+- publish with a documented cover omission (`coverOmissionReason`, 20+
+  characters, and no cover image fields) and a complete text-led layout. A
+  diagram, route map, comparison table or step-by-step block made by Koursea
+  from sourced facts may carry the page; any outside image in the body needs
+  confirmed reuse rights, a visible credit and its original source page.
+
+The generated text OG card is a social-preview fallback only. It is never put
+into the article body as if it were the cover. Never fake exterior or interior
+photos of a real place. Legacy posts without photographs may keep their existing
+text cards until they are individually reviewed. `pnpm check:editorial-covers`
+and the build enforce the four cover fields or a documented omission for posts
+published on or after October 14, 2026. Where code and this text still differ,
+see `docs/cover-policy-alignment.md`.
 
 ## AI mark hygiene — required for every post
 
@@ -108,12 +122,31 @@ Here: `koursea-blog-posts` (writing and refreshing posts),
 grants no permission and starts nothing.
 
 Site-wide conventions are kept once, in the main repository:
-<https://github.com/junghun6116/koursea/blob/main/docs/koursea-working-agreements.md>
-(read it when that repository is reachable). The essentials hold here either
-way: no secrets in files; no production, database, merge or deploy action unless
-asked for by name; never lower a check to make it pass; no invented facts
-(missing evidence is "not stated"); report local check, CI, merge and live
-status separately. Repo-specific decisions and state: `docs/decision-log.md`.
+<https://github.com/junghun6116/koursea/blob/main/docs/koursea-working-agreements.md>.
+Say whether you actually opened it in this session. If you could not (the
+repository is not attached, the link fails), report "shared conventions not
+read" and work from the minimum principles below; do not describe the file's
+contents from memory.
+
+### Minimum principles (always apply, even when the shared file is unread)
+
+- No secrets (keys, tokens, cookies, passwords) in files, commits, PRs or reports.
+- Stay inside the scope the user approved. A clear request covers the steps
+  needed to finish it (checks, commit, updating the PR); do not ask again for the
+  same scope and do not require particular words. Ask only for something new: a
+  cost, access, production data, an external post, or a product decision.
+  Approvals the platform requires (permission prompts, environment or network
+  changes, review or branch protection) stay in force.
+- Production or database changes, merges, deploys and external posts happen only
+  when the user has asked for them.
+- Do not weaken or disable a check, or lower a product standard, to pass. When a
+  check fails, first decide whether the content, the output, the logic or the
+  expectation is wrong; change a check only openly, in its own commit, with the
+  reason.
+- No invented facts; missing evidence is "not stated".
+- Report local check, CI, merge and live status separately.
+
+Repo-specific decisions and state: `docs/decision-log.md`.
 
 Which repository does the work:
 

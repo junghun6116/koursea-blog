@@ -18,4 +18,4 @@ Before the build:
 3. `/remove-ai-marks` run (or the missing scan stated).
 4. `pnpm build` passes (it runs the cover policy, social image coverage, SEO, contextual-recommendation and K-pop handoff checks).
 
-Known trap: `scripts/verify-contextual-recommendations.mjs` asserts what the K-pop ticketing post recommends. New posts whose title or tags use the ticket, concert or venue words that post is ranked on can displace its expected links. If that check fails after adding a post, change the new post's title/tags wording; do not loosen the check. (Observed 2026-11-05, recorded in `docs/decision-log.md`.)
+Recommendation check failures: `scripts/verify-contextual-recommendations.mjs` asserts what the K-pop ticketing post recommends, and new event posts can shift those lists. Do not reword a title or tags just to change a score, and do not loosen the check. Decide first whether the content wording, the recommendation output, the scoring logic or the expectation is wrong; the steps are in `koursea-blog-verify` ("When a recommendation or SEO check fails"). The 2026-11-05 incident is in `docs/decision-log.md`.

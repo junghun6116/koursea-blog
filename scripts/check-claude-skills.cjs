@@ -11,7 +11,7 @@ const path = require("path");
 const root = path.resolve(__dirname, "..");
 const skillsDir = path.join(root, ".claude/skills");
 const EXTERNAL_SKILLS = new Set(["remove-ai-marks"]);
-const GUIDANCE_DOCS = ["CLAUDE.md", "docs/decision-log.md"];
+const GUIDANCE_DOCS = ["CLAUDE.md", "docs/decision-log.md", "docs/cover-policy-alignment.md"];
 const PATH_ROOTS = ["docs", "data", "reports", "scripts", "api", "admin", "assets", "lib", "src", "public", "dist", ".github", ".claude"];
 const PNPM_BUILTINS = new Set(["install", "i", "add", "remove", "rm", "update", "up", "run", "exec", "dlx", "store", "list", "ls", "why", "outdated", "audit", "config", "env", "prune", "rebuild", "approve-builds"]);
 
@@ -71,6 +71,15 @@ for (const file of docs) {
 }
 
 const claude = fs.existsSync(path.join(root, "CLAUDE.md")) ? fs.readFileSync(path.join(root, "CLAUDE.md"), "utf8") : "";
+if (!/^#{2,3} Minimum principles/m.test(claude)) fail("CLAUDE.md needs a 'Minimum principles' section that holds without the shared file");
+if (!/koursea\/blob\/main\/docs\/koursea-working-agreements\.md/.test(claude)) fail("CLAUDE.md must link the shared conventions file");
+if (!/shared\s+conventions\s+not\s+read/i.test(claude)) fail("CLAUDE.md must tell sessions to say 'shared conventions not read' when the link was not opened");
+// Approval wording: a clear request covers its scope; no magic phrases. Guard against the known bad patterns.
+for (const file of [path.join(root, "CLAUDE.md"), ...docs.filter((f) => f.endsWith("SKILL.md"))]) {
+  if (!fs.existsSync(file)) continue;
+  const t = fs.readFileSync(file, "utf8");
+  if (/asked for (it |that )?by name|exact (action|phrase|word)s?\b|must (say|type|repeat) ["'“]/i.test(t)) fail(`${path.relative(root, file)}: approval wording must not require exact words or names`);
+}
 for (const name of projectSkills) if (!claude.includes(name)) fail(`CLAUDE.md does not mention project skill ${name}`);
 
 if (problems.length) { console.error(`Claude skill check failed:\n- ${problems.join("\n- ")}`); process.exit(1); }
