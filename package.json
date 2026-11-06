@@ -19,6 +19,7 @@
     "audit:seo": "node scripts/audit-static-seo.mjs",
     "verify:seo": "node scripts/verify-seo.mjs",
     "verify:kpop-handoff": "node scripts/verify-kpop-handoff.mjs",
+    "check:skills": "node scripts/check-claude-skills.cjs",
     "check:ai-marks": "node scripts/remove-ai-marks.mjs --all",
     "clean:ai-marks": "node scripts/remove-ai-marks.mjs --all --write",
     "preview": "astro preview"
