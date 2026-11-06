@@ -6,6 +6,10 @@ updatedDate: 2026-09-03
 tags: ["K-Pop", "aespa", "MY", "Seongsu", "Concert Tickets"]
 canonicalUrl: "https://blog.koursea.com/posts/aespa-fan-guide-seoul-spots/"
 author: "Koursea Editorial"
+coverImage: "/images/blog/seoul-forest-garden-walk.jpg"
+coverImageAlt: "A paved garden path beneath concrete beams, surrounded by dense plants and trees in Seoul Forest."
+coverImageCredit: "Photo: CHO woohyuck, CC BY-SA 4.0, via Wikimedia Commons"
+coverImageSourceUrl: "https://commons.wikimedia.org/wiki/File:Seoul_Forest_in_May_2022_(1).jpg"
 faq:
   - question: "Is the SM office area guaranteed public fan access?"
     answer: "No. The guide describes the SM office area as a workplace and recommends staying in public plazas and streets."
