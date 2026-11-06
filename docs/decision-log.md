@@ -2,6 +2,16 @@
 
 Repo-specific. Site-wide principles are not repeated here; the minimum principles are in `CLAUDE.md`. Newest first.
 
+## Follow-ups (recorded 2026-11-06, intentionally not part of the skills PR)
+
+Not done here and not conditions for merging the skills PRs. Each needs its own change:
+
+1. **Main-repo approval wording.** the working-agreements file in the main repository (junghun6116/koursea, docs folder) still says actions need "that exact action" and that a merge request names the PR. Reword it to match the minimum principles in this repo's `CLAUDE.md` (a clear request covers its scope; no required phrases; platform approvals stay). Work in the main repository.
+2. **Stale cover-omission test.** Rewrite `scripts/test-event-cover-omission.mjs` against a fixture post, or delete it; decide whether `pnpm build` should run it (`docs/cover-policy-alignment.md`, item 3).
+3. **Cover-policy check message.** `scripts/check-editorial-cover-policy.mjs` should offer both options (photo, or documented omission) instead of only "keep the post off main" (`docs/cover-policy-alignment.md`, item 2).
+
+Also open in `docs/cover-policy-alignment.md`: a field/check for alternative body visuals, the home featured slot, and a reader-facing note for posts without a photograph.
+
 ## 2026-11-06 — Cover and no-photo direction (owner decision)
 
 - A real photograph comes first. Without one, a documented cover omission with a complete text-led layout, or an evidence-based visual made from sourced facts, is allowed. The OG card is a social preview and is never inserted into the body. No fake place photos.
