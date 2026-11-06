@@ -97,3 +97,35 @@ invocation) — it does not need the service running anywhere else.
 `pnpm build` runs `astro check` then the Astro build; `prebuild` regenerates
 the llms files and OG images, `postbuild` writes sitemap files, distribution
 snippets, and runs the SEO verifier. Static output lands in `dist/`.
+
+## Project skills and shared conventions
+
+Project skills live in `.claude/skills/` and apply to **this repository only**;
+a session opened in another Koursea repository does not see them.
+Here: `koursea-blog-posts` (writing and refreshing posts),
+`koursea-blog-verify` (build checks and failure recovery), and the existing
+`remove-ai-marks`. Invoke with `/<name>`. A skill carries instructions only: it
+grants no permission and starts nothing.
+
+Site-wide conventions are kept once, in the main repository:
+<https://github.com/junghun6116/koursea/blob/main/docs/koursea-working-agreements.md>
+(read it when that repository is reachable). The essentials hold here either
+way: no secrets in files; no production, database, merge or deploy action unless
+asked for by name; never lower a check to make it pass; no invented facts
+(missing evidence is "not stated"); report local check, CI, merge and live
+status separately. Repo-specific decisions and state: `docs/decision-log.md`.
+
+Which repository does the work:
+
+| Work | Repository |
+| --- | --- |
+| English blog posts (this repo), incl. K-pop trip posts | `junghun6116/koursea-blog` (blog.koursea.com) |
+| Guides, places, admin, community, event data and the schedule collector | `junghun6116/koursea` (www.koursea.com) |
+| Q guides (medical/beauty/culture) | `junghun6116/q-koursea` (q.koursea.com) |
+
+For event schedule re-verification or discovery, work in the main repository
+(`/koursea-kpop-ops` there); this repository only holds the posts that use it.
+
+```sh
+pnpm check:skills   # offline: frontmatter, links, mentioned commands and paths exist here
+```

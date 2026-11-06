@@ -29,5 +29,8 @@ jobs:
       - name: Install dependencies from lockfile
         run: pnpm install --frozen-lockfile
 
+      - name: Check Claude project skills
+        run: pnpm check:skills
+
       - name: Build and verify static output
         run: pnpm build
