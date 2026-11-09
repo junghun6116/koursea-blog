@@ -15,8 +15,8 @@ Checked 2026-11-06 against this repository. Direction set by the owner: a real p
 
 ## What is not supported by code (implementation scope, not done here)
 
-1. **Alternative visuals are not a first-class thing.** A diagram, route map or table can be written in the post body, but nothing records its basis or checks it. If wanted: an optional frontmatter field (for example `bodyVisualBasis`) naming the sources the visual is built from, validated in `src/content.config.ts` and reported by `check-editorial-cover-policy.mjs`. Needs an owner decision on the field.
+1. **Alternative visuals are not a first-class thing.** (Decided 2026-11-09: deferred until a post actually needs it.) A diagram, route map or table can be written in the post body, but nothing records its basis or checks it. If wanted: an optional frontmatter field (for example `bodyVisualBasis`) naming the sources the visual is built from, validated in `src/content.config.ts` and reported by `check-editorial-cover-policy.mjs`. Needs an owner decision on the field.
 2. ~~**Check message**~~ Done 2026-11-09: the failure text offers both options.
 3. ~~**Stale test**~~ Done 2026-11-09: rewritten against fixture posts and added to `prebuild` (offline, no build output needed). It tests the check script only; the schema in `src/content.config.ts` is still covered by `astro check`.
-4. **Home featured slot** (`src/components/BlogHome.astro`) hard-codes the KGMA/MMA post as the featured item and falls back to the first post with a cover. An omission post would never be featured by the fallback. Decide whether that is intended.
-5. **Reader-facing note.** An omission post shows no explanation. Whether to show "no photograph available" is a presentation decision for the layout owner; none was made here.
+4. ~~**Home featured slot**~~ Decided 2026-11-09: the featured story is the most recently published post with a cover photograph (no hard-coded post). A post without a cover is featured only if no post has one.
+5. **Reader-facing note.** Decided 2026-11-09: no "no photograph" note is shown; an omission post shows only the text-led layout.
