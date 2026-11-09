@@ -6,9 +6,9 @@ Repo-specific. Site-wide principles are not repeated here; the minimum principle
 
 Not done here and not conditions for merging the skills PRs. Each needs its own change:
 
-1. **Main-repo approval wording.** the working-agreements file in the main repository (junghun6116/koursea, docs folder) still says actions need "that exact action" and that a merge request names the PR. Reword it to match the minimum principles in this repo's `CLAUDE.md` (a clear request covers its scope; no required phrases; platform approvals stay). Work in the main repository.
-2. **Stale cover-omission test.** Rewrite `scripts/test-event-cover-omission.mjs` against a fixture post, or delete it; decide whether `pnpm build` should run it (`docs/cover-policy-alignment.md`, item 3).
-3. **Cover-policy check message.** `scripts/check-editorial-cover-policy.mjs` should offer both options (photo, or documented omission) instead of only "keep the post off main" (`docs/cover-policy-alignment.md`, item 2).
+1. ~~**Main-repo approval wording.**~~ Already done in the main repository (its working agreements now say a clear approval covers its whole scope and no phrase or PR number is required; checked 2026-11-09). the working-agreements file in the main repository (junghun6116/koursea, docs folder) still says actions need "that exact action" and that a merge request names the PR. Reword it to match the minimum principles in this repo's `CLAUDE.md` (a clear request covers its scope; no required phrases; platform approvals stay). Work in the main repository.
+2. ~~**Stale cover-omission test.**~~ Done 2026-11-09 (fixture test, runs in `prebuild`). Rewrite `scripts/test-event-cover-omission.mjs` against a fixture post, or delete it; decide whether `pnpm build` should run it (`docs/cover-policy-alignment.md`, item 3).
+3. ~~**Cover-policy check message.**~~ Done 2026-11-09 (offers both options). `scripts/check-editorial-cover-policy.mjs` should offer both options (photo, or documented omission) instead of only "keep the post off main" (`docs/cover-policy-alignment.md`, item 2).
 
 Also open in `docs/cover-policy-alignment.md`: a field/check for alternative body visuals, the home featured slot, and a reader-facing note for posts without a photograph.
 
