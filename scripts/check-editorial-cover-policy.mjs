@@ -3,7 +3,8 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 
 const root = process.cwd();
-const postsDir = path.join(root, 'src/content/posts');
+// Optional first argument: a posts folder to check instead of src/content/posts (used by the fixture test).
+const postsDir = process.argv[2] ? path.resolve(process.argv[2]) : path.join(root, 'src/content/posts');
 const policyStart = '2026-10-14';
 const requiredFields = ['coverImage', 'coverImageAlt', 'coverImageCredit', 'coverImageSourceUrl'];
 
@@ -63,7 +64,10 @@ for (const file of files) {
 if (failures.length) {
   console.error(`Editorial cover policy failed for posts published on or after ${policyStart}:`);
   for (const failure of failures) console.error(`- ${failure}`);
-  console.error('Keep the post off main until a rights-cleared cover, alt text, credit and original source URL are ready.');
+  console.error('Fix each post one of two ways (CLAUDE.md, "Visual publishing requirement"):');
+  console.error('  1. add a rights-cleared photograph: coverImage (a local /images/ file), coverImageAlt, coverImageCredit and coverImageSourceUrl (the original asset page); or');
+  console.error('  2. document the omission: coverOmissionReason (20+ characters) with no cover or thumbnail fields, and a complete text-led layout.');
+  console.error('If neither is ready, keep the post unpublished.');
   process.exitCode = 1;
 } else {
   console.log(`PASS editorial cover policy: ${checked - omitted} source-linked covers, ${omitted} explicitly documented omissions.`);
