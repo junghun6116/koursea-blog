@@ -10,7 +10,13 @@ Not done here and not conditions for merging the skills PRs. Each needs its own 
 2. ~~**Stale cover-omission test.**~~ Done 2026-11-09 (fixture test, runs in `prebuild`). Rewrite `scripts/test-event-cover-omission.mjs` against a fixture post, or delete it; decide whether `pnpm build` should run it (`docs/cover-policy-alignment.md`, item 3).
 3. ~~**Cover-policy check message.**~~ Done 2026-11-09 (offers both options). `scripts/check-editorial-cover-policy.mjs` should offer both options (photo, or documented omission) instead of only "keep the post off main" (`docs/cover-policy-alignment.md`, item 2).
 
-Also open in `docs/cover-policy-alignment.md`: a field/check for alternative body visuals, the home featured slot, and a reader-facing note for posts without a photograph.
+The remaining items in `docs/cover-policy-alignment.md` (alternative-visual field, home featured slot, reader-facing note) were decided on 2026-11-09; see that entry.
+
+## 2026-11-09 — Cover follow-ups decided (owner)
+
+- Home featured story: the most recently published post with a cover photograph, not a hard-coded post (`src/components/BlogHome.astro`).
+- No reader-facing "no photograph" note on omission posts.
+- A frontmatter field for alternative body visuals (`bodyVisualBasis`) is deferred until a post needs it.
 
 ## 2026-11-06 — Cover and no-photo direction (owner decision)
 
