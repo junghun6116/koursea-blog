@@ -1,4 +1,5 @@
 ---
+import { siteUrl } from '../../lib/site-url';
 import Layout from '../../layouts/Layout.astro';
 import MedicalDisclaimer from '../../components/MedicalDisclaimer.astro';
 import TreatmentSpecCard from '../../components/TreatmentSpecCard.astro';
@@ -33,7 +34,7 @@ export function getStaticPaths() {
 }
 
 const { page } = Astro.props;
-const canonicalUrl = new URL(`/beauty/${page.slug}/`, Astro.site).href;
+const canonicalUrl = siteUrl(`/beauty/${page.slug}/`, Astro.site).href;
 const verifiedDate = verifiedDates.pages?.[page.slug as keyof typeof verifiedDates.pages] ?? verifiedDates.beauty;
 const treatmentName = page.treatment_name ?? page.procedureName ?? 'Treatment planning guide';
 const clinicType = page.clinic_type ?? `${page.region}, ${page.city} regional planning guide`;
@@ -116,8 +117,8 @@ const schema = {
     {
       '@type': 'BreadcrumbList', '@id': `${canonicalUrl}#breadcrumb`,
       itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: new URL('/', Astro.site).href },
-        { '@type': 'ListItem', position: 2, name: 'Beauty Guides', item: new URL('/beauty/', Astro.site).href },
+        { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl('/', Astro.site).href },
+        { '@type': 'ListItem', position: 2, name: 'Beauty Guides', item: siteUrl('/beauty/', Astro.site).href },
         { '@type': 'ListItem', position: 3, name: cleanName, item: canonicalUrl }
       ]
     }

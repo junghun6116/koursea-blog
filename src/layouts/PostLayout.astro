@@ -1,4 +1,5 @@
 ---
+import { siteUrl } from '../lib/site-url';
 import Layout from './Layout.astro';
 import SocialEmbed from '../components/SocialEmbed.astro';
 import InlineEditorialCallout from '../components/InlineEditorialCallout.astro';
@@ -89,8 +90,8 @@ const exploreContext = mustKeepGenericFallback
                 ? { href: 'https://www.koursea.com/area-myeongdong-seoul-guide.html', label: 'Explore verified places in Myeongdong' }
                 : genericFallback;
 
-const absoluteImage = new URL(socialImage, Astro.site).href;
-const publisherId = new URL('/#organization', Astro.site).href;
+const absoluteImage = siteUrl(socialImage, Astro.site).href;
+const publisherId = siteUrl('/#organization', Astro.site).href;
 const publisherLogo = 'https://www.koursea.com/assets/koursea-logo.png';
 const articleSchema = {
   '@context': 'https://schema.org',
@@ -101,7 +102,7 @@ const articleSchema = {
   description,
   abstract: description,
   isAccessibleForFree: true,
-  isPartOf: { '@type': 'WebSite', '@id': new URL('/#website', Astro.site).href, name: 'Koursea Blog', url: new URL('/', Astro.site).href },
+  isPartOf: { '@type': 'WebSite', '@id': siteUrl('/#website', Astro.site).href, name: 'Koursea Blog', url: siteUrl('/', Astro.site).href },
   datePublished: pubDate.toISOString(),
   dateModified: updatedDate.toISOString(),
   author: { '@type': 'Organization', name: author },
