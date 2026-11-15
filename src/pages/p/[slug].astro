@@ -1,4 +1,5 @@
 ---
+import { siteUrl } from '../../lib/site-url';
 import Layout from '../../layouts/Layout.astro';
 import pages from '../../data/pseo-pages.json';
 
@@ -20,7 +21,7 @@ export function getStaticPaths() {
 
 interface Props { page: PseoPage }
 const { page } = Astro.props;
-const canonicalUrl = new URL(`/p/${page.slug}/`, Astro.site).href;
+const canonicalUrl = siteUrl(`/p/${page.slug}/`, Astro.site).href;
 const schema = page.published ? {
   '@context': 'https://schema.org',
   '@type': 'Article',

@@ -1,4 +1,5 @@
 ---
+import { siteUrl } from '../../lib/site-url';
 import Layout from '../../layouts/Layout.astro';
 import beautyPages from '../../data/beauty-pseo-pages.json';
 
@@ -11,11 +12,11 @@ const groups: Array<{ title: string; description: string; test: (page: BeautyPag
   { title: 'Price Guides by City', description: 'Regional planning ranges for Myeongdong, Seomyeon and Centum without clinic endorsements.', test: (page) => Boolean(page.region) }
 ];
 const groupedPages = groups.map((group) => ({ ...group, pages: beautyPages.filter(group.test) }));
-const canonicalUrl = new URL('/beauty/', Astro.site).href;
+const canonicalUrl = siteUrl('/beauty/', Astro.site).href;
 const schema = { '@context': 'https://schema.org', '@graph': [
   { '@type': 'CollectionPage', name: 'K-Beauty Treatment & Price Guides', description: 'Practical price, downtime and booking comparisons for cosmetic treatments in Seoul.', url: canonicalUrl },
   { '@type': 'BreadcrumbList', itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: new URL('/', Astro.site).href },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl('/', Astro.site).href },
     { '@type': 'ListItem', position: 2, name: 'Beauty Guides', item: canonicalUrl }
   ] }
 ] };

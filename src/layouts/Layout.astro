@@ -1,4 +1,5 @@
 ---
+import { siteUrl } from '../lib/site-url';
 interface Props {
   title: string;
   description: string;
@@ -20,7 +21,7 @@ const {
   socialImage = '/og-default.png',
   socialImageAlt = 'Koursea practical Korea travel journal'
 } = Astro.props;
-const socialImagePng = new URL(socialImage, Astro.site).href;
+const socialImagePng = siteUrl(socialImage, Astro.site).href;
 const socialImageType = /\.jpe?g(?:$|\?)/i.test(socialImage)
   ? 'image/jpeg'
   : /\.webp(?:$|\?)/i.test(socialImage)

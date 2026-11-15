@@ -1,4 +1,5 @@
 ---
+import { siteUrl } from '../../lib/site-url';
 import Layout from '../../layouts/Layout.astro';
 import itineraryPages from '../../data/itinerary-pseo-pages.json';
 
@@ -8,11 +9,11 @@ const regions = [
   { title: 'Jeju', test: (slug: string) => slug.startsWith('jeju-') }
 ];
 const groupedPages = regions.map((region) => ({ ...region, pages: itineraryPages.filter((page) => region.test(page.slug)) }));
-const canonicalUrl = new URL('/itinerary/', Astro.site).href;
+const canonicalUrl = siteUrl('/itinerary/', Astro.site).href;
 const schema = { '@context': 'https://schema.org', '@graph': [
   { '@type': 'CollectionPage', name: '1-Day Korea Itineraries', description: 'Nine practical routes through Seoul, Busan and Jeju with transit tips and tourist-trap warnings.', url: canonicalUrl },
   { '@type': 'BreadcrumbList', itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: new URL('/', Astro.site).href },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl('/', Astro.site).href },
     { '@type': 'ListItem', position: 2, name: 'Itineraries', item: canonicalUrl }
   ] }
 ] };

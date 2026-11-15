@@ -34,3 +34,6 @@ jobs:
 
       - name: Build and verify static output
         run: pnpm build
+
+      - name: Build and verify the /journal/ variant (not deployed)
+        run: pnpm build:journal
